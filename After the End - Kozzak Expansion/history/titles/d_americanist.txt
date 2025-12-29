@@ -1,0 +1,171 @@
+1789.4.30={ #George Washington
+   holder=10000001
+}
+1797.3.4 = { #John Adams
+   holder=10000002
+}
+1801.3.4 = { #Thomas Jefferson
+   holder=10000003
+}
+1809.3.4.={ #James Madison
+   holder=10000004
+}
+1817.3.4.={ #James (II) Monroe 
+   holder=10000005
+}
+1825.3.4={ #John Quincy Adams
+   holder=10000006
+}
+1829.3.4={ #Andrew Jackson
+   holder=10000007
+}
+1837.3.4={ #Martin von Burden
+   holder=10000008
+}
+1841.3.4={ #William Henry Harrison
+   holder=10000009
+}
+1841.4.4={ #John Tyler
+   holder=10000010
+}
+1845.3.4={ #James Polk
+   holder=10000011
+}
+1849.3.4={ #Zachary Taylor
+   holder=10000012
+}
+1850.7.9={ #Millard Filmore
+   holder=10000013
+}
+1853.4.3={ #Franklin Pierce
+   holder=10000014
+}
+1857.4.3={ #James Buchnan
+   holder=10000015
+}
+1861.4.3={ #Abraham Lincoln
+   holder=10000016
+}
+1865.4.15={ #Andrew Johnson
+   holder=10000017
+}
+1869.4.3={ #Ulysses Grant
+   holder=10000018
+}
+1877.4.3={ #Rutherford Hayes
+   holder=10000019
+}
+1881.4.3={ #James Garfield
+   holder=10000020
+}
+1881.9.19={ #Chester Arthur
+   holder=10000021
+}
+1885.4.3={ #Grover Cleveland
+   holder=10000022
+}
+1889.4.3={ #Benjamin Harrison
+   holder=10000023
+}
+1893.4.3={ #Grover Cleveland
+   holder=10000022
+}
+1897.4.3={ #William McKinley
+   holder=10000024
+}
+1901.4.3={ #Theodore Roosevelt
+   holder=10000025
+}
+1909.4.3={ #William Taft
+   holder=10000026
+}
+1913.4.3={ #Woodrow Wilson
+   holder=10000027
+}
+1921.4.3={ #Warren Harding
+   holder=10000028
+}
+1923.8.2={ #Calvin Coolidge
+   holder=10000029
+}
+1929.4.3={ #Herbert Hoover
+   holder=10000030
+}
+1933.4.3={ #Franklin Roosevelt
+   holder=10000031
+}
+1945.4.12={ #Harry Truman
+   holder=10000032
+}
+1953.1.20={ #Dwight Eisenhower
+   holder=10000033
+}
+1961.1.20={ #John F.Kennedy
+   holder=10000034
+}
+1963.11.22={ #Lyndon Johnson
+   holder=10000035
+}
+1969.1.20={ #Richard Nixon
+   holder=10000037
+}
+1974.8.9={ #Gerard Ford
+   holder=10000038
+}
+1977.1.20={ #Jimmy Carter
+   holder=10000040
+}
+1981.1.20={ #Ronald Reagan
+   holder=10000042
+}
+1989.1.20={ #George H.W. Bush
+   holder=10000043
+}
+2050.1.1={
+   holder=0
+}
+2344.10.12={
+	holder=666101 # Bannister Smithson
+}
+2378.7.7={
+	holder=666102 # Ned Pitchstone
+}
+2389.10.2={
+	holder=666103 # Stanislaus Avondale
+}
+2420.4.5={
+	holder=666104 # Margaret Pitchstone
+}
+2453.8.8={
+	holder=666105 # Wyatt Kelleher
+}
+2474.4.14={
+	holder=0
+}
+2485.7.4={
+	holder=666106 # Hannibal Barron
+}
+2501.8.13={
+	holder=666107 # Marcellus Dandridge
+}
+2513.5.16={
+	holder=666108 # Ferguslav Avondale
+}
+2537.7.19={
+	holder=666109 # Florence Tensaw
+}
+2561.11.11={
+	holder=666110 # Whitelaw Stratton
+}
+2580.6.3={
+	holder=666111 # Abigail Calvert 
+}
+2619.4.12={
+	holder=666112 # Anatol Avondale
+}
+2628.6.21={
+	holder=666100 # Aurel Heerestraat
+}
+2656.5.4={
+	holder=1789001 # Franklin Ironwrit
+}

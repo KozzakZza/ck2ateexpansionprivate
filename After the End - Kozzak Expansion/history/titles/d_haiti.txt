@@ -1,0 +1,79 @@
+1804.9.2={
+   holder=2001997 #Jacques
+}
+1806.10.17={
+	holder=2001998 # Henri I
+}
+1820.10.8={
+	holder=10000432 #Henri II
+}
+1820.10.18={
+	holder=0
+}
+1849.8.25={
+	holder=2001999 #Faustin
+}
+1859.1.15={
+	holder=0
+}
+1925.1.1={
+    holder=10000434
+}
+1926.7.18={
+    holder=10000433 #Faustin II
+}
+1929.1.1={
+    holder=0
+}
+1957.10.22={
+    holder=10000435
+}
+1971.4.21={
+    holder=10000436
+}
+1986.2.6={
+    holder=0
+}
+2432.1.1={ #Henri III
+    holder=10000437
+}
+2461.4.10={ #Henri IV
+    holder=10000452
+}
+2463.4.18={ #Louis I
+    holder=10000438
+}
+2477.5.18={ #Hugues
+    holder=10000439
+}
+2480.12.4={ #Alexis I
+    holder=10000456
+}
+2524.6.20={ #Henri V
+    holder=10000457
+}
+2534.7.4={ #Jacques 
+    holder=10000458
+}
+2539.5.14={ #Alexis II
+    holder=10000459
+}
+2560.10.18={ #Jean
+    holder=10000460
+}
+2570.10.18={ #Louis II
+    holder=10000461
+}
+2572.9.28={ #Isabella
+    holder=10000188
+}
+2580.5.18={ #Henri VI
+    holder=10000468
+}
+2624.10.12={ #Henri VII
+    holder=10000470
+}
+2629.12.11={
+    holder=2001010
+	liege=e_caribbean
+}

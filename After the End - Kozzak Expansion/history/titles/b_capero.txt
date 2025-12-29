@@ -1,0 +1,8 @@
+2630.1.1={
+	holding_dynasty=42000052
+	holder=10000124
+	liege=d_havana
+}
+2664.1.1={
+	holder=10000125
+}

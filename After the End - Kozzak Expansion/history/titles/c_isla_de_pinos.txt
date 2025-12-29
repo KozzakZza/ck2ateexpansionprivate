@@ -1,0 +1,79 @@
+1869.4.1={ #Carlos Manuel de Céspedes
+   holder=10000108
+}
+1874.2.1={
+    holder=0
+}
+1902.1.1={
+   holder=10000109
+}
+1933.8.13={ #Batista
+   holder=10000106
+}
+1959.1.1={ #Castro
+   holder=10000107
+}
+2000.1.1={ #Event
+   holder=0
+}
+2215.1.1={ #King Gaspar I the Great
+   holder=10000126
+}
+2235.1.1={ #King Norberto I
+   holder=10000126
+}
+2237.1.1={ #King Gaspar II Weak
+   holder=10000175
+}
+2282.1.1={ #King Alejandro I Martyr
+   holder=10000176
+}
+2303.1.1={ #King Antonio
+   holder=10000177
+}
+2342.1.1={ #King Agostino I the Wise
+   holder=10000178
+}
+2369.1.1={ #King Gaspar III Old
+   holder=10000179
+}
+2421.1.1={ #King Agostino II 
+   holder=10000181
+}
+2462.1.1={ #King Gaspar IV Martyr
+   holder=10000182
+}
+2468.1.1={ #King Gonzalo (first)
+   holder=10000182
+}
+2477.1.1={ #King Alejandro II
+   holder=10000182
+}
+2482.1.1={ #King Gonzalo (second)
+   holder=10000183
+}
+2489.1.1={ #King Agostino III
+   holder=10000185
+}
+2510.1.1={ #King Gaspar V
+   holder=10000186
+}
+2545.1.1={ #King Norberto II
+   holder=10000187
+}
+2564.1.1={ #Queen Isabella
+   holder=10000188
+}
+2582.1.1={
+   holder=10000110
+}
+2604.1.1={ 
+   holder=10000118
+}
+2630.1.1={
+	holder=10000124
+	liege=d_havana
+}
+2664.1.1={
+	holder=10000125
+}

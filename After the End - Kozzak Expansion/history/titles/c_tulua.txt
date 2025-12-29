@@ -1,0 +1,13 @@
+2540.1.1={ #After 2553 pretender as Miguel I
+	holder=10000095
+	liege=d_cauca
+}
+2556.1.1={ #Pretender as Luis III
+	holder=10000096
+}
+2667.1.1={
+	holder=10000097
+}
+2628.1.1={
+	holder=10000098
+}

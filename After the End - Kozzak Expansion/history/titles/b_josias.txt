@@ -1,0 +1,20 @@
+2522.5.8={
+	holding_dynasty=1782060
+	holder=10000360
+	liege=d_confederate_congress
+}
+2541.5.17={
+	holder=10000361
+}
+2574.2.24={
+	holder=10000362
+}
+2610.5.16={
+	holder=10000363
+}
+2615.1.22={
+	holder=10000364
+}
+2654.10.14={
+	holder=10000365
+}

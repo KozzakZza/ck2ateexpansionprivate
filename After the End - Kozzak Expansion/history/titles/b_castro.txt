@@ -1,0 +1,8 @@
+1959.1.1={
+	holding_dynasty=42000045
+	holder=10000107
+	liege=k_cuba
+}
+2000.1.1={
+    holder=0
+}

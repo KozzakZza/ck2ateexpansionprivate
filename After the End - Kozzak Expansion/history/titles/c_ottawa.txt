@@ -1,0 +1,66 @@
+1649.1.1={
+   holder=10000231
+}
+1658.1.1={
+   holder=0
+}
+2310.1.1={ #Howard I
+    holder=10000248
+}
+2339.1.1={ #Kinsley
+    holder=10000249
+}
+2349.1.1={ #Owen
+    holder=10000250
+}
+2360.1.1={ #Howard II
+    holder=10000251
+}
+2394.1.1={ #Howard III
+    holder=10000252
+}
+2399.1.1={ #Aberhart
+    holder=10000253
+}
+2402.1.1={ #Franklin I
+    holder=10000255
+}
+2441.1.1={ #Winston I
+    holder=10000256
+}
+2475.1.1={ #Franklin II
+    holder=10000260
+}
+2480.1.1={ #Franklin III
+    holder=10000259
+}
+2489.1.1={ #Ronald
+    holder=10000260
+}
+2492.1.1={ #Winston II
+    holder=10000268
+}
+2512.1.1={ #Michael I
+    holder=10000269
+}
+2542.1.1={ #Franklin IV
+    holder=10000270
+}
+2567.1.1={ 
+    holder=1857086
+}
+2600.1.1={ #First Lord Protector deposed without being executed.
+    holder=1857085
+}
+2609.1.1={ 
+    holder=1857085
+}
+2615.1.1={
+    holder=1867151
+}
+2640.12.5={ #Current ruler's father
+	holder=1857078
+}
+2657.7.1={
+	holder=1867007
+}

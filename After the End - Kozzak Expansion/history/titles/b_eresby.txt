@@ -1,0 +1,8 @@
+2642.1.1={
+	holding_dynasty=42000076
+	holder=10000489
+	liege=d_connecticut
+}
+2658.6.18={
+	holder=10000490
+}

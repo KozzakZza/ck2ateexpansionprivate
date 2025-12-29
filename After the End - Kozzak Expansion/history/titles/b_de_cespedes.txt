@@ -1,0 +1,8 @@
+1869.4.1={
+	holding_dynasty=42000047
+	holder=10000108
+	liege=k_cuba
+}
+1874.2.1={
+    holder=0
+}

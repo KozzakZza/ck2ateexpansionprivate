@@ -1,0 +1,15 @@
+2666.5.18={ #Gaspar VI
+	holder=10000044
+	effect = {
+		c_barcelona = { #remove temp title
+		  holder_scope = {
+			b_san_bernardino_VNZ = {
+				gain_title = PREV
+			}
+		}
+		}
+		holder_scope = { 
+		  narrative_event = { id = gaspar_vi.1 }
+		}
+	}
+}

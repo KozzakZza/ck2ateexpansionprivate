@@ -1,0 +1,11 @@
+2610.1.1={
+	holding_dynasty=1782002
+	holder=10000389
+	liege=d_confederate_congress
+}
+2639.1.1={
+	holder=10000390
+}
+2663.4.18={
+	holder=10000392
+}

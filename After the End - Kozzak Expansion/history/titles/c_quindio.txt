@@ -1,0 +1,16 @@
+2553.4.4.={
+   holder=10000086
+   liege=d_cauca
+}
+2572.1.1={ #Jorge, son of Gabriela (pretender to El Pacifico throne as Jorge IX). Killed after being captured in the battle
+   holder=10000087
+}
+2581.1.1={
+   holder=10000088
+}
+2616.1.1={
+   holder=10000089
+}
+2661.1.1={
+   holder=10000090
+}

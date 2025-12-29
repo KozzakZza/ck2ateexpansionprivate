@@ -1,0 +1,5 @@
+2638.5.31={
+	holder=1620041
+	law=succ_tanistry
+	liege=d_nogad
+}

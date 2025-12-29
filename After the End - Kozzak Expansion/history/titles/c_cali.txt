@@ -1,0 +1,99 @@
+2060.1.1={ #Jorge I the Great
+	holder=10000056
+}
+2100.1.1={ #Felipe I the Conqueror
+	holder=10000057
+}
+2135.1.1={ #Jorge II the Cruel
+	holder=10000058
+}
+2145.1.1={ #Jorge III the Pious
+	holder=10000060
+}
+2185.1.1={ #Felipe II
+	holder=10000061
+}
+2186.1.1={ #Juan I the Poet
+	holder=10000062
+}
+2216.1.1={ #Jorge IV the Strong
+	holder=10000063
+}
+2240.1.1={ #Rodrigo
+	holder=10000064
+}
+2251.1.1={ #Jorge V the Usurper
+	holder=10000065
+}
+2259.1.1={ #Queen Isabella the Avanger
+	holder=10000066
+}
+2261.1.1={ #Luis I the Lucky
+	holder=10000067
+}
+2264.1.1={ #Juan II the Bald
+    holder=10000069
+}
+2268.1.1={ #Jorge VI the Unlucky
+    holder=10000071
+}
+2271.1.1={ #Felipe III the Great
+    holder=10000072
+}
+2304.1.1={ #Carlos I the Trader
+    holder=10000073
+}
+2340.1.1={ #Pedro I
+    holder=10000074
+}
+2350.1.1={ #Carlos II the Old
+    holder=10000075
+}
+2404.1.1={ #Carlos III the Monk
+    holder=10000077
+}
+2410.1.1={ #Luis II
+    holder=10000078
+}
+2420.1.1={ #Leonardo
+    holder=10000079
+}
+2432.1.1={ #Jorge VII
+    holder=10000080
+}
+2471.1.1={ #Pedro II
+    holder=10000081
+}
+2501.1.1={ #Felipe IV
+    holder=10000082
+}
+2518.1.1={ #Juan III
+    holder=10000083
+}
+2538.1.1={ #Pablo 
+    holder=10000084
+}
+2543.1.1={ #Jorge VIII
+    holder=10000085
+}
+2553.4.4.={ 
+	holder=10000095
+}
+2556.1.1={ #Pretender as Luis III
+	holder=10000096
+}
+2667.1.1={
+	holder=10000086
+}
+2572.1.1={ #Agustín, son of Gabriela (pretender to El Pacifico throne as Agustín IX). Killed after being captured in the battle
+   holder=10000087
+}
+2581.1.1={
+   holder=10000088
+}
+2616.1.1={
+   holder=10000097
+}
+2628.1.1={
+	holder=10000098
+}
