@@ -1,0 +1,5 @@
+2665.1.1={
+	holding_dynasty=42000107
+    holder=10000881
+	liege=d_belizean_trade_company
+}

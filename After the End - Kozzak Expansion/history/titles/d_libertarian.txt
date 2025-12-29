@@ -1,0 +1,5 @@
+2650.1.1={
+	holder=1933068
+	law=enatic_succession
+	liege=k_united_republics
+}

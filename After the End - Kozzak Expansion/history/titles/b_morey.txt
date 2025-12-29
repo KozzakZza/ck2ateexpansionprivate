@@ -1,0 +1,11 @@
+2595.1.1={
+	holding_dynasty=42000108
+    holder=10000876
+	liege=d_belizean_trade_company
+}
+2607.6.2={
+	holder=10000877
+}
+2635.8.10={
+	holder=10000875
+}

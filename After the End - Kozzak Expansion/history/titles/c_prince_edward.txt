@@ -1,0 +1,12 @@
+2644.1.1={
+    holder=10000576
+	liege=d_quinte
+}
+2665.12.18={
+    holder=10000580
+	effect = {
+		holder_scope = { 
+		  narrative_event = { id = edward.1 }
+		}
+	}
+}

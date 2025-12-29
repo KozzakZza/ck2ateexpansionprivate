@@ -1,0 +1,9 @@
+2639.12.31={
+	holder=1788037 #Morris the Bastard
+	holding_dynasty=1776013
+	liege=d_connecticut
+}
+2653.1.1={
+	holder=1788013 #Ellis
+	holding_dynasty=1776013
+}

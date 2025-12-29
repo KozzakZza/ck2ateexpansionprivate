@@ -1,0 +1,4 @@
+2665.1.1={
+    holder=10000886
+	liege=d_brasilian_trade_company
+}

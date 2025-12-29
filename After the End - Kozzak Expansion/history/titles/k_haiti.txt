@@ -1,0 +1,165 @@
+1804.9.2={
+   holder=2001997 #Jacques
+}
+1806.10.17={
+	holder=2001998 # Henri I
+}
+1820.10.8={
+	holder=10000432 #Henri II
+}
+1820.10.18={
+	holder=0
+}
+1849.8.25={
+	holder=2001999 #Faustin
+}
+1859.1.15={
+	holder=0
+}
+1925.1.1={
+    holder=10000434
+}
+1926.7.18={
+    holder=10000433 #Faustin II
+}
+1929.1.1={
+    holder=0
+}
+1957.10.22={
+    holder=10000435
+}
+1971.4.21={
+    holder=10000436
+}
+1986.2.6={
+    holder=0
+}
+2151.1.1={  #Jerome I
+    holder=10000585
+}
+2189.1.1={ #Auguste I
+    holder=10000586
+}
+2193.3.5={ #Jerome II
+    holder=10000587
+}
+2232.1.1={ #Faustin III
+    holder=10000588
+}
+2236.3.12={ #Auguste II
+    holder=10000589
+}
+2236.5.20={ #Faustin IV
+    holder=10000593
+}
+2236.7.14={ #Pierre I
+    holder=10000594
+}
+2236.11.16={ #Philippe I
+    holder=10000595
+}
+2268.4.20={ #Alexandre I
+    holder=10000596
+}
+2269.12.4={ #Philippe II
+    holder=10000597
+}
+2272.12.4={ #Antonio
+    holder=10000598
+}
+2290.11.20={ #Jerome III
+    holder=10000600
+}
+2310.2.16={ #Alexandre II
+    holder=10000601
+}
+2312.4.18={ #Felipe III
+    holder=10000604
+}
+2362.2.16={ #Pedro II
+    holder=10000605
+}
+2362.2.16={ #Pierre III
+    holder=10000606
+}
+2363.5.11={ #Alexandre III
+    holder=10000607
+}
+2363.6.4={ #Marco
+    holder=10000608
+}
+2369.6.19={ #Julia
+    holder=10000609
+}
+2370.1.27={ #Jerome IV
+    holder=10000610
+}
+2372.10.14={ #Faustin V
+    holder=10000611
+}
+2373.5.4={ #Marco
+    holder=10000608
+}
+2381.12.16={ #Jerome V
+    holder=10000612
+}
+2385.9.18={ #Filipe IV
+    holder=10000613
+}
+2397.12.4={ #Filipe V
+    holder=10000614
+}
+2398.11.12={ #Marco
+    holder=10000608
+}
+2410.1.19={ #Marco II
+    holder=10000615
+}
+2415.4.11={ #Julia II
+    holder=10000617
+}
+2417.10.6={ #Faustin VI
+    holder=10000618
+}
+2432.1.1={ #Henri III
+    holder=10000437
+}
+2461.4.10={ #Henri IV
+    holder=10000452
+}
+2463.4.18={ #Louis I
+    holder=10000438
+}
+2477.5.18={ #Hugues
+    holder=10000439
+}
+2480.12.4={ #Alexis I
+    holder=10000456
+}
+2524.6.20={ #Henri V
+    holder=10000457
+}
+2534.7.4={ #Jacques 
+    holder=10000458
+}
+2539.5.14={ #Alexis II
+    holder=10000459
+}
+2560.10.18={ #Jean
+    holder=10000460
+}
+2570.10.18={ #Louis II
+    holder=10000461
+}
+2572.9.28={ #Isabella
+    holder=10000188
+}
+2580.5.18={ #Henri VI
+    holder=10000468
+}
+2624.10.12={ #Henri VII
+    holder=10000470
+}
+2629.12.11={
+    holder=0
+}

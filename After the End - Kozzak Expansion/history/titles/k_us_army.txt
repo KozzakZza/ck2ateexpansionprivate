@@ -1,0 +1,22 @@
+1860.4.3={ #Ulysses Grant
+   holder=10000018
+}
+1869.4.3={ #Chester Arthur
+   holder=10000021
+}
+1881.9.19={ 
+   holder=0
+}
+1941.12.7={ #Dwight Eisenhower
+   holder=10000033
+}
+1953.1.20={ 
+   holder=0
+}
+2634.1.1={ #Belden Starkiller
+    holder=10000901
+}
+2646.10.6={ #Simon Starkiller
+	holder=10000900
+	law=succ_byzantine_elective
+}

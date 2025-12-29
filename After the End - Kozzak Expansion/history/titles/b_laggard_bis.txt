@@ -1,0 +1,5 @@
+2666.5.19={
+	holding_dynasty=1777009
+	holder=1788224
+	liege=d_connecticut
+}

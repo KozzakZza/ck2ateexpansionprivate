@@ -1,0 +1,5 @@
+2665.1.1={
+	holding_dynasty=2004055
+    holder=666164
+	liege=d_brasilian_trade_company
+}

@@ -1,0 +1,11 @@
+2572.1.1={
+	holding_dynasty=42000082
+	holder=10000524
+	liege=d_boston
+}
+2601.1.27={
+	holder=10000539
+}
+2615.12.5={
+	holder=10000540
+}

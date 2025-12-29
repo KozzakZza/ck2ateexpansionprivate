@@ -1,0 +1,13 @@
+2645.2.6={
+    holder=10000866
+}
+2658.1.1={
+	set_tribute_suzerain={
+		who=e_china_west_governor
+		type=offmap
+	}
+}
+2665.12.15={
+   holder=10000868
+   liege=e_china_west_governor
+}

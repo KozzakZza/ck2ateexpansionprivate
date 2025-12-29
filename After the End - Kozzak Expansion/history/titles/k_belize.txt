@@ -1,0 +1,232 @@
+1030.1.1={
+   holder=10000199
+}
+1066.1.5={
+   holder=10000200
+}
+1087.1.5={
+   holder=10000201
+}
+1100.1.1={
+   holder=10000202
+}
+1135.1.1={
+   holder=10000203
+}
+1141.1.1={
+   holder=10000204
+}
+1189.1.1={
+   holder=10000205
+}
+1199.1.1={
+   holder=10000206
+}
+1216.1.1={
+   holder=10000207
+}
+1272.1.1={
+   holder=10000208
+}
+1327.1.1={
+   holder=10000210
+}
+1377.1.1={
+   holder=10000211
+}
+1400.1.1={
+   holder=10000212
+}
+1413.1.1={
+   holder=10000213
+}
+1422.1.1={
+   holder=10000214
+}
+1471.1.1={
+   holder=10000216
+}
+1483.1.1={
+   holder=10000217
+}
+1483.6.6={
+   holder=10000219
+}
+1485.8.22={
+   holder=10000221
+}
+1509.1.1={
+   holder=10000222
+}
+1547.1.28={
+   holder=10000223
+}
+1553.1.1={
+   holder=10000224
+}
+1558.1.1={
+   holder=10000225
+}
+1603.1.1={
+   holder=10000229
+}
+1625.1.1={
+   holder=10000230
+}
+1649.1.1={
+   holder=0
+}
+1658.1.1={
+   holder=10000232
+}
+1685.1.1={
+   holder=10000233
+}
+1688.1.1={
+   holder=10000234
+}
+1694.1.1={
+   holder=10000235
+}
+1702.1.1={
+   holder=10000236
+}
+1714.1.1={
+   holder=10000237
+}
+1727.1.1={
+   holder=10000238
+}
+1760.1.1={
+   holder=10000239
+}
+1820.1.1={
+   holder=10000240
+}
+1830.1.1={
+   holder=10000241
+}
+1837.1.1={
+   holder=10000242
+}
+1901.1.1={
+   holder=10000243
+}
+1910.1.1={
+   holder=10000244
+}
+1936.1.1={
+   holder=10000245
+}
+1937.1.1={
+   holder=10000246
+}
+1952.1.1={
+   holder=10000247
+}
+2008.1.1={ #Charles III
+    holder=10000704
+    law=religion_tolerance_1
+	law=culture_tolerance_0
+    law=law_voting_power_1
+	law=war_voting_power_1
+	law=revoke_title_voting_power_1
+	law=grant_title_voting_power_1
+	law=execution_voting_power_1
+	law=banish_voting_power_1
+	law=imprison_voting_power_1
+	law=succession_voting_power_1
+	law=out_of_realm_inheritance_law_1
+	law=succ_primogeniture
+	law=parlament_size_1
+	law=tax_levy_law_feudal_0
+	law=tax_levy_law_republic_0
+	law=tax_levy_law_tribal_0
+}
+2028.8.7={ #Leopold I
+   holder=10000705
+}
+2074.5.19={ #Edward IX
+   holder=10000706
+}
+2102.6.14={ #James III
+   holder=10000707
+}
+2102.9.27={ #Leopold II
+   holder=10000709
+}
+2114.4.18={ #Carolyn
+   holder=10000710
+}
+2119.9.14={ #George VII
+   holder=10000711
+}
+2152.9.4={ #Charles IV
+   holder=10000712
+}
+2175.2.4={ #Maria III
+   holder=10000713
+}
+2179.8.17={ #Herbert I
+   holder=10000714
+}
+2180.5.18={ #Richard III
+   holder=10000715
+}
+2180.5.19={ #Monique I
+   holder=10000716
+}
+2207.10.5={ #Edward X
+   holder=10000718
+}
+2213.2.19={ #Leopold III
+   holder=10000719
+}
+2215.10.5={ #Herbert II
+   holder=10000720
+}
+2223.12.8={ #James IV
+   holder=10000766
+}
+2224.8.5={ #Charles V
+   holder=10000768
+}
+2228.5.22={ #Leopold IV
+   holder=10000721
+}
+2279.2.19={ #William V
+   holder=10000722
+}
+2279.2.19={ #George VIII
+   holder=10000723
+}
+2341.11.25={ #Elizabeth III
+   holder=10000725
+}
+2400.5.19={ #Edward XI
+   holder=10000728
+}
+2442.5.1={ #Theodore I
+   holder=10000729
+}
+2489.5.1={ #Richard IV
+   holder=10000730
+}
+2506.2.12={ #Theodore II
+   holder=10000731
+}
+2555.3.19={ #Theodore III
+   holder=10000732
+}
+2580.12.2={ #Leopold V
+   holder=10000733
+}
+2603.1.45={ #Edward XII
+   holder=10000734
+}
+2629.1.45={ #Charles VI
+   holder=10000735
+}
+2657.4.12={ #George IX
+   holder=10000736
+}

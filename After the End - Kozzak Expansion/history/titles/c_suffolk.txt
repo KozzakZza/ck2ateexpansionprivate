@@ -1,0 +1,4 @@
+2666.1.1={
+    holder=10000570
+	liege=k_united_republics
+}

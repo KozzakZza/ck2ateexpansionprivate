@@ -1,0 +1,5 @@
+2660.1.1={
+	holding_dynasty=42000081
+	holder=10000534
+	liege=d_connecticut
+}

@@ -1,0 +1,25 @@
+2645.5.19={ #DeWitt
+    holder=1788037
+	law=religion_tolerance_0
+	law=culture_tolerance_0
+	law=law_voting_power_1
+	law=war_voting_power_1
+	law=revoke_title_voting_power_1
+	law=grant_title_voting_power_1
+	law=execution_voting_power_1
+	law=banish_voting_power_1
+	law=imprison_voting_power_1
+	law=succession_voting_power_1
+	law=vassal_war_law_2
+	law=out_of_realm_inheritance_law_1
+	law=succ_byzantine_elective
+}
+2652.5.19={ #Theovelt
+    holder=1788034
+}
+2659.5.19={
+    holder=1788224
+}
+2666.5.19={
+    holder=10000570
+}
