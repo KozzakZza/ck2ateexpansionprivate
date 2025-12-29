@@ -1,0 +1,789 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_restore_canada"
+		texturefile = "gfx\\interface\\decision_icon_restore_canada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_organise_anticonclavist_council"
+		texturefile = "gfx\\interface\\decision_icon_anticonclavist_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_restore_haitian_empire"
+		texturefile = "gfx\\interface\\decision_icon_restore_haiti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_us_army_rebuild"
+		texturefile = "gfx\\interface\\us_army_rebuild.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_havana_council"
+		texturefile = "gfx\\event_pictures\\catholic_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_confederate_congress"
+		texturefile = "gfx\\event_pictures\\confederate_congress.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_event_rule_the_waves"
+		texturefile = "gfx\\event_pictures\\rule_the_waves.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_spanish_armada"
+		texturefile = "gfx\\event_pictures\\spanish_armada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_spanish_king"
+		texturefile = "gfx\\event_pictures\\spanish_king.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_spanish_trade"
+		texturefile = "gfx\\event_pictures\\spanish_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_haiti_uprising"
+		texturefile = "gfx\\event_pictures\\haiti_uprising.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_federal_government"
+		texturefile = "gfx\\interface\\government_icon_federal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_trade_company_government"
+		texturefile = "gfx\\interface\\government_icon_trade_company.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_company"
+		texturefile = "gfx\\interface\\charframe_150_company.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_company"
+		texturefile = "gfx\\interface\\charframe_100_company.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_company"
+		texturefile = "gfx\\interface\\charframe_75_company.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_company"
+		texturefile = "gfx\\interface\\charframe_50_company.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_company"
+		texturefile = "gfx\\interface\\charframe_34_company.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_federal"
+		texturefile = "gfx\\interface\\charframe_150_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_federal"
+		texturefile = "gfx\\interface\\charframe_100_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_federal"
+		texturefile = "gfx\\interface\\charframe_75_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_federal"
+		texturefile = "gfx\\interface\\charframe_50_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_federal"
+		texturefile = "gfx\\interface\\charframe_34_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_non_war_holy_order_government"
+		texturefile = "gfx\\interface\\government_icon_non_war_holy_order_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_holyor"
+		texturefile = "gfx\\interface\\charframe_150_theocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_holyor"
+		texturefile = "gfx\\interface\\charframe_100_theocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_holyor"
+		texturefile = "gfx\\interface\\charframe_75_theocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_holyor"
+		texturefile = "gfx\\interface\\charframe_50_theocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_holyor"
+		texturefile = "gfx\\interface\\charframe_34_theocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_confederacy_government"
+		texturefile = "gfx\\interface\\government_icon_confederacy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_confederacy"
+		texturefile = "gfx\\interface\\charframe_150.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_confederacy"
+		texturefile = "gfx\\interface\\charframe_100.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_confederacy"
+		texturefile = "gfx\\interface\\charframe_75.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_confederacy"
+		texturefile = "gfx\\interface\\charframe_50.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_confederacy"
+		texturefile = "gfx\\interface\\charframe_34.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_canimperial"
+		texturefile = "gfx\\interface\\charframe_150_can_imp.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_canimperial"
+		texturefile = "gfx\\interface\\charframe_100_can_imp.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_canimperial"
+		texturefile = "gfx\\interface\\charframe_75_can_imp.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_canimperial"
+		texturefile = "gfx\\interface\\charframe_50_can_imp.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_canimperial"
+		texturefile = "gfx\\interface\\charframe_34_can_imp.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_icon_can_imperial_government"
+		texturefile = "gfx\\interface\\government_icon_can_imperial.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ask_congress_for_acceptation"
+		texturefile = "gfx\\interface\\decision_icon_ask_congress_for_acceptation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_confederate_congress_government"
+		texturefile = "gfx\\interface\\government_icon_confederate_congress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_confederate_congress"
+		texturefile = "gfx\\interface\\charframe_150_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_confederate_congress"
+		texturefile = "gfx\\interface\\charframe_100_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_confederate_congress"
+		texturefile = "gfx\\interface\\charframe_75_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_confederate_congress"
+		texturefile = "gfx\\interface\\charframe_50_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_confederate_congress"
+		texturefile = "gfx\\interface\\charframe_34_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_trait_congress_refused_emperor"
+		texturefile = "gfx/traits/congress_refused_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_impeacher"
+		texturefile = "gfx/traits/congress_refused_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_congress_accepted_emperor"
+		texturefile = "gfx/traits/congress_accepted_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_congress_forced_emperor"
+		texturefile = "gfx/traits/congress_forced_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_restore_confederate_congress"
+		texturefile = "gfx\\interface\\decision_icon_ask_congress_for_acceptation.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_mex_northern_border"
+		texturefile = "gfx\\interface\\decision_icon_Mexico.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_mex_southern_border"
+		texturefile = "gfx\\interface\\decision_icon_Mexico.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_main_background_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\society_bg_monastic_order_ate_benedictine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_expansion_background_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\symbol_small_monastic_order_ate_benedictine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_small_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\symbol_small_monastic_order_benedictine.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_society_influence_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\society_influence_monastic_order_benedictine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_portrait_ring_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_monastic_order_benedictine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_portrait_ring_small_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_monastic_order_benedictine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_currency_monastic_order_south_america_jesuits"
+		texturefile = "gfx\\interface\\societies\\society_currency_monastic_order_benedictine.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ura_president"
+		texturefile = "gfx/traits/ura_president.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_icon_new_republican_government"
+		texturefile = "gfx\\interface\\government_ura1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_newrepublican"
+		texturefile = "gfx\\interface\\charframe_150_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_newrepublican"
+		texturefile = "gfx\\interface\\charframe_100_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_newrepublican"
+		texturefile = "gfx\\interface\\charframe_75_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_newrepublican"
+		texturefile = "gfx\\interface\\charframe_50_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_newrepublican"
+		texturefile = "gfx\\interface\\charframe_34_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_new_republican_rep_government"
+		texturefile = "gfx\\interface\\government_ura1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_newrepone"
+		texturefile = "gfx\\interface\\charframe_150_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_newrepone"
+		texturefile = "gfx\\interface\\charframe_100_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_newrepone"
+		texturefile = "gfx\\interface\\charframe_75_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_newrepone"
+		texturefile = "gfx\\interface\\charframe_50_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_newrepone"
+		texturefile = "gfx\\interface\\charframe_34_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_haiti_imperial_government"
+		texturefile = "gfx\\interface\\government_icon_haiti_imperial_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_haitiimperial"
+		texturefile = "gfx\\interface\\charframe_150_haitiimperial.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_haitiimperial"
+		texturefile = "gfx\\interface\\charframe_100_haitiimperial.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_haitiimperial"
+		texturefile = "gfx\\interface\\charframe_75_haitiimperial.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_haitiimperial"
+		texturefile = "gfx\\interface\\charframe_50_haitiimperial.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_haitiimperial"
+		texturefile = "gfx\\interface\\charframe_34_haitiimperial.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bloodlines_symbol_haitan_empire"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_haitian_empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_survived_impeachment_conf_pres"
+		texturefile = "gfx/traits/congress_accepted_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_demand_confederate_impeachment"
+		texturefile = "gfx\\interface\\decision_icon_ask_congress_for_acceptation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_theocratic_republic_government"
+		texturefile = "gfx\\interface\\government_icon_cenobitic_government.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_cenobiticgovernment"
+		texturefile = "gfx\\interface\\charframe_150_cenobitic_government.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_cenobiticgovernment"
+		texturefile = "gfx\\interface\\charframe_100_cenobitic_government.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_cenobiticgovernment"
+		texturefile = "gfx\\interface\\charframe_75_cenobitic_government.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_cenobiticgovernment"
+		texturefile = "gfx\\interface\\charframe_50_cenobitic_government.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_cenobiticgovernment"
+		texturefile = "gfx\\interface\\charframe_34_cenobitic_government.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_made_ura_empire"
+		texturefile = "gfx\\interface\\form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_st_francis_xavier"
+		texturefile = "gfx/traits/st_francis_xavier.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_george"
+		texturefile = "gfx/traits/st_george.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_thomas_more"
+		texturefile = "gfx/traits/st_thomas_more.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_ignatius_loyola"
+		texturefile = "gfx/traits/st_ignatius_loyola.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_choose_jesuite_saint"
+		texturefile = "gfx\\interface\\decision_icon_jesuite_saint.dds"
+	}
+	spriteType = {
+		name = "GFX_change_jesuite_saint"
+		texturefile = "gfx\\interface\\decision_icon_jesuite_saint.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_holy_mary"
+		texturefile = "gfx/traits/holy_mary.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sacret_heart_cath"
+		texturefile = "gfx/traits/sacret_heart_cath.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_elizabeth_ann_senton"
+		texturefile = "gfx/traits/st_elizabeth_ann_senton.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_george_nonjesuite"
+		texturefile = "gfx/traits/st_george_nonjesuite.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_john_the_baptist"
+		texturefile = "gfx/traits/st_john_the_baptist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_joseph"
+		texturefile = "gfx/traits/st_joseph.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_peter"
+		texturefile = "gfx/traits/st_peter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_thomas_aquinas"
+		texturefile = "gfx/traits/st_thomas_aquinas.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_st_thomas_more_nonjesuite"
+		texturefile = "gfx/traits/st_thomas_more_nonjesuite.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_choose_catholic_saint"
+		texturefile = "gfx\\interface\\decision_icon_choose_catholic_saint.dds"
+	}
+	spriteType = {
+		name = "GFX_change_catholic_saint"
+		texturefile = "gfx\\interface\\decision_icon_choose_catholic_saint.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_rival_cristo_rey_empire"
+		texturefile = "gfx\\interface\\decision_icon_cristo_rey_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_isolationist_king"
+		texturefile = "gfx/traits/isolationist_king.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_isolationist_queen"
+		texturefile = "gfx/traits/isolationist_queen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_icon_consumerist_government"
+		texturefile = "gfx\\interface\\government_icon_consumerist.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_us_army_government"
+		texturefile = "gfx\\interface\\government_usarmy.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_capitalist"
+		texturefile = "gfx\\interface\\charframe_150_capitalist.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_capitalist"
+		texturefile = "gfx\\interface\\charframe_100_capitalist.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_capitalist"
+		texturefile = "gfx\\interface\\charframe_75_capitalist.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_capitalist"
+		texturefile = "gfx\\interface\\charframe_50_capitalist.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_capitalist"
+		texturefile = "gfx\\interface\\charframe_34_capitalist.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_150_us_army"
+		texturefile = "gfx\\interface\\charframe_150_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_us_army"
+		texturefile = "gfx\\interface\\charframe_100_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_us_army"
+		texturefile = "gfx\\interface\\charframe_75_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_us_army"
+		texturefile = "gfx\\interface\\charframe_50_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_us_army"
+		texturefile = "gfx\\interface\\charframe_34_usaimperial.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_pirate_government"
+		texturefile = "gfx\\interface\\government_icon_pirate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_pirate"
+		texturefile = "gfx\\interface\\charframe_150_pirate.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_pirate"
+		texturefile = "gfx\\interface\\charframe_100_pirate.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_pirate"
+		texturefile = "gfx\\interface\\charframe_75_pirate.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_pirate"
+		texturefile = "gfx\\interface\\charframe_50_pirate.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_pirate"
+		texturefile = "gfx\\interface\\charframe_34_pirate.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_santo_domingo_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_santo_domingo_large.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_wonder_strip_santo_domingo_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_santo_domingo_medium.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_wonder_strip_santo_domingo_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_santo_domingo_small.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_wonder_strip_belizean_parliament_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_belize_large.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_wonder_strip_belizean_parliament_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_belize_medium.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_wonder_strip_belizean_parliament_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_belize_small.dds"
+		noOfFrames = 5
+	}
+}

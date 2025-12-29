@@ -1,0 +1,85 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+title_baltic_pagan_reformed_cardinal;Cardinal;;;;;;;;;;;;;x
+title_norse_pagan_reformed_cardinal;Hofgodi;;;;;;;;;;;;;x
+title_tengri_pagan_reformed_cardinal;Sky-Temple Shaman;;;;;;;;;;;;;x
+title_finnish_pagan_reformed_cardinal;Cardinal;;;;;;;;;;;;;x
+title_aztec_reformed_cardinal;Cardinal;;;;;;;;;;;;;x
+title_slavic_pagan_reformed_cardinal;Volhv;;;;;;;;;;;;;x
+title_west_african_pagan_reformed_cardinal;Cardinal;;;;;;;;;;;;;x
+title_zun_pagan_reformed_cardinal;Cardinal;;;;;;;;;;;;;x
+title_zoroastrian_cardinal;Cardinal;;;;;;;;;;;;;x
+title_jewish_cardinal;Cardinal;;;;;;;;;;;;;x
+title_hellenic_pagan_reformed_cardinal;Pontifex;;;;;;;;;;;;;x
+title_bon_reformed_cardinal;Öndör Lama;;;;;;;;;;;;;x
+best_candidate_title_norse_cardinal;My Best Hofgodi Candidate;;;;;;;;;;;;;x
+expected_next_title_norse_cardinal;Expected Next Hofgodi;;;;;;;;;;;;;x
+NORSE_PREFERATI;High Hofgodi;;;;;;;;;;;;;x
+NORSE_PREFERATI_TOOLTIP;The High Hofgodi is the Hofgodi expected to succeed the Fylkir.;;;;;;;;;;;;;x
+NORSE_HEAD_PRIEST;Fylkir;;;;;;;;;;;;;x
+COLLEGE_OF_NORSE_CARDINALS;Hofgodi Circle;;;;;;;;;;;;;x
+best_candidate_title_baltic_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_baltic_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+BALTIC_PREFERATI;Preferatus;;;;;;;;;;;;;x
+BALTIC_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+BALTIC_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_BALTIC_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_tengri_cardinal;My Best Sky-Temple Shaman Candidate;;;;;;;;;;;;;x
+expected_next_title_tengri_cardinal;Expected Next Sky-Temple Shaman;;;;;;;;;;;;;x
+TENGRI_PREFERATI;High Sky-Temple Shaman;;;;;;;;;;;;;x
+TENGRI_PREFERATI_TOOLTIP;The High Sky-Temple Shaman is the Sky-Shaman expected to succeed the Tengrikut.;;;;;;;;;;;;;x
+TENGRI_HEAD_PRIEST;Tengrikut;;;;;;;;;;;;;x
+COLLEGE_OF_TENGRI_CARDINALS;Shamans of the Sky-Temple;;;;;;;;;;;;;x
+best_candidate_title_finnish_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_finnish_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+FINNISH_PREFERATI;Preferatus;;;;;;;;;;;;;x
+FINNISH_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+FINNISH_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_FINNISH_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_aztec_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_aztec_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+AZTEC_PREFERATI;Preferatus;;;;;;;;;;;;;x
+AZTEC_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+AZTEC_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_AZTEC_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_west_african_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_west_african_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+WEST_AFRICAN_PREFERATI;Preferatus;;;;;;;;;;;;;x
+WEST_AFRICAN_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+WEST_AFRICAN_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_WEST_AFRICAN_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_zoroastrian_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_zoroastrian_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+ZOROASTRIAN_PREFERATI;Preferatus;;;;;;;;;;;;;x
+ZOROASTRIAN_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+ZOROASTRIAN_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_ZOROASTRIAN_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_slavic_cardinal;My Best Volhv Candidate;;;;;;;;;;;;;x
+expected_next_title_slavic_cardinal;Expected Next Volhv;;;;;;;;;;;;;x
+SLAVIC_PREFERATI;Další Velký Volhv;;;;;;;;;;;;;x
+SLAVIC_PREFERATI_TOOLTIP;The Další Velký Volhv is the Volhv expected to succeed the Velký Volhv.;;;;;;;;;;;;;x
+SLAVIC_HEAD_PRIEST;Velký Volhv;;;;;;;;;;;;;x
+COLLEGE_OF_SLAVIC_CARDINALS;Volhv Circle;;;;;;;;;;;;;x
+best_candidate_title_zun_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_zun_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+ZUN_PREFERATI;Preferatus;;;;;;;;;;;;;x
+ZUN_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+ZUN_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_ZUN_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_jewish_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+expected_next_title_jewish_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+JEWISH_PREFERATI;Preferatus;;;;;;;;;;;;;x
+JEWISH_PREFERATI_TOOLTIP;The Preferatus is the Cardinal expected to succeed the Pope.;;;;;;;;;;;;;x
+JEWISH_HEAD_PRIEST;Pope;;;;;;;;;;;;;x
+COLLEGE_OF_JEWISH_CARDINALS;The College of Cardinals;;;;;;;;;;;;;x
+best_candidate_title_hellenic_cardinal;My Best Pontifex Candidate;;;;;;;;;;;;;x
+expected_next_title_hellenic_cardinal;Expected Next Pontifex;;;;;;;;;;;;;x
+HELLENIC_PREFERATI;Rex Sacrorum;;;;;;;;;;;;;x
+HELLENIC_PREFERATI_TOOLTIP;The Rex Sacrorum is the Pontifex expected to succeed the Pontifex Maximus.;;;;;;;;;;;;;x
+HELLENIC_HEAD_PRIEST;Pontifex Maximus;;;;;;;;;;;;;x
+COLLEGE_OF_HELLENIC_CARDINALS;The College of Pontiffs;;;;;;;;;;;;;x
+best_candidate_title_bon_cardinal;My Best Öndör Lama Candidate;;;;;;;;;;;;;x
+expected_next_title_bon_cardinal;Expected Next Öndör Lama;;;;;;;;;;;;;x
+BON_PREFERATI;Öndör Lama;;;;;;;;;;;;;x
+BON_PREFERATI_TOOLTIP;This Öndör Lama is expected to succeed the current Dalai Lama.;;;;;;;;;;;;;x
+BON_HEAD_PRIEST;Dalai Lama;;;;;;;;;;;;;x
+COLLEGE_OF_BON_CARDINALS;The Öndör Lamas of Bön;;;;;;;;;;;;;x

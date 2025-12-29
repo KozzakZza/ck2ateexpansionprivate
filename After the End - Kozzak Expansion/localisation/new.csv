@@ -1,0 +1,1086 @@
+#SOCIETY STUFF
+jesuite;Jesuite;;;;;;;;;;;;;x
+jesuite_DESC;The Society of Jesus, founded in the 16th century by St. Ignatius of Loyola, has always played a vital role in the Christianization of the Americas. However, after the Event, it became divided as a result of the Council of Chicago, where the Jesuits of North America submitted themselves to the man who was there proclaimed pope. The Jesuits of South and Latin America, however, never recognized this choice—and although unfavorable circumstances, including persecution by Brazilian emperors, prevented the delivery of validly ordained bishops and priests to their brothers in Mexico and Canada.;;;;;;;;;;;;;x
+d_jesuite;Assistentia Americae Societatis Iesu;;;;;;;;;;;;;x
+BISHOP_SUPERIOR;Bishop-Superior;;;;;;;;;;;;;x
+monastic_order_south_america_jesuits;Society of Jesus;;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_desc;The Society of Jesus, also known as the Jesuits, has been present in America for over a thousand years. They have once again dedicated themselves to bringing the word of God to South America, no matter the cost... As a lay member of the Order, you are expected not to pursue material wealth and to assist the Jesuits whenever possible.;;;;;;;;;;;;;x
+currency_name_monastic_order_south_america_jesuits;Devotion;;;;;;;;;;;;;x
+cuba_king_gasparrido;Blood of Gaspar the Conqueror;;;;;;;;;;;;;x
+cuba_king_gasparrido_desc;Gaspar I the Great unified Cuba in the 23rd century and secured his dynasty’s rule over the island for more than 200 years.;;;;;;;;;;;;;x
+can_imperial_government;Royal Parliamentarism;;;;;;;;;;;;;x
+can_imperial_government_desc;Some kingdoms in America abide by a parliamentary system, harkening back to and claiming the heritage of the system of the great empire of the British, before the event. The government is characterized by dominance by the parliament over the royal family, with large privileges granted to the large council.;;;;;;;;;;;;;x
+can_imperial_government_emperor;King;;;;;;;;;;;;;x
+can_imperial_government_emperor_female;Queen;;;;;;;;;;;;;x
+can_imperial_government_king;Governor;;;;;;;;;;;;;x
+can_imperial_government_king_female;Lady Governor;;;;;;;;;;;;;x
+can_imperial_government_kingdom;Province;;;;;;;;;;;;;x
+can_imperial_government_kingdom_of;Province of;;;;;;;;;;;;;x
+LORD_PROTECTOR;Lord Protector;;;;;;;;;;;;;x
+LADY_PROTECOR;Lady Protector;;;;;;;;;;;;;x
+gov_can_government;Royal Parliamentarism;;;;;;;;;;;;;x
+parlament_size;Parliament Size;;;;;;;;;;;;;x
+parlament_size_desc;This law determinates how big is parliament.;;;;;;;;;;;;;x
+parlament_size_0;Small;;;;;;;;;;;;;x
+parlament_size_0_desc;Parliament will have only 5 members;;;;;;;;;;;;;x
+parlament_size_1;Medium;;;;;;;;;;;;;x
+parlament_size_1_desc;Parliament will have 10 members;;;;;;;;;;;;;x
+parlament_size_2;Big;;;;;;;;;;;;;x
+parlament_size_2_desc;Parliament will have 20 members;;;;;;;;;;;;;x
+parlament_size_3;Large;;;;;;;;;;;;;x
+parlament_size_3_desc;Parliament will have 30 members;;;;;;;;;;;;;x
+title_parlament_member_1;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_2;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_3;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_4;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_5;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_6;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_7;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_8;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_9;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_10;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_11;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_12;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_13;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_14;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_15;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_16;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_17;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_18;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_19;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_20;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_21;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_22;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_23;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_24;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_25;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_26;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_27;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_28;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_29;Parlament Member;;;;;;;;;;;;;x
+title_parlament_member_30;Parlament Member;;;;;;;;;;;;;x
+k_canada;Canada;;;;;;;;;;;;;x
+d_high_church;Ottawa;;;;;;;;;;;;;x
+restore_canada;Restore the Dominion of Canada;;;;;;;;;;;;;x
+restore_canada_desc;Since the Event, the Kingdom of Canada has remained without a king — but we can change that for the better.;;;;;;;;;;;;;x
+EVTNAME_restored_canada;Kingdom Restored;;;;;;;;;;;;;x
+EVTDESC_restored_canada_desc;After many years of interregnum, the Kingdom of Canada finally has a king who can continue the ancient line of Canadian monarchs. For the first time since the Event, crowds in Ottawa have begun to sing "God Save the King," and the office of the Lord Protector has been formally dissolved. [Root.GetTitledFirstName] has ascended to the throne of Canada, having united the land and been recognized by Parliament as the most worthy heir to the crown. Though the kingdom is no longer without a monarch, the struggle will endure—to restore the Kingdom of Canada to its former glory.;;;;;;;;;;;;x
+EVTOPT_restored_canada;Canada has a king now;;;;;;;;;;;;;x
+catholic;Conclavist;;;;;;;;;;;;x
+anticonclavist;Anticonclavist;;;;;;;;;;;;x
+anticonclavist_DESC;Since the Council in Havana, where Jesuit bishops as well as representatives of the Ursulines from Canada and Cristo Rey from Mexico gathered, the former opponents of the St. Louis obedience are no longer divided but now form a single faction led by the Conference of Bishops of America. The anti-conclavists believe that across the sea—in the legendary Europe—there is a pope who is the rightful head of the Catholic Church, while usurpers sit in St. Louis.;;;;;;;;;;;;x
+EVTNAME_anticolclavist_consuil;Council in Havana;;;;;;;;;;;;x
+EVTDESC_anticolclavist_consuil_desc;At last, after much effort, you managed to initiate a Council in Havana. Jesuit bishops, the leaders of the Order of Saint Ursula in Canada, the leaders of Cristo Rey in Mexico, and all other opponents of the St. Louis obedience gathered in Havana. After many turbulent deliberations, a decision was made to establish the Pan-American Conference of Bishops, which would oversee the Catholic Church in the Americas. It was agreed that within a few years, the first parishes in decades would be erected in Mexico and Canada, staffed with valid priests and bishops who would watch over the souls of the faithful.;;;;;;;;;;;;;x
+EVTOPT_anticolclavist_consuil1;Fiat voluntas Dei;;;;;;;;;;;;x
+d_anticonclavist;Pan-American Conference of Bishops;;;;;;;;;;;;x
+organise_anticonclavist_council;Organise Pan-American Consuil;;;;;;;;;;;;x
+federal_government;Federal;;;;;;;;;;;;x
+federal_government_desc;Federal system is similar to the feudal system that exists in non-Americanist countries. Nevertheless, it differs - the Federal system is steeped in the Americanist religious spirit and the 1787 Constitution, and is more militaristic than other systems. Federal law enacted by the President, although very vague and a small part of the laws of Americanist territories, overrides the orders of local lords.;;;;;;;;;;;;x
+gov_federal_government;Federal Government;;;;;;;;;;;;x
+k_order_of_st_ursula;Order of St Ursula;;;;;;;;;;;;x
+restore_mex_northern_border;Restore Northern Mexican Border;;;;;;;;;;;;x
+restore_mex_northern_border_desc;The historical border of the Mexican Empire in the north extended further—all the way to the Rio Grande River and Southern California. It is time to restore it.;;;;;;;;;;;;x
+k_belize;Belize;;;;;;;;;;;;x
+confederacy_government;Confederacy;;;;;;;;;;;;x
+confederacy_government_desc;The Holy Colombian Confederacy has over the centuries developed a unique political and economic system distinct from the feudal systems that have formed across much of the Americas. While a feudal system exists, much more emphasis is placed on imperial magistrates, legalism and the belief that the HCC is more than an empire, it as a state is the true successor to America and her traditions.;;;;;;;;;;;;x
+PRESIDENT;President pro tempore;;;;;;;;;;;;x
+d_confederate_congress;Congress;;;;;;;;;;;;x
+ask_congress_for_acceptation;Ask Congress to approve our election;;;;;;;;;;;;x
+ask_congress_for_acceptation_desc;According to a long-standing custom in the Holy Columbian Confederacy, every elected Emperor must obtain the approval and confirmation of Congress—this is essentially a formality, although there have been Emperors who have had problems with it.;;;;;;;;;;;;x
+EVTDESC_con_congress.1;The new Emperor of the Holy Columbian Confederacy has formally requested that you, the President of the Holy Columbian Confederacy Congress, approve his election as Emperor. In essence, this is merely a formality, but the Congress could theoretically refuse to accept it, which could have negative consequences for the legitimacy of the imperial authority.;;;;;;;;;;;;x
+EVTOPTA_con_congress.1;I approve election of emperor.;;;;;;;;;;;;x
+EVTOPTB_con_congress.1;I refuse to approve this emperor;;;;;;;;;;;;x
+EVTDESCcon_congress.2;The Congress has approved you as emperor and their leader.;;;;;;;;;;;;x
+EVTOPTA_con_congress.2;Nice;;;;;;;;;;;;x
+EVTDESCcon_congress.3;Contrary to your expectations, Congress refused to approve your election and ordered you to resign from the office of Emperor-Elect.;;;;;;;;;;;;x
+EVTOPTA_con_congress.3;Judgments of Congress must be respected.;;;;;;;;;;;;x
+EVTOPTB_con_congress.3;Sword will convince them to change their minds.;;;;;;;;;;;;x
+confederate_congress_government;Congressional bureaucracy;;;;;;;;;;;;x
+confederate_congress_government_desc;The territories administered by the Congress of the Holy Columbian Confederacy are not subject to the Emperor and his decrees, but instead to the laws passed by Congress, which consists of representatives from wealthy merchant families. Although this form of government resembles that of a typical merchant republic, unlike other republics it is also based on old common law dating back to before the Event, as well as on the vigorous—or negligent—actions of the magistrates.;;;;;;;;;;;;x
+gov_confederate_congress_government;Congressional bureaucracy;;;;;;;;;;;;x
+congress_refused_emperor;Rejected Emperor;;;;;;;;;;;;x
+congress_refused_emperor_desc;This character was elected Emperor of the Holy Columbian Confederacy, but Congress refused to approve his election. Such a rejection is dishonorable for the elected candidate, who, according to the constitutional rules of the Confederacy, must renounce the imperial crown and is henceforth considered unworthy of power.;;;;;;;;;;;;x
+congress_accepted_emperor;Approved Emperor;;;;;;;;;;;;x
+congress_accepted_emperor_desc;This character was chosen by the Emperor of the Holy Columbian Confederacy, and Congress solemnly approved his selection for the throne.;;;;;;;;;;;;x
+gov_confederacy_govenment;Confederacy;;;;;;;;;;;;x
+d_cuba_pretendency;Cuba;;;;;;;;;;;;x
+secret_religious_society_jesuite;Hidden Jesuits Followers;;;;;;;;;;;;x
+secret_religious_society_jesuite_desc;Supporters of Jesuit teaching in South America have had to hide their faith and loyalty to Rome from outsiders since time immemorial, under penalty of death or exile. The blood of many martyrs in Brazil, Guyana, and Latin America bears witness to this, and also reminds other Rome loyalists of what they risk if they are exposed.;;;;;;;;;;;;x
+secret_religious_society_jesuite_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_jesuite_rank_4_male;Herald;;;;;;;;;;;;x
+secret_religious_society_anticonclavist;Loyalists of Rome;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_desc;The Pope in St. Louis claims authority of Rome by virtue of his backing in the New World. This backing makes it inconvenient to openly deny is primacy, but Catholics who see no moral infallibility in this false Pope find it useful to band together. Christianity is long rooted in joining hands against oppression, after all, especially when that oppression comes from an invalid Church.;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_anticonclavist_rank_4_male;Herald;;;;;;;;;;;;x
+organise_anticonclavist_council_custom_tooltip;Opponents of the St. Louis obedience must rule in Quebec, Villa de Guadelupe, and Havana.;;;;;;;;;;;;x
+organise_anticonclavist_council_desc;The opponents of the usurper from St. Louis have been divided for too long—it is time to change that and end this shameful division, as well as give bishops and priests to Mexico and Canada.;;;;;;;;;;;;x
+royal_restore_canada_custom_tooltip;You must meet at least 3 of these conditions: completely control the kingdom of Quebec, completely control the kingdom of Aurora, completely control the kingdom of Maritimes, completely control the kingdom of Jamesie, have 3000 cash.;;;;;;;;;;;;x
+restore_mex_southern_border;Restore Southern Mexican Border;;;;;;;;;;;;x
+restore_mex_southern_border_desc;The historical border of the Mexican Empire in the south extended further—all the way to Belize and Guatemala—it is time to restore this border.;;;;;;;;;;;;x
+d_gaspar_host;Gaspars' Host;;;;;;;;;;;;x
+EVTNAME_gaspar_vi.1;Old Claims;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.1;Your name is Gaspar Braganca, a prince of the Brazilian Empire, son of Emperor Sebastiao and brother of Emperor Pedro IV. You could have stayed in Brazil and lived the life of an imperial brother, but instead you asked him to transfer his claim to the Cuban crown to you, and you set off into the unknown—not as your brother’s viceroy, but as an independent king. You set sail a month ago from Rio de Janeiro, hoping never to return. Your brother gave you money to hire several companies who, together with the Christians oppressed by Empress Portia, will fight for the throne on your behalf.;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.1;I will get back what is mine;;;;;;;;;;;;x
+EVTNAME_gaspar_vi.2;Exchange of gifts;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.2;You arrive in Caracas, a city ruled by Sultana Ariel Leones, who welcomes you and your ships. A customary exchange of gifts takes place—you present her with an artifact that your brother asked you to deliver, and in return you receive the original regalia of King Gaspar I of Cuba, long thought lost after the overthrow of Queen Isabella I and only recently rediscovered in the ruins of a house in Caracas. That night, as you rejoice in having gained the symbols of royal power over Cuba, you reach for the book your teacher from Rio de Janeiro gave you about the island’s history...;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.2;Interesting...;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.3;The book clarifies claims that had seemed vague to you. Queen Isabella I of the house Rataroz, your great-great-grandmother, ascended the throne in 2564. She ruled with ambition, seeking expansion into Hispaniola and Florida, and with cruelty. In 2570 she married the Brazilian heir to the throne, which angered the rest of her family, both distant and close. In 2579 she had her uncle, Prince Sergio, executed, sparking a rebellion among her subjects. After three years of bloody civil war, Isabella was besieged in Playa Larga Castle, where she took her own life.;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.3;Continue;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.4;After Isabella’s death, the pagan members of the Rataroz family seceded from the kingdom, and in Havana, under pressure from both the Holy Columbian Confederacy and the pagan Rataroz, a republic was proclaimed. Felipe Braganca’s claims were ignored. Today, however, your return will provoke a different reaction—the pagan Rataroz are weak, and the Republic is ready to change its system of government and invite you to take the crown.;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.4;Interesting;;;;;;;;;;;;x
+EVTNAME_gaspar_vi.5;We set sail...;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.5;After your stay in Caracas, you finally set sail. You have managed to hire mercenaries who will land with you in Cuba. Most of them are locals, and as you prepare to depart, they sing old songs about great kings, while you hope that soon you will be counted among them.;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.5;All ahead;;;;;;;;;;;;x
+gaspar_vi_cb_small_fail_tooltip;Gaspar Braganca will renounce his claim to the throne of Cuba, and the empress will allow him to return to Brazil.;;;;;;;;;;;;x
+gaspar_vi_cb_fail_tooltip;Gaspar Braganca will be captured and at the mercy of your enemies.;;;;;;;;;;;;x
+gaspar_vi_cb_victory_tooltip;Gaspar Braganca win the battle for the throne and become King of Cuba.;;;;;;;;;;;;x
+WAR_GASPAR_VI;Gaspar VI War for Cuba;;;;;;;;;;;;x
+president_of_hcc_congress;President of Congress;;;;;;;;;;;;x
+crown_of_cuba;Crown of King Gaspar IV Martyr;;;;;;;;;;;;x
+crown_of_cuba_desc;This crown was made for the coronation of King Gaspar IV of Cuba. Since then, it has been the standard crown worn by every king of Cuba.;;;;;;;;;;;;x
+d_haiti;South Haiti;;;;;;;;;;;;x
+d_north_haiti;North Haiti;;;;;;;;;;;;x
+d_north_haiti_adj;Haitian;Haitian;Haitian;;Haitian;;;;;;;;;x
+k_haiti;Haiti;;;;;;;;;;;;x
+k_puerto_rico;Puerto Rico;;;;;;;;;;;;x
+k_dominicana;Dominicana;;;;;;;;;;;;x
+d_barahona;Barahona;;;;;;;;;;;;x
+congress_existance;Congress;;;;;;;;;;;;x
+congress_existance_desc;These rights effects whether Congress exists;;;;;;;;;;;;x
+congress_existance_0;Existing;;;;;;;;;;;;x
+congress_existance_0_desc;The Holy Columbian Confederacy Congress exists and deliberates as a pillar of the state system and the body that approves the election of emperors.;;;;;;;;;;;;x
+congress_existance_1;Dissolved;;;;;;;;;;;;x
+congress_existance_1_desc;The Holy Columbian Confederacy Congress no longer exists, as it has been dissolved.;;;;;;;;;;;;x
+EVTNAMEcon_congress.4;Congress dissolved;;;;;;;;;;;;x
+EVTDESCcon_congress.4;Over the years, the Holy Columbian Confederacy Congress has become an increasingly less important institution—today, it has officially come to an end—the emperor has officially dissolved this institution, and the Congress, feeling that it has no means to oppose this decree, has passed a resolution to dissolve itself.;;;;;;;;;;;;x
+EVTOPTA_con_congress.4;Certain chapter has been closed...;;;;;;;;;;;;x
+EVTNAMEcon_congress.6;Restoration of Congress;;;;;;;;;;;;x
+EVTDESCcon_congress.6;Today, the Emperor of the Holy Columbian Confederacy issued a decree restoring the previously dissolved Congress. This marks a return to the old system, where Congress existed and played a decisive role in approving or rejecting the election of the Emperor of the Confederacy.;;;;;;;;;;;;x
+EVTOPTA_con_congress.6;Nice;;;;;;;;;;;;x
+restore_confederate_congress;Restore Congress;;;;;;;;;;;;x
+restore_confederate_congress_desc;For reasons beyond your control, the Holy Columbian Confederacy Congress has ceased to exist—it is time to restore its normal functioning.;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.4;I will go to other holy sites;;;;;;;;;;;;x
+EVTOPTB_antico_jesuite_pil.4;I will go to one of the truly sacret sites, Buenaventura or Villa de Guadelupe;;;;;;;;;;;;x
+EVTOPTC_antico_jesuite_pil.4;I will go to one of the truly sacret sites, Quebec or Villa de Guadelupe;;;;;;;;;;;;x
+EVTNAME_antico_jesuite_pil.5;Buenaventura;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.5;Finally, you have arrived in Buenaventura, a city that is very important among followers of the Society of Jesus. For several centuries, the bishops-superiors of the Jesuit order resided here, administered the sacraments, and ordained bishops for other areas until Zacarias Alverado and the pagans under his command destroyed the local temples and expelled the monks. Although those times are long gone, traces of them remain - the ruins of ancient temples can be seen everywhere, and in some of them, former bishops, who are considered saints, are buried.;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.5;Glory, glory, Hallelujah;;;;;;;;;;;;x
+EVTNAME_antico_jesuite_pil.6;Villa de Guadelupe;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.6;Finally, you arrive at Villa de Guadalupe. You enter through the gate and see many ancient buildings—but one is the most important — the Basilica of Our Lady of Guadalupe, where the famous image of Our Lady of Guadalupe, created over a thousand years ago, has been venerated ever since by both orthodox Christians and the semi-pagan followers of Sagrado Corazon. When you enter the Basilica, you see the painting, fall to your knees, and pray to Our Lady, Empress of the Americas, Queen of Mexico, and Patroness of Latin America.;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.6;Glory, glory, Hallelujah;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.7;Villa de Guadelupe and Buenaventura are the most important places for Jesuit followers.;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.7;I will travel to Buenaventura;;;;;;;;;;;;x
+EVTOPTB_antico_jesuite_pil.7;I will go to Villa de Guadalupe.;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_GUADELUPE;[Root.GetTitledName] made a pious pilgrimage to Villa de Guadalupe.;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_BUONAVENTURA;[Root.GetTitledName] made a pious pilgrimage to Buenaventura.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.3;My things are packed, everything is in order. Soon, I will walk a streets of Mexico;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.8;My things are packed, everything is in order. Soon, I will see all churches of Buenaventura;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_HAVANA;[Root.GetTitledName] made a pious pilgrimage to Havana.;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_BOGOTA;[Root.GetTitledName] made a pious pilgrimage to Bogota.;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_BOA_VISTA;[Root.GetTitledName] made a pious pilgrimage to Boa Vista.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.9;A pilgrimage in the other holy sites is just as worthy as journey to Villa de Guadelupe or Buenaventura.;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.9;I will visit a cathedral in Havana;;;;;;;;;;;;x
+EVTOPTB_antico_jesuite_pil.9;I will visit the great city of Bogota;;;;;;;;;;;;x
+EVTOPTC_antico_jesuite_pil.9;I will visit graves of martyrs in Boa Vista;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.10;My things are packed, everything is in order. Soon, I will see all churches of Havana;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.11;My things are packed, everything is in order. Soon, I will be in the largest city of Columbia;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.12;My things are packed, everything is in order. Soon, I will visit all martyrs' graves in Boa Vista;;;;;;;;;;;;x
+EVTNAME_antico_jesuite_pil.14;Havana;;;;;;;;;;;;x
+EVTNAME_antico_jesuite_pil.15;Bogota;;;;;;;;;;;;x
+EVTNAME_antico_jesuite_pil.16;Boa Vista;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.14;You arrive in Havana, the heart of Cuba. Before your eyes appears a beautiful city with many churches, chapels, and statues of saints. You walk through the port and enter the streets of this crowded city. You pass All Saints Cathedral, which, according to legend, was built on the spot where the Cuban king Alejandro Martyr was murdered while praying by his own brother for professing his faith.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.15;You arrive in Bogotá, Colombia's largest city. You are greeted by the hustle and bustle of the city and small groups of pilgrims. You visit the old Archcathedral of the Immaculate Conception of the Blessed Virgin Mary and St. Peter, built over a thousand years ago, and admire the beauty of this temple built to the glory of God and the Blessed Virgin Mary, and pray there.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.16;You arrive in Boa Vista, the border of the Brazilian Empire, which has persecuted supporters of the Society of Jesus for centuries. Few pilgrims come here for fear of persecution, although many would like to pray at the graves of the many martyrs who were cruelly killed in the name of the Emperor and buried in mass graves. However, you come and, under the cover of night, you go to the places that the elders have pointed out to you as the graves of the martyrs to pray before their graves.;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_1_male;Minister;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_1_female;Minister;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_2_male;Socius;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_2_female;Socius;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_3_male;Admonitor;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_3_female;Admonitor;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_4_male;Praepositius Generalis;;;;;;;;;;;;x
+monastic_order_south_america_jesuits_rank_4_female;Praepositius Generalis;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.2;My things are packed, everything is in order. Soon, I will see all churches of Bouonaventura;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.3;My things are packed, everything is in order. Soon, I will see all churches of Villa de Guadalupe;;;;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.17;I will travel to Quebec;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_QUEBEC;[Root.GetTitledName] made a pious pilgrimage to Quebec.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.18;My things are packed, everything is in order. Soon, I will be in Quebec.;;;;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.19;A pilgrimage in the other holy sites is just as worthy as journey to Villa de Guadelupe or Quebec.;;;;;;;;;;;;x
+ursuline_DESC;The Ursulines originated as an antediluvian religious order, patronized by Saint Ursula. After the Deluge, most Quebecois Catholics turned to the Ursuline Order for guidance. Although their outsized role in Quebecois religious life was initially tolerated by the Catholic Church, the entire order and all of its followers were excommunicated following an attempt by the Ursulines to elect one of their own to the Papacy. In response, the Ursuline Order formally split from the Catholic Church. The current position of the Ursulines is that none of the Christian bishops currently operating in the North America have proper apostolic succession, and that members of sanctioned religious orders can serve as de facto clergy until bishop-level apostolic succession is re-established.;;;;;;;;;;;;;x
+EMPEROR_ELECT_CONGRESS_WAR;The War for Congressional Acceptance;;;;;;;;;;;;x
+emperor_elect_victory_cb;Congress is forced to accept the emperor-elect as the legitimate Emperor of the Holy Columbian Confederacy and to issue a bill of attainder against the current president of Congress.;;;;;;;;;;;;x
+emperor_elect_failure_cb;The Emperor-Elect will be forced to step down and acknowledge his defeat as the alleged emperor.;;;;;;;;;;;;x
+EVTNAMEcon_congress.9;Defeat of Emperor;;;;;;;;;;;;x
+EVTDESCcon_congress.9;After Congress rejected his choice, the Emperor tried to appeal to what he considered the final authority—force. However, force did not rule in his favor; on the contrary, it condemned him to defeat and forced him to renounce his claims and accept that someone else would be chosen to replace him.;;;;;;;;;;;;x
+EVTOPTA_con_congress.9;That's how the brave finish;;;;;;;;;;;;x
+EVTOPTB_con_congress.9;Woe to him...;;;;;;;;;;;;x
+EVTOPTA_con_congress.10;Now shame will fall upon my dynasty;;;;;;;;;;;;x
+EVTDESCcon_congress.11;The emperor decided to declare war on Congress because it dared to deny him imperial dignity, and instead of accepting this with honor, it decided to raise its hand against us. However, we will not give up, but will defend the permanence of Congress's decision to the end.;;;;;;;;;;;;x
+EVTOPTA_con_congress.11;For freedom!;;;;;;;;;;;;x
+EVTNAMEcon_congress.12;Emperor's Triumph;;;;;;;;;;;;x
+EVTDESCcon_congress.12;After the war between the emperor and the Congress of the Holy Columbian Confederacy, the Congress was forced to approve the emperor's election to the throne. The former president of the Congress was convicted under a bill of attainder, but managed to flee beyond the borders of the empire.;;;;;;;;;;;;x
+EVTOPTA_con_congress.12;Such a story...;;;;;;;;;;;;x
+EVTOPTA_con_congress.13;Now I am emperor in full;;;;;;;;;;;;x
+k_united_republics;United Republics of America;;;;;;;;;;;;x
+ura_president;President of URA;;;;;;;;;;;;x
+ura_president_desc;This character is current or former President of United Republics of America.;;;;;;;;;;;;x
+new_republican_government;New Unionism;;;;;;;;;;;;x
+new_republican_government_desc;New Unionism originated in the beginning of the 27th century, rooted in the unique traditions and laws of the city state republics of the East Coast. Under the initiative of DeWitt Clinton, in 2645 the three republics of Boston, New York and Connecticut formed the United Republics of America. This new union aspired to be a continuation of the pre-Event American Republic. The head of the United Republics of America is the President, elected to be a representative of all the member states, serving a seven year term without the possibility of re-election.;;;;;;;;;;;;;x
+new_republican_rep_government;New Unionism;;;;;;;;;;;;x
+new_republican_rep_government_desc;New Unionism originated in the beginning of the 27th century, rooted in the unique traditions and laws of the city state republics of the East Coast. Under the initiative of DeWitt Clinton, in 2645 the three republics of Boston, New York and Connecticut formed the United Republics of America. This new union aspired to be a continuation of the pre-Event American Republic. The head of the United Republics of America is the President, elected to be a representative of all the member states, serving a seven year term without the possibility of re-election.;;;;;;;;;;;;;x
+new_republican_government_duke;Prefect;;;;;;;;;;;;;x
+new_republican_government_duke_female;Prefectess;;;;;;;;;;;;;x
+new_republican_rep_government_duke;Governor;;;;;;;;;;;;;x
+new_republican_rep_government_duke_female;Lady Governor;;;;;;;;;;;;;x
+nick_the_copolla;Copolla;;;;;;;;;;;;x
+gov_new_union;New American Union;;;;;;;;;;;;x
+EVTDESC_URA.1_desc;Rules of United Republics of America Government require that president after 7 years term should resign and organise presidential elections to choose his rightfull successor in the presidential office.;;;;;;;;;;;;x
+EVTOPT_URA.1;So, it means elections...;;;;;;;;;;;;x
+EVTTITL_mahonic1;The Mahonic Dynasty;;;;;;;;;;;;;x
+EVTDESC_mahonic1;Long ago, the Mahonic dynasty ruled a mighty empire founded by Vincent Mahonic, which stretched from Buffalo to New Brunswick and was the terror of everything in the Northeast. Those days, however, are long gone. Infighting between nobles, weak rulers, and foreign enemies caused the empire to first lose Hudsonia, then New Brunswick, and then finally collapse entirely. The Mahonic dynasty was first dethroned from New England, and then lost its land entirely. Your father, Lazarus, managed to reclaim some land in the form of the County of Merrimack, albeit under vassalage to the Miskatons of Nogad. In your childhood, he would read stories of the former glory of New England and of the Mahonic dynasty. But how to restore it, from only one county in vassalage to a much larger tribe?;;;;;;;;;;;;x
+EVTOPTA_mahonic1;Task the Council with this immediately.;;;;;;;;;;;;x
+EVTDESC_mahonic2;A small band of troops has sent their commander to Merrimack with an offer. He has heard of your attempt to resurrect Vincent Mahonic's empire, he explains, and he is willing to lend his men to your effort.;;;;;;;;;;;;x
+EVTOPTA_mahonic2;Fantastic!;;;;;;;;;;;;;x
+EVTDESC_mahonic3;Your Spymaster has observed suspicious activity in your vassal's county of Merrimack recently. He notes that many more troops seem to have assembled in the area than normal, and suggests further investigation.;;;;;;;;;;;;x
+EVTOPTA_mahonic3;Send him in!;;;;;;;;;;;;x
+EVTDESC_mahonic4;Your liege has told you to further investigate Merrimack's troops.;;;;;;;;;;;;x
+EVTOPTA_mahonic4;Okay.;;;;;;;;;;;;;x
+EVTDESC_mahonic5;A spy employed by the Miskatons has been noticed snooping around Merrimack, likely gathering information on your troop buildup. How should he be dealt with?;;;;;;;;;;;;x
+EVTOPTA_mahonic5;Go after him.;;;;;;;;;;;;;x
+EVTOPTB_mahonic5;Ignore him, it's sure to pass soon.;;;;;;;;;;;;;x
+EVTDESC_mahonic6;Your spymaster has given you a concerning report on the troop buildup in Merrimack, led by Paul Mahonic. Apparently, he has supported it in order to gather the military strength to begin a war of independence against you!;;;;;;;;;;;;x
+EVTOPTA_mahonic6;Concerning...;;;;;;;;;;;;x
+EVTDESC_mahonic7;In the middle of the night, you are awakened by the knock of metal on your door. Suddenly, you feel a sharp pain in your neck...;;;;;;;;;;;;x
+EVTOPTA_mahonic7;Mahonic...!;;;;;;;;;;;;x
+EVTDESC_mahonic8;In the middle of the night, you are awakened by the knock of metal on your door. The figure nearly impales you before being suddenly interrupted by the entrance of a guard.;;;;;;;;;;;;x
+EVTOPTA_mahonic8;Mahonic...!;;;;;;;;;;;;x
+EVTDESC_mahonic9;Last night, your guards informed you that your spymaster was found dead in the middle of the night. Although they could not conclusively determine why, the evidence points towards this being Paul Mahonic's doing.;;;;;;;;;;;;x
+EVTOPTA_mahonic9;Horrible!;;;;;;;;;;;;x
+EVTDESC_mahonic10;To my righteous liege, \n\nIn the middle of the night, I was very recently attacked by thugs affiliated with the vile criminal Mahonic, bent on my murder. Please, go after him!\n\nYour loyal spymaster, [From.GetFirstName];;;;;;;;;;;;x
+EVTOPTA_mahonic10;Horrible!;;;;;;;;;;;;x
+EVTDESC_mahonic11;After some contemplation, you have decided that the only solution to the issue of Paul Mahonic's troop buildup is to demand him to immediately cancel his troop buildup and surrender his titles, with a threat of force if he refuses.;;;;;;;;;;;;x
+EVTOPTA_mahonic11;Send the letter.;;;;;;;;;;;;x
+EVTDESC_mahonic12;Our Council has brought a man who claims to share your aims of overthrowing your Miskaton overlords. His family used to rule portions of the Duchy of Massachusetts, he explains, and he is willing to aid you if you promise to grant him rulership of those regions after your victory. He claims to have stores of gold, as well as troops, which he could bring to aid you if you accept his offer.;;;;;;;;;;;;x
+EVTOPTA_mahonic12;Accept this offer.;;;;;;;;;;;;x
+EVTOPTB_mahonic12;Refuse and look elsewhere.;;;;;;;;;;;;x
+EVTDESC_mahonic13;Your Spymaster has informed you that a suspicious figure with claims on your land and significant amounts of troops was recently accepted by Paul Mahonic. He suggests that, as Paul Mahonic seems willing to accept these offers, you could send a saboteur disguised as another offer...;;;;;;;;;;;;x
+EVTOPTA_mahonic13;A clever plan.;;;;;;;;;;;;;x
+EVTOPTB_mahonic13;Sounds like a risky idea.;;;;;;;;;;;;;x
+EVTDESC_mahonic14;A second man with a grudge against the Miskatons has come to your court, this time with claims on the Nogad capital region of Merrimack. He claims to have even more wealth and troops than the previous offeror did. Should we accept him?;;;;;;;;;;;;x
+EVTOPTA_mahonic14;Accept this offer.;;;;;;;;;;;;;x
+EVTOPTB_mahonic14;Reject this offer.;;;;;;;;;;;;;x
+EVTOPTC_mahonic14;Suspicious, arrest and interrogate him.;;;;;;;;;;;;;x
+EVTDESC_mahonic15;Success! Your saboteur has planted evidence of grave wrongdoing on Paul Mahonic, and then presented it wide-eyed to your horrified Council. With such horrible actions, who can justify the Mahonics remaining in control of Merrimack?;;;;;;;;;;;;x
+EVTOPTA_mahonic15;Demand Merrimack.;;;;;;;;;;;;;x
+EVTDESC_mahonic16;Under interrogation, the second offeror has confessed to being a saboteur employed by the Miskatons to undermine your rule. With this new evidence, you can easily justify demanding independence from the Miskatons.;;;;;;;;;;;;x
+EVTOPTA_mahonic16;Send the demands.;;;;;;;;;;;;;x
+EVTDESC_mahonic17;The Miskaton dynasty has been in control of the Bay region for decades if not centuries, with Merrimack included in this realm. Only in the past few decades did Lazarus, the latest member of the decrepit Mahonic dynasty, manage to take control of Merrimack, the wealthy heart of New England. This land should belong to the Miskatons again, but how to retake it?;;;;;;;;;;;;x
+EVTOPTA_mahonic17;Employ the Council on this task.;;;;;;;;;;;;x
+EVTDESC_mahonic18;Your Chancellor has presented evidence to you that the Mahonic takeover of Merrimack was fraudulent, and that the land rightfully belongs to the Miskatons.;;;;;;;;;;;;x
+EVTOPTA_mahonic18;Demand the land be returned.;;;;;;;;;;;;x
+EVTDESC_mahonic19;Your Spymaster has presented very compromising evidence against Paul Mahonic, showing that he is completely unfit to rule. Although this could be used to simply demand his land, why not use it to undermine his subjects' opinion of him first?;;;;;;;;;;;;x
+EVTOPTA_mahonic19;Use it.;;;;;;;;;;;;x
+EVTDESC_mahonic20;The Miskatons have presented evidence to you demonstrating his complete lack of fitness to rule. How will you proceed?;;;;;;;;;;;;x
+EVTOPTA_mahonic20;Horrible!;;;;;;;;;;;;x
+EVTOPTB_mahonic20;Ignore it.;;;;;;;;;;;;x
+EVTOPTC_mahonic20;Show this slander to him!;;;;;;;;;;;;x
+EVTDESC_mahonic21;Apparently, the Miskatons have fabricated evidence against you and used this to slander you to your vassals! This grave insult provides yet another reason for you to break free from the Miskaton grasp. Fortunately, knowing about this at least allows for this slander to be opposed among your other vassals.;;;;;;;;;;;;x
+EVTOPTA_mahonic21;Horrible!;;;;;;;;;;;;x
+EVTDESC_mahonic22;Now that Paul Mahonic's relations with his vassals have been severely undermined, it is time to use the evidence you obtained to justify revoking his noble titles.;;;;;;;;;;;;x
+EVTOPTA_mahonic22;Send a demand.;;;;;;;;;;;;x
+EVTDESC_mahonic23;To the vile [Root.GetFirstName], \n\nYour atrocious misrule and abuses have shown that you are unfit to rule Merrimack. Surrender your titles now if you wish to avoid bloodshed...;;;;;;;;;;;;x
+EVTOPTA_mahonic23;I refuse!;;;;;;;;;;;;x
+EVTOPTB_mahonic23;Accede to these demands.;;;;;;;;;;;;;x
+EVTDESC_mahonic24;To the vile [Root.GetFirstName], \n\nYour flagrant violations of my noble rights must end! Grant me independence from your rule, or be prepared to fight...;;;;;;;;;;;;x
+EVTOPTA_mahonic24;I refuse!;;;;;;;;;;;;x
+EVTOPTB_mahonic24;I must accept...;;;;;;;;;;;;x
+EVTDESC_mahonic25;In accordance with your previous agreements, a band of troops numbering [Root.paul_mahonic_troops_var.GetValue] has come to aid in your war effort against the Miskatons.;;;;;;;;;;;;x
+EVTOPTA_mahonic25;Fantastic!;;;;;;;;;;;;x
+EVTDESC_mahonic27;With the defeat of the vile Miskatons, you have taken the first step towards restoring Vincent Mahonic's empire. Although there is much more to do, you can rest for now, knowing that your father's efforts to claw some land for your family were not in vain.;;;;;;;;;;;;;x
+EVTOPTA_mahonic27;Victory!;;;;;;;;;;;;;x
+EVTDESC_mahonic28;The strange figure you accepted the support of before the war has returned to your court. He demands the right to rule the eastern half of the Duchy of Massachusetts in your name, as was agreed before the war, while making several veiled threats alluding to his "connections" with various local spies and his "unique skills" of espionage he had picked up on his travels. What shall we do?;;;;;;;;;;;;;x
+EVTOPTA_mahonic28;Grant the titles.;;;;;;;;;;;;;x
+EVTOPTB_mahonic28;Never!;;;;;;;;;;;;;x
+EVTDESC_mahonic29;Paul Mahonic has refused to grant the titles of Worcester and Providence.;;;;;;;;;;;;;x
+EVTOPTA_mahonic29;Kill him!;;;;;;;;;;;;;x
+EVTDESC_mahonic30;In the middle of the night, you are awakened by the knock of metal on your door. Someone muttering about "unpaid debts" is all you can hear before feeling a sharp pain in your neck...;;;;;;;;;;;;;x
+EVTOPTA_mahonic30;No...!;;;;;;;;;;;;;x
+EVTDESC_mahonic31;Last night, your guards fought and killed a man attempting to make his way to your chambers. Although he could not be interrogated to determine his employer, an envelope from the claimant you sought help from was found near his body.;;;;;;;;;;;;;x
+EVTOPTA_mahonic31;That bastard...!;;;;;;;;;;;;;x
+EVTDESC_mahonic32;Now that you have united and stabilized your newly independent realm, it is time to look outwards to the remaining parts of New England. Uniting the old heartland of Vincent Mahonic's empire, as well as the Occultist faith, will be crucial to ensuring that all Occultists recognize you as the continuation of the old empire.;;;;;;;;;;;;;x
+EVTOPTA_mahonic32;Onwards!;;;;;;;;;;;;;x
+EVTDESC_mahonic33;Now that you control enough of New England to be recognized as its de jure ruler, it is time to fully unite the region, including the Duchy of Connecticut, which was once considered a core part of New England but fell into the Gothamite sphere when the old empire collapsed. All of New England will be vital to retake to be recognized as a successor to Vincent Mahonic.;;;;;;;;;;;;;x
+EVTOPTA_mahonic33;To birthright!;;;;;;;;;;;;;x
+EVTDESC_mahonic34;Finally, New England has been united under the Mahonic dynasty once again. Despite this, much work remains to be done, to reclaim for New England the stature it had under the old empire. Diplomacy, economics, and more will be vital to achieving this goal, and there is no better time to start than now.;;;;;;;;;;;;;x
+EVTOPTA_mahonic34;Victory!;;;;;;;;;;;;;x
+EVTDESC_mahonic35;Over the past weeks, you have been thinking about the religious situation of New England. Few, if any, of the kingdom's neighbors follow the Occultist faith, and perhaps adopting one of their faiths instead could help secure the realm? On the other hand, Occultism is the religion of your ancestors, Vincent Mahonic included — is it right to abandon it?;;;;;;;;;;;;;x
+EVTOPTA_mahonic35;I shall continue to follow the religion of my ancestors!;;;;;;;;;;;;;x
+EVTOPTB_mahonic35;The world has changed, and so must my faith.;;;;;;;;;;;;;x
+EVTDESC_mahonic39;You have spent the past few weeks poring over both the theology and the politics of many of New England's neighboring religions. All that remains is for you to make your choice of faith for New England, and with it change the history of America forever.;;;;;;;;;;;;;x
+EVTOPTA_mahonic39;I will become an Ursuline.;;;;;;;;;;;;;x
+EVTOPTB_mahonic39;The Anglican faith is best.;;;;;;;;;;;;;x
+EVTOPTC_mahonic39;Americanism is the only choice.;;;;;;;;;;;;;x
+EVTDESC_mahonic40;Paul Mahonic has demanded that you adopt his new faith.;;;;;;;;;;;;;x
+EVTOPTA_mahonic40;Convert.;;;;;;;;;;;;;x
+EVTOPTB_mahonic40;Refuse.;;;;;;;;;;;;;x
+paul_mahonic.2.desc;Your Council has brought a man who claims to share your aims of overthrowing your Miskaton overlords. His family used to rule portions of the Duchy of Massachusetts, he explains, and he is willing to aid you if you promise to grant him rulership of those regions after your victory. He claims to have stores of gold, as well as troops, which he could bring to aid you if you accept his offer.;;;;;;;;;;;;;x
+paul_mahonic.2.a;Intriguing, I shall support this man.;;;;;;;;;;;;;x
+paul_mahonic.2.b;I do not trust this infidel, begone!;;;;;;;;;;;;;x
+succ_ura_presidential;Unionist Elective;;;;;;;;;;;;;x
+new_republican_elective;Republican Elective;;;;;;;;;;;;;x
+kennedy_bloodline;Blood of John Kennedy;;;;;;;;;;;;;x
+kennedy_bloodline_desc;This character is descendant of John Kennedy - one of the american pre-event presidents and first (and last) catholic ruler of pre-event American Empire.;;;;;;;;;;;;;x
+has_ura_president_term;Tung Tung Tung Tung Jahur;;;;;;;;;;;;;x
+has_ura_president_term_desc;Tung Tung Tung Tung Jahur;;;;;;;;;;;;;x
+d_jacobite_dummy;Jacobite Host;;;;;;;;;;;;;x
+title_confessor;Permanent Confessor;;;;;;;;;;;;;x
+title_confessor_desc;Permanent Confessor always serve to hear courtiers confession and his ruler.;;;;;;;;;;;;;x
+EVTNAME_edward.1;Dark Room;;;;;;;;;;;;;x
+EVTDESC_edward.1;You are sitting in the corner of your dark room. You still cannot accept that your father, your mother, and your two twin brothers are no longer among the living, but now stand before God’s judgment. You still cannot believe how it happened – how it was possible. Your parents and older brothers were celebrating your brother Vincent’s betrothal to the daughter of an outlander lord. You did not celebrate, because you were in your uncle court. As your old servant said, thunderbolt struck the tower where your family was celebrating and set it ablaze. According to your servant, the thunderbolt hit the wooden tower despite the lightning conductor – a large copper rod that stood beside it.;;;;;;;;;;;;;x
+EVTOPTA_edward.1;Why it happened to me....?;;;;;;;;;;;;;x
+EVTNAME_edward.2;Old Servant;;;;;;;;;;;;;x
+EVTDESC_edward.2;You hear a knocking at the door, which wakes you from the floor of your room. You rise and open it. There stands your old servant, George. He asks if you would come to dinner, which the cook has prepared for you and the household. You agree, and soon you make your way downstairs to the dining room. The cook has prepared stewed goose – your favorite dish since the days when your parents were still alive. Yet it does not taste as it once did in those better times. As you eat, you overhear two young servants speaking about something intriguing. For the first time in a long while, you prick up your ears and listen intently to their words.;;;;;;;;;;;;;x
+EVTOPTA_edward.2;Interesting, what they say...;;;;;;;;;;;;;x
+EVTNAME_edward.3;Old World;;;;;;;;;;;;;x
+EVTDESC_edward.3;You learn that these two servants are David and Paul, and they are talking about something very interesting — the Old World. When you were nine, you were very interested in the kings and presidents from before the event, and you always had a pile of questions for your history teachers. They say that a peasant from your village met a merchant from Brazil who planned an expedition to the Old World and was looking for a sponsor to fund it, because he didn’t have enough money himself.;;;;;;;;;;;;;x
+EVTOPTA_edward.3;Maybe I will join them...;;;;;;;;;;;;;x
+EVTOPTB_edward.3;It is some childish for me;;;;;;;;;;;;;x
+EVTNAME_edward.4;Expedition;;;;;;;;;;;;;x
+EVTDESC_edward.4;Your guard found the trader just as he was preparing to leave your town. When he sees you, he is surprised and asks why you wish to speak with him. You tell him about the gossip that he intends to organize an expedition to the Old World. He confirms that he had indeed planned it, but lost hope after the court in Ottawa imposed a fine on him for “wasting the time of the royal administration,” which took away half of his money. You console him and promise financial help, which makes him visibly happier. After a few moments, you begin discussing the costs of the expedition and other important matters.;;;;;;;;;;;;;x
+EVTOPTA_edward.4;Nice;;;;;;;;;;;;;x
+EVTNAME_edward.5;Departure;;;;;;;;;;;;;x
+EVTDESC_edward.5;The first volunteers applied at the Brazilian’s office, and now you have enough sailors to set out from this modest country and head east. The trader is excited, and you are as well — you begin to think less and less about your family’s death and start focusing on the future: on the expedition and on matters of faith. Before you depart, you go to church and pray to God for success. After the prayer, you board the ship and say farewell to your humble country, leaving power in the hands of a regent.;;;;;;;;;;;;;x
+EVTOPTA_edward.5;Ahoy adventure!;;;;;;;;;;;;;x
+EVTNAME_edward.6;Montreal;;;;;;;;;;;;;x
+EVTDESC_edward.6;Your ships arrive at the docks of Montreal, and you realize that your mother’s stories about this city were not merely fairy tales for children. From the port, you can see Saint Joseph’s Oratory — a beautiful Catholic basilica. An old sailor tells you that every month pilgrims come to this basilica to pray before the ancient altar. He adds that, although a Catholic priest has not been seen in this city for centuries, the Ursuline sisters still clean the liturgical vessels every day, as if a priest were to arrive tomorrow. After speaking with the sailor, you learn that the trader has business interests here, and that you will be staying in Montreal for two days.;;;;;;;;;;;;;x
+EVTOPTA_edward.6;I will visit St. Joseph Oratory;;;;;;;;;;;;;x
+EVTOPTB_edward.6;I will go to lunch to lord of this town;;;;;;;;;;;;;x
+EVTNAME_edward.7;Oratory of Saint Joseph;;;;;;;;;;;;;x
+EVTDESC_edward.7;You enter Saint Joseph's Oratory. The view impresses you – the basilica was built in beautiful pre-Event architecture. You kneel and make the sign of the cross before the altar, then sit in one of the pews. You hear the Ursuline nuns singing psalms and praying for the return of the Catholic hierarchy to Canada. You join in prayer, asking God for a safe voyage to the Old World. After a few minutes of silent prayer, you rise and head for the exit.;;;;;;;;;;;;;x
+EVTOPTA_edward.7;May God hear my prayers;;;;;;;;;;;;;x
+EVTDESC_edward.8;After leaving the church, you hear a woman’s voice: "Young lord, could you speak with me?" You turn around and see one of the Ursulines. Being a gentleman, you agree and follow her. It turns out she is the local prioress. She asks you about your journey, and when you answer that you are sailing to the Old World, she is fascinated and promises to pray for you. You thank her and promise to do the same and gived her some money to charity.;;;;;;;;;;;;;x
+EVTOPTA_edward.8;Nice;;;;;;;;;;;;;x
+EVTNAME_edward.9;Visitor from Canada;;;;;;;;;;;;;x
+EVTDESC_edward.9;Your steward comes to you and reports that a young lord from Canada – Lord Edward FitzRoy – has arrived in your town, seeking hospitality. You already knew of his arrival, as your people at the port had seen him with a Brazilian trader – the very same one who once tried to convince you to sponsor his expedition to the Old World, which you refused. Now you must decide: will you allow young FitzRoy to join your family for lunch, as local custom requires, or will you refuse and spend the day only with your kin?;;;;;;;;;;;;;x
+EVTOPTA_edward.9;Custom is custom – the guest will dine with us;;;;;;;;;;;;;x
+EVTOPTB_edward.9;A poor Ontarian lord is not worthy to eat with me;;;;;;;;;;;;;x
+EVTDESC_edward.10;Despite your noble descent, the Duke of Montreal refuses to invite you to lunch. This is an insult to you and your small family. The only thing of interest left to do is to visit Saint Joseph’s Oratory.;;;;;;;;;;;;;x
+EVTOPTA_edward.10;Then I will visit Saint Joseph’s Oratory;;;;;;;;;;;;;x
+EVTNAME_edward.11;Lunch;;;;;;;;;;;;;x
+EVTDESC_edward.11;Duke Regis Turcot allows you to dine with him and his family. The dishes are far more lavish than in your modest estate. One dish in particular catches your attention – a large mix of meat and vegetables wrapped in a roll. It tastes slightly spicy. You ask what it is, and the duke answers that it is a kebab, a dish of the ancient Americans and Mexicans. He explains that only a few cooks in Mexico still know the recipe. The duke recalls first tasting it at the court of the Mexican Emperor, where he ordered it to be served. After this interesting discussion about kebabs, you notice a young lady entering the room...;;;;;;;;;;;;;x
+EVTOPTA_edward.11;Good afternoon, my lady...;;;;;;;;;;;;;x
+EVTNAME_edward.12;Lady Turcot;;;;;;;;;;;;;x
+EVTDESC_edward.12;The young lady enters the room and sits to the duke’s left. Duke Turcot lightly admonishes her for her lateness and introduces her to you – she is Josephine Turcot, the duke’s younger daughter. After an exchange of pleasantries, you begin speaking with the family about your ambitious plans to sail to the Old World. Duke Turcot remains skeptical, his son indifferent, and his wife regards you with a mix of curiosity and pity. Lady Josephine, however, seems intrigued by your plans. After the lunch, Duke Turcot bids you farewell and gives you a modest sum of money, wishing you good fortune.;;;;;;;;;;;;;x
+EVTOPTA_edward.12;Good fortune will be useful on the road;;;;;;;;;;;;;x
+EVTNAME_edward.13;Departure;;;;;;;;;;;;;x
+EVTDESC_edward.13;After two days in Montreal, your stay in this beautiful city comes to an end. You and your Brazilian companion board the ship and soon sail away from the docks of Montreal, bidding farewell to the city. Your Brazilian friend tells you that he sold some of his family heirlooms to local nobles, thus securing money to continue the expedition.;;;;;;;;;;;;;x
+EVTOPTA_edward.13;That sounds good;;;;;;;;;;;;;x
+EVTNAME_edward.14;Lunch;;;;;;;;;;;;;x
+EVTDESC_edward.14;You decided to invite young Lord FitzRoy to lunch with your family. When he arrived, the cook served kebab to your guest. From the look on his face, it seemed he enjoyed the dish, so you gladly told him what it was and how you first came to know this wonderful meal. After that, your younger daughter Josephine entered the room and listened, together with you and the rest of the family, to the young lord’s stories about his planned expedition to the Old World. She was fascinated by his ambitions, but you, being older, knew that great ambitions are not everything. After lunch, you gave the young lord some gold as a gift and wished him good fortune.;;;;;;;;;;;;;x
+EVTOPTA_edward.14;I wish him a good fortune;;;;;;;;;;;;;x
+stuart_bastards_bloodline;Blood of Stuart's;;;;;;;;;;;;;x
+stuart_bastards_bloodline_desc;This character has an ancestor who was supposedly the illegitimate son of Bonnie Prince Charlie - penultimate jacobite pretender who was a descendant of overhtrowned king James II Stuart.;;;;;;;;;;;;;x
+EVTNAME_edward.15;Quebec;;;;;;;;;;;;;x
+EVTDESC_edward.15;You have just arrived in Quebec City. You see many ancient fortifications, the Notre Dame Cathedral, and other beautiful sights in this old city which still remembers the time when Her Majesty ruled over Canada. Your Brazilian friend tells you that you will stay here for a while, as you must buy old maps to learn the best route to the Old World and recruit new volunteers.;;;;;;;;;;;;;x
+EVTOPTA_edward.15;It will cost me some money...;;;;;;;;;;;;;x
+EVTNAME_edward.16;Goodbye, Quebec;;;;;;;;;;;;;x
+EVTDESC_edward.16;After more than two weeks, you and your Brazilian companion have gathered some volunteers and purchased new ships. Your fleet is not large, but strong enough to survive this expedition. Before leaving Quebec to sail into the unknown seas of the great ocean and towards an unfamiliar continent, you order letters to be written to your regent in your Canadian estates. Once the letters are sent, you depart from Quebec, bound for the Old World...;;;;;;;;;;;;;x
+EVTOPTA_edward.16;Goodbye, beautiful Quebec...;;;;;;;;;;;;;x
+EVTDESC_edward.17;An old captain on your ship spots pirate vessels approaching. It is impossible to avoid battle, so you and your fleet must prepare to fight.;;;;;;;;;;;;;x
+EVTOPTA_edward.17;Fight!;;;;;;;;;;;;;x
+EVTDESC_edward.18;You fight bravely against the pirates. They board your ship, but the clash of swords ends poorly for them. After you and your men slay half their number, the pirates flee in panic.;;;;;;;;;;;;;x
+EVTOPTA_edward.18;Pathetic bandits;;;;;;;;;;;;;x
+EVTDESC_edward.19;You fight bravely against the pirates as they board your ship. Despite the courage in your heart and that of your sailors, the pirates manage to overpower you. Many of your men are slain, though you survive—for the moment. After capturing your ship, the pirate leader orders his men to fasten a ball and chain to your feet and those of your Brazilian companion, and then cast you both overboard.;;;;;;;;;;;;;x
+EVTOPTA_edward.19;No! Please! No! I beg you...!;;;;;;;;;;;;;x
+EVTDESC_edward.20;In the distance, you spot a makeshift boat with several people aboard. You order your crew to sail towards it. Soon, you realize that the boat carries a group of castaways.;;;;;;;;;;;;;x
+EVTOPTA_edward.20;I will help them;;;;;;;;;;;;;x
+EVTNAME_edward.21;Newfoundland;;;;;;;;;;;;;x
+EVTDESC_edward.21;A month after leaving Quebec, you arrive at Newfoundland – an island ruled by pagans. It is not as populated as the kingdom you came from. You decide to dock at one of its ports. Your plan is not to stay long – only a few days before setting sail again.;;;;;;;;;;;;;x
+EVTOPTA_edward.21;Okay;;;;;;;;;;;;;x
+EVTDESC_edward.22;After a few days, you leave the port. Together with your Brazilian friend, you make a plan – from here you will sail to Greenland, and from Greenland to the kingdom known as Britain – once the capital of the ancient redcoats.;;;;;;;;;;;;;x
+EVTOPTA_edward.22;Nice;;;;;;;;;;;;;x
+EVTNAME_edward.23;Greenland;;;;;;;;;;;;;x
+EVTDESC_edward.23;After two long months, your fleet reaches Greenland – a cold island near the northern Canadian archipelago. The sight of snow lifts your spirits, for you had not seen land for some time. Your Brazilian friend tells you that Greenland is the halfway point of your ambitious expedition, and that within two or three more months you should reach Britain.;;;;;;;;;;;;;x
+EVTOPTA_edward.23;Nice;;;;;;;;;;;;;x
+EVTDESC_edward.24;Nothing of note happens during your voyage, so you decide to pass the time by reading an interesting book.;;;;;;;;;;;;;x
+EVTOPTA_edward.24;Perhaps I will learn something useful;;;;;;;;;;;;;x
+EVTNAME_edward.25;Land;;;;;;;;;;;;;x
+EVTDESC_edward.25;After three long months at sea, you finally spot land. Among your sailors there is great euphoria, for the sight reminds them of their distant homelands. As you celebrate and drink from the last barrel of beer, one of your sailors suddenly raises the alarm: two massive ships are sailing alongside you. From afar, you hear songs unlike any you have ever known – triumphant, elegant, and proud.;;;;;;;;;;;;;x
+EVTOPTA_edward.25;Redcoats?;;;;;;;;;;;;;x
+EVTNAME_edward.26;Young Gentleman;;;;;;;;;;;;;x
+EVTDESC_edward.26;You order your sailors to remain calm and peaceful. When one of the enormous ships pulls up beside yours, a young man boards your vessel. He introduces himself as Sir Christopher Wallingham, 5th Duke of Oxford. The young aristocrat is remarkably polite. When he learns that you have come from Canada, his curiosity grows, and he eagerly asks questions about the kingdoms and duchies there. After some time, you request his help in guiding your fleet to a port, since your sailors have not set foot on land for three months. He agrees, returns to his ship, and leads your fleet onward.;;;;;;;;;;;;;x
+EVTOPTA_edward.26;Interesting…;;;;;;;;;;;;;x
+EVTNAME_edward.27;Manchester;;;;;;;;;;;;;x
+EVTDESC_edward.27;At last, you reach the docks of a great city. You, your Brazilian friend, and your sailors disembark after many months at sea. You ask Sir Wallingham about the name of this place, and he answers: Manchester. He tells you that he is the governor of the city and orders his soldiers to guide your sailors to their quarters for rest. You and your friend, meanwhile, are invited to lunch at his castle in the suburbs of Manchester.;;;;;;;;;;;;;x
+EVTOPTA_edward.27;Thank you for the invitation.;;;;;;;;;;;;;x
+EVTNAME_edward.28;Lunch;;;;;;;;;;;;;x
+EVTDESC_edward.28;When you entered Sir Christopher Wallingham’s castle, you admired its beautiful English architecture – clearly built long before your time. Wallingham’s chamberlain greeted you and your Brazilian companion, leading you to the dining hall. Sir Wallingham was already waiting. After a few polite exchanges, you sat down to eat. The cook had prepared roasted wild boar as the first dish, followed by a familiar kebab as the second. As you enjoyed the fine meal, Wallingham spoke of Europe – of Britain’s coming war with the European Empire, and of his own kingdom’s uncertain state: like Canada, Britain was without a king. You mentioned that your father claimed descent from a bastard of the Stuart line. Wallingham only smiled faintly, making it clear he doubted your father’s claim.;;;;;;;;;;;;;x
+EVTOPTA_edward.28;I will ask him about British trade;;;;;;;;;;;;;x
+EVTNAME_edward.29;British Trade;;;;;;;;;;;;;x
+EVTDESC_edward.29;When you inquired about trade in Britain, Wallingham spoke at length. Your Brazilian friend carefully noted every goods, every tax, and every famous merchant. By the time Wallingham had finished, both your plates were empty. The young aristocrat thanked you for the pleasant meal, excused himself for the many duties of the day, and ordered his chamberlain to show you to the finest chambers.;;;;;;;;;;;;;x
+EVTOPTA_edward.29;Nice;;;;;;;;;;;;;x
+EVTNAME_edward.30;Trade;;;;;;;;;;;;;x
+EVTDESC_edward.30;You spent two weeks in Manchester with your Brazilian friend. Each day Sir Wallingham invited you to dine with him, and you often spoke of the history and customs of Canada. Meanwhile, your companion used his knowledge of British trade to buy goods scarce or unknown in the New World. You lost much gold, but the Brazilian assured you it would turn to profit. At last, longing for your home, your tongue, and your liege, you decided it was time to return across the ocean.;;;;;;;;;;;;;x
+EVTOPTA_edward.30;It is time to return;;;;;;;;;;;;;x
+EVTNAME_edward.31;Greenland;;;;;;;;;;;;;x
+EVTDESC_edward.31;After three months at sea you sighted Greenland once more. The vision of snow lifted your spirits, for you had seen no land in weeks. Now you knew that home was drawing near, and the sea routes lay secure. Canada was close — and with it, profit and home.;;;;;;;;;;;;;x
+EVTOPTA_edward.31;Nice;;;;;;;;;;;;;x
+EVTNAME_edward.32;Disturbing Rumors;;;;;;;;;;;;;x
+EVTDESC_edward.32;For some time now, your spies have reported that seditious agitators have infiltrated the palace guard. Their aim, it is said, is to overthrow your rule as Lord Protector of the Canadian Kingdom and abolish Anglicanism as the state religion, replacing it with Nonconformism. Some of your advisors insist that these are nothing but rumors, pointing out that the religious wars between Anglicans and Nonconformists ended more than a century ago.;;;;;;;;;;;;;x
+EVTOPTA_edward.32;My advisors are right — mere rumors.;;;;;;;;;;;;;x
+EVTOPTB_edward.32;Arrest the suspects and put them on trial.;;;;;;;;;;;;;x
+EVTNAME_edward.33;Coup;;;;;;;;;;;;;x
+EVTDESC_edward.33;Despite the assurances of your advisors, and their words that the religious wars in Canada had ended long ago with the extinction of the Rideau family, today a coup has erupted. Soldiers stormed the Parliament building and forced its members to depose you as Lord Protector. By the time you learned of your downfall, it was too late to flee. Moments later, soldiers broke into your palace and dragged you away, shouting slogans in praise of the new Lord Protector. Soon you saw where they were leading you — the execution square…;;;;;;;;;;;;;x
+EVTOPTA_edward.33;No, this is illegal! I demand a trial…!;;;;;;;;;;;;;x
+EVTNAME_edward.35;Holy League;;;;;;;;;;;;;x
+EVTDESC_edward.35;A few days ago, the Anglican Lord Protector of Canada was overthrown and slain by Nonconformist plotters. The Parliament, now under new leadership, has passed the Papist Act, which ends all tolerance for Catholics in Canada and decrees their expulsion. Word has also reached the General Abbess of the Ursuline Order that the new Lord Protector plans war against the Ursuline rulers, intending to seize Quebec and crown himself King of Canada. To preempt this threat, the General Abbess has formed a Holy League against Canada. Every supporter of the Ursuline Order is now bound to raise their levies and march against the Canadian heretics.;;;;;;;;;;;;;x
+EVTOPTA_edward.35;For the Faith and for Canada!;;;;;;;;;;;;;x
+EVTOPTB_edward.35;Waste of time;;;;;;;;;;;;;x
+EVTNAME_edward.36;New York;;;;;;;;;;;;;x
+EVTDESC_edward.36;After many days at sea, your fleet finally reaches the docks of New York. From afar, you can already see the Statue of Liberty, built centuries ago by pre-Event Americans. Your Brazilian friend tells you that New York is the city he has visited most often in his trading career, and that he always made a good profit here. When the Brazilian goes off to look for traders who might buy your goods for a high price, you are left alone. Soon, you overhear two Gothamite merchants talking — they say that Ursuline dukes, led by the Abbess-General of the Order of St. Ursula, together with rebellious Canadian dukes, are forming a Holy League against Canada, where the new Lord Protector has killed his predecessor and ended religious tolerance for Catholicism.;;;;;;;;;;;;;x
+EVTOPTA_edward.36;Continue;;;;;;;;;;;;;x
+EVTNAME_edward.37;Letter from Montreal;;;;;;;;;;;;;x
+EVTDESC_edward.37;As you try to listen further to the merchants, a young boy approaches and hands you a letter. You open it — the author is Josephine Turcot, whom you met when you were a guest of her father in Montreal. She writes that she decided to contact you after hearing that someone saw you while crossing Newfoundland. She says she admires you and has always believed your journey would succeed. The letter makes you happier, reminding you that someone in this world misses you. As you place the letter in your bag, you notice a guard walking towards you...;;;;;;;;;;;;;x
+EVTOPTA_edward.37;What do they want from me?;;;;;;;;;;;;;x
+EVTNAME_edward.38;Letter from Prince Edward;;;;;;;;;;;;;x
+EVTDESC_edward.38;As you try to listen further to the merchants, a young boy approaches and hands you a letter. You open it — the author is the pastor who taught you psalms when you were young. He writes that every Sunday he prays with the common people for your safe return, and that he has always believed you would come back alive from foreign lands. He also says that a few days ago an old servant passed away, and among his belongings he found an old letter whose contents contradict the official version of your parents’ and brothers’ deaths. In this old letter, the anonymous author congratulates the servant for setting fire to the wooden tower where your family was trapped, and promises him money for their heads. As you finish reading the pastor’s letter, you notice a guard walking towards you...;;;;;;;;;;;;;x
+EVTOPTA_edward.38;What do they want from me?;;;;;;;;;;;;;x
+EVTNAME_edward.39;Audience with the President;;;;;;;;;;;;;x
+EVTDESC_edward.39;The guards take you to the town hall and order you to follow a civilian they point out. This man leads you to a room, telling you that behind the door sits the President of the United Republics of America himself. When you enter, the President is indeed sitting there. After exchanging pleasantries, you quickly move on to business. The President congratulates you on your successful journey to the Old World, and then begins speaking about more pressing matters — the war in Canada. He tells you that the URA will join the war on the side of the Holy League and makes you an extraordinary proposition. According to him, the Abbess-General plans to reunite Canada under a Catholic king, and you — as the alleged descendant of the Stuarts — are the perfect candidate...;;;;;;;;;;;;;x
+EVTOPTA_edward.39;Me, a king?;;;;;;;;;;;;;x
+EVTNAME_edward.40;Blue Letter;;;;;;;;;;;;;x
+EVTDESC_edward.40;You are shocked by the President’s proposal and reply that your claim as a descendant of James II is only a legend. But the President interrupts you, hands you a letter written on thin blue paper, and asks you to read it. You open it — the author is the Abbess-General of the Order of St. Ursula. She writes that you will have a double legitimacy: royal blood as well as the role of defender of the Catholic faith. She also insists that your successful voyage is a sign in your favor, not against you. When you finish reading, you are still hesitant, but in truth the decision is already made.;;;;;;;;;;;;;x
+EVTOPTA_edward.40;I will be king;;;;;;;;;;;;;x
+EVTNAME_edward.41;Proclamation;;;;;;;;;;;;;x
+EVTDESC_edward.41;Few days ago, you agreed to become the Catholic King of Canada. Today, two important events have taken place. First, your Brazilian friend sold all your goods, and now both of you are rich. Second, an important ceremony happened in the town hall. The President of the United Republics of America officially proclaimed you King of Canada and solemnly placed under your command mercenary troops, gathered from escaped Canadian Catholics and hired soldiers. With them, and with the Catholic League, you shall be king. After the President’s speech to the representatives of the republics allied with the URA, you signed your very first treaty — an alliance with the URA.;;;;;;;;;;;;;x
+EVTOPTA_edward.41;Now, I go to war for my crown;;;;;;;;;;;;;x
+ANTICONFORM_URSU_WAR;Holy League War against Canada;;;;;;;;;;;;;x
+EVTNAME_edward.42;New York;;;;;;;;;;;;;x
+EVTDESC_edward.42;After many days at sea, your fleet finally reaches the docks of New York. From afar, you can already see the Statue of Liberty, built centuries ago by pre-Event Americans. Your Brazilian friend tells you that New York is the city he visited most often during his trading career, and that he always made a good profit here. When the Brazilian goes off to look for traders who might buy your goods at a high price, you are left alone. You decide to take a walk around the nearby streets, some of which still remember the times before the Event, when America was a great empire.;;;;;;;;;;;;;x
+EVTOPTA_edward.42;In these streets, I see history...;;;;;;;;;;;;;x
+EVTNAME_edward.43;Letter from Montreal;;;;;;;;;;;;;x
+EVTDESC_edward.43;As you enter what is probably the oldest street in this part of New York, a young boy approaches and hands you a letter. You open it — the author is Josephine Turcot, whom you met when you were a guest of her father in Montreal. She writes that she decided to contact you after hearing that someone saw you while crossing Newfoundland. She says she admires you and has always believed your journey would succeed. The letter makes you happier, reminding you that someone in this world misses you. After placing the letter in your bag, you decide to return to your ships.;;;;;;;;;;;;;x
+EVTOPTA_edward.43;It seems someone remembers me during my journey.;;;;;;;;;;;;;x
+EVTNAME_edward.44;Letter from Prince Edward;;;;;;;;;;;;;x
+EVTDESC_edward.44;As you enter what is probably the oldest street in this part of New York, a young boy approaches and hands you a letter. You open it — the author is the pastor who taught you psalms when you were young. He writes that every Sunday he prays with the common people for your safe return, and that he has always believed you would come back alive from foreign lands. He also says that a few days ago an old servant passed away, and among his belongings he found a letter whose contents contradict the official version of your parents’ and brothers’ deaths. In this old letter, the anonymous author congratulates the servant for setting fire to the wooden tower where your family was trapped, and promises him money for their heads. After shedding some tears and placing the letter in your bag, you decide to return to your ships.;;;;;;;;;;;;;x
+EVTOPTA_edward.44;At least I know how they died...;;;;;;;;;;;;;x
+EVTNAME_edward.45;Sale;;;;;;;;;;;;;x
+EVTDESC_edward.45;After two weeks your Brazilian friend sold the goods you had brought from Britain. When he enters your cabin with a box full of gold, you are happy, for now you are richer than the Lord Protector of Canada and can rebuild your modest estates into large cities and castles. After dividing the profits between you and your Brazilian friend, he asks if you want him to remain as your steward and companion, or if he is no longer needed.;;;;;;;;;;;;;x
+EVTOPTA_edward.45;I want him as my steward and friend.;;;;;;;;;;;;;x
+EVTOPTB_edward.45;He isn't longer needed;;;;;;;;;;;;;x
+EDWARD45_TOOLTIP_TEXT;Your Brazilian friend will return to Brazil with his money.;;;;;;;;;;;;;x
+EVTDESC_edward.46;After dividing the profits, you depart from New York and start sailing north along a river. You plan for your estates to be the next stop for your small fleet.;;;;;;;;;;;;;x
+EVTOPTA_edward.46;Soon, I will be home;;;;;;;;;;;;;x
+EVTNAME_edward.47;Old Home;;;;;;;;;;;;;x
+EVTDESC_edward.47;When you see the small castle you have known since you were a child, you are glad to return to your estates. Your sailors are also happy to be reunited with their mothers, sisters, wives, and daughters. After leaving the ship, you listen to the report of the current administrator who managed your assets during your absence. After hearing his report, you thank him for his faithful service and go to church to thank God for helping you on this expedition.;;;;;;;;;;;;;x
+EVTOPTA_edward.47;Without God, I could not have done it...;;;;;;;;;;;;;x
+EVTNAME_edward.48;Daughter's Marriage;;;;;;;;;;;;;x
+EVTDESC_edward.48;Your beloved daughter Josephine is no longer a little girl but a young lady who should have a husband. Now it is time to choose one for her. Surprisingly, your daughter already has her own candidate — Earl Edward FitzRoy, who has just returned from his daring expedition to the Old World, bringing back great chests of gold and jewels. Having such a wealthy son-in-law would be tempting, but there is one problem — he is an Anglican, and your faith forbids marriage with heretics.;;;;;;;;;;;;;x
+EVTOPTA_edward.48;If he converts, he shall marry my daughter;;;;;;;;;;;;;x
+EVTOPTB_edward.48;Women and children have no say in choosing husbands;;;;;;;;;;;;;x
+EVTNAME_edward.49;Letter from Montreal;;;;;;;;;;;;;x
+EVTDESC_edward.49;While reviewing your castle’s inventory, a cavalryman approaches and hands you a letter. You recognize the seal immediately — it is from the Duke of Montreal. In his letter, he offers you the hand of his daughter Josephine, if you agree to convert to the Catholic faith. The choice now lies before you: on the one hand, Anglicanism dominates in Canada and no Ursuline can hope for a great career; on the other hand, Catholicism is theologically rich and has fascinated you since childhood.;;;;;;;;;;;;;x
+EVTOPTA_edward.49;I accept proposal and sail to Montreal;;;;;;;;;;;;;x
+EVTOPTB_edward.49;I refuse this proposal;;;;;;;;;;;;;x
+EVTDESC_edward.50;Young FitzRoy has accepted your offer and sent a letter announcing that he will soon arrive in Montreal to marry your daughter.;;;;;;;;;;;;;x
+EVTOPTA_edward.50;Excellent;;;;;;;;;;;;;x
+EVTDESC_edward.51;Young FitzRoy has refused your offer of marriage.;;;;;;;;;;;;;x
+EVTOPTA_edward.51;Foolish boy;;;;;;;;;;;;;x
+EVTDESC_edward.52;A few days later, you arrive in Montreal. Your father-in-law begins preparations for the ceremony in St. Joseph’s Oratory and urges you to be patient. While the wedding and reception are being arranged, you make a formal profession of faith before the Ursuline prioress and begin your pre-marriage preparation.;;;;;;;;;;;;;x
+EVTOPTA_edward.52;Soon, I will be married;;;;;;;;;;;;;x
+EVTNAME_edward.53;Marriage;;;;;;;;;;;;;x
+EVTDESC_edward.53;After two weeks of preparation, you and Josephine are wed in St. Joseph’s Oratory. The Ursuline sisters recite the canonical text of the marriage vows, and after you both swear love, fidelity, and marital honesty until death, they pray the rosary for your happiness. Afterwards, a splendid wedding feast, paid for by your father-in-law, takes place — a day you will never forget.;;;;;;;;;;;;;x
+EVTOPTA_edward.53;Now she is my wife, and I am her husband;;;;;;;;;;;;;x
+haiti_imperial_government;Haitian Bureaucracy;;;;;;;;;;;;;x
+haiti_imperial_government_desc;The Haitian Bureaucracy, officially headed by the Emperor of Haiti, is a hybrid of the continental feudal system and the bureaucratic traditions of the Brazilian Empire. In this system, the titles of counts, dukes, and kings are de facto hereditary, but de iure their rule depends on the Emperor’s will. The Emperor is the primary holder of several duchies and kingdoms, while the so-called dukes and kings merely govern them in his name.;;;;;;;;;;;;;x
+haitan_emperor_blood_la_vega_bloodline;Blood of the Last Dynasty;;;;;;;;;;;;;x
+haitan_emperor_blood_la_vega_bloodline_desc;This character is a descendant of the De la Vega dynasty, which ruled the Third Haitian Empire in the 24th century, only to be overthrown nearly twenty years before the empire finally fell.;;;;;;;;;;;;;x
+haitan_emperor_telemarque_bloodline;Blood of the Last Emperor;;;;;;;;;;;;;x
+haitan_emperor_telemarque_bloodline_desc;This character is a descendant of Faustin VI Telemarque, who ruled the Haitian Empire after the death of his wife, Julia II de la Vega. Growing dissent caused by the poor functioning of the Empire led to its collapse—and to Faustin VI’s death.;;;;;;;;;;;;;x
+gov_4rd_haitian_empire;New Haitian Empire;;;;;;;;;;;;;x
+nick_the_false_emperor;the False Emperor;;;;;;;;;;;;;x
+EDWARD20_TOOLTIP_TEXT;Two castaways join to your court and take part in your journey;;;;;;;;;;;;;x
+survived_impeachment_conf_pres;Impeachment Survivor;;;;;;;;;;;;;x
+survived_impeachment_conf_pres_desc;This character survived an impeachment procedure as President of the Holy Columbian Confederacy Congress.;;;;;;;;;;;;;x
+demand_confederate_impeachment;Demand the Impeachment of the Congress President;;;;;;;;;;;;;x
+demand_confederate_impeachment_desc;According to ancient law, every Emperor, once approved by Congress, may demand the impeachment of the President of the Congress. In constitutional law, impeachment is a procedure in which the President is tried by Congress and may be removed for abuse of power.;;;;;;;;;;;;;x
+EVTNAMEcon_congress.14;Impeachment;;;;;;;;;;;;;x
+EVTDESCcon_congress.14;Today, the Emperor of the Holy Columbian Confederacy demanded the impeachment of the President of the Congress. Such demands are rare, for if Congress declares the President innocent of abuse of power or disloyalty, the Emperor risks humiliation and the loss of prestige.;;;;;;;;;;;;;x
+EVTOPTA_con_congress.14;We will see who will win this impeachment...;;;;;;;;;;;;;x
+EVTNAMEcon_congress.15;Impeachment Commission;;;;;;;;;;;;;x
+EVTDESCcon_congress.15;A few days after the Emperor’s demand, leading congressmen formed a special Impeachment Commission, headed by the Imperial Chancellor. The Commission will prepare a report on the President’s actions and announce whether he is guilty or not. While the report does not automatically decide impeachment, custom dictates that a report finding abuses usually leads to the President’s removal.;;;;;;;;;;;;;x
+EVTOPTA_con_congress.15;We will see who will win this impeachment...;;;;;;;;;;;;;x
+EVTDESCcon_congress.16;Congress has appointed you to the special Impeachment Commission, tasked with preparing a report on the President’s actions, upon which Congress will decide impeachment. What is your judgment of the President’s conduct in office?;;;;;;;;;;;;;x
+EVTOPTA_con_congress.16;The President is innocent;;;;;;;;;;;;;x
+EVTOPTB_con_congress.16;The President is guilty;;;;;;;;;;;;;x
+EVTDESCcon_congress.17;The Special Impeachment Commission has completed its report on the President of Congress and delivered it to the assembly. Soon it will be known whether the President will be removed.;;;;;;;;;;;;;x
+EVTOPTA_con_congress.17;I hope he will be...;;;;;;;;;;;;;x
+EVTNAMEcon_congress.18;Impeachment Fails;;;;;;;;;;;;;x
+EVTDESCcon_congress.18;The report of the Special Congress Commission did not support the Emperor’s claim that the President had abused his powers or harmed the Holy Columbian Confederacy. In light of the Commission’s findings, Congress rejected the Emperor’s demand and allowed the President to remain in office.;;;;;;;;;;;;;x
+EVTOPTA_con_congress.18;Good;;;;;;;;;;;;;x
+EVTOPTB_con_congress.18;Interesting;;;;;;;;;;;;;x
+EVTOPTC_con_congress.18;Oh no!;;;;;;;;;;;;;x
+EVTNAMEcon_congress.19;Impeachment Succeeds;;;;;;;;;;;;;x
+EVTDESCcon_congress.19;The report of the Special Congress Commission supported the Emperor’s claim that the President had abused his powers and acted against the Holy Columbian Confederacy. In light of the Commission’s findings, Congress accepted the Emperor’s demand and voted to depose the President of Congress.;;;;;;;;;;;;;x
+EVTOPTA_con_congress.19;Oh no!;;;;;;;;;;;;;x
+EVTOPTB_con_congress.19;So be it;;;;;;;;;;;;;x
+EVTOPTC_con_congress.19;Excellent;;;;;;;;;;;;;x
+baron_angeline;Prior;;;;;;;;;;;;;x
+baron_female_angeline;Prioress;;;;;;;;;;;;;x
+count_angeline;Custos;;;;;;;;;;;;;x
+count_female_angeline;Custas;;;;;;;;;;;;;x
+duke_angeline;Igumen;;;;;;;;;;;;;x
+duke_female_angeline;Ihumenia;;;;;;;;;;;;;x
+duchy_angeline;Cenobium;;;;;;;;;;;;;x
+duchy_of_angeline;Cenobium of;;;;;;;;;;;;;x
+king_angeline;Counselor;;;;;;;;;;;;;x
+king_female_angeline;Counselor;;;;;;;;;;;;;x
+kingdom_angeline;Cenobium;;;;;;;;;;;;;x
+kingdom_of_angeline;Cenobium of;;;;;;;;;;;;;x
+emperor_angeline;Archimandrite;;;;;;;;;;;;;x
+emperor_female_angeline;Archimandrite;;;;;;;;;;;;;x
+empire_angeline;Great Cenobium;;;;;;;;;;;;;x
+empire_of_angeline;Great Cenobium of;;;;;;;;;;;;;x
+baron_edenite;Acolyte;;;;;;;;;;;;;x
+baron_female_edenite;Acolyte;;;;;;;;;;;;;x
+count_edenite;Custodian;;;;;;;;;;;;;x
+count_female_edenite;Custodian;;;;;;;;;;;;;x
+duke_edenite;Guide;;;;;;;;;;;;;x
+duke_female_edenite;Guide;;;;;;;;;;;;;x
+duchy_edenite;Cenobium;;;;;;;;;;;;;x
+duchy_of_edenite;Cenobium of;;;;;;;;;;;;;x
+king_edenite;Counselor;;;;;;;;;;;;;x
+king_female_edenite;Counselor;;;;;;;;;;;;;x
+kingdom_edenite;Cenobium;;;;;;;;;;;;;x
+kingdom_of_edenite;Cenobium of;;;;;;;;;;;;;x
+emperor_edenite;Moderator;;;;;;;;;;;;;x
+emperor_female_edenite;Moderator;;;;;;;;;;;;;x
+empire_edenite;Great Cenobium;;;;;;;;;;;;;x
+empire_of_edenite;Great Cenobium of;;;;;;;;;;;;;x
+gov_theocratic_republic;Council of Pious;;;;;;;;;;;;;x
+theocratic_republic_government;Religious Republic;;;;;;;;;;;;;x
+theocratic_republic_government_desc;Religious Republics are governed by rulers elected through a special procedure among men known for their virtues and piety, deemed fit to serve the needs of the state. These republics reject the domination of feudal or oligarchic elites in favor of a republican system, where authority is entrusted to those who wish to serve others as rulers for the glory of God and are respected by fellow pious men. A man’s success does not depend on his ancestors, but on his virtues and piety.;;;;;;;;;;;;;x
+theocratic_republic_elective;Religious Elective;;;;;;;;;;;;;x
+succ_theocratic_republic_elective;Religious Elective;;;;;;;;;;;;;x
+succ_theocratic_republic_elective_desc;Electors from among itself a representative to shepard the flock. Those of high learning and who live frugal and pious lives are favored as candidates;;;;;;;;;;;;;x
+convert_to_feudalism_indep_cenobitic;Adopt Religious Republic;;;;;;;;;;;;;x
+convert_to_feudalism_indep_cenobitic_desc;Adopting Religious Republic will convert all my Tribal Holdings into Cities. Where this occurs, if the County is big enough. Castle and Temple Holdings will also be created if they do not already exist. Your vassals are likely to follow suit if they are of your religion and culture.;;;;;;;;;;;;;x
+convert_to_feudalism_vassal_cenobitic;Adopt Religious Republic;;;;;;;;;;;;;x
+convert_to_feudalism_vassal_cenobitic_desc;Adopting Religious Republic will convert all my Tribal Holdings into Cities. Where this occurs, if the County is big enough. Castle and Temple Holdings will also be created if they do not already exist. Your vassals are likely to follow suit if they are of your religion and culture.;;;;;;;;;;;;;x
+canon;Canon;;;;;;;;;x
+canoness;Canoness;;;;;;;;;x
+canon_desc;This man has made a vow of sanctity and celibacy.;;;;;;;;;x
+canoness_desc;This woman has made a vow of sanctity and celibacy.;;;;;;;;;x
+deacon;Deacon;;;;;;;;;x
+deaconess;Deaconess;;;;;;;;;x
+deacon_desc;This man has been distinguished with devout sanctity and purity.;;;;;;;;;x	
+deaconess_desc;This woman has been distinguished with devout sanctity and purity.;;;;;;;;;x
+title_illuminist;Illuminist;;;;;;;;;;;;;x
+title_illuminist_desc;The illuminist is charged with the copying and recopying of manuscripts.;;;;;;;;;;;;;x
+title_trustee;Trustee;;;;;;;;;;;;;x
+title_trustee_desc;The trustee is an officer charged with care of the sacristy, the church, and their contents.;;;;;;;;;;;;;x
+title_bee_keeper;Beekeeper;;;;;;;;;;;;;x
+title_bee_keeper_desc;The beekeeper is charged with taking care of the bees.;;;;;;;;;;;;;x
+title_cellarer;Cellarer;;;;;;;;;;;;;x
+title_cellarer_desc;The cellarer is responsible for the provisioning of food and drink.;;;;;;;;;;;;;x
+nick_the_unifier;the Unifier;;;;;;;;;;;;;x
+nick_the_quarreler;the Quarreler;;;;;;;;;;;;;x
+silbern;Blood of Matt the Holy;;;;;;;;;;;;;x
+silbern_desc;Counselor Matt the Holy was the first Edenite King of Colorado, his conversion to the faith is regarded as a watershed moment for Colorado.;;;;;;;;;;;;;x
+EVTDESC_ceno002;To become a mountain father or mother one must fully devote themselves to the service of God and the divine things. One must seek freedom from the temptation of the flesh and reject all sin. One must fast and pray and strive towards righteousness in the eyes of God. While the path is arduous, the gifts of the knowledge of the omnipotent God and the eternal salvation is the most comforting of rewards.;;;;;;;;;;;;;x
+EVTOPT_ceno002;Take care to be silent.;;;;;;;;;;;;;x
+EVTDESC_ceno003;"The body prospers in the measure in which the soul is weakened, and the soul prospers in the measure in which the body is weakened. Since the Sundering monastic communities have formed in the Great Rocky Mountains. Many devout christians have chosen to serve the Church as either deacons or canons but only the most pious choose the life of a Mountain Father. Poverty and asceticism in service of the Lord. As you don on the religious habit you follow in the footsteps of the hundreds of brothers and sisters of the cloth who have preceded you.;;;;;;;;;;;;;x
+EVTOPT_ceno003;Trusted with God.;;;;;;;;;;;;;x
+syncretize_edenite;Syncretize with the Well Guided;;;;;;;;;;;;;x
+syncretize_edenite_desc;You may choose to syncretize with the Well Guided faiths in order to come to a deeper understanding of God's unknowability.;;;;;;;;;;;;;x
+EVTDESC_edenite_1;The other peoples of these lands have mystical practices and beliefs that could be used to both deepen and make me more aware of the vastness of God...;;;;;;;;;;;;;x
+EVTOPTA_edenite_1;The words of unity in Elton and the words of manyness in Joseph.;;;;;;;;;;;;;x
+EVTOPTB_edenite_1;The words of Nature and Law, sang by the Silent Sisters and the Gunslingers.;;;;;;;;;;;;;x
+cenobitic_order_to_take_vows;Order to become Ordained;;;;;;;;x
+cenobitic_order_to_take_vows_desc;You can order unlanded courtiers to become ordained and join a monastic order of their choice. Either becoming a canon if unmarried or a deacon if married.;;;;;;;;x
+become_ordained_unmarried;Become Ordained as a Canon;;;;;;;;;;;;;x
+become_ordained_married;Become Ordained as a Deacon;;;;;;;;;;;;;x
+become_ordained_unmarried_desc; Ordained as a Canon or Canoness;;;;;;;;;;;;;x
+become_christian_ascetic;Become a Ascetic;;;;;;;;;;;;;x
+become_christian_ascetic_desc;Take the final step of devotion.;;;;;;;;;;;;;x
+become_ordained_married_desc;Become Ordained as a Deacon or Deaconess;;;;;;;;;;;;;x
+mountain_father;Mountain Father;;;;;;;;;x
+mountain_father_desc;This man is regarded as a living saint, for both his steadfast faith and wise teachings.;;;;;;;;;x	
+MOUNTAIN_FATHER_TITLE;Mountain Father;;;;;;;;;x
+mountain_mother;Mountain Mother;;;;;;;;;x
+MOUNTAIN_MOTHER_DESC;This woman is regarded as a living saint, for both her steadfast faith and wise teachings.;;;;;;;;;x
+MOUNTAIN_MOTHER_TITLE;Mountain Mother;;;;;;;;;x
+non_war_holy_order_government;Monastic Order;;;;;;;;;x
+non_war_holy_order_government_desc;Monastics orders which very often dates back to the period before the Event are still active today. The system in which the areas under the control of there orders are managed is based on local laws and on the constitutions of these orders.;;;;;;;;;x
+bm_young_pretender;New Adventurers;;;;;;;;;x
+bm_young_pretender_desc;Stories and legends about pre-event times which was told so many by old people always inspiring a lot of young or old noblemans or lowborns what want to repeat the success of their ancestors. Now you can help them and their dreams make a fact...;;;;;;;;;x
+impeacher;Silny Razem;;;;;;;;;x
+ura_president_bloodline;Blood of DeWitt Clinton;;;;;;;;;x
+ura_president_bloodline_desc;This character is a descendant of DeWitt Clinton, the illegitimate son of a king who conquered Connecticut. After defeating the King of New England, he formed the United Republics of America and became the first president of this state.;;;;;;;;;x
+e_united_republics;United Republics of America;;;;;;;;;x
+made_ura_empire;Improve Union Legitimacy;;;;;;;;;x
+made_ura_empire_desc;For many years, the United Republics of America only claimed the title of successor to the pre-Event American Empire. Now, with all thirteen former colonies under our control, we can call ourselves the true successor of Old America without facing protests from other nations or rulers.;;;;;;;;;x
+cristo_rey_DESC;The Prelature of Cristo Rey, Christ the king, was organized to hold the splintering Church in Mexico together in the face of heathenry. In time, the Prelature filled the void of a strong church leadership and assumed de-facto control of the ordinal functions of the Catholic Church of Mexico, declaring the other Catholic successor churches heretical farces accusing them for matriarchalism (ursulines), usurpetion of papal office (conclavists) or consecration without papal mandate (jesuits). In the absence of what they see as a legitimate pope, the Cristeros have elevated their Prelado, or Prelate, to a position of steward of the church who assumes many of the sacred duties of the Pope.;;;;;;;;;;;;;x
+belizean_catholic;Belizean Catholic;;;;;;;;;x
+belizean_catholic_DESC;The Catholic Church in Belize did not share the fate of Catholicism in other Latin American countries—on the contrary, thanks to the fact that Belize did not fall during the Event, the church structures survived the most difficult years and managed to preserve what many other countries lost – validly ordained priests and bishops, and something that is unique among Catholics who do not recognize the usurpers from St. Louis – an ordinary church structure, a diocese . This was possible because around 2010, Adam Jones crossed the Atlantic and managed to obtain from the pope a consecration and a bull that allowed him and subsequent administrators of the Diocese of Belize to appoint canons, which allowed the Diocese of Belize to continue to function on the basis of diocesan administrators. Of course, the enemies of the bishop of Belize deny this story, calling it a rumor fabricated years after the alleged appointment, but for Catholics in Belize, this is of little importance.;;;;;;;;;x
+ADMIN_DIE;Administrator of the Diocese;;;;;;;;;x
+d_belicath;Diocese of Belize City–Belmopan;;;;;;;;;x
+d_knights_of_st_sebastian;Knights of Saint Sebastian;;;;;;;;;x
+st_ignatius_loyola;Saint Ignatius Loyola;;;;;;;;;x
+st_thomas_more;Saint Thomas More;;;;;;;;;x
+st_george;Saint George;;;;;;;;;x
+st_francis_xavier;Saint Francis Xavier;;;;;;;;;x
+st_ignatius_loyola_desc;This character revered Saint Ignatius of Loyola, founder of the Jesuit Order. Adherents of this cult tend to be more educated in apologetics and theological issues.;;;;;;;;;x
+st_thomas_more_desc;This character revered Saint Thomas More, who was executed by King Henry VIII for refusing to recognize his bigamist marriage. Adherents of this cult tend to be more educated in politics and the philosophy of law.;;;;;;;;;x
+st_george_desc;This character revered Saint George, who slew a dragon and was martyred for his Christian faith. Adherents of this cult tend to be more educated in dueling techniques and martial matters.;;;;;;;;;x
+st_francis_xavier_desc;This character revered Saint Francis Xavier, who was a Jesuit missionary and oversaw Jesuit missions. Adherents of this cult tend to be more educated in stewardship and the organization of missions.;;;;;;;;;x
+choose_jesuite_saint;Choose Jesuite Saint;;;;;;;;;x
+choose_jesuite_saint_desc;You have the opportunity to choose which saint revered by the followers of the Jesuit Order you will especially honor...;;;;;;;;;x
+change_jesuite_saint;Change Jesuite Saint;;;;;;;;;x
+change_jesuite_saint_desc;You can change the saint you revere...;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.20;You can choose the saint you revere...;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.20;It shall be Saint Thomas More...;;;;;;;;;x
+EVTOPTB_antico_jesuite_pil.20;It shall be Saint Francis Xavier...;;;;;;;;;x
+EVTOPTC_antico_jesuite_pil.20;It shall be Saint Ignatius of Loyola...;;;;;;;;;x
+EVTOPTD_antico_jesuite_pil.20;It shall be Saint George...;;;;;;;;;x
+title_belizean_canon;Canon;;;;;;;;;x
+choose_catholic_saint: Choose Catholic Saint;;;;;;;;;x
+choose_catholic_saint_desc: You can choose the saint you will especially revere...;;;;;;;;;x
+change_catholic_saint: Change Catholic Saint;;;;;;;;;x
+change_catholic_saint_desc: You can change the saint you revere...;;;;;;;;;x
+EVTDESC_antico_jesuite_pil.21: You may now choose the saint you will especially honor in your devotion.;;;;;;;;;x
+EVTOPTA_antico_jesuite_pil.21: It shall be the Blessed Virgin Mary, Mother of God;;;;;;;;;x
+EVTOPTB_antico_jesuite_pil.21: It shall be Saint Joseph;;;;;;;;;x
+EVTOPTC_antico_jesuite_pil.21: It shall be Saint John the Baptist;;;;;;;;;x
+EVTOPTE_antico_jesuite_pil.21: It shall be Saint Thomas More;;;;;;;;;x 
+EVTOPTF_antico_jesuite_pil.21: It shall be Saint Elizabeth Ann Seton;;;;;;;;;x
+EVTOPTG_antico_jesuite_pil.21: It shall be Saint Thomas Aquinas;;;;;;;;;x
+EVTOPTH_antico_jesuite_pil.21: It shall be Saint George;;;;;;;;;x
+isolationist_king;Isolationist King;;;;;;;;;x
+isolationist_king_desc;This king continues the long tradition of the Belizean monarchy by not involving Belize in conflicts with its neighbours.;;;;;;;;;x
+isolationist_queen;Isolationist Queen;;;;;;;;;x
+isolationist_queen_desc;This queen continues the long tradition of the Belizean monarchy by not involving Belize in conflicts with its neighbours.;;;;;;;;;x
+EVTDESC_belize.1;For a lot of years, Kingdom of Belize, despite of his technological advantage in relation to their neightbours, decided to not participate in any wars. You will continue this tradition.;;;;;;;;;x
+EVTOPT_belize.1;Okay;;;;;;;;;x
+EVTNAME_URA.3;Triumph of New Union;;;;;;;;;x
+EVTDESC_URA.3_desc;When in 2645 DeWitt Clinton proclaimed the United Republics of America, he probably never believed that this state would one day reclaim what the pre-Event American Empire once held. Yet you have accomplished what few thought possible – you have restored America in a new form. The New Union now holds the domains of Old America. Much remains to be done, but the most important step has already been taken – the former Thirteen Colonies are under your command. Those who once claimed to be successors of Old America are no longer taken seriously, for they stand as nothing more than pathetic imitations of the old American regime.;;;;;;;;;x
+EVTOPT_URA.3;Now, Union is restored...;;;;;;;;;x
+consumerist_government;Capitalist;;;;;;;;;x
+consumerist_government_desc;The capitalist system, despite its similarity to feudalism, is not based on blood but on money, held by individuals whose abilities, talents, and needs drive the market and consumption. In this capitalist order, developed from knowledge of how capitalism functioned before the Event, state privileges hold no importance. Only the unity and its interests matter, while solidarity, honor, or other ideals mean little when it comes to meeting needs.;;;;;;;;;x
+gov_corpo;Capitalist Dominion;;;;;;;;;x
+guatemala_constitution_government;Guatemalan Constitutionalism;;;;;;;;;x
+guatemala_constitution_government_desc;Guatemalan Constitutionalism;;;;;;;;;x
+d_north_puerto_rico;Western Puerto Rico;;;;;;;;;x
+d_north_puerto_rico_adj;Puerto Rican;Puerto Rican;Puerto Rican;;Puerto Rican;;;;;;;;;x
+d_puerto_rico;Eastern Puerto Rico;;;;;;;;;x
+EVTNAME_bogdansky.1;Letter of the Emperor;;;;;;;;;x
+EVTDESC_bogdansky.1;While you were eating lunch with your family, your guard handed you a letter sealed with the imperial stamp. You took the letter and opened it, expecting something like an invitation to a tournament or a feast in Charleston. Contrary to your expectations, it was something else entirely. The contents of the letter shocked you greatly. The Emperor asks you to begin an investigation into the case of the Nicolson Family’s disappearance in 2639. He promises a reward in gold if you find them, dead or alive. Your wife is irritated that the Emperor has given you such an order, as she insists the Nicolsons vanished without a trace years ago and no one expects they will ever be found. Yet you know, despite her words, that it remains theoretically possible.;;;;;;;;;x
+EVTOPTA_bogdansky.1;Probably, I can't refuse His Imperial Majesty...;;;;;;;;;x
+EVTNAME_bogdansky.2;The Disappearance of the Nicolsons;;;;;;;;;x
+EVTDESC_bogdansky.2;The Nicolsons were, and still are, a respected congressional family, though their former glory and wealth vanished along with Oliver Nicolson and his household. Oliver himself had never been a congressman, but as the son of one, he managed his father’s estates when the elder Nicolson became incapacitated by age and chronic illness. In the early years of this 'regency', business went well, but in 2635 an unlucky expedition forced Oliver to take out loans. Gradually, the family fell into a spiral of debt to banks and less official lenders, worsened by a series of poor investments. Then, just days before Christmas, Oliver, his wife, and their two children vanished without a trace, as if they had never existed. No one knew where they went—not even Oliver’s father, who died a few months after his son’s family disappeared.;;;;;;;;;x
+EVTOPTA_bogdansky.2;A Strange Case;;;;;;;;;x
+EVTNAME_bogdansky.3;Charleston;;;;;;;;;x
+EVTDESC_bogdansky.3;You arrive in Charleston, the capital of the Holy Columbian Confederacy. The Emperor’s Chancellery issues you a document naming you “Extraordinary Prosecutor,” granting you broad powers for the investigation. After assuming this office, you take command of several people assigned to assist you and can now begin your work. You order that the family’s friends from those years be summoned as witnesses to your quarters for questioning. You also request access to the files from the original investigation into the Nicolsons’ disappearance. Now you have time, and you must decide how to spend it while awaiting the witnesses.;;;;;;;;;x
+EVTOPTA_bogdansky.3;I will go to the Emperor for an audience;;;;;;;;;x
+EVTOPTB_bogdansky.3;I will pray at the local chapel;;;;;;;;;x
+EVTNAME_bogdansky.4;Audience with the Emperor;;;;;;;;;x
+EVTDESC_bogdansky.4;You entered a chamber where the Emperor was waiting for you. He stood before a map, moving figures of soldiers and horsemen across it. When he noticed you, he asked why you had requested an audience. You replied that you wished to know why the Emperor had reactivated the investigation into the Nicolsons’ disappearance, despite so much water having flowed down the Mississippi since then. He answered that he had done so at the petition of certain congressmen, though he could not reveal their names. After the audience, you knew no more than before.;;;;;;;;;x
+EVTOPTA_bogdansky.4;Alright;;;;;;;;;x
+EVTNAME_bogdansky.5;Prayer;;;;;;;;;x
+EVTDESC_bogdansky.5;You entered a small, modest chapel near your quarters. People say that before the Event, it was one of the Catholic chapels built for Black congregations. You do not know if this is true, but some signs suggest it is—the style of this chapel differs from that of churches that can clearly be identified as pre-Event Protestant. Inside, you kneel in silence and pray. You remember your mother and how she taught you the Lord’s Prayer—beautiful times, when life was simpler. After an hour of prayer, you finish, make the sign of the cross, and leave, hoping for a successful investigation.;;;;;;;;;x
+EVTOPTA_bogdansky.5;I hope God will hear me;;;;;;;;;x
+EVTNAME_bogdansky.6;Testimonies;;;;;;;;;x
+EVTDESC_bogdansky.6;As prosecutor, you summoned several people to testify in the case of the Nicolson family’s disappearance: his cousin Frederick Nicolson and Frederick’s wife April Josias, two bankers who had lent money to Oliver Nicolson, and a few servants who had worked for the missing family. The bankers stated that Oliver Nicolson had taken several loans against a single trading post belonging to his family, so that three of the Nicolson family’s posts ended up encumbered with twenty mortgages. When you asked why the banks had not checked before allowing such encumbrance, they replied that Nicolson had borrowed from them for many years and they trusted him. Frederick Nicolson and his wife testified that two days before the disappearance, Oliver had told Frederick his family was going to visit a friend in Alabama—but that friend later confirmed the Nicolsons never arrived at his home. The servants, however, knew nothing of importance.;;;;;;;;;x
+EVTOPTA_bogdansky.6;I learned nothing that wasn’t already in the case files;;;;;;;;;x
+EVTNAME_bogdansky.7;Studying the Files;;;;;;;;;x
+EVTDESC_bogdansky.7;Unable to sleep, you decided to review the case files once more. Until this night, you had read only those papers you considered most important. After an hour, you had gone through many documents that ultimately proved to be false leads in the original investigation. But just as you were about to retire, something caught your eye—the Nicolson family’s expense records from 2638 and 2639. Reading carefully, you found something intriguing: in November of 2638, Oliver Nicolson had paid a large sum of gold to the pirate Ekene of Cozumel. The list gave no explanation why. Ekene is likely dead, but perhaps someone on that forgotten Mexican island knows something about the Nicolsons.;;;;;;;;;x
+EVTOPTA_bogdansky.7;I must sail to that island;;;;;;;;;x
+EVTNAME_bogdansky.8;Voyage;;;;;;;;;x
+EVTDESC_bogdansky.8;After a week of preparations, you set sail from Charleston aboard a ship belonging to the imperial fleet. Within minutes, the city of Charleston was no longer in sight.;;;;;;;;;x
+EVTOPTA_bogdansky.8;May I return;;;;;;;;;x
+EVTNAME_bogdansky.9;Miami;;;;;;;;;x
+EVTDESC_bogdansky.9;After a few days you reached Miami, a great city ruled by pagan merchants—descendants of those who fled after losing a civil war against the Christian kings of Cuba centuries ago. Once you disembarked from the ship, you decided to visit a local tavern to drink wine and listen to the rumors among the Cuban sailors. As you entered the tavern, you were greeted by the sight of sailors drinking wine and eating chicken. You took the last free table and ordered some cheap wine. When the waiter went to the kitchen, you sat back and waited for your drink.;;;;;;;;;x
+EVTOPTA_bogdansky.9;I hope I won’t wait long;;;;;;;;;x
+EVTNAME_bogdansky.10;Tavern;;;;;;;;;x
+EVTDESC_bogdansky.10;You spent several hours in the tavern—eating chicken and drinking wine. During your modest meal, some sailors sat at your table and began speaking with you. You told them you were searching for the Nicolson family, who had vanished without a trace years ago. They seemed intrigued. One old sailor claimed he had probably seen them many years back, and that the father of the family had spoken with a captain about sailing with his family to Nassau. This caught your attention, but the sailor could not provide many details.;;;;;;;;;x
+EVTOPTA_bogdansky.10;Interesting;;;;;;;;;x
+EVTDESC_bogdansky.11;After a few days you were ready to leave Miami. Now you had to decide where to sail—to Cozumel, where the pirate once received gold from Oliver Nicolson, or to Nassau, where the family may have gone.;;;;;;;;;x
+EVTOPTA_bogdansky.11;I will sail to Nassau;;;;;;;;;x
+EVTOPTB_bogdansky.11;I will sail to Cozumel;;;;;;;;;x
+EVTNAME_bogdansky.12;Nassau;;;;;;;;;x
+EVTDESC_bogdansky.12;Your ship reached Nassau—once the very heart of piracy in the Caribbean, but now one of the dominions of Empress Portia, ruler of the Caribbean Empire. Shortly after disembarking, you began questioning old sailors, hoping one of them might know something about the family. Before long, one sailor told you that he remembered an incident twenty-five years earlier, when a southern family had arrived in Nassau and bought a house on the outskirts. Yet they did not live there long—soon after moving in, no one was ever seen at the house again. The sailor showed you where the house stood, explaining that it had never been checked, for the neighborhood was rife with gangs and crime, and no one cared about absent neighbors.;;;;;;;;;x
+EVTOPTA_bogdansky.12;I will check this house;;;;;;;;;x
+EVTNAME_bogdansky.13;Abandoned House;;;;;;;;;x
+EVTDESC_bogdansky.13;At night you took three of your sailors and went to the abandoned house the sailor had shown you. Upon entering, you were struck by a terrible stench. The house looked as though it had been deserted for many years—spiders had woven thick webs, and mice, rats, and cockroaches scurried about. Expired food and folk medicines still lay on the shelves. In the wardrobes hung shirts, skirts, and children’s clothes. Under the bed, one of the sailors found some silver coins. When you opened the door to the basement, a horrifying sight awaited you: several skeletons, a knife, and a rope where one of them had once hanged—or been hanged. You made the sign of the cross and gazed upon the remains. After a few minutes you ordered the bones collected, then left the room.;;;;;;;;;x
+EVTOPTA_bogdansky.13;A dreadful sight;;;;;;;;;x
+EVTNAME_bogdansky.14;Investigative Findings;;;;;;;;;x
+EVTDESC_bogdansky.14;After several days in Nassau, you and the doctor accompanying you on this journey reached what seemed the most probable version of events. Oliver Nicolson, fleeing from his debts with his family, had run out of money in Nassau. There, in desperation, he murdered his family and committed suicide. Nothing can be said with absolute certainty, but this appears to be the most likely conclusion. You resolved to transport the bones back to Charleston and hand them to Frederick Nicolson, so that he may bury them in the family grave.;;;;;;;;;x
+EVTOPTA_bogdansky.14;Time to return;;;;;;;;;x
+EVTNAME_bogdansky.15;Charleston;;;;;;;;;x
+EVTDESC_bogdansky.15;You reached to Charleston - after you got off, you went to Emperor and give him a raport about investigation - you congratulate to you for your success - case of Nicolson family is solved. You gain a big reward for Emperor. When Frederick gained bones of his cousins, he wasn't very sad, he had typically pockerface. He thanked you as casually as possible for finding their bodies and returned to his daily routine. Now you can go home.;;;;;;;;;x
+EVTOPTA_bogdansky.15;Nice;;;;;;;;;x
+EVTDESC_bogdansky.16;You reached to Cozumel - small pirate island. This island looks like you imagined - small villages, a lot of palmas. When you got off, you ordered to give holder of this island a little gift and please for hospitality. ;;;;;;;;;x
+EVTOPTA_bogdansky.16;Nice;;;;;;;;;x
+EVTNAME_bogdansky.17;Feast;;;;;;;;;x
+EVTDESC_bogdansky.17;Pirate who rule in this island accepted your gift and gave you hospitality. You invited you to feast with his commanders and family. When you enter to this feast, you see a lot of corsairs who looks on you. You started eating and drinking and you play for a few yours - when it is midnight and you need to go to your beds, you asked capitan about Nicolson family, he laught and told you history. Nicolson and his family escaped from Charleston to Miami and sailed from Miami to Nassau. In Nassau Oliver killed a few people who was little similar to them, one of them he hanged to stage an extended suicide in case of someone will sail to Nassau to find him. After killing these people, he sailed to Cozumel and was a pirate for a three years and after he gathered a fortune, he sailed with family to Brasil.;;;;;;;;;x
+EVTOPTA_bogdansky.17;Now case is solved;;;;;;;;;x
+EVTDESC_bogdansky.18;After a few days you sail off from Cozumel to your homeland. Now you know what happened with Nicolsons and you can told it to emperor.;;;;;;;;;x
+EVTOPTA_bogdansky.18;Nice;;;;;;;;;x
+EVTNAME_bogdansky.19;Charleston;;;;;;;;;x
+EVTDESC_bogdansky.19;You reached to Charleston - after you got off, you went to Emperor and give him a raport about investigation - you congratulate to you for your success - case of Nicolson family is solved. You gain a big reward for Emperor. When Frederick got known that his cousin lives and be in Brasil with his family, it little shocked him but generally it would happy because if they lived, he needn't to pay off the rest of loans which Oliver got.;;;;;;;;;x
+EVTOPTA_bogdansky.19;Nice;;;;;;;;;x
+d_canadian_royal_guard;Royal Guard;;;;;;;;;x
+d_belizean_royal_guard;Royal Army;;;;;;;;;x
+EVTNAME_canada_new.2;Fall of Canadian Kingdom;;;;;;;;;x
+EVTDESC_canada_new.2;Something which was predicted for some time was happened - Kingdom of Canada, relict of old times ruled by Lord Protectors and Parliament, was fallen. Enemies as cruel vultures eat what it remains from this old kingdom and it seems that nothing can reborn this it. All years of work of some Lord Protectors go out and old acts of Parliament stopped apply. According to this unpleasant event, soldiers which were member of Royal Guard of Canada decided to end existing of this noble institution because of lack of their beloved kingdom and search a work in merncenary companies.;;;;;;;;;x
+EVTDESC_canada_new.3;Something which wasn't predicted was happened - Kingdom of Canada, relict of old times ruled by Lord Protectors and Parliament, was fallen. Man who wasn't Christian, but a heathen took a seat of Lord Protector, but vassals aren't intereted he took it legal or not, heathen is a hearthen and he can't be accountable to protect Christian Faith in Canada which order swear which all Lord Protectors took to first Parliament session so they massivly declared independence. All years of work of some Lord Protectors go out and old acts of Parliament stopped apply. According to this unpleasant event, soldiers which were member of Royal Guard of Canada decided to end existing of this noble institution because they didn't want to serve pagan "lord protector".;;;;;;;;;x
+EVTOPT_canada_new.2;Interesting Times;;;;;;;;;x
+polovarien;Polovarien;;;;;;;;;x
+americanoslavic;Americano-Slavic;;;;;;;;;x
+congress_forced_emperor;Forced Emperor;;;;;;;;;x
+congress_forced_emperor_desc;This character was originally rejected by the Holy Columbian Congress as Emperor, but managed to force the approval of their election after a war with the Congress.;;;;;;;;;x
+PREFERATI_BEZIZEAN_CATHOLIC;First Canon;;;;;;;;;;;;;x
+PREFERATI_BEZIZEAN_CATHOLIC_TOOLTIP;The First Canon is the next in line to become the Administrator of the Diocese.;;;;;;;;;;;;;x
+COLLEGE_OF_CARDINALS_BEZIZEAN_CATHOLIC;College of Canons;;;;;;;;;;;;;x
+title_belizean_catholic_cardinal;Canon;;;;;;;;;;;;;x
+brasil_religious_civil_war_jesuite;Jesuite Uprising;;;;;;;;;;;;;x
+brasil_religious_civil_war_jesuite_desc;A religious uprising has erupted in the [Root.GetName], and trade with the South suffers as a result. The entire country has been thrown into sectarian chaos, and the ruling dynasty is in danger. Intrepid generals may well seek their fortune in the North, beyond Brazil's borders.;;;;;;;;;;;;;x
+brasil_religious_civil_war_jesuite_effect_desc;§Y*§! The value of the Coffee Current is reduced by §R50%§!\n§Y*§! Imperial Tributaries can §RNOT§! raise Brazilian Regiments\n§Y*§! Imperial Tributaries can Break Free without opposition from Brazil;\n§Y*§! Might end with Brazil getting a §RNew Dynasty§!, resetting all §YBenevolence§!;;;;;;;;;;;;;x
+EVTDESC_NC_NEW_JESUITE_CW;[FromFrom.GetChinaPreviousStatusEnd]. Civil War now rocks Brazil as a rebellious governor who was secretly a Jesuit Order supporter, has managed to gather support from the local military officers and Jesuite priests in São Paulo. Coffee Current profits are halved and Tributary states can use this opportunity to break free — Brazil will not be able to assist them should they be attacked anyway.;;;;;;;;;;;;;
+title_president_of_supreme_court;President of the Supreme Court;;;;;;;;;;;;;x
+title_president_of_supreme_court_desc;The Supreme Court was the highest judicial authority before the Event. After the rise of the Holy Columbian Confederacy, it was restored, but over the centuries its role became increasingly symbolic. Today, the Supreme Court has not functioned for years, and the titles of Judge or President of the Court are purely honorary, serving only to reward loyal vassals of the Emperor.;;;;;;;;;;;;;x
+title_judge_of_supreme_court;Judge of the Supreme Court;;;;;;;;;;;;;x
+title_judge_of_supreme_court_desc;The Supreme Court was the highest judicial authority before the Event. After the rise of the Holy Columbian Confederacy, it was restored, but over the centuries its role became increasingly symbolic. Today, the Supreme Court has not functioned for years, and the titles of Judge or President of the Court are purely honorary, serving only to reward loyal vassals of the Emperor.;;;;;;;;;;;;;x
+title_attroney_general;Attorney General;;;;;;;;;;;;;x
+title_attroney_general_desc;The Attorney General is the head of all prosecutors in the Holy Columbian Confederacy, responsible for prosecuting the most serious crimes against the Empire and serving as the Emperor’s chief legal advisor.;;;;;;;;;;;;;x
+title_head_of_the_trade_department;Chief of the Trade Department;;;;;;;;;;;;;x
+title_head_of_the_trade_department_desc;The Chief of the Trade Department heads the institution responsible for collecting customs duties from foreign merchants, as well as various fees from domestic traders.;;;;;;;;;;;;;x
+title_head_of_the_health_department;Chief of the Health Department;;;;;;;;;;;;;x
+title_head_of_the_health_department_desc;The Chief of the Health Department oversees the institution responsible for supervising the education of physicians at universities, conducting proceedings to revoke medical doctorates, master’s, and bachelor’s degrees, and maintaining doctors in hospitals designated by the Emperor.;;;;;;;;;;;;;x
+title_head_of_the_labour_department;Chief of the Labour Department;;;;;;;;;;;;;x
+title_head_of_the_labour_department_desc;The Chief of the Labour Department oversees the institution tasked with protecting the rights of craft guilds in disputes with feudal lords, ensuring the guilds’ loyalty to the Emperor, and countering the activities of non-guild craftsmen in the markets.;;;;;;;;;;;;;x
+title_head_of_the_culture_department;Chief of the Culture Department;;;;;;;;;;;;;x
+title_head_of_the_culture_department_desc;The Chief of the Culture Department oversees the institution responsible for fostering cultural development, sponsoring impoverished poets and playwrights, and maintaining the theaters designated by the Emperor.;;;;;;;;;;;;;x
+title_parliament_recorder;Parliamentary Recorder;;;;;;;;;;;;;x
+title_parliament_recorder_desc;The Parliamentary Recorder is responsible for documenting parliamentary sessions, keeping official records of debates and speeches, and preparing concise summaries of proposed legislation for consideration by Parliament.;;;;;;;;;;;;;x
+SUPREME_LEADER;Supreme Leader;;;;;;;;;;;;;x
+d_brasilian_trade_company;Imperial Trade Company of Brasil;;;;;;;;;;;;;x
+d_belizean_trade_company;Royal Trade Company of Belize;;;;;;;;;;;;;x
+BGOVEROR;Director;;;;;;;;;;;;;x
+BGOVEROR_FEM;Directoress;;;;;;;;;;;;;x
+BRGOVEROR;Presidente;;;;;;;;;;;;;x
+BRGOVEROR_FM;Presidente;;;;;;;;;;;;;x
+trade_company_government;Trade Company;;;;;;;;;;;;;x
+trade_company_government_desc;Trade companies, unlike merchant republics, are usually not independent. They are corporations established by a monarch to bring together wealthy merchants and middle-ranking nobles who wish to operate in foreign markets and trade routes under the monarch’s patronage.;;;;;;;;;;;;;x
+restorer_of_haitian_empire_male;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
+restorer_of_haitian_empire_female;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
+restorer_of_haitian_empire_male_desc;The Third Haitian Empire had fallen before [Root.GetHerHim], [Root.GetFirstName] restored it and made Haiti great again.;;;;;;;;;;;;;x
+restorer_of_haitian_empire_female_desc;The Third Haitian Empire had fallen before [Root.GetHerHim], [Root.GetFirstName] restored it and made Haiti great again.;;;;;;;;;;;;;x
+restore_haitian_empire;Restore Haitian Empire;;;;;;;;;;;;;x
+restore_haitian_empire_desc;Long ago, Haiti was an empire twice: the first two empires were short-lived and ephemeral, but the Third Haitian Empire enjoyed a long history of glory and success. Unfortunately, that Empire fell long ago, but now may be the time to restore it.;;;;;;;;;;;;;x
+EVTNAMEhaiti.1;Fourth Haitian Empire;;;;;;;;;;;;;x
+EVTDESChaiti.1;After centuries when Hispaniola was divided between two kingdoms, it is now united. The time of division has passed, and the Fourth Haitian Empire has been formed with [Root.GetFirstName] as its new Emperor. The days of war are over, and peace will now prevail. A new administrative reform is being implemented across Hispaniola, as it was during the centuries of the Third Haitian Empire.;;;;;;;;;;;;;x
+EVTOPTAhaiti.1;Now, Haiti is great again...;;;;;;;;;;;;;x
+k_puppet_california;California;;;;;;;;;;;;;x
+EVTDESCedokko.1;The borders of the Empire now reach near Sacramento, the heart of the Celestial Empire. Many opportunities lie before you. You can subjugate their emperor and make him a servant of Japan. It depends on you.;;;;;;;;;;;;;x
+EVTOPTAedokko.1;We shall see;;;;;;;;;;;;;x
+edokko_tooltip_1;To subjugate the Celestial Emperor of California as your vassal, you must conquer the duchies around Sacramento: Motherlode, North Valley, and Wineland. After that, you can send an ultimatum to the Celestial Emperor.;;;;;;;;;;;;;x
+california_edokko_ultimatum;Vassalize the Sacramento Emperor.;;;;;;;;;;;;;x
+california_edokko_ultimatum_desc;The feeble Celestial Empire of California was not subdued for long. Now, in the name of your Emperor, we can demand obedience and complete loyalty from the Emperor of Sacramento.;;;;;;;;;;;;;x
+EVTTITLEedokko.2;Ultimatum.;;;;;;;;;;;;;x
+EVTDESCedokko.2;Today, a messenger came to us. The Japanese invaders demand that you, the Emperor of California, become their subject. They have surrounded the capital of the Empire during their wars against your vassals. Now you must decide: become a vassal of Japan or fight them to the end of your empire.;;;;;;;;;;;;;x
+EVTOPTAedokko.2;It is too late to fight...;;;;;;;;;;;;;x
+NEMPEROR;Celestial Emperor;;;;;;;;;;;;;x
+NEMPEROR_FEM;Celestial Empress;;;;;;;;;;;;;x
+EVTDESCedokko.3;After years of humiliation, the Celestial Empire returns as an independent and sovereign state. The Japanese conquerors have lost jurisdiction over our empire, and now we can finally say that we are free.;;;;;;;;;;;;;x
+EVTOPTAedokko.3;Long live the Emperor!;;;;;;;;;;;;;x
+EVTTITLEedokko.4;Emperor of Sacramento;;;;;;;;;;;;;x
+EVTDESCedokko.4;To the surprise of many citizens of California and their neighbors to the west, south, and north, the Celestial Emperor of California decided not to fight, but to surrender to a Japanese ultimatum. The Emperor officially issued a decree granting the head of the Japanese Edokko imperial jurisdiction and authority over all lands and administration legally belonging to his empire, and also authorized the stationing of Japanese forces in Sacramento to protect the Emperor's commercial interests. This effectively meant that the Emperor was now an emperor in name only — a puppet of Japan.;;;;;;;;;;;;;x years of humiliation, the Empire of California is free again. The Emperor of California officially revoked the Japanese decree that had long granted them control over his entire empire. Japanese forces withdrew from Sacramento, ending a long era of infamy for this ancient and beautiful city. This was bad news for Japan, as their subordinate Emperor had been a symbol of their dominance over California.;;;;;;;;;;;;;x
+EVTOPTAedokko.5;Interesting.;;;;;;;;;;;;;x
+EVTOPTBedokko.5;Their victory, EVTOPTAedokko.4;We live in interesting times.;;;;;;;;;;;;;x
+EVTOPTBedokko.4;Next victory.;;;;;;;;;;;;;x
+EVTTITLEedokko.5;Emperor of California;;;;;;;;;;;;;x
+EVTDESCedokko.5;Afterour defeat.;;;;;;;;;;;;;x
+cathocharismatic;Renevalist;;;;;;;;;;;;;x
+cathocharismatic_DESC;The Catholic Charismatic Renewal (also called the "Catholic Renewal in the Holy Spirit") was a religious movement in the pre-event Catholic Church, approved by Catholic bishops and popes. This movement was (and still is) focused on a personal relationship with Jesus Christ and expressing the gifts of the Holy Spirit in unity with the Pope and the Catholic Church. Since the Council in Chicago, a schism within the Charismatic Renewal Movement took place: some supported the Papal Legate, who was proclaimed a pope, while others refused to recognize him. Over the years and centuries, charismaticism was combated by bishops loyal to St. Louis as "heterodox" and "crypto-Protestant," and as a result, it disappeared in the 24th century. However, non-conclavist charismaticism survived, and supporters of the Renewal in the Holy Spirit still believe that there is a Pope across the sea who is the true successor of St. Peter.;;;;;;;;;x
+temple_baron_cathocharismatic;Abbot;;;;;;;;;x
+temple_barony_of_cathocharismatic;Abbey of;;;;;;;;;x
+temple_count_cathocharismatic;Abbot;;;;;;;;x
+temple_county_of_belizean_catholic;Abbey of;;;;;;;;;x
+temple_baron_belizean_catholic;Parish Priest;;;;;;;;;x
+temple_barony_of_belizean_catholic;Parish of;;;;;;;;;x
+temple_count_belizean_catholic;Canon;;;;;;;;x
+temple_county_of_belizean_catholic;Canony of;;;;;;;;;x
+us_army_government;Militarist;;;;;;;;;;;;;x
+us_army_government_desc;Militarist Government is based on traditions of the ancient U.S. Army, which was a military force of the pre-event American Empire. Due to the collapse of constitutional institutions, power came to military forces. This form of government is based on military hierarchy, "extraordinary" powers of generals, and universal compulsory military service—all in the name of restoration of the old order.;;;;;;;;;x
+us_army_government_baron;Brigadier General;;;;;;;;;;;;;x
+us_army_government_baron_female;Brigadier General;;;;;;;;;;;;;x
+us_army_government_barony;Garrison;;;;;;;;;;;;;x
+us_army_government_barony_of;Garrison of;;;;;;;;;;;;;x
+us_army_government_count;Major General;;;;;;;;;;;;;x
+us_army_government_count_female;Major General;;;;;;;;;;;;;x
+us_army_government_county;Military District;;;;;;;;;;;;;x
+us_army_government_county_of;Military District of;;;;;;;;;;;;;x
+us_army_government_duke;Lieutenant General;;;;;;;;;;;;;x
+us_army_government_duke_female;Lieutenant General;;;;;;;;;;;;;x
+us_army_government_duchy;Military District;;;;;;;;;;;;;x
+us_army_government_duchy_of;Military District of;;;;;;;;;;;;;x
+us_army_government_king;General;;;;;;;;;;;;;x
+us_army_government_king_female;General;;;;;;;;;;;;;x
+us_army_government_kingdom;Army;;;;;;;;;;;;;x
+us_army_government_kingdom_of;Army of;;;;;;;;;;;;;x
+us_army_government_emperor;General of the Army;;;;;;;;;;;;;x
+us_army_government_emperor_female;General of the Army;;;;;;;;;;;;;x
+us_army_government_empire;United Forces;;;;;;;;;;;;;x
+us_army_government_empire_of;United Forces of;;;;;;;;;;;;;x
+k_us_army;Militarist Order;;;;;;;;;;;;;x
+e_us_army;American Empire;;;;;;;;;;;;;x
+baron_us_army_government;Brigadier General;;;;;;;;;;;;;x
+baron_female_us_army_government;Brigadier General;;;;;;;;;;;;;x
+barony_us_army_government;Garrison;;;;;;;;;;;;;x
+barony_of_us_army_government;Garrison of;;;;;;;;;;;;;x
+count_us_army_government;Major General;;;;;;;;;;;;;x
+count_female_us_army_government;Major General;;;;;;;;;;;;;x
+county_us_army_government;Military District;;;;;;;;;;;;;x
+county_of_us_army_government;Military District of;;;;;;;;;;;;;x
+duke_us_army_government;Lieutenant General;;;;;;;;;;;;;x
+duke_female_us_army_government;Lieutenant General;;;;;;;;;;;;;x
+duchy_us_army_government;Military District;;;;;;;;;;;;;x
+duchy_of_us_army_government;Military District of;;;;;;;;;;;;;x
+king_us_army_government;General;;;;;;;;;;;;;x
+king_female_us_army_government;General;;;;;;;;;;;;;x
+kingdom_us_army_government;Army;;;;;;;;;;;;;x
+kingdom_of_us_army_government;Army of;;;;;;;;;;;;;x
+emperor_us_army_government;General of the Army;;;;;;;;;;;;;x
+emperor_female_us_army_government;General of the Army;;;;;;;;;;;;;x
+empire_us_army_government;United Forces;;;;;;;;;;;;;x
+empire_of_us_army_government;United Forces of;;;;;;;;;;;;;x
+gov_martial_law;Martial Law;;;;;;;;;;;;;x
+succ_us_army_elective;Martial Elective;;;;;;;;;;;;;x
+succ_us_army_elective_desc;Generals are elected by officers, officers by soldiers.;;;;;;;;;;;;;x
+CB_NAME_US_ARMY_RECONQUEST;Reconquest War;;;;;;;;;;;;;x
+WAR_NAME_US_ARMY_RECONQUEST;War of Reconquest;;;;;;;;;;;;;x
+k_west_mexico;Imperio del Bajío y San Luis Potosí;;;;;;;;;;;;;x
+us_army_imperial_reconquest_desc;As leader of United States Army you can give a command to your armies to reconquest some land of United States of America from rebelious leaders.;;;;;;;;;;;;;x
+us_army_imperial_reconquest_one_desc;As leader of United States Army you can give a command to your armies to reconquest some land of United States of America from rebelious leaders.;;;;;;;;;;;;;x
+us_army_imperial_reconq
+uest_two_desc;As leader of United States Army you can give a command to your armies to reconquest some land of United States of America from rebelious leaders.;;;;;;;;;;;;;x
+us_army_rebuild;Reform U.S. Army;;;;;;;;;;;;;x
+us_army_rebuild_desc;U.S. Army was a pearl of Old America. After the Event this pearl was crushed, but today you can make this pearl beautiful again. American Army can be power in his region again and restaurate ancient regime of United States of America.;;;;;;;;;;;;;x
+pirate_government;Pirate;;;;;;;;;;;;;x
+pirate_government_desc;A Pirate Domain is a haven for all manner of thieves, murderers and smugglers. The Domain is ruled by a number of mighty captains each competing for leadership. The loyalty of their men is swayed greatly by the loot they are able to seize and distribute.;;;;;;;;;;;;;x
+episcopal;Episcopal;;;;;;;;;;;;;x
+episcopal_DESC;After the Event, a dispute arose between supporters of the Anglican tradition over women's priesthood and its primacy. Anglicans favored women's priesthood and the dominance of the Archbishop of New Canterbury, while supporters of Anglicanism in Boston believed that the women's priesthood, introduced in the decades before the Event, should be abolished, and Boston should have precedence. As a result of these disputes, after many years, the Protestants in Massachusetts severed any remaining ties with their brethren in Canada and declared themselves a continuation of the pre-Event Protestant Episcopal Church of America.;;;;;;;;;;;;;x
+c_episcopal;Boston;;;;;;;;;;;;;x
+lutheran;Lutheran;;;;;;;;;;;;;x
+lutheran_DESC;Lutherans believe in the ideas Martin Luther espoused centuries before the Event: Sola Fide and Sola Scriptura—salvation through faith alone and Holy Scripture as the only infallible source of Divine Revelation. Lutherans do not conform to the Evangelical Convention, which dominates the Protestant scene in the South, but are self-determining and dissidents with the rest of the Protestants in the Holy Columbian Confederacy.;;;;;;;;;;;;;x
+restore_episcopal_leader;Restore Archbishop in Boston;;;;;;;;;;;;;x
+nonjuring;Nonjuring;;;;;;;;;;;;;x
+nonjuring_DESC;The roots of the Nonjuring movement date back to before the Event, when Mary and Anne Stuart overthrew their father and rightful king, James II. This led to a schism between those who supported the usurpation and those who supported the rightful king. After the Event, the movement was reborn, with pastors who courageously refused to obey Parliament's dictates on matters of faith. These people revived the Nonjuring movement, which advocates for unified doctrine, celibacy for pastors, and the restoration of monasteries based on the Catholic model.;;;;;;;;;;;;;x
+d_nonjuring;Knights of St.George;;;;;;;;;;;;;x
+secret_religious_society_episcopal;Secret Episcopalists;;;;;;;;;;;;x
+secret_religious_society_episcopal_desc;Ever since its humble roots, Christians have marked themselves by their refusal to abandon their faith in the face of persecution. So it is that a rich tradition of martyrs and underground parishes can give hope to groups of believers in even the darkest of times, no matter what they are outwardly forced to profess. To each other they can profess their true faith in God, and their God is love.;Dès leurs humbles origines, les chrétiens ont refusé d'abandonner leur foi face à la persécution. Ainsi, une riche tradition de martyrs et de paroisses secrètes peut donner de l'espoir à des groupes de croyants, même dans les périodes les plus difficiles, peu importe la religion qu'ils sont obligés de professer publiquement. Entre eux, ils peuvent professer leur vraie foi en Dieu, et leur Dieu est amour.;Seit ihren bescheidenen Anfängen haben sich Christen durch ihre beharrliche Weigerung hervorgetan, angesichts der Verfolgung von ihrem Glauben abzulassen. Daher kann eine lange Tradition von Märtyrern und Untergrundgemeinden Gruppen von Gläubigen selbst in den finstersten Zeiten Hoffnung geben, ganz gleich, was sie durch Zwang nach außen hin bekennen müssen. Untereinander können sie ihren wahren Glauben an Gott bekennen, und ihr Gott heißt Liebe.;;Desde sus humildes orígenes, los cristianos se han caracterizado por su negativa a abandonar su fe ante la opresión. Tanto es así, que una nutrida tradición de mártires y parroquias clandestinas consigue dar esperanza a grupos de creyentes incluso en los tiempos más oscuros, sin importar qué otra fe les obligan a profesar en público. Entre ellos pueden mostrar su verdadera fe en Dios, y su Dios es amor.;;;;;;;;;x
+secret_religious_society_episcopal_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_episcopal_rank_4_male;Herald;;;;;;;;;;;;x
+secret_religious_society_lutheran;Followers of Luther;;;;;;;;;;;;x
+secret_religious_society_lutheran_desc;Ever since its humble roots, Christians have marked themselves by their refusal to abandon their faith in the face of persecution. So it is that a rich tradition of martyrs and underground parishes can give hope to groups of believers in even the darkest of times, no matter what they are outwardly forced to profess. To each other they can profess their true faith in God, and their God is love.;Dès leurs humbles origines, les chrétiens ont refusé d'abandonner leur foi face à la persécution. Ainsi, une riche tradition de martyrs et de paroisses secrètes peut donner de l'espoir à des groupes de croyants, même dans les périodes les plus difficiles, peu importe la religion qu'ils sont obligés de professer publiquement. Entre eux, ils peuvent professer leur vraie foi en Dieu, et leur Dieu est amour.;Seit ihren bescheidenen Anfängen haben sich Christen durch ihre beharrliche Weigerung hervorgetan, angesichts der Verfolgung von ihrem Glauben abzulassen. Daher kann eine lange Tradition von Märtyrern und Untergrundgemeinden Gruppen von Gläubigen selbst in den finstersten Zeiten Hoffnung geben, ganz gleich, was sie durch Zwang nach außen hin bekennen müssen. Untereinander können sie ihren wahren Glauben an Gott bekennen, und ihr Gott heißt Liebe.;;Desde sus humildes orígenes, los cristianos se han caracterizado por su negativa a abandonar su fe ante la opresión. Tanto es así, que una nutrida tradición de mártires y parroquias clandestinas consigue dar esperanza a grupos de creyentes incluso en los tiempos más oscuros, sin importar qué otra fe les obligan a profesar en público. Entre ellos pueden mostrar su verdadera fe en Dios, y su Dios es amor.;;;;;;;;;x
+secret_religious_society_lutheran_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_lutheran_rank_4_male;Herald;;;;;;;;;;;;x
+secret_religious_society_nonjuring;Non-Jurors;;;;;;;;;;;;x
+secret_religious_society_nonjuring_desc;Ever since its humble roots, Christians have marked themselves by their refusal to abandon their faith in the face of persecution. So it is that a rich tradition of martyrs and underground parishes can give hope to groups of believers in even the darkest of times, no matter what they are outwardly forced to profess. To each other they can profess their true faith in God, and their God is love.;Dès leurs humbles origines, les chrétiens ont refusé d'abandonner leur foi face à la persécution. Ainsi, une riche tradition de martyrs et de paroisses secrètes peut donner de l'espoir à des groupes de croyants, même dans les périodes les plus difficiles, peu importe la religion qu'ils sont obligés de professer publiquement. Entre eux, ils peuvent professer leur vraie foi en Dieu, et leur Dieu est amour.;Seit ihren bescheidenen Anfängen haben sich Christen durch ihre beharrliche Weigerung hervorgetan, angesichts der Verfolgung von ihrem Glauben abzulassen. Daher kann eine lange Tradition von Märtyrern und Untergrundgemeinden Gruppen von Gläubigen selbst in den finstersten Zeiten Hoffnung geben, ganz gleich, was sie durch Zwang nach außen hin bekennen müssen. Untereinander können sie ihren wahren Glauben an Gott bekennen, und ihr Gott heißt Liebe.;;Desde sus humildes orígenes, los cristianos se han caracterizado por su negativa a abandonar su fe ante la opresión. Tanto es así, que una nutrida tradición de mártires y parroquias clandestinas consigue dar esperanza a grupos de creyentes incluso en los tiempos más oscuros, sin importar qué otra fe les obligan a profesar en público. Entre ellos pueden mostrar su verdadera fe en Dios, y su Dios es amor.;;;;;;;;;x
+secret_religious_society_nonjuring_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_4_male;Herald;;;;;;;;;;;;x
+EVTNAME_canada_new.5;New Archbishop of New Canterbury;;;;;;;;;;;;x
+EVTDESC_canada_new.5;For many years, a detriment to mainstream Anglicanism, the nonjuring movement, opposing the official Anglican hierarchy and once considered niche and devoid of future in theological discourse within American and Canadian Protestantism, has recently begun to be recognized as the true representative of Anglicanism. As a result, the former Archbishop of New Canterbury resigned, and a new man took his place – a proponent of absolute celibacy, the restoration of monasteries, and a theological approximation to Catholicism.;;;;;;;;;;;;x
+EVTOPT_canada_new.5;Interesting;;;;;;;;;;;;x
+EVTNAME_canada_new.6;New Archbishop of New Canterbury;;;;;;;;;;;;x
+EVTDESC_canada_new.6;A change has taken place in the Anglican community. Due to the loss of popularity of nonjuring advocates, there has been a change in the office of Archbishop of New Canterbury. The former spiritual leader of Anglicanism resigned, and a proponent of a less Catholic and more pluralistic approach to theological matters took over. After many years in the spotlight of theological discourse among Canadian Protestants, the nonjuring movement must step down, and their leadership role has been restored to the leaders of the Knights of St. George.;;;;;;;;;;;;x
+EVTOPT_canada_new.6;Interesting;;;;;;;;;;;;x
+haiti_imperial;Holy Imperial;;;;;;;;;;;;x
+haiti_imperial_DESC;At the time when the Third Haitian Empire was at the height of its power, certain customs spread among the common people—half pagan, half Christian—that exalted the Emperor's role in defending the Christian religion. Over time, as a crisis of power arose, this movement spread, gaining support from some bishops and imperial elites who longed for strong imperial authority. Today, this movement is not recognized as Christian in Mexico, the Holy Columbian Confederacy, or anywhere else—it is noted that among most followers of this faction, the Emperor and saints are a kind of quasi-deity with extraordinary powers, not humble servants of God.;;;;;;;;;;;;x
+k_haiti_imperial;Church of Haiti;;;;;;;;;;;;x
+secret_religious_society_nonjuring;Followers of Emperor;;;;;;;;;;;;x
+secret_religious_society_nonjuring_desc;Cosik sie tu wymysli;;;;;;;;;;;;x
+secret_religious_society_nonjuring_currency;Devotion;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_1_male;Faithful;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_1_female;Faithful;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_2_female;Adherent;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_2_male;Adherent;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_3_female;Preacher;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_3_male;Preacher;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_4_female;Herald;;;;;;;;;;;;x
+secret_religious_society_nonjuring_rank_4_male;Herald;;;;;;;;;;;;x
+temple_baron_haiti_imperial;Bishop-Minor;;;;;;;;;x
+temple_barony_of_haiti_imperial;Minor Bishopic of;;;;;;;;;x
+temple_count_haiti_imperial;Bishop-Maior;;;;;;;;x
+temple_county_of_haiti_imperial;Maior Bishopic of;;;;;;;;;x
+temple_duke_haiti_imperial;Archbishop;;;;;;;;;x
+temple_duchy_of_haiti_imperial;Archbishopic of;;;;;;;;;x
+temple_king_haiti_imperial;Patriarch;;;;;;;;;x
+temple_kingdom_of_haiti_imperial;Patriarchate of;;;;;;;;;x
+spanish;Spanish;;;;;;;;;x
+espana;Iglesia de Espana;;;;;;;;;x
+espana_DESC;Spain, a Catholic country before the Event, broke away from Catholicism centuries after the Event, creating a new church based on the idea of ??uniting Christianity under the rule of the Spanish kings. This church, while retaining much of Catholic theology and canon law, rejects the papacy in favor of the ideas of caesaropapism, predestinationism, and fideism.;;;;;;;;;x
+temple_baron_espana;Obispo;;;;;;;;;x
+temple_barony_of_espana;Obispado of;;;;;;;;;x
+temple_count_espana;Obispo;;;;;;;;x
+temple_county_of_espana;Obispado of;;;;;;;;;x
+temple_duke_espana;Arzobispo;;;;;;;;;x
+temple_duchy_of_espana;Arzobispado of;;;;;;;;;x
+temple_king_espana;Patriarca;;;;;;;;;x
+temple_kingdom_of_espana;Patriarcado of;;;;;;;;;x
+d_espana;Archbishopic of Santo Domingo;;;;;;;;;x
+LORD_ADMIRAL_SPA;Gobernador Supremo;;;;;;;;;x
+e_new_world_spain;Hispanoamérica;;;;;;;;;x
+spa.2.title;Sons of Cortez;;;;;;;;;x
+spa.2.text;A gigantic fleet flying a flag unseen in the Caribbean for nearly a thousand years, an invincible armada defeated only by England, appeared on the horizon. Although the citizens were enthusiastic, the city's governor did not expect this fleet to be friendly—and he was right. From hundreds of ships emerged numerous soldiers in armor and with songs on their lips, ready to conquer Haiti, and even the entire Caribbean and Mexico, for their King—lord of all Spain and the entire Caribbean.;;;;;;;;;x
+spa.2.optA;What? Spaniards?;;;;;;;;;x
+spa.2.optB;Larga vida al rey de Espana!;;;;;;;;;x
+spa.3.title;Spanish Triumph;;;;;;;;;x
+spa.3.text;What? Spaniards?;;;;;;;;;x
+spa.3.optA;What? Spaniards?;;;;;;;;;x
+spa.3.optB;What? Spaniards?;;;;;;;;;x
+warrior_lodge_haiti_imperial;Knights of St.Faustin;;;;;;;;;x
+warrior_lodge_haiti_imperial_desc;Knights of St.Faustin;;;;;;;;;x
+d_sagrado_corazon;The Archidiocese of Mexico;;;;;;;;;x
+title_sacred_heart_cardinal;Obispo;;;;;;;;;;;;;x
+best_candidate_title_sacred_heart_cardinal;My Best Obispo Candidate;;;;;;;;;;;;;x
+expected_next_title_sacred_heart_cardinal;Expected Next Obispo;;;;;;;;;;;;;x
+SACRED_HEART_PREFERATI;Chairman of the Synod;;;;;;;;;;;;;x
+PREFERATI_sacred_heart_TOOLTIP;The Chairman of the Synod is the Obispo appointed to preside over the sessions of the Most Holy Synod of Mexico, and therefore considered the probable next Archbishop of Mexico.;;;;;;;;;;;;;x
+SACRED_HEART_HEAD;Archibishop and Primate of Mexico;;;;;;;;;;;;;x
+COLLEGE_OF_SACRED_HEART_CARDINALS;Most Holy Synod of Mexico;;;;;;;;;;;;;x
+EVTNAME_glinfo.1;Changes in the Basilica;;;;;;;;;;;;;x
+EVTDESC_glinfo.1;Although it seemed that the leader of the Mexican Sacred Heart cult would reign supreme in the Basilica of Our Lady of Guadalupe in Mexico City, that is now a thing of the past – [This.GetFirstNameWithNick], who doesn't share their faith, has occupied the church and installed a representative of his religion. This marks the end of the Most Holy Synod of Mexico as a centralized body – for now, the Mexicans who follow this syncretic cult remain leaderless.;;;;;;;;;;;;;x
+EVTOPTA_glinfo.1;It's a pity;;;;;;;;;;;;;x
+EVTOPTB_glinfo.1;Nice to hear it;;;;;;;;;;;;;x
+ITA_PSEUDPROPHET_KALI;Kali the Wise;;;;;;;;;;;;;x
+ITA_PSEUDOSAINT_ALCAPONE;St.Al of Capone;;;;;;;;;;;;;x
+ITA_PSEUDOSAINT_CORLEONE;St.Vito Corleone;;;;;;;;;;;;;x
+ITA_PSEUDOSAINT_COSTELLO;St.Francis Costello;;;;;;;;;;;;;x
+ITA_HOOVER;Hoover the Nosy;;;;;;;;;;;;;x
+ITA_BENITO;Benito the Merciless;;;;;;;;;;;;;x
+mafia;Mafianist;;;;;;;;;;;;;x
+mafia_DESC;This cult's origins date back to pre-Event times, when a group called the Mafia operated. Little is known about it today, except that several of its representatives ruled New York and other cities more or less officially before the Event. Many years after the Event, their memory transformed into a political stance, and the political stance into a religious one. Followers of Mafianism draw on Catholicism in their theology and rituals—they believe in the Real Presence, the communion of saints, and heaven and hell (though they understand these concepts differently), but they also believe in the maxims of the prophet Kali the Wise—"Kali stealing someone's cow - good, someone stealing Kali's cow - bad" and other wisdom uttered by this pre-Event thinker while wandering the Old World.;;;;;;;;;;;;;x
+d_mafia;Cosa Nostra;;;;;;;;;;;;;x
+MAFIA_LEADER;Capo di Tutti Capi;;;;;;;;;;;;;x
+MAFIA_LEADER_FAME;Capo di Tutti Capi;;;;;;;;;;;;;x
+MAFIA_LEADER_FOA;Dear Boss;;;;;;;;;;;;;x
+EVTNAME_glinfo.2;After the End: Expansion;;;;;;;;;;;;;x
+EVTDESC_glinfo.2;Bro, all these new characters, governments and other features are waiting for you;;;;;;;;;;;;;x
+CB_NAME_MEX_CRISIS_END;End the usurpation;;;;;;;;;;;;;x
+WAR_NAME_MEX_CRISIS_END;War of the Mexican Succession;;;;;;;;;;;;;x
+wonder_santo_domingo_cathedral;Cathedral Basilica of Santa María la Menor;;;;;;;;;;;;;x
+wonder_santo_domingo_cathedral_desc;The Cathedral Basilica of Santa María la Menor is, according to legend, the first church built by Catholic missionaries in the New World. Despite cataclysms, this cathedral, cared for by the Emperors of Haiti, survived difficult times in relatively good condition. The site became a pilgrimage site for local Christians and cultists who claim to be so.;;;;;;;;;;;;;x
+EMPEROR_HAITI;Empereur;;;;;;;;;;;;;x
+EMPEROR_HAITI_FEMALE;Imperatrice;;;;;;;;;;;;;x
+EMPIRE_HAITI_OF;Empire of;;;;;;;;;;;;;x
+EMPIRE_HAITI_OF;Your Grace;;;;;;;;;;;;;x
+LEADER_HAITI;Dictateur;;;;;;;;;;;;;x
+LEADER_HAITI_FEM;Madame Dictatrice;;;;;;;;;;;;;x
+k_haiti_pretender;Secret Emperors' Uprising;;;;;;;;;;;;;x
+EVTNAMEhaiti.2;Hidden Emperor;;;;;;;;;;;;;x
+EVTDESChaiti.2;Nothing foreshadowed a major uprising in Haiti until, out of nowhere, a young, bright, and beautiful man appeared, proclaiming himself a descendant of the young Prince Philippe d'Jacmel, whom his father, Emperor Alexandre (the last Emperor of Haiti, née d'Jacmel), had proclaimed Emperor of Brazil and attempted to establish on the throne in Rio de Janeiro. Although the young Prince was deported to Brazil after his father's death, Jerome, now a young and mysterious man, proclaimed himself his rightful descendant. His speeches, though initially considered mere boasts, became famous among the Haitian people, who remembered stories of their island's former glory. Many took up arms, proclaimed Jerome Emperor of Haiti, and marched against those who ruled the island of Haiti.;;;;;;;;;;;;;x
+EVTOPTAhaiti.2;We have lived through interesting times;;;;;;;;;;;;;x
+EVTOPTBhaiti.2;Long live the Emperor! Long live Haiti!;;;;;;;;;;;;;x
+HAITI_UPRISING;Haitian Uprising;;;;;;;;;;;;;x
+militarist;Militarist;;;;;;;;;;;;;x
+militarist_DESC;Militarists, unlike East Coast Americanists, believe that the military was the heart of pre-Event America and that it was they who were the most magnificent and greater than any president. Their value system is based not on the Constitution but on the idea of hierarchy, subordination, and the pursuit of victory.;;;;;;;;;;;;;x
+GOD_PATTON;Patton;;;;;;;;;;;;;x
+GOD_KENNEDY;Kennedy;;;;;;;;;;;;;x
+GOD_EISENHOWER;Eisenhower;;;;;;;;;;;;;x
+GOD_PERSHING;Pershing;;;;;;;;;;;;;x
+GOD_PROVIDENCE;Providence;;;;;;;;;;;;;x
+bm_new_mexico;Rain of Emperors;;;;;;;;;;;;;x
+bm_new_mexico_desc;After many moments of glory, the Mexican Empire fell into stagnation and decline. With these stagnations and declines came schisms – many individuals proclaimed themselves emperors, mutually recognizing each other as usurpers and traitors. The shadow of La Repubblica's former glory has faded, but claims to the imperial throne of Mexico remain. On one side is the "official" Emperor of Mexico – Veneceslao III Paleo y Lagos, but there are also other pretenders – Marco III Jaurégui, whose ancestor declared himself emperor after his deceased brother, whom he defeated in battle, Veneceslao I Nájera, and whose lineage until recently was an insignificant line of warlords from a few islands west of the mainland, only to become significant when a warlord conquered a piece of land and needed someone to maintain a veneer of legitimacy, which Paleo y Logos was unwilling to grant him without significant concessions.;;;;;;;;;;;;;x
+k_veracruz_mexico;Imperio de Veracruz;;;;;;;;;;;;;x
+k_mexican_company;Company of Saint Juan Diego;;;;;;;;;;;;;x
+d_mexican_company;Company of Saint Juan Diego;;;;;;;;;;;;;x
+c_belize_city;Belize City;;;;;;;;;;;;;x
+PROV2271;Belize City;;;;;;;;;;;;;x
+b_royal_district_BL;Royal District;;;;;;;;;;;;;x
+b_buttonwood_bay_BL;Buttonwood Bay;;;;;;;;;;;;;x
+b_holy_redeemer_cath_BL;Holy Redeemer;;;;;;;;;;;;;x
+b_freetown_BL;Freetown;;;;;;;;;;;;;x
+b_vista_del_mar_BL;Vista Del Mar;;;;;;;;;;;;;x
+b_belama_BL;Belama;;;;;;;;;;;;;x
+b_coral_grove_BL;Coral Grove;;;;;;;;;;;;;x
+CATHEDRAL_BL;Cathedral;;;;;;;;;;;;;x
+b_la_democracia_BL;La Democracia;;;;;;;;;;;;;x
+b_hattieville_BL;Hattieville;;;;;;;;;;;;;x
+b_gales_point_BL;Gales Point;;;;;;;;;;;;;x
+b_middlesex_BL;Middlesex;;;;;;;;;;;;;x
+d_belizean_marche;Outer Belize;;;;;;;;;;;;;x
+wonder_belizean_parliament;Belizean Parliament;;;;;;;;;;;;;x
+wonder_belizean_parliament_desc;The Belize Parliament Building is one of the oldest surviving buildings in Belize - built in 1970, it was one of the few to survive the Event intact and for centuries it was the seat of the Belizean parliament.;;;;;;;;;;;;;x
+wonder_mausoleum_che_guevara;Che Guevara Mausoleum;;;;;;;;;;;;;x
+wonder_mausoleum_che_guevara_desc;Che Guevara Mausoleum;;;;;;;;;;;;;x
+restore_rival_cristo_rey_empire;Restore Bajio-San Luis Potosi Empire;;;;;;;;;;;;;x
+restore_rival_cristo_rey_empire_desc;The Imperio del Bajío y San Luis Potosí was an entity created after the overthrow of Maximiliano II Jauregui by the idolatrous Wenceslao El Tizón. Supporters of Cristo Rey fled to Bajío and San Luis Potosí and there proclaimed the slain emperor's brother, Alejandro, emperor. Although these emperors claimed and attempted to occupy Mexico City several times, they ultimately surrendered and contented themselves with merely claiming the title of Emperor of Mexico. Over time, the Jauregui family and its legacy were inherited by the Cervantes family. Unfortunately, after the reigns of two emperors from this family, the empire was divided among three sons, who, disagreeing on who would bear the imperial dignity, tore apart the empire's legacy. Maybe now it is time to reborn of this imperial line?;;;;;;;;;;;;;x
+EVTNAMEMXR.41;Return of Emperor;;;;;;;;;;;;;x
+EVTDESCMXRA.41;The Imperio del Bajío y San Luis Potosí was an entity created after the overthrow of Maximiliano II Jauregui by the idolatrous Wenceslao El Tizón. Supporters of Cristo Rey fled to Bajío and San Luis Potosí and there proclaimed the slain emperor's brother, Alejandro, emperor. Although these emperors claimed and attempted to occupy Mexico City several times, they ultimately surrendered and contented themselves with merely claiming the title of Emperor of Mexico. Over time, the Jauregui family and its legacy were inherited by the Cervantes family. Unfortunately, after the reigns of two emperors from this family, the empire was divided among three sons, who, disagreeing on who would bear the imperial dignity, tore apart the empire's legacy. However, now all of Bajio and San Luis Potosi are under our rule - it is time to once again hail you as Ruler of All Mexico and Defender of the Catholic Faith represented by our brave prelate Cristo Rey and his soldiers.;;;;;;;;;;;;;x
+EVTDESCMXRB.41;The Imperio del Bajío y San Luis Potosí was an entity created after the overthrow of Maximiliano II Jauregui by the idolatrous Wenceslao El Tizón. Supporters of Cristo Rey fled to Bajío and San Luis Potosí and there proclaimed the slain emperor's brother, Alejandro, emperor. Although these emperors claimed and attempted to occupy Mexico City several times, they ultimately surrendered and contented themselves with merely claiming the title of Emperor of Mexico. Over time, the Jauregui family and its legacy were inherited by the Cervantes family. Unfortunately, after the reigns of two emperors from this family, the empire was divided among three sons, who, disagreeing on who would bear the imperial dignity, tore apart the empire's legacy. However, now all of Bajio and San Luis Potosi are under our rule - it is time to once again hail you as Emperor of All Mexico and defender of the poor Mexicans who desire a poor, reformed church.;;;;;;;;;;;;;x
+EVTDESCMXRC.41;The Imperio del Bajío y San Luis Potosí was an entity created after the overthrow of Maximiliano II Jauregui by the idolatrous Wenceslao El Tizón. Supporters of Cristo Rey fled to Bajío and San Luis Potosí and there proclaimed the slain emperor's brother, Alejandro, emperor. Although these emperors claimed and attempted to occupy Mexico City several times, they ultimately surrendered and contented themselves with merely claiming the title of Emperor of Mexico. Over time, the Jauregui family and its legacy were inherited by the Cervantes family. Unfortunately, after the reigns of two emperors from this family, the empire was divided among three sons, who, disagreeing on who would bear the imperial dignity, tore apart the empire's legacy. However, now all of Bajio and San Luis Potosi are under our rule - it is time to once again hail you as Emperor of All Mexico and Defender of the Faith - may the bishops and sons of Saint Ignatius rule at your side.;;;;;;;;;;;;;x
+EVTDESCMXRD.41;The Imperio del Bajío y San Luis Potosí was an entity created after the overthrow of Maximiliano II Jauregui by the idolatrous Wenceslao El Tizón. Supporters of Cristo Rey fled to Bajío and San Luis Potosí and there proclaimed the slain emperor's brother, Alejandro, emperor. Although these emperors claimed and attempted to occupy Mexico City several times, they ultimately surrendered and contented themselves with merely claiming the title of Emperor of Mexico. Over time, the Jauregui family and its legacy were inherited by the Cervantes family. Unfortunately, after the reigns of two emperors from this family, the empire was divided among three sons, who, disagreeing on who would bear the imperial dignity, tore apart the empire's legacy. However, now all of Bajio and San Luis Potosi are under our rule - it is time to once again hail you as Emperor of All Mexico and Defender of the Faith - may the Catholic bishops rule at your side.;;;;;;;;;;;;;x
+EVTOPTAMXR.41;Viva México!;;;;;;;;;;;;;x
+EVTOPTB_gaspar_vi.1;On the other hand, maybe I'll ask my brother for estate in the north...;;;;;;;;;;;;x
+EVTDESC_gaspar_vi.6;Today, the Brazilian Prince Gaspar of the House of Braganca arrived in Caracas. As protocol dictates, the young Prince presented you with a gift from the Emperor and outlined his intentions: organizing an invasion of Cuba. Since you value the Emperor and don't want to displease him, you wish the young pretender luck and present him with an artifact your soldiers found some time ago in an abandoned hut – the crown of Gaspar IV, one of the Kings of Cuba, with which every subsequent King of Cuba has crowned himself. The Prince thanks you and announces that, without abusing your hospitality, he will depart immediately after gathering his army.;;;;;;;;;;;;x
+EVTNAME_gaspar_vi.6;Brazilian Prince;;;;;;;;;;;;;x
+EVTOPTA_gaspar_vi.6;This prince is some kind of weirdo, who is normal and fights with Portia?;;;;;;;;;;;;;x
+d_cuban_trade_company;Cuban Trade Company;;;;;;;;;;;;;x
+MINISTER_CUBA;Ministro de Comercio;;;;;;;;;;;;;x
+MINISTER_CUBA_FM;Ministra de Comercio;;;;;;;;;;;;;x
+isabelinism;Isabellinist;;;;;;;;;;;;;x
+isabelinism_DESC; Isabellinism is a heresy that arose among veterans of the wars led by Queen Isabella I Rataroz. Disappointed by her defeat, the veterans, following a rebellion against her supported by the Jesuit clergy, rebelled against their bishops and established their own structures. Although organizationally based on Protestant congregationalism, their doctrines embraced Catholic teachings on the seven sacraments (though specifically defined as "priesthood"), the cult of saints, and Mariology. Isabellinists hold Isabella Rataroz in particular veneration, hailing her as a warrior saint—the "Joan of Arc of the Caribbean.";;;;;;;;;;;;;x
+ST_ISABELLA;Santa Isabella;;;;;;;;;;;;;x
+liberatianism;Liberatianist;;;;;;;;;;;;;x
+liberatianism_DESC;According to legend, this movement was born even before the Event. Liberatonists believe that monarchies are evil and should be replaced by religious republics ruled by virtuous men, aided by bishops who will uphold the purity of the doctrine professed by the republic's leaders. They believe that monarchs are tyrants by definition, and the very existence of a monarchical realm is an attack on human freedom, because of fact that in their opinion title of king is reserved to Jesus Christ.;;;;;;;;;;;;;x
+end_belizean_isolationism;End Belizean Isolation;;;;;;;;;;;;;x
+end_belizean_isolationism_desc;The Kingdom of Belize—an insignificant state before the Event, and the most technologically advanced state in the Americas after the Event—remained isolated for a long time, distancing itself from external conflicts and refraining from territorial expansion despite the possibility. Today, however, you can change this if your authority among your vassals is strong enough.;;;;;;;;;;;;;x
+temple_baron_isabelinism;Reverendo;;;;;;;;;x
+temple_barony_of_isabelinism;Congregation of;;;;;;;;;x
+temple_count_isabelinism;Reverendo;;;;;;;;x
+temple_county_of_isabelinism;Congregation of;;;;;;;;;x
+temple_duke_isabelinism;Reverendo;;;;;;;;;x
+temple_duchy_of_isabelinism;Archcongregation of;;;;;;;;;x
+temple_king_isabelinism;Reverendo;;;;;;;;;x
+temple_kingdom_of_isabelinisml;Confederated Congregations of;;;;;;;;;x
+orthodox;Orthodox;;;;;;;;;x
+orthodox_DESC;Orthodox;;;;;;;;;x
+d_orthodox;Orthodox Patriarchate of America;;;;;;;;;x
+USARMY_LEADER;President-Marshall;;;;;;;;;x
+USARMY_LEADER_FEM;President-Marshall;;;;;;;;;x
