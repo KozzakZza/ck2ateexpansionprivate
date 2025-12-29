@@ -1,0 +1,14 @@
+crown_of_cuba = {
+	quality = 5
+	monthly_character_prestige = 0.7
+	castle_opinion = 3
+	cubano_opinion = 5
+	jesuite_opinion = 3
+	town_opinion = 3
+	flags = { unique crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_crown_gold"
+	
+	slot = crown
+	indestructible = yes
+}

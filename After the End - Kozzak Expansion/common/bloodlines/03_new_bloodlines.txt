@@ -1,0 +1,104 @@
+cuba_king_gasparrido = {
+	picture = GFX_bloodlines_symbol_war
+	inheritance = patrilineal
+	cubano_opinion = 5
+	martial = 1
+	light_infantry_morale = 0.10
+	monthly_character_prestige = 0.2
+	allow_bastards = yes
+	flags = { historical_bloodline }
+}
+
+kennedy_bloodline = {
+	picture = GFX_bloodlines_symbol_amerifreedom
+	inheritance = patrilineal
+	general_opinion = 5
+	diplomacy = 1
+	light_infantry_morale = 0.05
+	monthly_character_prestige = 0.1
+	allow_bastards = yes
+	flags = { historical_bloodline }
+}
+
+stuart_bastards_bloodline = {
+	picture = GFX_bloodlines_symbol_war
+	inheritance = patrilineal
+	general_opinion = 5
+	stewardship = 1
+	light_infantry_morale = 0.05
+	monthly_character_prestige = 0.1
+	allow_bastards = yes
+	flags = { historical_bloodline }
+}
+
+haitan_emperor_blood_la_vega_bloodline = {
+	picture = GFX_bloodlines_symbol_haitan_empire
+	inheritance = patrilineal
+	haitian_opinion = 5
+	martial = 1
+	light_infantry_morale = 0.05
+	monthly_character_prestige = 0.3
+	allow_bastards = yes
+	flags = { historical_bloodline haitian_bloodline }
+}
+
+haitan_emperor_telemarque_bloodline = {
+	picture = GFX_bloodlines_symbol_haitan_empire
+	inheritance = patrilineal
+	intrigue = 1
+	light_infantry_morale = 0.02
+	monthly_character_prestige = 0.2
+	allow_bastards = yes
+	flags = { historical_bloodline haitian_bloodline }
+}
+
+ura_president_bloodline = {
+	picture = GFX_bloodlines_symbol_amerifreedom
+	inheritance = patrilineal
+	martial = 1
+	light_infantry_morale = 0.01
+	monthly_character_prestige = 0.2
+	libertarian_opinion = 5
+	allow_bastards = no
+	flags = { historical_bloodline }
+}
+
+restorer_of_haitian_empire_male = {
+	picture = GFX_bloodlines_symbol_haitan_empire
+	inheritance = patrilineal
+	martial = 1
+	monthly_character_prestige = 0.2
+	haitian_opinion = 5
+	quisqueyano_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { created_bloodline haitian_bloodline }
+	active = {
+		OR = {
+			culture = haitian
+			culture = quisqueyano
+			religion = santeria
+			religion = jesuite
+		}
+	}
+}
+
+restorer_of_haitian_empire_female = {
+	martial = 1
+	monthly_character_prestige = 0.2
+	haitian_opinion = 5
+	quisqueyano_opinion = 5
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_haitan_empire
+	flags = { created_bloodline haitian_bloodline }
+	active = {
+		OR = {
+			culture_group = mexicano
+			culture_group = norteno
+			religion = sacred_heart
+			religion = cristo_rey
+			religion = fidencista
+		}
+	}
+}

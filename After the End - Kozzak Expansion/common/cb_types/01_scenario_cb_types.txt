@@ -1,0 +1,968 @@
+mex_crisis_end = {
+	name = CB_NAME_MEX_CRISIS_END
+	war_name = WAR_NAME_MEX_CRISIS_END
+	sprite = 17
+	truce_days = 1840
+	is_permanent = yes
+	max_attacker_battle_score = 20 #you should at least have to siege down something, and the wars should have the potential to be longer and costlier
+	allowed_to_target_tributaries = yes
+	
+	can_use = {
+		ROOT = {
+		    OR = {
+			    has_landed_title = k_mexico
+				has_landed_title = k_west_mexico
+				has_landed_title = k_veracruz_mexico
+			}
+		}
+		FROM = {
+			OR = {
+			    has_landed_title = k_mexico
+				has_landed_title = k_west_mexico
+				has_landed_title = k_veracruz_mexico
+			}
+		}
+		NAND = {
+		    ROOT = { has_landed_title = k_west_mexico }
+			FROM = { has_landed_title = k_veracruz_mexico }
+		}
+		NAND = {
+		    ROOT = { has_landed_title = k_veracruz_mexico }
+			FROM = { has_landed_title = k_west_mexico }
+		}
+	}
+	
+	is_valid = {
+		ROOT = {
+			independent = yes
+		}
+	}
+	
+	on_success = {
+		if = {
+		   limit = { any_attacker = { has_landed_title = k_mexico } }
+		   ROOT = {
+		      gain_title = k_west_mexico
+		   }
+		   activate_title = { status = no title = k_west_mexico }
+		   k_west_mexico = { destroy_landed_title = THIS }
+		}
+		if = {
+		   limit = { any_attacker = { has_landed_title = k_west_mexico } }
+		   ROOT = {
+		      gain_title = k_mexico
+			  gain_title = d_mexico
+			  gain_title = c_mexico
+		   }
+		   k_mexico = {
+			    copy_title_laws = k_west_mexico
+			    copy_title_history = k_west_mexico
+		   }
+		   activate_title = { status = no title = k_west_mexico }
+		   k_west_mexico = { destroy_landed_title = THIS }
+		}
+		if = {
+		   limit = { any_attacker = { has_landed_title = k_veracruz_mexico } }
+		   ROOT = {
+		      gain_title = k_mexico
+			  gain_title = d_mexico
+			  gain_title = c_mexico
+		   }
+		   k_mexico = {
+			    copy_title_laws = k_veracruz_mexico
+			    copy_title_history = k_veracruz_mexico
+		   }
+		   activate_title = { status = no title = k_veracruz_mexico }
+		   k_veracruz_mexico = { destroy_landed_title = THIS }
+		}
+	}
+
+	on_fail = {
+		ROOT = { 
+			prestige = -400
+			cash = -100
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+		    prestige = -1000
+			cash = -500
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+}
+
+antinonconcformist_ursu_war = {
+    war_name = "ANTICONFORM_URSU_WAR" 
+		
+	is_revolt_cb = no
+	can_call_vassals = yes
+	attacker_can_call_allies = yes
+	major_revolt = yes
+	is_tyranny_cb = no
+	allow_whitepeace = yes
+	
+	is_valid = {
+	   ROOT = {
+		    has_landed_title=k_ursuline
+			religion = ursuline
+	   }
+	   FROM = {
+	        religion = nonconformist
+			age = 18
+	   }
+    }
+	can_use = {
+	    always = no
+	}
+	on_success = { 
+	   ROOT = { 
+	     prestige = 800
+	   }
+	   custom_tooltip = {
+			text = ursuline_league_victory
+			hidden_tooltip = {
+			   if = { #Edward is alive
+			      limit = {
+				     c_10000580 ={
+					     is_alive = yes
+					 }
+				  }
+				  FROM = { death = { death_reason = death_execution killer = ROOT } }
+				     c_10000580 = {
+					    gain_title = c_ottawa
+						gain_title = d_ottawa
+						gain_title = k_canada
+					 }
+				  }
+			   if = { #Edward is dead
+			      limit = {
+				     c_10000580 ={
+					     is_alive = yes
+					 }
+                     FROM = { death = { death_reason = death_execution killer = ROOT } } }
+				     activate_title = { status = no title = k_canada }
+			         k_canada = { destroy_landed_title = THIS }
+				  }
+			}
+	}
+	}
+	on_fail = {
+	   ROOT = {
+	      prestige = -500
+		  piety = -15
+	   }
+	}
+	on_reverse_demand = {
+	    ROOT = { 
+		   prestige = -3000
+	    }
+	    FROM = {
+		   prestige = 2000
+	    }
+	    custom_tooltip = {
+		    text = ursuline_league_victory_fail
+		    hidden_tooltip = {
+			    ROOT = {
+				    any_realm_title = {
+					    limit = { 
+						    tier = count
+						    holder_scope = { religion = ursuline }
+					    }
+					    usurp_title = k_canada
+				    }
+			    }
+		    }
+	    }
+    }
+	ai_will_do = {
+        factor = 0
+    }	
+}
+
+gaspar_vi_cb = {
+    war_name = "WAR_GASPAR_VI" 
+		
+	is_valid = {
+	   ROOT = {
+		    has_landed_title=d_gaspar_host
+	   }
+    }
+	can_use = {
+	    always = no
+	}
+	on_success = { 
+		ROOT = { 
+	     prestige = 1000
+	   }
+	   custom_tooltip = {
+			text = gaspar_vi_cb_victory_tooltip
+			hidden_tooltip = {
+			   d_havana = {
+			      holder_scope = {
+				      gain_title = b_mariel_CUB
+					  gain_title = d_cuban_trade_company
+				  }
+			   }
+			   ROOT = {
+			      gain_title = k_cuba
+				  gain_title = d_havana
+				  gain_title = c_havana
+				  gain_title = c_pinar_del_rio
+				  gain_title = c_artemisa
+				  gain_title = c_isla_de_pinos
+				  gain_title = c_matanzas
+				  religion = jesuite
+				  culture = cubano
+			   }
+			   d_camaguey = {
+			      holder_scope = { 
+				      set_defacto_liege = c_10000044
+				  }
+		       }
+			   d_las_villas = {
+			      holder_scope = { 
+				      set_defacto_liege = c_10000044
+				  }
+		       }
+			   d_gitmo = {
+			      holder_scope = { 
+				      set_defacto_liege = c_10000044
+				  }
+		       }
+			   d_cuban_trade_company = {
+			      holder_scope = { 
+				      set_defacto_liege = c_10000044
+				  }
+		       }
+			   activate_title = { status = no title = d_gaspar_host }
+			   d_gaspar_host = { destroy_landed_title = THIS }
+			}
+		}
+	}
+	on_fail = {
+	    ROOT = { 
+	     prestige = -500
+	   }
+	   custom_tooltip = {
+			text = gaspar_vi_cb_small_fail_tooltip
+			hidden_tooltip = {
+			   activate_title = { status = no title = d_gaspar_host }
+			   d_gaspar_host = { destroy_landed_title = THIS }
+			}
+			c_10000044 = { death = { death_reason = death_went_back_to_china } }
+		}
+	}
+	on_reverse_demand = {
+	   ROOT = { 
+	     prestige = -1000
+	   }
+	   custom_tooltip = {
+			text = gaspar_vi_cb_fail_tooltip
+			hidden_tooltip = {
+			  FROM = {
+			     c_10000044 = {
+				     imprison = PREV
+				 }
+			   }
+			   activate_title = { status = no title = d_gaspar_host }
+			   d_gaspar_host = { destroy_landed_title = THIS }
+			}
+		}
+	}
+	ai_will_do = {
+        factor = 0
+    }	
+}
+
+emperor_elect_congress_war_cb = {
+    war_name = "EMPEROR_ELECT_CONGRESS_WAR" 
+		
+	is_revolt_cb = yes
+	can_call_vassals = yes
+	attacker_can_call_allies = no
+	major_revolt = yes
+	is_tyranny_cb = yes
+	allow_whitepeace = no
+	
+	is_valid = {
+	   ROOT = {
+		    has_landed_title=e_dixie
+			trait="congress_refused_emperor"
+	   }
+	   FROM = {
+	        has_landed_title=d_confederate_congress
+	   }
+    }
+	can_use = {
+	    always = no
+	}
+	on_success = { 
+	   ROOT = { 
+	     prestige = 800
+	   }
+	   custom_tooltip = {
+			text = emperor_elect_victory_cb
+			hidden_tooltip = {
+			   ROOT = {  
+			       add_trait="congress_forced_emperor" 
+			   }
+			   e_dixie = {
+			      holder_scope = {
+				      d_confederate_congress:holder_scope = {
+					         imprison = ROOT
+					  }
+					  narrative_event = { id = con_congress.13 }
+				  }
+			   }
+			   d_confederate_congress = {
+			      holder_scope = {
+					current_heir = { save_event_target_as = new_president }
+					event_target:new_president= { 
+		                  gain_title = d_confederate_congress
+		            }
+					clear_event_target = new_president
+				  }
+			   }
+			   e_dixie = {
+			     holder_scope = {
+			       any_vassal = {
+				      narrative_event = { id = con_congress.12 }
+				   }
+				  }
+			   }
+			}
+		}
+	}
+	on_reverse_demand = {
+	   ROOT = { 
+	     prestige = -3000
+	   }
+	   custom_tooltip = {
+			text = emperor_elect_failure_cb
+			hidden_tooltip = {
+			   d_confederate_congress = {
+			      holder_scope = {
+				      e_dixie:holder_scope = {
+					         imprison = ROOT
+					  }
+					  narrative_event = { id = con_congress.10 }
+				  }
+			   }
+			   ROOT = { 
+			      add_trait = "congress_refused_emperor" 
+				  current_heir = { save_event_target_as = new_emperor }
+				  event_target:new_emperor = { 
+		              gain_title = e_dixie
+		          }
+		          clear_event_target = new_emperor
+			   }
+			   e_dixie = {
+			      holder_scope = {
+				    any_vassal = {
+				      narrative_event = { id = con_congress.9 }
+					}
+				  }
+			   }
+			}
+		}
+	}
+	ai_will_do = {
+        factor = 0
+    }	
+}
+
+us_army_imperial_reconquest_two = {
+	name = CB_NAME_US_ARMY_RECONQUEST
+	war_name = WAR_NAME_US_ARMY_RECONQUEST
+	sprite = 17
+	truce_days = 1840
+	is_permanent = yes
+	check_de_jure_tier = EMPEROR
+	max_attacker_battle_score = 50 #you should at least have to siege down something, and the wars should have the potential to be longer and costlier
+	allowed_to_target_tributaries = yes
+	
+	can_use = {
+		ROOT = {
+		    OR = {
+			    has_landed_title = k_us_army
+				has_landed_title = e_us_army
+			}
+			primary_title = { higher_tier_than = DUKE }
+			independent = yes
+			mercenary = no
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	can_use_title = { 
+		region = custom_usa
+		is_titular = no
+	}
+	
+	can_use_gui = {
+		ROOT = {
+			scaled_wealth = 0.5
+			wealth = 500
+		}
+	}
+	
+	is_valid = {
+		ROOT = {
+			independent = yes
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	on_add = { 
+		ROOT = { 
+			scaled_wealth = { 
+				value = -0.5 
+				min = -500 
+			}
+		} 
+		if = {
+			limit = { defender = { is_offmap_governor = offmap_china } }
+			attacker = {  
+				sound_effect = china_angered_emperor
+				detract_grace_super_huge_effect = yes 
+			}
+		}
+	}
+	
+	on_success = {
+		any_attacker = {
+			limit = { character = ROOT }
+			participation_scaled_prestige = 100
+		}
+		any_attacker = {
+			limit = { NOT = { character = ROOT } }
+			hidden_tooltip = { 
+				participation_scaled_prestige = 100
+			}
+		}
+		
+		FROM = { prestige = -100 }
+	}
+
+	on_success_title = {
+		custom_tooltip = { 
+			text = other_invasion_succ_tip
+			hidden_tooltip = {
+				ROOT = {
+					vassalize_or_take_under_title = {
+						title = PREV
+						enemy = FROM
+						type = invasion
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = { character = FROM }
+			}
+			usurp_title_only = { target = ROOT type = invasion }
+		}
+	}
+
+	on_fail = {
+		ROOT = { 
+			prestige = -150 
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+			ROOT = { prestige = -200 }
+		}
+		any_defender = {
+			limit = { character = FROM }
+			participation_scaled_piety = 100
+			participation_scaled_prestige = 200
+			if = {
+				limit = {
+					uses_decadence = yes
+				}
+				participation_scaled_decadence = -10
+			}
+		}
+		any_defender = {
+			limit = { NOT = { character = FROM } }
+			hidden_tooltip = { 
+				participation_scaled_piety = 100
+				participation_scaled_prestige = 200
+				if = {
+					limit = {
+						uses_decadence = yes
+					}
+					participation_scaled_decadence = -10
+				}
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+}
+
+us_army_imperial_reconquest_one = {
+	name = CB_NAME_US_ARMY_RECONQUEST
+	war_name = WAR_NAME_US_ARMY_RECONQUEST
+	sprite = 17
+	truce_days = 1840
+	is_permanent = yes
+	check_de_jure_tier = DUKE
+	max_attacker_battle_score = 50 #you should at least have to siege down something, and the wars should have the potential to be longer and costlier
+	allowed_to_target_tributaries = yes
+	
+	can_use = {
+		ROOT = {
+		    OR = {
+			    has_landed_title = k_us_army
+				has_landed_title = e_us_army
+			}
+			primary_title = { higher_tier_than = DUKE }
+			independent = yes
+			mercenary = no
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	can_use_title = { 
+		region = custom_usa
+		is_titular = no
+	}
+	
+	can_use_gui = {
+		ROOT = {
+			scaled_wealth = 0.5
+			wealth = 500
+		}
+	}
+	
+	is_valid = {
+		ROOT = {
+			independent = yes
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	on_add = { 
+		ROOT = { 
+			scaled_wealth = { 
+				value = -0.5 
+				min = -50
+			}
+		} 
+		if = {
+			limit = { defender = { is_offmap_governor = offmap_china } }
+			attacker = {  
+				sound_effect = china_angered_emperor
+				detract_grace_super_huge_effect = yes 
+			}
+		}
+	}
+	
+	on_success = {
+		any_attacker = {
+			limit = { character = ROOT }
+			participation_scaled_prestige = 100
+		}
+		any_attacker = {
+			limit = { NOT = { character = ROOT } }
+			hidden_tooltip = { 
+				participation_scaled_prestige = 100
+			}
+		}
+		
+		FROM = { prestige = -100 }
+	}
+
+	on_success_title = {
+		custom_tooltip = { 
+			text = other_invasion_succ_tip
+			hidden_tooltip = {
+				ROOT = {
+					vassalize_or_take_under_title = {
+						title = PREV
+						enemy = FROM
+						type = invasion
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = { character = FROM }
+			}
+			usurp_title_only = { target = ROOT type = invasion }
+		}
+	}
+
+	on_fail = {
+		ROOT = { 
+			prestige = -150 
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+			ROOT = { prestige = -200 }
+		}
+		any_defender = {
+			limit = { character = FROM }
+			participation_scaled_piety = 100
+			participation_scaled_prestige = 200
+			if = {
+				limit = {
+					uses_decadence = yes
+				}
+				participation_scaled_decadence = -10
+			}
+		}
+		any_defender = {
+			limit = { NOT = { character = FROM } }
+			hidden_tooltip = { 
+				participation_scaled_piety = 100
+				participation_scaled_prestige = 200
+				if = {
+					limit = {
+						uses_decadence = yes
+					}
+					participation_scaled_decadence = -10
+				}
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+}
+
+us_army_imperial_reconquest = {
+	name = CB_NAME_US_ARMY_RECONQUEST
+	war_name = WAR_NAME_US_ARMY_RECONQUEST
+	sprite = 17
+	truce_days = 1840
+	is_permanent = yes
+	check_de_jure_tier = KING # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
+	max_attacker_battle_score = 50 #you should at least have to siege down something, and the wars should have the potential to be longer and costlier
+	allowed_to_target_tributaries = yes
+	
+	can_use = {
+		ROOT = {
+		    OR = {
+			    has_landed_title = k_us_army
+				has_landed_title = e_us_army
+			}
+			primary_title = { higher_tier_than = DUKE }
+			independent = yes
+			mercenary = no
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	can_use_title = {
+		region = custom_usa
+		is_titular = no
+	}
+	
+	can_use_gui = {
+		ROOT = {
+			scaled_wealth = 0.5
+			wealth = 500
+		}
+	}
+	
+	is_valid = {
+		ROOT = {
+			independent = yes
+			NOT = { same_realm = FROM }
+		}
+	}
+	
+	on_add = { 
+		ROOT = { 
+			scaled_wealth = { 
+				value = -0.5 
+				min = -100
+			}
+		} 
+		if = {
+			limit = { defender = { is_offmap_governor = offmap_china } }
+			attacker = {  
+				sound_effect = china_angered_emperor
+				detract_grace_super_huge_effect = yes 
+			}
+		}
+	}
+	
+	on_success = {
+		any_attacker = {
+			limit = { character = ROOT }
+			participation_scaled_prestige = 100
+		}
+		any_attacker = {
+			limit = { NOT = { character = ROOT } }
+			hidden_tooltip = { 
+				participation_scaled_prestige = 100
+			}
+		}
+		
+		FROM = { prestige = -100 }
+	}
+
+	on_success_title = {
+		custom_tooltip = { 
+			text = other_invasion_succ_tip
+			hidden_tooltip = {
+				ROOT = {
+					vassalize_or_take_under_title = {
+						title = PREV
+						enemy = FROM
+						type = invasion
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = { character = FROM }
+			}
+			usurp_title_only = { target = ROOT type = invasion }
+		}
+	}
+
+	on_fail = {
+		ROOT = { 
+			prestige = -150 
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+	}
+
+	on_reverse_demand = {
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+			ROOT = { prestige = -200 }
+		}
+		any_defender = {
+			limit = { character = FROM }
+			participation_scaled_piety = 100
+			participation_scaled_prestige = 200
+			if = {
+				limit = {
+					uses_decadence = yes
+				}
+				participation_scaled_decadence = -10
+			}
+		}
+		any_defender = {
+			limit = { NOT = { character = FROM } }
+			hidden_tooltip = { 
+				participation_scaled_piety = 100
+				participation_scaled_prestige = 200
+				if = {
+					limit = {
+						uses_decadence = yes
+					}
+					participation_scaled_decadence = -10
+				}
+			}
+		}
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+}
+
+antinonconcformist_ursu_war = {
+    war_name = "ANTICONFORM_URSU_WAR" 
+	can_call_vassals = yes
+	attacker_can_call_allies = yes
+	major_revolt = yes
+	allow_whitepeace = yes
+	
+	is_valid = {
+	   ROOT = { has_landed_title = k_west_mexico }
+	   FROM = { has_landed_title = k_mexico
+    }
+	can_use = {
+	    OR = {
+		   AND = {
+		      ai = no
+		   }
+		   AND = {
+		      ai = yes
+			  cash = 250
+			  prestige = 500
+		   }
+		}
+	}
+	on_success = { 
+	   ROOT = { 
+	     prestige = 1000
+	   }
+	   custom_tooltip = {
+			text = west_mexico_victory
+			hidden_tooltip = {
+		}
+	}
+	on_fail = {
+	   ROOT = {
+	      prestige = -500
+	   }
+	}
+	on_reverse_demand = {
+	   ROOT = { 
+	     prestige = 1000
+	   }
+	   custom_tooltip = {
+			text = west_mexico_defeat
+			hidden_tooltip = {
+		}
+    }
+	ai_will_do = {
+        factor = 1
+    }	
+}
+
+haiti_uprising = {
+    war_name = "HAITI_UPRISING" 
+	
+	allow_whitepeace = no
+		
+	is_valid = {
+	   ROOT = {
+		    has_landed_title=k_haiti_pretender
+	   }
+    }
+	can_use = {
+	    always = no
+	}
+	on_success = {
+		ROOT = { 
+	     prestige = 1000
+		 gain_title = e_haiti
+		 gain_title = k_haiti
+		 gain_title = k_dominicana
+		 gain_title = d_haiti
+		 gain_title = d_north_haiti
+		 gain_title = d_barahona
+		 gain_title = d_santo_domingo
+		 gain_title = c_port_au_prince
+		 gain_title = c_santo_domingo
+	    }
+		if = {
+		  limit = { d_el_cibao = { holder_scope = { government = merchant_republic_government } } }
+		   d_el_cibao = {
+			    holder_scope = { 
+				    set_defacto_liege = ROOT
+				}
+		    }
+		}
+		if = {
+		  limit = { NOT = { d_el_cibao = { holder_scope = { government = merchant_republic_government } } } }
+		  gain_title = d_el_cibao
+		}
+		if = {
+		  limit = { d_barahona = { holder_scope = { religion = haiti_imperial } } }
+		   d_barahona = {
+			    holder_scope = { 
+				    set_defacto_liege = ROOT
+				}
+		    }
+		}
+		if = {
+		  limit = { NOT = { d_barahona = { holder_scope = { religion = haiti_imperial } } } }
+		   gain_title = d_barahona
+		}
+		activate_title = { status = no title = k_haiti_pretender }
+		k_haiti_pretender = { destroy_landed_title = THIS }
+	}
+	on_reverse_demand = {
+	   FROM = { death = { death_reason = death_execution killer = ROOT } }
+	   activate_title = { status = no title = k_haiti_pretender }
+	   k_haiti_pretender = { destroy_landed_title = THIS }
+	}
+	ai_will_do = {
+        factor = 0
+    }	
+}
