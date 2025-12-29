@@ -1,0 +1,283 @@
+congress_accepted_emperor = {
+    monthly_character_prestige = 0.5
+	vassal_opinion = 10
+	customizer = no
+	random = no
+	opposites = {
+		congress_refused_emperor
+		congress_forced_emperor
+	}
+}
+
+congress_refused_emperor = {
+    monthly_character_prestige = -0.5
+	dynasty_opinion = -5
+	general_opinion = -5
+	vassal_opinion = -15
+	customizer = no
+	random = no
+	opposites = {
+		congress_accepted_emperor
+		congress_forced_emperor
+	}
+}
+
+congress_forced_emperor = {
+    martial = 1
+	vassal_opinion = 5
+	ambitious_opinion = 5
+	vassal_opinion = 10
+	honest_opinion = -5
+	patient_opinion = -5
+    monthly_character_prestige = -0.1
+	customizer = no
+	random = no
+	opposites = {
+		congress_refused_emperor
+		congress_accepted_emperor
+	}
+}
+
+ura_president = {
+    monthly_character_prestige = 0.15
+	general_opinion = 5
+	libertarian_opinion = 5
+	customizer = no
+	random = no
+}
+
+ura_president = {
+    monthly_character_prestige = 0.15
+	general_opinion = 5
+	libertarian_opinion = 5
+	customizer = no
+	random = no
+}
+
+survived_impeachment_conf_pres = {
+    monthly_character_prestige = 0.1
+	dixie_opinion = 5
+	southron_opinion = 5
+	customizer = no
+	random = no
+}
+
+impeacher = {
+	monthly_character_prestige = -0.1
+	#hidden = yes
+	
+	customizer = no
+	random = no
+}
+
+st_ignatius_loyola = {
+	opposites = {
+		st_thomas_more
+		st_george
+		st_francis_xavier
+	}
+	
+	learning = 1
+	monthly_character_piety = 0.20
+
+	potential = { religion = jesuite }
+	religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_thomas_more = {
+	opposites = {
+		st_ignatius_loyola
+		st_george
+		st_francis_xavier
+	}
+	
+	diplomacy = 1
+	monthly_character_piety = 0.20
+
+	potential = { religion = jesuite }
+	religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_george = {
+	opposites = {
+		st_ignatius_loyola
+		st_thomas_more
+		st_francis_xavier
+	}
+	
+	martial = 1
+	monthly_character_piety = 0.20
+
+	potential = { religion = jesuite }
+	religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_francis_xavier = {
+	opposites = {
+		st_ignatius_loyola
+		st_thomas_more
+		st_george
+	}
+	
+	stewardship = 1
+	monthly_character_piety = 0.20
+
+	potential = { religion = jesuite }
+	religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+
+holy_mary = {
+	opposites = {
+		st_joseph
+		st_john_the_baptist
+		st_thomas_more_nonjesuite
+		st_elizabeth_ann_senton
+		st_thomas_aquinas
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_joseph = {
+	opposites = {
+		holy_mary
+		st_john_the_baptist
+		st_thomas_more_nonjesuite
+		st_elizabeth_ann_senton
+		st_thomas_aquinas
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_john_the_baptist = {
+	opposites = {
+		holy_mary
+		st_joseph
+		st_thomas_more_nonjesuite
+		st_elizabeth_ann_senton
+		st_thomas_aquinas
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_thomas_more_nonjesuite = {
+	opposites = {
+		holy_mary
+		st_joseph
+		st_john_the_baptist
+		st_elizabeth_ann_senton
+		st_thomas_aquinas
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_elizabeth_ann_senton = {
+	opposites = {
+		holy_mary
+		st_joseph
+		st_john_the_baptist
+		st_thomas_more_nonjesuite
+		st_thomas_aquinas
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_thomas_aquinas = {
+	opposites = {
+		holy_mary
+		st_joseph
+		st_john_the_baptist
+		st_thomas_more_nonjesuite
+		st_elizabeth_ann_senton
+		st_george_nonjesuite
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+st_george_nonjesuite = {
+	opposites = {
+		holy_mary
+		st_joseph
+		st_john_the_baptist
+		st_thomas_more_nonjesuite
+		st_elizabeth_ann_senton
+		st_thomas_aquinas
+	}
+	
+	monthly_character_piety = 0.50
+
+	potential = { has_character_flag = ihaveahighground OR = { religion = catholic religion = sedevacantist religion = belizean_catholic } }
+	#religious_branch = jesuite
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+isolationist_king = {
+	customizer = no
+	random = no
+}
+
+isolationist_queen = {
+	customizer = no
+	random = no
+}
