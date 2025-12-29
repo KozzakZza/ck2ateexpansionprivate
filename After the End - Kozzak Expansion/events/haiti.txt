@@ -1,0 +1,161 @@
+namespace = haiti
+
+narrative_event = {
+	id = haiti.1
+	title = EVTNAMEhaiti.1
+	desc = EVTDESChaiti.1
+	
+	picture = GFX_evt_rome_restored_byzantine
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAhaiti.1
+		hidden_tooltip = {
+			primary_title = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = e_haiti
+				}
+			}
+		}
+		e_haiti = {
+			show_scope_change = no
+			grant_title = ROOT
+			hidden_tooltip = { make_primary_title = yes }
+		}
+		if = {
+		   limit = { religion = haiti_imperial }
+		k_haiti_imperial = {
+		    grant_title = ROOT
+		}
+		}
+		k_haiti = { de_jure_liege = e_haiti }
+		k_dominicana = { de_jure_liege = e_haiti }
+		hidden_tooltip = {
+		     give_nickname = nick_the_glorious
+		if = { #New Imperial Bloodline. (male)
+				limit = { 
+					has_dlc = "Holy Fury" 
+					is_female = no
+					is_alternate_start = no
+					NOT = {
+						any_owned_bloodline = {
+							has_bloodline_flag = haitian_bloodline 
+						}
+					}
+				}
+				create_bloodline = {
+					type = restorer_of_haitian_empire_male
+				}
+				sound_effect = bloodline_added
+			}
+		if = { #New Imperial Bloodline. (female)
+			limit = { 
+				has_dlc = "Holy Fury" 
+				is_female = yes
+				is_alternate_start = no
+				NOT = {
+					any_owned_bloodline = {
+						has_bloodline_flag = haitian_bloodline 
+					}
+				}
+			}
+			create_bloodline = {
+				type = restorer_of_haitian_empire_female
+			}
+			sound_effect = bloodline_added
+		}
+		}
+	}
+}
+
+narrative_event = {
+	id = haiti.2
+	title = EVTNAMEhaiti.2
+	desc = EVTDESChaiti.2
+	major = yes
+	
+	picture = GFX_event_haiti_uprising
+	
+	is_triggered_only = yes
+	
+	option = { #Okay
+		name = EVTOPTAhaiti.2
+	}
+	option = { #Okay
+		name = EVTOPTBhaiti.2
+		trigger = { ai = no }
+		set_player_character = c_10000999
+	}
+}
+
+narrative_event = {
+	id = haiti.3
+	title = EVTNAMEhaiti.2
+	desc = EVTDESChaiti.2
+	
+	trigger = {
+		character = 10000999
+		year = 2666
+		month = december
+		day = 4
+		e_haiti = {
+			has_holder = no
+		}
+		NOT = { 
+			is_alternate_start = yes
+		}
+	}
+	
+	picture = GFX_event_haiti_uprising
+	
+	option = { #Okay
+		name = EVTOPTAhaiti.2
+		set_character_flag = haiti_pretender_arrived
+		activate_title = { title = k_haiti_pretender status = yes }
+			dynasty = 42000135
+			k_haiti_pretender = {
+				copy_title_history = e_haiti
+				grant_title = ROOT
+			}
+			gain_title = k_haiti_pretender
+			spawn_unit = {
+			province = 737
+			troops = {
+				light_cavalry = { 500 500 }
+				light_infantry = { 900 900 }
+				knights = { 250 250 }
+				pikemen = { 1100 1100 }
+			 }
+				attrition = 0.0
+				maintenance_multiplier = 0.3
+				cannot_inherit = yes
+			 }
+			spawn_unit = {
+				province = 737
+					troops = {
+						light_cavalry = { 500 500 }
+						light_infantry = { 900 900 }
+						knights = { 250 250 }
+						pikemen = { 1100 1100 }
+					}
+					attrition = 0.0
+					maintenance_multiplier = 0.3
+					cannot_inherit = yes
+			}
+			grant_claim = d_santo_domingo
+			grant_claim = d_barahona
+			grant_claim = d_haiti
+			grant_claim = d_north_haiti
+			grant_claim = k_haiti
+			grant_claim = k_dominicana
+			grant_claim = e_haiti
+		    any_character = {
+			   limit = {
+			        is_landed = yes
+		            region = world_caribbean
+			   }
+			   narrative_event = { id = haiti.2 }
+			}
+	}
+}

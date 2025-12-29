@@ -1,0 +1,228 @@
+namespace = edokko
+
+character_event = {
+	id = edokko.1
+	desc = EVTDESCedokko.1
+	
+	trigger = {
+	    has_landed_title = e_edokko
+		has_global_flag = ihaveahighground
+		NOT = { religion = cetic }
+	    NOT = { has_global_flag = japanese_take_sacramento }
+		NOT = { has_global_flag = californian_emperor_puppetised }
+		NOT = { has_global_flag = edokko_can_vassalize_emperor_of_california }
+		OR = {
+		   completely_controls = c_solano
+		   completely_controls = c_yolo
+		   completely_controls = c_san_joaquin
+		   completely_controls = c_dorado
+		   completely_controls = c_tahoe
+		   completely_controls = c_yuba
+		}
+		NOT = {
+		   	e_california = {
+				has_holder = no
+			}
+		}
+	}
+	
+	picture = GFX_evt_colonial_japan
+	
+	#is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAedokko.1
+		custom_tooltip = { 
+			text = edokko_tooltip_1
+			hidden_tooltip = {
+			   set_global_flag = edokko_can_vassalize_emperor_of_california
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = edokko.2
+	title = EVTTITLEedokko.2
+	desc = EVTDESCedokko.2
+	
+	picture = GFX_evt_colonial_japan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAedokko.2
+		hidden_tooltip = {
+	      k_puppet_california = {
+			  show_scope_change = no
+			  grant_title = ROOT
+			  hidden_tooltip = { make_primary_title = yes }
+			  copy_title_laws = e_california
+			  copy_title_history = e_california
+		   }
+		   	k_puppet_california = {
+			   holder_scope = {
+	               set_defacto_liege = e_edokko:holder_scope
+			    }  
+	        }
+			if = {
+			  limit = {
+			     k_puppet_california = {
+				    holder_scope = {
+				       has_landed_title = k_sacramento
+				    }
+				 }
+			  }
+			k_sacramento = {
+			   holder_scope = {
+	               set_defacto_liege = e_edokko:holder_scope
+			    }  
+	        }
+			}
+			e_california = {
+			   show_scope_change = no
+			   destroy_landed_title = THIS
+		    }
+		   	cetic = {
+			    set_religion_head = k_puppet_california
+		    }
+		   set_global_flag = californian_emperor_puppetised
+		   clr_global_flag = edokko_can_vassalize_emperor_of_california
+		   any_character = {
+		       limit = {
+			       ai = no
+			   }
+			   narrative_event = { id = edokko.4 }
+		   }
+		}
+	}
+}
+
+character_event = {
+	id = edokko.3
+	desc = EVTDESCedokko.3
+	
+	picture = GFX_evt_colonial_japan
+	
+	trigger = {
+	    has_landed_title = k_puppet_california
+	    independent = yes
+		    e_california = {
+				has_holder = no
+			}
+			e_new_california = {
+				has_holder = no
+			}
+	}
+	
+	option = {
+		name = EVTOPTAedokko.3
+		hidden_tooltip = {
+	      e_california= {
+			  show_scope_change = no
+			  grant_title = ROOT
+			  hidden_tooltip = { make_primary_title = yes }
+			  copy_title_laws = k_puppet_california
+			  copy_title_history = k_puppet_california
+		   }
+		   k_puppet_california = {
+			show_scope_change = no
+			destroy_landed_title = THIS
+		   }
+		   	cetic = {
+			    set_religion_head = e_california
+		    }
+			set_global_flag = california_free
+			any_character = {
+		       limit = {
+			       ai = no
+			   }
+			   narrative_event = { id = edokko.5 }
+		   }
+		}
+	}
+}
+
+narrative_event = {
+	id = edokko.4
+	title = EVTTITLEedokko.4
+	desc = EVTDESCedokko.4
+	major = yes
+	
+	picture = "GFX_evt_colonial_japan"
+	border = "GFX_event_narrative_frame_war"
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	only_playable = yes
+	
+	trigger = {
+		has_global_flag = californian_emperor_puppetised
+		has_global_flag = edokko_can_vassalize_emperor_of_california
+			e_california = {
+				has_holder = no
+			}
+	}	
+	immediate = {
+		clr_global_flag = edokko_can_vassalize_emperor_of_california
+	}
+	
+	option = {
+		name = "EVTOPTAedokko.4"
+		trigger = { 
+			NOT = { religion = shinto }
+		}
+			k_puppet_california = {
+			   holder_scope = {
+	               set_defacto_liege = e_edokko:holder_scope
+			    }  
+	        }
+	}
+	option = {
+		name = "EVTOPTBedokko.4"
+		trigger = { 
+			religion = shinto
+		}
+	}
+}
+
+narrative_event = {
+	id = edokko.5
+	title = EVTTITLEedokko.5
+	desc = EVTDESCedokko.5
+	major = yes
+	
+	picture = "GFX_evt_colonial_japan"
+	border = "GFX_event_narrative_frame_war"
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	only_playable = yes
+	
+	trigger = {
+		has_global_flag = californian_emperor_puppetised
+		has_global_flag = california_free
+	}	
+	
+	immediate = {
+		clr_global_flag = californian_emperor_puppetised
+		clr_global_flag = california_free
+	}
+	
+	option = {
+		name = "EVTOPTAedokko.5"
+		trigger = { 
+			NOT = { religion = shinto }
+		}
+	}
+	option = {
+		name = "EVTOPTBedokko.5"
+		trigger = { 
+			religion = shinto
+		}
+	}
+}

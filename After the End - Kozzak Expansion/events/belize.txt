@@ -1,0 +1,31 @@
+namespace = belize
+
+character_event = {
+	id = belize.1
+	desc = EVTDESC_belize.1
+	
+	trigger = {
+        has_landed_title = k_belize
+		NOR = { 
+		   trait = isolationist_queen
+		   trait = isolationist_king
+		}
+		NOT = { global_flag = nonisolationist_belize }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+	
+	option = {
+		name = EVTOPT_belize.1
+		if = {
+		   limit = { is_female = yes }
+		   add_trait="isolationist_queen"
+		}
+		if = {
+		   limit = { is_female = no }
+		   add_trait="isolationist_king"
+		}
+	}
+}

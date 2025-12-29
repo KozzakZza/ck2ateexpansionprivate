@@ -1,0 +1,181 @@
+namespace = anticolclavist_consuil
+
+narrative_event = {
+	id = anticolclavist_consuil.1
+	title = EVTNAME_anticolclavist_consuil
+	desc = EVTDESC_anticolclavist_consuil_desc
+	picture = "GFX_event_havana_council"
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_anticolclavist_consuil1
+		piety = 1000
+		show_portrait = d_cristo_rey
+		show_portrait = d_jesuite
+		show_portrait = k_ursuline
+		show_portrait = k_papacy
+	    capital_scope = {
+			religion = anticonclavist
+		}
+		activate_title = { status = no title = d_jesuite }
+		d_jesuite = { destroy_landed_title = THIS }
+		d_cristo_rey = {
+			holder_scope = { religion = anticonclavist }
+			religion = anticonclavist
+			cristo_rey = {
+				set_religion_head = none
+			}
+		}
+		cristo_rey = {
+			set_religion_head = none
+		}
+		jesuite = {
+			set_religion_head = none
+		}
+		ursuline = {
+			set_religion_head = none
+		}
+		hidden_tooltip = {
+		    k_ursuline = {
+			   holder_scope = {
+				  gain_title=k_order_of_st_ursula
+			   }
+			}
+		    activate_title = { status = no title = k_ursuline }
+		    k_ursuline = { destroy_landed_title = THIS }
+		    any_landed_title = {
+			limit = {
+				holy_order = yes
+
+				holder_scope = {
+					OR = {
+					  religion = ursuline
+					  religion = sedevacanist
+					  religion = cristo_rey
+					  religion = jesuite
+					}
+					holy_order = yes
+				}
+			}
+
+			save_persistent_event_target = {
+				name = holy_order_religion
+				scope = anticonclavist
+			}
+
+			religion = anticonclavist
+
+			  holder_scope = {
+				unsafe_religion = anticonclavist
+
+				    any_courtier = {
+					   unsafe_religion = anticonclavist
+				    }
+			  }
+		    }
+			any_mercenary_band = {
+			limit = {
+				holder_scope = {
+				    OR = {
+					  religion = ursuline
+					  religion = sedevacanist
+					  religion = cristo_rey
+					  religion = jesuite
+					}
+				}
+			}
+
+			holder_scope = {
+				unsafe_religion = anticonclavist
+			}
+			religion = anticonclavist
+		    }
+			any_character = {
+				limit = {
+					OR = {
+					   religion = ursuline
+					   religion = cristo_rey
+					   religion = sedevacantist
+					   religion = jesuite
+					}
+				}
+				narrative_event = { id = anticolclavist_consuil.2 }
+			}
+			every_province = {
+            limit = {
+                OR = {
+				  religion = ursuline
+				  religion = cristo_rey
+				  religion = sedevacantist
+				  religion = jesuite
+				}
+            }
+              religion = anticonclavist
+           }  
+		   activate_title = { status = yes title = d_anticonclavist }
+		   create_random_priest = {
+				random_traits = yes
+				dynasty = random
+				religion = anticonclavist
+				culture = random
+				age = 40
+				health = 7
+				add_trait = shrewd
+				add_trait = zealous
+				add_trait = scholar
+				add_trait = mastermind_theologian
+
+				attributes = {
+					learning = 16
+					diplomacy = 5
+					martial = 2
+					stewardship = 5
+					intrigue = 5
+				}
+			}
+
+			new_character = {
+				grant_title = d_anticonclavist
+				grant_title = b_regla_CUB
+				wealth = 500
+				add_friend = ROOT
+			}
+			
+			ROOT = {
+			   unsafe_religion = anticonclavist
+			}
+		}
+		set_parent_religion = { religion = angeline parent = anticonclavist }
+		set_parent_religion = { religion = sedevacantist parent = anticonclavist }
+		set_parent_religion = { religion = jesuite parent = anticonclavist }
+		set_parent_religion = { religion = reformista parent = anticonclavist }
+	}
+}
+
+narrative_event = {
+	id = anticolclavist_consuil.2
+	title = EVTNAME_anticolclavist_consuil
+	desc = EVTDESC_anticolclavist_consuil_desc
+	picture = "GFX_event_havana_council"
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_anticolclavist_consuil1
+		religion=anticonclavist
+		any_courtier = {
+			limit = {
+				OR = {
+				   religion = sedevacantist
+				   religion = ursuline
+				   religion = jesuite
+				   religion = cristo_rey
+				}
+				liege = { character = ROOT }
+			}
+			religion = anticonclavist
+		}
+		capital_scope = {
+			religion = anticonclavist
+		}
+	}
+}

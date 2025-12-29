@@ -1,0 +1,308 @@
+namespace = gaspar_vi
+
+narrative_event = {
+	id = gaspar_vi.1
+	title = EVTNAME_gaspar_vi.1
+	desc = EVTDESC_gaspar_vi.1
+	picture = GFX_evt_cristo_redentor
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.1
+		add_claim = k_cuba
+		add_claim = d_havana
+		add_claim = c_havana
+		character_event = { id = gaspar_vi.2 days = 10 }
+	}
+	
+	option = { 
+	    name = EVTOPTB_gaspar_vi.1
+		trigger = { 
+		    ai=no
+		}
+		prestige = -500
+		cash = 350
+		activate_title = { status = no title = d_gaspar_host }
+		d_gaspar_host = { destroy_landed_title = THIS }
+		gain_title = c_uaca
+		c_uaca = {
+			holder_scope = { 
+				set_defacto_liege = e_china_west_governor:holder_scope
+			}
+		}
+	    e_china_west_governor = {
+		   holder_scope = {
+                character_event = { id = gaspar_vi.8 }
+		   }
+		}
+		k_venezuela = {
+		   holder_scope = {
+                character_event = { id = gaspar_vi.7 days = 10 }
+		   }
+		}
+	}
+}
+
+narrative_event = {
+	id = gaspar_vi.2
+	title = EVTNAME_gaspar_vi.2
+	desc = EVTDESC_gaspar_vi.2
+	picture = GFX_evt_brazil_diplomatic_success
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.2
+		any_character = {
+			limit = { 
+				has_landed_title = k_venezuela
+			}
+			tooltip = { show_portrait = yes }
+		}
+		k_venezuela = {
+		   holder_scope = {
+		       narrative_event = { id = gaspar_vi.6 }
+		   } 
+		}
+		add_artifact = crown_of_cuba
+		long_character_event = { id = gaspar_vi.3 }
+	}
+}
+
+long_character_event = {
+	id = gaspar_vi.3
+	desc = EVTDESC_gaspar_vi.3
+	picture = GFX_evt_brazil_civil_war
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.3
+		long_character_event = { id = gaspar_vi.4 }
+	}
+}
+
+long_character_event = {
+	id = gaspar_vi.4
+	desc = EVTDESC_gaspar_vi.4
+	picture = GFX_evt_brazil_civil_war
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.3
+		long_character_event = { id = gaspar_vi.5 days = 14 }
+	}
+}
+
+narrative_event = {
+	id = gaspar_vi.5
+	title = EVTNAME_gaspar_vi.5
+	desc = EVTDESC_gaspar_vi.5
+	picture = GFX_evt_brazil_expansionist
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.4
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				heavy_infantry = { 500 500 }
+				archers = { 250 250 }
+				light_cavalry = { 150 150 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				heavy_infantry = { 850 850 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+				heavy_infantry = { 150 150 }
+				light_cavalry = { 250 250 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 1000 1000 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 850 850 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				archers = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_cavalry = { 700 700 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 1937
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_cavalry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_fleet = {
+			province = 1468
+			owner = THIS
+			troops = {
+				galleys = { 100 100 }
+			}
+		}
+		e_caribbean = {
+			reverse_unsafe_war = {
+				target = ROOT
+				casus_belli = gaspar_vi_cb
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = gaspar_vi.6
+	title = EVTNAME_gaspar_vi.6
+	desc = EVTDESC_gaspar_vi.6
+	picture = GFX_evt_brazil_diplomatic_success
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.6
+		add_artifact = brazilian_book_history
+	}
+}
+
+character_event = {
+	id = gaspar_vi.7
+	desc = EVTDESC_gaspar_vi.7
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.7
+		add_artifact = crown_of_cuba
+	}
+}
+
+character_event = {
+	id = gaspar_vi.8
+	desc = EVTDESC_gaspar_vi.8
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_gaspar_vi.8
+		c_uaca = {
+			holder_scope = { 
+				set_defacto_liege = e_china_west_governor:holder_scope
+			}
+		}
+	}
+}
+
+narrative_event = { #Choose of Faith
+	id = gaspar_vi.9
+	name = EVTNAME_gaspar_vi.9
+	desc = EVTDESC_gaspar_vi.9
+
+	is_triggered_only = yes
+
+	option = { #Jesuite
+	    name = EVTOPTA_gaspar_vi.9
+		piety = 100
+	}
+	
+	option = { #Isabellinism
+	    name = EVTOPTB_gaspar_vi.9
+		trigger = { ai = no }
+		piety = -100
+		religion = isabelinism
+	}
+}
+
+narrative_event = { #Imperial Crown of Cuba
+	id = gaspar_vi.10
+	name = EVTNAME_gaspar_vi.10
+	desc = EVTDESC_gaspar_vi.10
+
+	is_triggered_only = yes
+
+	option = { #Declare yourself emperor
+	    name = EVTOPTA_gaspar_vi.10
+		trigger = { ai = no }
+		give_title = e_cuba
+		give_claim = k_florida
+		give_claim = k_haiti
+		give_claim = k_west_indies
+		add_rival = e_caribbean:holder_scope
+		add_rival = e_dixie:holder_scope
+		add_rival = e_china_west_governor:holder_scope
+		add_rival = k_veracruz_mexico:holder_scope
+		add_rival = k_mexico:holder_scope
+		add_rival = k_west_mexico:holder_scope
+	}
+	
+	option = { #No, it is too dangerous
+	    name = EVTOPTB_gaspar_vi.10
+		prestige = 200
+		piety = 150
+	}
+}

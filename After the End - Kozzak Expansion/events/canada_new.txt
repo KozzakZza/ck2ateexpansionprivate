@@ -1,0 +1,168 @@
+namespace = canada_new
+
+#Kingdom Restored
+narrative_event = {
+	id = canada_new.1
+	title = EVTNAME_glinfo.2
+	desc = EVTDESC_glinfo.2
+	picture = GFX_evt_canada_confederation
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_restored_canada
+		prestige = 1000
+		if = {
+			limit = {
+			  ROOT = {
+			      OR = {
+				      religion = cristo_rey
+					  religion = sedevacantist
+					  religion = anticonclavist
+					  religion = ursuline
+					  religion = catholic
+					  religion = jesuite
+					  religion = angeline
+					  religion = nonjuring
+				  }
+				}
+			}
+			e_canada = {
+			   copy_title_history = d_jacobite_dummy
+			}
+	    }
+		primary_title = {
+				e_canada = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+		}
+		activate_title = { status = no title = k_canada }
+        k_canada = { destroy_landed_title = THIS }
+	}
+}
+
+narrative_event = { #Collapse of Kingdom of Canada
+	id = canada_new.2
+	title = EVTNAME_canada_new.2
+	desc = EVTDESC_canada_new.2
+	major = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	only_playable = yes
+	
+	trigger = {
+	      k_canada = {
+		     has_holder = no
+		  }
+		  NOT = { has_global_flag = k_canada_collapse }
+	}
+	
+	immediate = {
+		activate_title = { status = no title = d_canada_royal_guard }
+        d_canada_royal_guard = { destroy_landed_title = THIS }
+		set_global_flag = k_canada_collapse
+	}
+	
+	option = {
+		name = EVTOPT_canada_new.2
+	}
+}
+
+narrative_event = {
+	id = canada_new.3
+	title = EVTNAME_canada_new.3
+	desc = EVTDESC_canada_new.3
+	picture = GFX_evt_canada_confederation
+	major = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	only_playable = yes
+	
+	trigger = {
+		NOT = { has_global_flag = kingdom_of_canada_collapsed }
+		k_canada = {
+			holder_scope = {
+				religion = americanist
+				religion = hamiltonian
+				religion = libertarian
+				religion = jeffersonian
+				religion = rust_cultist
+				religion = chrome_cultist
+				religion = consumerist
+				religion = monetarist
+				religion = mormon
+				religion = woolleyite
+				religion = strangite
+				religion = orientalist
+				religion = traditionalist
+				religion = cetic
+				religion = sacret_heart
+			}
+		}
+	}	
+	immediate = {
+		set_global_flag = kingdom_of_canada_collapsed
+		activate_title = { status = no title = k_canada }
+        k_canada = { destroy_landed_title = THIS }
+		activate_title = { status = no title = d_canada_royal_guard }
+        d_canada_royal_guard = { destroy_landed_title = THIS }
+	}
+	
+	option = {
+		name = EVTOPT_canada_new.3
+	}
+}
+
+narrative_event = {
+	id = canada_new.3
+	title = EVTNAME_canada_new.3
+	desc = EVTDESC_canada_new.3
+	picture = GFX_evt_canada_confederation
+	major = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	only_playable = yes
+	
+	trigger = {
+		NOT = { has_global_flag = kingdom_of_canada_collapsed }
+		k_canada = {
+			holder_scope = {
+				religion = americanist
+				religion = hamiltonian
+				religion = libertarian
+				religion = jeffersonian
+				religion = rust_cultist
+				religion = chrome_cultist
+				religion = consumerist
+				religion = monetarist
+				religion = mormon
+				religion = woolleyite
+				religion = strangite
+				religion = orientalist
+				religion = traditionalist
+				religion = cetic
+				religion = sacret_heart
+			}
+		}
+	}	
+	immediate = {
+		set_global_flag = kingdom_of_canada_collapsed
+		activate_title = { status = no title = k_canada }
+        k_canada = { destroy_landed_title = THIS }
+		activate_title = { status = no title = d_canada_royal_guard }
+        d_canada_royal_guard = { destroy_landed_title = THIS }
+	}
+	
+	option = {
+		name = EVTOPT_canada_new.3
+	}
+}

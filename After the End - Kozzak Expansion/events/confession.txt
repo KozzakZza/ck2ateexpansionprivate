@@ -1,0 +1,13 @@
+namespace = confession
+
+#character_event = {
+	#id = confession.1
+	#desc = EVTDESCconfession.1
+	#picture = GFX_event_confession
+
+	#is_triggered_only = yes
+	
+	#option = {
+		#name = EVTOPTA_confession.1
+	#}
+#}

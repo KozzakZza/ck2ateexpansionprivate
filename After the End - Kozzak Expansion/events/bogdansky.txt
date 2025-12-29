@@ -1,0 +1,279 @@
+namespace = bogdansky
+
+narrative_event = {
+	id = bogdansky.1
+	title = EVTNAME_bogdansky.1
+	desc = EVTDESC_bogdansky.1
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.1
+		narrative_event = { id = bogdansky.2 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.2
+	title = EVTNAME_bogdansky.2
+	desc = EVTDESC_bogdansky.2
+	picture = GFX_evt_bloody_knife_hf
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.2
+		narrative_event = { id = bogdansky.3 days = 14 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.3
+	title = EVTNAME_bogdansky.3
+	desc = EVTDESC_bogdansky.3
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.3
+		narrative_event = { id = bogdansky.4 days = 1 }
+	}
+	
+	option = { 
+	    name = EVTOPTB_bogdansky.3
+		narrative_event = { id = bogdansky.5 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.4
+	title = EVTNAME_bogdansky.4
+	desc = EVTDESC_bogdansky.4
+	picture = GFX_evt_council_speaker
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.4
+		prestige=100
+		narrative_event = { id = bogdansky.6 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.5
+	title = EVTNAME_bogdansky.5
+	desc = EVTDESC_bogdansky.5
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.5
+		piety = 100
+		narrative_event = { id = bogdansky.6 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.6
+	title = EVTNAME_bogdansky.6
+	desc = EVTDESC_bogdansky.6
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.6
+		piety = 100
+		narrative_event = { id = bogdansky.7 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.7
+	title = EVTNAME_bogdansky.7
+	desc = EVTDESC_bogdansky.7
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.7
+		narrative_event = { id = bogdansky.8 days = 1 }
+	}
+}
+
+character_event = {
+	id = bogdansky.8
+	desc = EVTDESC_bogdansky.8
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.8
+		narrative_event = { id = bogdansky.9 days = 15 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.9
+	title = EVTNAME_bogdansky.9
+	desc = EVTDESC_bogdansky.9
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.9
+		narrative_event = { id = bogdansky.10 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.10
+	title = EVTNAME_bogdansky.10
+	desc = EVTDESC_bogdansky.10
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.10
+		character_event = { id = bogdansky.11 days = 1 }
+	}
+}
+
+character_event = {
+	id = bogdansky.11
+	desc = EVTDESC_bogdansky.11
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.11
+		narrative_event = { id = bogdansky.12 days = 24 }
+	}
+	
+	option = { 
+	    name = EVTOPTB_bogdansky.11
+		character_event = { id = bogdansky.16 days = 60 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.12
+	title = EVTNAME_bogdansky.12
+	desc = EVTDESC_bogdansky.12
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.12
+		character_event = { id = bogdansky.13 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.13
+	title = EVTNAME_bogdansky.13
+	desc = EVTDESC_bogdansky.13
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.13
+		character_event = { id = bogdansky.14 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.14
+	title = EVTNAME_bogdansky.14
+	desc = EVTDESC_bogdansky.14
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.14
+		character_event = { id = bogdansky.15 days = 39 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.15
+	title = EVTNAME_bogdansky.15
+	desc = EVTDESC_bogdansky.145
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.14
+		remove_trait = "travelling"
+		wealth = 300
+	}
+}
+
+character_event = {
+	id = bogdansky.16
+	desc = EVTDESC_bogdansky.16
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.16
+		narrative_event = { id = bogdansky.17 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = bogdansky.17
+	title = EVTNAME_bogdansky.17
+	desc = EVTDESC_bogdansky.17
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.16
+		character_event = { id = bogdansky.18 days = 9 }
+	}
+}
+
+character_event = {
+	id = bogdansky.18
+	title = EVTNAME_bogdansky.18
+	desc = EVTDESC_bogdansky.18
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.18
+		narrative_event = { id = bogdansky.19 days = 76 }
+	}
+}
+
+character_event = {
+	id = bogdansky.19
+	title = EVTNAME_bogdansky.19
+	desc = EVTDESC_bogdansky.19
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_bogdansky.19
+		wealth = 350
+		remove_trait = "travelling"
+	}
+}

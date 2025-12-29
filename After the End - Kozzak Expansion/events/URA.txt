@@ -1,0 +1,103 @@
+namespace = URA
+
+character_event = {
+	id = URA.1
+	desc = EVTDESC_URA.1_desc
+	picture = GFX_evt_americanist_intervention
+	
+	trigger = {
+        has_landed_title = k_united_republics
+		NOT = { has_character_modifier = has_ura_president_term }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+	
+	option = {
+		name = EVTOPT_URA.1
+		add_trait="ura_president"
+		current_heir = { save_event_target_as = new_ura_president }
+		event_target:new_ura_president = { 
+		   gain_title = k_united_republics
+		   gain_title = c_suffolk
+		   add_trait="ura_president"
+		   add_character_modifier = {
+			  name = has_ura_president_term
+			  years = 7
+			  hidden = yes
+		   }
+		}
+		if = {
+		   limit = { ai = no }
+		   set_player_character = event_target:new_ura_president
+		}
+		clear_event_target = new_ura_president
+	}
+}
+
+character_event = {
+	id = URA.2
+	desc = EVTDESC_URA.1_desc
+	picture = GFX_evt_americanist_intervention
+	
+	trigger = {
+        has_landed_title = e_united_republics
+		NOT = { has_character_modifier = has_ura_president_term }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+	
+	option = {
+		name = EVTOPT_URA.1
+		add_trait="ura_president"
+		current_heir = { save_event_target_as = new_ura_president }
+		event_target:new_ura_president = { 
+		   gain_title = e_united_republics
+		   gain_title = c_suffolk
+		   add_trait="ura_president"
+		   add_character_modifier = {
+			  name = has_ura_president_term
+			  years = 7
+			  hidden = yes
+		   }
+		}
+		if = {
+		   limit = { ai = no }
+		   set_player_character = event_target:new_ura_president
+		}
+		clear_event_target = new_ura_president
+	}
+}
+
+narrative_event = {
+	id = URA.3
+	title = EVTNAME_URA.3
+	desc = EVTDESC_URA.3_desc
+	picture = GFX_evt_americanist_intervention
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_URA.3
+		prestige = 1000
+		activate_title = { status = no title = e_dixie }
+		e_dixie = { destroy_landed_title = THIS }
+		activate_title = { status = no title = d_americanist }
+		d_americanist = { destroy_landed_title = THIS }
+		activate_title = { status = no title = d_confederate_congress }
+		d_confederate_congress = { destroy_landed_title = THIS }
+		set_global_flag = ura_empire
+		americanist = {
+			set_religion_head = none
+		}
+		jeffersonian = {
+			set_religion_head = none
+		}
+		hamiltonian = {
+			set_religion_head = none
+		}
+	}
+}

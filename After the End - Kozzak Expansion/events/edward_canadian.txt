@@ -1,0 +1,1619 @@
+namespace = edward
+
+narrative_event = {
+	id = edward.1
+	title = EVTNAME_edward.1
+	desc = EVTDESC_edward.1
+	picture = GFX_evt_drunk
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.1
+		narrative_event = { id = edward.2 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = edward.2
+	title = EVTNAME_edward.2
+	desc = EVTDESC_edward.2
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.2
+		narrative_event = { id = edward.3 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = edward.3
+	title = EVTNAME_edward.3
+	desc = EVTDESC_edward.3
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = {
+	    name = EVTOPTA_edward.3
+		ai_chance = { factor = 90 }
+		prestige = -50
+		narrative_event = { id = edward.4 days = 4 }
+		hidden_tooltip = {
+		create_random_priest = {
+				random_traits = yes
+				religion = apostolic
+				culture = brazilian
+				age = 35
+				health = 7
+				add_trait = indulgent_wastrel
+				add_trait = trusting
+				add_trait = administrator
+				add_trait = ambitious
+				add_trait = kind
+
+				attributes = {
+					learning = 12
+					diplomacy = 9
+					martial = 0
+					stewardship = 11
+					intrigue = 6
+				}
+		    }
+				new_character = {
+				      set_character_flag = edwardfitzroy_brasilfriend
+				}
+		}
+	}
+	option = {
+	    name = EVTOPTB_edward.3
+		ai_chance = { factor = 10 }
+		prestige = 100
+		hidden_tooltip = {
+		   remove_trait = "no_marriage"
+		}
+	}
+}
+
+narrative_event = {
+	id = edward.4
+	title = EVTNAME_edward.4
+	desc = EVTDESC_edward.4
+	picture = GFX_evt_brazilian_diplomat
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.4
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.5 days = 17 }
+	}
+}
+
+narrative_event = {
+	id = edward.5
+	title = EVTNAME_edward.5
+	desc = EVTDESC_edward.5
+	picture = GFX_evt_ship_voyage_hf
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.5
+		add_trait = "travelling"
+		wealth = -50
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			add_trait = "travelling"
+		}
+		narrative_event = { id = edward.6 days = 9 }
+	}
+}
+
+narrative_event = { #Montreal
+	id = edward.6
+	title = EVTNAME_edward.6
+	desc = EVTDESC_edward.6
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.6
+		narrative_event = { id = edward.7 }
+	}
+	
+	option = { 
+	    name = EVTOPTB_edward.6
+		d_montreal = {
+		   holder_scope = {
+		         narrative_event = { id = edward.9 }
+		    }
+	    }
+	}
+}
+
+narrative_event = { #St. Joseph Oratory
+	id = edward.7
+	title = EVTNAME_edward.7
+	desc = EVTDESC_edward.7
+	picture = GFX_evt_bishop
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.7
+		piety = 100
+		hidden_tooltip = {
+		random_list = {
+		    40={
+               long_character_event = { id = edward.8 }
+			}
+			60={
+			   narrative_event = { id = edward.13 days = 2 }
+			}
+	     }
+		}
+	}
+}
+
+long_character_event = { 
+	id = edward.8
+	desc = EVTDESC_edward.8
+	picture = GFX_evt_ursuline_crusade
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.8
+		wealth = -5
+		b_laval_QC = {
+		   holder_scope = {
+		       	opinion = {
+				   modifier = opinion_gift
+				   who = ROOT
+				   years = 10
+			   }
+		   }
+		} 
+		narrative_event = { id = edward.13 days = 2 }
+	}
+}
+
+narrative_event = {
+	id = edward.9
+	title = EVTNAME_edward.9
+	desc = EVTDESC_edward.9
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.9
+		ai_chance = { factor = 80 }
+		prestige = 50
+		c_prince_edward = {
+		   holder_scope = {
+		         narrative_event = { id = edward.11 }
+		    }
+	    }
+	}
+	
+	option = { 
+	    name = EVTOPTB_edward.9
+		ai_chance = { factor = 20 }
+		piety = -100
+		c_10000580 = {
+		    opinion = {
+			  modifier = opinion_insulted
+			  who = ROOT
+			  years = 5
+			}
+		}
+		c_prince_edward = {
+		   holder_scope = {
+		         character_event = { id = edward.10 } #Lord of Montreal refused
+		    }
+		}
+	}
+}
+
+character_event = { 
+	id = edward.10
+	desc = EVTDESC_edward.10
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.10
+		any_character = {
+			limit = { 
+				has_landed_title = d_montreal
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.7 }
+	}
+}
+
+narrative_event = { 
+	id = edward.11
+	title = EVTNAME_edward.11
+	desc = EVTDESC_edward.11
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { #Feast
+	    name = EVTOPTA_edward.11
+		any_character = {
+			limit = { 
+				OR = {
+				    has_landed_title = d_montreal
+					character = 1763127
+					character = 1763130
+				}
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.12 }
+	}
+}
+
+narrative_event = { 
+	id = edward.12
+	title = EVTNAME_edward.12
+	desc = EVTDESC_edward.12
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { #Feast
+	    name = EVTOPTA_edward.12
+		wealth = 85
+		any_character = {
+			limit = { 
+				OR = {
+				    has_landed_title = d_montreal
+					character = 1763127
+					character = 1763130
+					character = 1763128
+				}
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.13 days = 2 }
+		d_montreal = {
+		   holder_scope = {
+		      narrative_event = { id = edward.14 }
+		   }
+		}
+		hidden_tooltip = {
+		   c_1763128 = {
+		       add_trait="no_marriage"
+		   }
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.13
+	title = EVTNAME_edward.13
+	desc = EVTDESC_edward.13
+	picture = GFX_evt_ship_voyage_hf
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.13
+		wealth = 150
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.15 days = 5 }
+	}
+}
+
+narrative_event = { 
+	id = edward.14
+	title = EVTNAME_edward.14
+	desc = EVTDESC_edward.14
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.14
+		wealth = -80
+		any_character = {
+			limit = { 
+				OR = {
+					character = 10000580
+				}
+			}
+			tooltip = { show_portrait = yes }
+		}
+		any_character = {
+			limit = { 
+				OR = {
+					character = 1763127
+					character = 1763130
+					character = 1763128
+				}
+			}
+			tooltip = { show_portrait = yes }
+		}
+		c_prince_edward = {
+		   holder_scope = {
+		       	opinion = {
+				   modifier = opinion_gift
+				   who = ROOT
+				   years = 5
+			   }
+		   }
+		} 
+	}
+}
+
+narrative_event = { #Quebec
+	id = edward.15
+	title = EVTNAME_edward.15
+	desc = EVTDESC_edward.15
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.15
+		wealth = -85
+		narrative_event = { id = edward.16 days = 18}
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.16
+	title = EVTNAME_edward.16
+	desc = EVTDESC_edward.16
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.16
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		hidden_tooltip = {
+		random_list = { #12 days
+		    20={
+               character_event = { id = edward.17 days = 12 } #Pirates
+			}
+			25={
+			   character_event = { id = edward.20 days = 12 } #Castaways
+			}
+			55={
+			   character_event = { id = edward.24 days = 12 } #Reading a books
+			}
+	     }
+		random_list = { #24 days 
+			25={
+			   character_event = { id = edward.17 days = 24 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 24 } #Castaways
+			}
+			55={
+			   character_event = { id = edward.24 days = 24 } #Reading a books
+			}
+		}
+		}
+		narrative_event = { id = edward.21 days = 30 }
+	}
+}
+
+narrative_event = { #Newfoundland
+	id = edward.21
+	title = EVTNAME_edward.21
+	desc = EVTDESC_edward.21
+	picture = GFX_evt_canfield
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.21
+		wealth = -50
+		character_event = { id = edward.22 days = 6 }
+		any_character = {
+			limit = { 
+			   OR  ={
+				has_character_flag = edwardfitzroy_brasilfriend
+				has_character_flag = edwardfitzroy_castaway
+			   }
+		       is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+	}
+}
+
+character_event = {
+	id = edward.22
+	desc = EVTDESC_edward.22
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.22
+		any_character = {
+			limit = { 
+			   has_character_flag = edwardfitzroy_brasilfriend
+		       is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		hidden_tooltip = {
+		random_list = { #24 days
+		    20={
+               character_event = { id = edward.17 days = 24 } #Pirates
+			}
+			25={
+			   character_event = { id = edward.20 days = 24 } #Castaways
+			}
+			55={
+			   character_event = { id = edward.24 days = 24 } #Reading a books
+			}
+	     }
+		random_list = { #40 days 
+			25={
+			   character_event = { id = edward.17 days = 40 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 40 } #Castaways
+			}
+			55={
+			   character_event = { id = edward.24 days = 24 } #Reading a books
+			}
+		}
+		random_list = { #62 days 
+			15={
+			   character_event = { id = edward.17 days = 62 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 62 } #Castaways
+			}
+			65={
+			   character_event = { id = edward.24 days = 62 } #Reading a books
+			}
+		}
+		}
+		narrative_event = { id = edward.23 days = 71 }
+	}
+}
+
+narrative_event = { 
+	id = edward.23
+	title = EVTNAME_edward.23
+	desc = EVTDESC_edward.23
+	picture = GFX_evt_van_lions
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.23
+		any_character = {
+			limit = { 
+			    OR = {
+				    has_character_flag = edwardfitzroy_brasilfriend
+					has_character_flag = edwardfitzroy_castaway
+			    }
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		hidden_tooltip = {
+		random_list = { #15 days
+		    10={
+               character_event = { id = edward.17 days = 15 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 15 } #Castaways
+			}
+			70={
+			   character_event = { id = edward.24 days = 15 } #Reading a books
+			}
+	     }
+		random_list = { #35 days 
+			25={
+			   character_event = { id = edward.17 days = 35 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 35 } #Castaways
+			}
+			55={
+			   character_event = { id = edward.24 days = 35 } #Reading a books
+			}
+		}
+		random_list = { #59 days 
+			30={
+			   character_event = { id = edward.17 days = 59 } #Pirates
+			}
+			10={
+			   character_event = { id = edward.20 days = 59 } #Castaways
+			}
+			60={
+			   character_event = { id = edward.24 days = 59 } #Reading a books
+			}
+		}
+		random_list = { #70 days 
+			35={
+			   character_event = { id = edward.17 days = 70 } #Pirates
+			}
+			15={
+			   character_event = { id = edward.20 days = 70 } #Castaways
+			}
+			60={
+			   character_event = { id = edward.24 days = 70 } #Reading a books
+			}
+		}
+		}
+		narrative_event = { id = edward.25 days = 92 }
+	}
+}
+
+narrative_event = { #Land
+	id = edward.25
+	title = EVTNAME_edward.25
+	desc = EVTDESC_edward.25
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.25
+		narrative_event = { id = edward.26 }
+	}
+}
+
+narrative_event = {
+	id = edward.26
+	title = EVTNAME_edward.26
+	desc = EVTDESC_edward.26
+	picture = GFX_evt_brit_laughing
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.26
+		narrative_event = { id = edward.27 days = 1 }
+	}
+}
+
+narrative_event = {
+	id = edward.27
+	title = EVTNAME_edward.27
+	desc = EVTDESC_edward.27
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.27
+		narrative_event = { id = edward.28 }
+	}
+}
+
+narrative_event = {
+	id = edward.28
+	title = EVTNAME_edward.28
+	desc = EVTDESC_edward.28
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.28
+		narrative_event = { id = edward.29 }
+	}
+}
+
+narrative_event = {
+	id = edward.29
+	title = EVTNAME_edward.29
+	desc = EVTDESC_edward.29
+	picture = GFX_evt_brit_troops
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.29
+		narrative_event = { id = edward.30 days = 14 }
+	}
+}
+
+narrative_event = {
+	id = edward.30
+	title = EVTNAME_edward.30
+	desc = EVTDESC_edward.30
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.30
+		wealth = -550
+		random_list = { #30 days 
+			30={
+			   character_event = { id = edward.17 days = 30 } #Pirates
+			}
+			15={
+			   character_event = { id = edward.20 days = 30 } #Castaways
+			}
+			65={
+			   character_event = { id = edward.24 days = 30 } #Reading a books
+			}
+		}
+		random_list = { #50 days 
+			20={
+			   character_event = { id = edward.17 days = 50 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 50 } #Castaways
+			}
+			70={
+			   character_event = { id = edward.24 days = 50 } #Reading a books
+			}
+		}
+		random_list = { #80 days 
+			30={
+			   character_event = { id = edward.17 days = 80 } #Pirates
+			}
+			10={
+			   character_event = { id = edward.20 days = 80 } #Castaways
+			}
+			70={
+			   character_event = { id = edward.24 days = 80 } #Reading a books
+			}
+		}
+		narrative_event = { id = edward.31 days = 100 }
+	}
+}
+
+narrative_event = {
+	id = edward.31
+	title = EVTNAME_edward.31
+	desc = EVTDESC_edward.31
+	picture = GFX_evt_van_lions
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.31
+		k_canada = {
+		   holder_scope = {
+		       narrative_event = { id = edward.32 }
+		   }
+		}
+		random_list = { #20 days 
+			40={
+			   character_event = { id = edward.17 days = 20 } #Pirates
+			}
+			5={
+			   character_event = { id = edward.20 days = 20 } #Castaways
+			}
+			65={
+			   character_event = { id = edward.24 days = 20 } #Reading a books
+			}
+		}
+		random_list = { #40 days 
+			25={
+			   character_event = { id = edward.17 days = 40 } #Pirates
+			}
+			20={
+			   character_event = { id = edward.20 days = 40 } #Castaways
+			}
+			65={
+			   character_event = { id = edward.24 days = 40 } #Reading a books
+			}
+		}
+		random_list = { #85 days 
+			35={
+			   character_event = { id = edward.17 days = 85 } #Pirates
+			}
+			30={
+			   character_event = { id = edward.20 days = 85 } #Castaways
+			}
+			45={
+			   character_event = { id = edward.24 days = 85 } #Reading a books
+			}
+		}
+	}
+}
+
+narrative_event = { #Rumors in Canada
+	id = edward.32
+	title = EVTNAME_edward.32
+	desc = EVTDESC_edward.32
+	picture = GFX_evt_canada_confederation
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.32
+		trigger = { has_landed_title = e_mexico }
+		prestige = 150
+		narrative_event = { id = edward.33 days = 100 }
+		c_prince_edward = {
+		   holder_scope = {
+		       narrative_event = { id = edward.36 days = 118 }
+		   }
+		}
+		hidden_tooltip = {
+			create_random_priest = {
+				random_traits = yes
+				dynasty = 42000085
+				name = "George"
+				religion = nonconformist
+				culture = ontarian
+				age = 31
+				health = 8
+				add_trait = cruel
+				add_trait = ambitious
+				add_trait = zealous
+				add_trait = duelist
+				add_trait = deceitful
+				add_trait = brave
+				add_trait = quick
+				add_trait = siege_leader
+				add_trait = inspiring_leader
+
+				attributes = {
+					learning = 9
+					diplomacy = 7
+					martial = 15
+					stewardship = 8
+					intrigue = 14
+				}
+		    }
+			new_character = {
+				 set_character_flag = nonconformist_lord_protector
+			}
+		}
+	}
+	
+	option = { 
+	    name = EVTOPTB_edward.32
+		prestige = -100
+		c_prince_edward = {
+		   holder_scope = {
+		       narrative_event = { id = edward.42 days = 118 }
+		   }
+		}
+	}
+}
+
+narrative_event = {
+	id = edward.33
+	name = EVTNAME_edward.33
+	title = EVTDESC_edward.33
+	picture = GFX_evt_plot
+
+	is_triggered_only = yes
+
+	option = {
+	    name = EVTOPTA_edward.33
+		any_character = {
+			limit = { 
+				has_character_flag = nonconformist_lord_protector
+				is_alive = yes
+			}
+			gain_title = k_canada
+			gain_title = c_ottawa
+			gain_title = d_ottawa
+		}
+        any_vassal = {
+            limit = { religion = ursuline }
+            independence = yes
+        }
+		death = { death_reason = death_murder killer = k_canada:holder_scope }
+		k_ursuline = {
+		   holder_scope = {
+		       character_event = { id = edward.34 days = 10 }
+		   }
+		}
+	}
+}
+
+character_event = { 
+	id = edward.34
+	desc = EVTDESC_edward.34
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.17
+		k_canada = {
+			reverse_unsafe_war = {
+				target = ROOT
+				casus_belli = antinonconcformist_ursu_war
+			}
+		}
+		any_character = {
+			limit = { 
+				religion=ursuline
+				independent = yes
+				NOT = { has_landed_title = k_ursuline }
+			}
+			narrative_event = { id = edward.35 }
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.35
+	title = EVTNAME_edward.35
+	desc = EVTDESC_edward.35
+	picture = GFX_evt_ursuline_crusade
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.36
+		piety = 500
+		ROOT = {
+			join_war = {
+				target = k_canada      
+				attacker = k_ursuline 
+			}
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.36
+	title = EVTNAME_edward.36
+	desc = EVTDESC_edward.36
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.36
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		if = {
+		   limit = {
+		      c_1763128 = {
+			     OR = {
+		           NOT = { trait="no_marriage" }
+				   is_alive = no
+				 }
+		       }
+		   }
+		   narrative_event = { id = edward.38 }
+		}
+		if = {
+		   limit = {
+		     c_1763128 = {
+			     trait = "no_marriage"
+				 is_alive = yes
+			 }
+		   }
+		   narrative_event = { id = edward.37 }
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.37
+	title = EVTNAME_edward.37
+	desc = EVTDESC_edward.37
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.37
+		any_character = {
+			limit = { 
+				character = 1763128
+			}
+			tooltip = { show_portrait = yes }
+		}
+		  narrative_event = { id = edward.39 }
+	}
+}
+
+narrative_event = { 
+	id = edward.38
+	title = EVTNAME_edward.38
+	desc = EVTDESC_edward.38
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.38
+		narrative_event = { id = edward.39 }
+	}
+}
+
+narrative_event = { 
+	id = edward.39
+	title = EVTNAME_edward.39
+	desc = EVTDESC_edward.39
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.39
+		any_character = {
+			limit = { 
+				has_landed_title = k_united_republics
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.40 }
+	}
+}
+
+narrative_event = { 
+	id = edward.40
+	title = EVTNAME_edward.40
+	desc = EVTDESC_edward.40
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.40
+		any_character = {
+			limit = { 
+			  OR = {
+				has_landed_title = k_united_republics
+				has_landed_title = k_ursuline
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.41 days = 6 }
+	}
+}
+
+narrative_event = { 
+	id = edward.41
+	title = EVTNAME_edward.41
+	desc = EVTDESC_edward.41
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.41
+		wealth = 1500
+		any_character = {
+			limit = { 
+			  OR = {
+				has_landed_title = k_united_republics
+				has_landed_title = k_ursuline
+				has_character_flag = edwardfitzroy_brasilfriend
+				has_character_flag = edwardfitzroy_castaway
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+			}
+			wealth = 900
+		}
+		religion=ursuline
+		remove_trait = "travelling"
+		add_claim = k_canada
+		add_claim = d_ottawa
+		add_claim = c_ottawa
+		add_claim = e_canada
+		any_character = {
+			limit = { 
+			  OR = {
+				has_character_flag = edwardfitzroy_brasilfriend
+				has_character_flag = edwardfitzroy_castaway
+			  }
+			}
+			remove_trait = "travelling"
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 3
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 500 500 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.42
+	title = EVTNAME_edward.42
+	desc = EVTDESC_edward.42
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.42
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+		if = {
+		   limit = {
+		      c_1763128 = {
+			     OR = {
+		           NOT = { trait="no_marriage" }
+				   is_alive = no
+				 }
+		       }
+		   }
+		   narrative_event = { id = edward.44 days = 1 }
+		}
+		if = {
+		   limit = {
+		     c_1763128 = {
+			     trait = "no_marriage"
+				 is_alive = yes
+			 }
+		   }
+		   narrative_event = { id = edward.43 days = 1}
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.43
+	title = EVTNAME_edward.43
+	desc = EVTDESC_edward.43
+	picture = GFX_evt_princess_byzantine
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.43
+		any_character = {
+			limit = { 
+			  OR = {
+				  character = 1763128
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		narrative_event = { id = edward.45 days = 15 }
+	}
+}
+
+narrative_event = { 
+	id = edward.44
+	title = EVTNAME_edward.44
+	desc = EVTDESC_edward.44
+	picture = GFX_evt_recieve_letter
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.44
+		narrative_event = { id = edward.45 days = 15 }
+	}
+}
+
+narrative_event = { 
+	id = edward.45
+	title = EVTNAME_edward.45
+	desc = EVTDESC_edward.45
+	picture = GFX_evt_brazilian_diplomat
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.45
+		wealth = 2000
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				is_alive = yes
+			}
+			add_friend = ROOT
+			wealth = 800
+		}
+		character_event = { id = edward.46 days = 1 }
+	}
+	
+	option = { 
+	    name = EVTOPTA_edward.45
+		wealth = 2000
+		character_event = { id = edward.46 days = 1 }
+		custom_tooltip = {
+			text = EDWARD45_TOOLTIP_TEXT
+		    hidden_tooltip = {
+		         	any_character = {
+			     	limit = { 
+				     	has_character_flag = edwardfitzroy_brasilfriend
+				     	is_alive = yes
+			     	}
+					death = { death_reason = death_went_back_to_china }
+		     	}
+		    }
+	    }
+	}
+}
+
+character_event = { 
+	id = edward.46
+	desc = EVTDESC_edward.46
+	picture = GFX_evt_ship_voyage_hf
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.45
+		narrative_event = { id = edward.47 days = 42 }
+	}
+}
+
+narrative_event = { 
+	id = edward.47
+	title = EVTNAME_edward.47
+	desc = EVTDESC_edward.47
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.46
+		prestige = 200
+		remove_trait = "travelling"
+		remove_trait = "no_marriage"
+		any_character = {
+			limit = { 
+			  OR = { 
+				has_character_flag = edwardfitzroy_brasilfriend
+				has_character_flag = edwardfitzroy_castaway
+			  }
+				is_alive = yes
+			}
+			remove_trait = "travelling"
+			clr_character_flag = edwardfitzroy_brasilfriend
+			clr_character_flag = edwardfitzroy_castaway
+		}
+		if = {
+		   limit = {
+		   	 c_1763128 = {
+			     trait = "no_marriage"
+				 is_alive = yes
+			 }
+		   }
+		   d_montreal = {
+		      holder_scope = {
+		       narrative_event = { id = edward.48 days = 6 }
+			  }
+			}
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.48
+	title = EVTNAME_edward.48
+	desc = EVTDESC_edward.48
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.48
+		any_character = {
+			limit = { 
+			  OR = {
+				  character = 1763128
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		any_character = {
+			limit = { 
+			  OR = {
+				  has_landed_title = c_prince_edward
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		c_prince_edward = {
+		    holder_scope = {
+			   narrative_event = { id = edward.49 days = 2 }
+			}
+		}
+	}
+	
+	option = { 
+	    name = EVTOPTB_edward.48
+		prestige = -50
+		any_character = {
+			limit = { 
+			  OR = {
+				  character = 1763128
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+	}
+}
+
+narrative_event = { 
+	id = edward.49
+	desc = EVTDESC_edward.49
+	picture = GFX_evt_ship_voyage_hf
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.49
+		d_montreal = {
+		  holder_scope = {
+		    character_event = { id = edward.50 days = 1 }
+		  }
+	    }
+		character_event = { id = edward.52 days = 5 }
+	}
+	
+	option = { 
+	    name = EVTOPTB_edward.49
+		d_montreal = {
+		  holder_scope = {
+		    character_event = { id = edward.51 days = 1 }
+			opinion = {
+			  modifier = opinion_insulted
+			  who = ROOT
+			  years = 5
+			}
+		  }
+	    }
+	}
+}
+
+character_event = { 
+	id = edward.50
+	desc = EVTDESC_edward.50
+	picture = GFX_evt_princess_byzantine
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.50
+	}
+}
+
+character_event = { 
+	id = edward.51
+	desc = EVTDESC_edward.51
+	picture = GFX_evt_bad_news
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.51
+		hidden_tooltip = {
+		c_1763128 = {
+		   remove_trait = "no_marriage"
+		}
+		}
+	}
+}
+
+character_event = { 
+	id = edward.52
+	desc = EVTDESC_edward.52
+	picture = GFX_evt_ursuline_crusade
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.52
+		any_character = {
+			limit = { 
+			  OR = {
+			      has_landed_title = d_montreal
+				  character = 1763128
+			  }
+			}
+			tooltip = { show_portrait = yes }
+		}
+		religion=ursuline
+		narrative_event = { id = edward.53 days = 15 }
+	}
+}
+
+narrative_event = { 
+	id = edward.53
+	title = EVTNAME_edward.53
+	desc = EVTDESC_edward.53
+	picture = GFX_evt_marriage
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.53
+		hidden_tooltip = {
+		c_1763128 = {
+		   remove_trait = "no_marriage"
+		}
+		}
+		add_spouse = c_1763128
+	}
+}
+
+############ Random Events #############
+
+character_event = { #Pirates
+	id = edward.17
+	desc = EVTDESC_edward.17
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.17
+		if = { 
+		  limit = { has_landed_title = c_prince_edward }
+		hidden_tooltip ={
+		random_list = {
+		    85 = {
+			   character_event = { id = edward.18 }
+			}
+			15 = {
+			   character_event = { id = edward.19 }
+			}
+		}
+		}
+		}
+		if = { 
+		  limit = { NOT = { has_landed_title = c_prince_edward }  }
+		hidden_tooltip ={
+		random_list = {
+		    90 = {
+			   character_event = { id = edward.18 }
+			}
+			10 = {
+			   character_event = { id = edward.19 }
+			}
+		}
+		}
+		}
+	}
+}
+
+character_event = { #Victory over pirates
+	id = edward.18
+	desc = EVTDESC_edward.18
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.18
+		prestige = 100
+		random_list = {
+		   15 = {
+		       add_trait="wounded"
+		   }
+		}
+	}
+}
+
+character_event = { #Pirate victory
+	id = edward.19
+	desc = EVTDESC_edward.19
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { #Fight
+	    name = EVTOPTA_edward.19
+		any_character = {
+			limit = { 
+				OR = {
+				   has_character_flag = edwardfitzroy_brasilfriend
+				   has_character_flag = edwardfitzroy_castaway
+				}
+				is_alive = yes
+			}
+			death = { death_reason = death_vanished }
+		}
+		death = { death_reason = death_vanished }
+	}
+}
+
+character_event = { #Castaways
+	id = edward.20
+	desc = EVTDESC_edward.20
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.20
+		random_list = {
+		   40 = {
+		      wealth = 10
+		   }
+		   35 = {
+		      wealth = 30
+		   }
+		   15 = {
+		      wealth = 50
+		   }
+		   10 = {
+		      wealth = 80
+		   }
+		}
+	    custom_tooltip = {
+			text = EDWARD20_TOOLTIP_TEXT
+		hidden_tooltip = {
+		    create_random_character = {
+				random_traits = yes
+				religion = random
+				culture = random
+				add_trait = travelling
+		    }
+			new_character = {
+				set_character_flag = edwardfitzroy_castaway
+		    }
+			create_random_character = {
+				random_traits = yes
+				religion = random
+				culture = random
+				add_trait = travelling
+		    }
+			new_character = {
+				set_character_flag = edwardfitzroy_castaway
+		    }
+	    }
+		}
+		any_character = {
+			limit = { 
+				has_character_flag = edwardfitzroy_castaway
+				is_alive = yes
+			}
+			tooltip = { show_portrait = yes }
+		}
+	}
+}
+
+character_event = {
+	id = edward.24
+	desc = EVTDESC_edward.24
+	picture = GFX_evt_merchant_ship_at_sea_republic
+
+	is_triggered_only = yes
+
+	option = { 
+	    name = EVTOPTA_edward.24
+		random_list = {
+		  33 = {
+		    ROOT = { 
+		      change_diplomacy = 1
+			}
+		  }
+		  33 = {
+		    ROOT = { 
+		      change_stewardship = 1
+			}
+		  }
+		  34 = {
+		    ROOT = { 
+		     change_learning = 1 
+			}
+		  }
+		}
+	}
+}

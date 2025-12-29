@@ -1,0 +1,838 @@
+namespace = con_congress
+
+character_event = {
+	id = con_congress.1
+	desc = EVTDESC_con_congress.1
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+
+	option = { #Yes
+		name = EVTOPTA_con_congress.1
+		ai_chance = {
+			factor = 99
+			modifier = {
+			    factor = 50
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } }
+			}
+			modifier = {
+			    factor = 35
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } }
+			}
+			modifier = {
+			    factor = 20
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 40 } } }
+			}
+			modifier = {
+			    factor = -10
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } }
+			}
+			modifier = {
+			    factor = -25
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } }
+			}
+			modifier = {
+			    factor = -35
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -75 } } }
+			}
+			modifier = {
+			    factor = -50
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -75 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -100 } } }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = cruel
+			  }
+			}
+			modifier = {
+			  factor = -10
+			  e_dixie:holder_scope = {
+			    trait = possesed
+			  }
+			}
+			modifier = {
+			  factor = -30
+			  e_dixie:holder_scope = {
+			    trait = excommunicated
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = craven
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = dwarf
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = hunchback
+			  }
+			}
+			modifier = {
+			  factor = -25
+			  e_dixie:holder_scope = {
+			    trait = imbecile
+			  }
+			}
+			modifier = {
+			  factor = 10
+			  e_dixie:holder_scope = {
+			    trait = fair
+			  }
+			}
+			modifier = {
+			  factor = 3
+			  e_dixie:holder_scope = {
+			    trait = kind
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = quick
+			  }
+			}
+			modifier = {
+			  factor = 10
+			  e_dixie:holder_scope = {
+			    trait = genius
+			  }
+			}
+			modifier = {
+			  factor = 10
+			  e_dixie:holder_scope = {
+			    trait = just
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = brave
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = ugly
+			  }
+			}
+			modifier = {
+			  factor = 10
+			  e_dixie:holder_scope = {
+			    trait = knight
+			  }
+			}
+		}
+		prestige = 100
+		e_dixie = {
+		   holder_scope = {  
+		      character_event = { id = con_congress.2 }  #Congress Accepted
+			  add_trait = "congress_accepted_emperor"
+			}
+		}
+	}
+	
+	option = { #No
+		name = EVTOPTB_con_congress.1
+		ai_chance = {
+			factor = 1
+			modifier = {
+			    factor = -50
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } }
+			}
+			modifier = {
+			    factor = -35
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } }
+			}
+			modifier = {
+			    factor = -20
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    e_dixie = { holder_scope = { opinion = { who = ROOT value = 40 } } }
+			}
+			modifier = {
+			    factor = 10
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } }
+			}
+			modifier = {
+			    factor = 25
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } }
+			}
+			modifier = {
+			    factor = 35
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -75 } } }
+			}
+			modifier = {
+			    factor = 50
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 100 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = 60 } } } }
+			    NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -5 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -20 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -50 } } } }
+				NOT = { e_dixie = { holder_scope = { opinion = { who = ROOT value = -75 } } } }
+				e_dixie = { holder_scope = { opinion = { who = ROOT value = -100 } } }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = cruel
+			  }
+			}
+			modifier = {
+			  factor = 10
+			  e_dixie:holder_scope = {
+			    trait = possesed
+			  }
+			}
+			modifier = {
+			  factor = 30
+			  e_dixie:holder_scope = {
+			    trait = excommunicated
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = craven
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = dwarf
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = hunchback
+			  }
+			}
+			modifier = {
+			  factor = 25
+			  e_dixie:holder_scope = {
+			    trait = imbecile
+			  }
+			}
+			modifier = {
+			  factor = -10
+			  e_dixie:holder_scope = {
+			    trait = fair
+			  }
+			}
+			modifier = {
+			  factor = -3
+			  e_dixie:holder_scope = {
+			    trait = kind
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = quick
+			  }
+			}
+			modifier = {
+			  factor = -10
+			  e_dixie:holder_scope = {
+			    trait = genius
+			  }
+			}
+			modifier = {
+			  factor = -10
+			  e_dixie:holder_scope = {
+			    trait = just
+			  }
+			}
+			modifier = {
+			  factor = -5
+			  e_dixie:holder_scope = {
+			    trait = brave
+			  }
+			}
+			modifier = {
+			  factor = 5
+			  e_dixie:holder_scope = {
+			    trait = ugly
+			  }
+			}
+			modifier = {
+			  factor = -10
+			  e_dixie:holder_scope = {
+			    trait = knight
+			  }
+			}
+		}
+		prestige = 100
+		add_rival = e_dixie:holder_scope
+		e_dixie = {
+		   holder_scope = {  
+		      character_event = { id = con_congress.3 }  #Congress Refused
+			  add_trait = "congress_refused_emperor"
+			}
+		}
+	}
+}
+
+character_event = {
+	id = con_congress.2
+	desc = EVTDESCcon_congress.2
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_con_congress.2
+		prestige = 1000
+		add_trait = "congress_accepted_emperor"
+	}
+}
+
+character_event = {
+	id = con_congress.3
+	desc = EVTDESCcon_congress.3
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.3
+		prestige = -500
+		add_trait = "congress_refused_emperor"
+		current_heir = { save_event_target_as = new_emperor }
+		event_target:new_emperor = { 
+		   gain_title = e_dixie
+		}
+		clear_event_target = new_emperor
+	}
+	
+	option = { 
+		name = EVTOPTB_con_congress.3
+		prestige = -1000
+		add_trait = "congress_refused_emperor"
+		d_confederate_congress = {
+			reverse_unsafe_war = {
+				target = ROOT
+				casus_belli = emperor_elect_congress_war_cb
+			}
+		}
+		d_confederate_congress = {
+		    holder_scope = {
+		        character_event = { id = con_congress.11 }
+			}
+		}
+	}
+}
+
+#narrative_event = {
+	#id = con_congress.4
+	#title = EVTNAMEcon_congress.4
+	#desc = EVTDESCcon_congress.4
+	#picture = GFX_event_confederate_congress
+
+	#is_triggered_only = yes
+	
+	#option = { 
+		#name = EVTOPTA_con_congress.4
+		#activate_title = { status = no title = d_confederate_congress }
+		#d_confederate_congress = { destroy_landed_title = THIS }
+	#}
+#}
+
+#narrative_event = {
+	#id = con_congress.5
+	#title = EVTNAMEcon_congress.4
+	#desc = EVTDESCcon_congress.4
+	#picture = GFX_event_confederate_congress
+
+	#is_triggered_only = yes
+	
+	#option = { 
+		#name = EVTOPTA_con_congress.4
+	#}
+#}
+
+#narrative_event = {
+    #id = con_congress.6
+    #title = EVTNAMEcon_congress.6
+    #desc = EVTDESCcon_congress.6
+    #picture = GFX_event_confederate_congress
+    #is_triggered_only = yes
+    
+    #option = {
+        #name = EVTOPTA_con_congress.6
+        #prestige = 500
+        #activate_title = { status = yes title = d_confederate_congress }
+        #b_ladson_SC = {
+            #holder_scope = {
+                #gain_title = d_confederate_congress
+                #set_government = confederate_congress_government 
+                #recalc_succession = yes
+                #add_trait = "knight"
+                #make_defacto_liege = e_dixie
+				#character_event = { id = con_congress.8 days = 1 }
+            #}
+        #}
+        #hidden_tooltip = {
+            #d_confederate_congress = {
+                #holder_scope = {
+                    #set_government = confederate_congress_government
+					#set_government_type = confederate_congress_government
+                    #recalc_succession = yes
+                    #set_defacto_liege = e_dixie:holder_scope
+					#character_event = { id = con_congress.8 days = 1 }
+                #}
+            #}
+        #}
+    #}
+#}
+
+	
+#narrative_event = {
+	#id = con_congress.7
+	#title = EVTNAMEcon_congress.6
+	#desc = EVTDESCcon_congress.6
+	#picture = GFX_event_confederate_congress
+
+	#is_triggered_only = yes
+	
+	#option = { 
+		#name = EVTOPTA_con_congress.6
+	#}
+#}
+
+#narrative_event = {
+	#id = con_congress.8
+	#title = EVTNAMEcon_congress.6
+	#desc = EVTDESCcon_congress.6
+	#picture = GFX_event_confederate_congress
+
+	#is_triggered_only = yes
+	
+	#option = { 
+		#name = EVTOPTA_con_congress.6
+		#set_government = confederate_congress_government
+		#recalc_succession = yes
+		#set_defacto_liege = e_dixie:holder_scope
+		    #d_confederate_congress = {
+                #holder_scope = {
+                    #set_government = confederate_congress_government
+					#set_government_type = confederate_congress_government
+                    #recalc_succession = yes
+                    #set_defacto_liege = e_dixie:holder_scope
+                #}
+            #}
+	#}
+#}
+
+narrative_event = {
+	id = con_congress.9
+	title = EVTNAMEcon_congress.9
+	desc = EVTDESCcon_congress.9
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.9
+		trigger = { NOT = { has_landed_title = d_confederate_congress } }
+	}
+	
+	option = { 
+		name = EVTOPTB_con_congress.9
+		trigger = { has_landed_title = d_confederate_congress }
+	}
+}
+
+narrative_event = {
+	id = con_congress.10
+	title = EVTNAMEcon_congress.9
+	desc = EVTDESCcon_congress.9
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.10
+		prestige = -500
+		add_trait = "congress_refused_emperor"
+		e_dixie = { 
+		   holder_scope = {
+		       imprison = d_confederate_congress:holder_scope
+		   }
+		}
+		current_heir = { save_event_target_as = new_emperor }
+		event_target:new_emperor = { 
+		   gain_title = e_dixie
+		}
+		clear_event_target = new_emperor
+	}
+}
+
+character_event = {
+	id = con_congress.11
+	desc = EVTDESCcon_congress.11
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.11
+		prestige = 500
+		spawn_unit = {
+			province = 164
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_cavalry = { 500 500 }
+				heavy_cavalry = { 300 300 }
+				light_infantry = { 900 900 }
+				heavy_infantry = { 450 450 }
+				archers = { 550 550 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 164
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_cavalry = { 800 800 }
+				light_infantry = { 1200 1200 }
+				heavy_infantry = { 150 150 }
+				archers = { 550 550 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+		spawn_unit = {
+			province = 164
+			home = PREV
+			owner = ROOT
+			troops = {
+				light_infantry = { 800 800 }
+				heavy_infantry = { 550 550 }
+				archers = { 350 350 }
+			}
+			attrition = 0.5
+			earmark = dummy #needs or else it will CTD for some reason
+		}
+	}
+}
+
+narrative_event = {
+	id = con_congress.12
+	title = EVTNAMEcon_congress.12
+	desc = EVTDESCcon_congress.12
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.12
+		
+	}
+}
+
+narrative_event = {
+	id = con_congress.13
+	title = EVTNAMEcon_congress.12
+	desc = EVTDESCcon_congress.12
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.13
+		prestige=1000
+		hidden_tooltip = {
+		d_confederate_congress = {
+		     holder_scope = {
+				banish = ROOT
+			 }
+	    }
+	   }
+	}
+}
+
+narrative_event = {
+	id = con_congress.14
+	title = EVTNAMEcon_congress.14
+	desc = EVTDESCcon_congress.14
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.14
+		#any_character = {
+			#limit = { 
+				#OR = {
+				  #has_character_flag = d_confederate_congress
+				   #has_landed_title = e_dixie
+			#}
+			#tooltip = { show_portrait = yes }
+		#}
+		#}
+	}
+}
+
+narrative_event = {
+	id = con_congress.15
+	title = EVTNAMEcon_congress.15
+	desc = EVTDESCcon_congress.15
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.15
+		#any_character = {
+			#limit = { 
+				#OR = {
+				   #AND = {
+				      	 #liege = {
+					  	   #primary_title = { 
+					      	 #title = d_confederate_congress
+					  	   #}
+				    	 #}
+						 #is_patrician = yes
+				   #}
+				   #AND = {
+				     	 #liege = {
+					  	   #has_landed_title = e_dixie
+				    	 #}
+						#has_job_title = job_chancellor
+				   #}
+				#}
+			#}
+			#tooltip = { show_portrait = yes }
+		#}
+		any_character = {
+			limit = { 
+				OR = {
+				   AND = {
+				      	 liege = {
+					  	   primary_title = { 
+					      	 title = d_confederate_congress
+					  	   }
+				    	 }
+						 is_patrician = yes
+						 is_landed = yes
+				   }
+				   AND = {
+				     	 liege = {
+					  	   has_landed_title = e_dixie
+				    	 }
+						has_job_title = job_chancellor
+				   }
+				}
+			}
+			character_event = { id = con_congress.16 days = 7 }
+		}
+		d_confederate_congress = {
+		   holder_scope = {
+		       add_trait = "impecher"
+			   character_event = { id = con_congress.16 days = 14 }
+		   }
+		}
+		set_variable = { which = impeachment_yes value = 0 }
+	}
+}
+
+character_event = {
+	id = con_congress.16
+	desc = EVTDESCcon_congress.16
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.16
+	}
+	
+	option = { 
+		name = EVTOPTB_con_congress.16
+		change_variable = { which = impeachment_yes value = 1 }
+	}
+}
+
+character_event = {
+	id = con_congress.17
+	desc = EVTDESCcon_congress.17
+	picture = GFX_event_confederate_congress
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.17
+		trigger = {
+		     check_variable = { which = impeachment_yes value > 2 }
+			 trait = impeacher
+		}
+		any_character = {
+			limit = { 
+				OR = {
+				   AND = {
+				      	 liege = {
+					  	   primary_title = { 
+					      	 title = d_confederate_congress
+					  	   }
+				    	 }
+						 is_patrician = yes
+				   }
+				   AND = {
+				     	 liege = {
+					  	   has_landed_title = e_dixie
+				    	 }
+						has_job_title = job_chancellor
+				   }
+				   has_landed_title = e_dixie
+				   has_landed_title = d_confederate_congress
+				}
+			}
+			narrative_event = { id = con_congress.18 days = 7 }
+		}
+	option = {
+	    name = EVTOPTA_con_congress.17
+		trigger = {
+		     check_variable = { NOT = { which = impeachment_yes value > 2 } }
+			 trait = impeacher
+		}
+	    any_character = {
+			limit = { 
+				OR = {
+				   AND = {
+				      	 liege = {
+					  	   primary_title = { 
+					      	 title = d_confederate_congress
+					  	   }
+				    	 }
+						 is_patrician = yes
+				   }
+				   AND = {
+				     	 liege = {
+					  	   has_landed_title = e_dixie
+				    	 }
+						has_job_title = job_chancellor
+				   }
+				   has_landed_title = e_dixie
+				   has_landed_title = d_confederate_congress
+				}
+			}
+			narrative_event = { id = con_congress.18 days = 7 }
+		}
+	}
+	option = {
+		trigger = { NOT = { trait = impeacher } }
+		clr_variable = { which = impeachment_yes }
+		remove_trait = "impeacher"
+	}
+}
+
+narrative_event = {
+	id = con_congress.18
+	title = EVTNAMEcon_congress.18
+	desc = EVTDESCcon_congress.18
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.18
+		trigger = { has_landed_title = d_confederate_congress }
+		remove_trait="impeacher"
+		add_trait="survived_impeachment_conf_pres"
+		prestige = 500
+		clr_variable = { which = impeachment_yes }
+	}
+	
+	option = { 
+		name = EVTOPTB_con_congress.18
+		trigger = { NOT = { has_landed_title = d_confederate_congress has_landed_title = e_dixie } }
+		clr_variable = { which = impeachment_yes }
+	}
+	
+	option = { 
+		name = EVTOPTC_con_congress.18
+		trigger = { has_landed_title = e_dixie }
+		prestige = -500
+		clr_variable = { which = impeachment_yes }
+	}
+}
+
+narrative_event = {
+	id = con_congress.19
+	title = EVTNAMEcon_congress.19
+	desc = EVTDESCcon_congress.19
+	picture = GFX_event_confederate_congress
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_con_congress.18
+		trigger = { has_landed_title = d_confederate_congress }
+		remove_trait="impeacher"
+		prestige = -500
+		clr_variable = { which = impeachment_yes }
+	}
+	
+	option = { 
+		name = EVTOPTB_con_congress.18
+		trigger = { NOT = { has_landed_title = d_confederate_congress has_landed_title = e_dixie } }
+		clr_variable = { which = impeachment_yes }
+	}
+	
+	option = { 
+		name = EVTOPTC_con_congress.18
+		trigger = { has_landed_title = e_dixie }
+		prestige = 500
+		clr_variable = { which = impeachment_yes }
+		d_confederate_congress = {
+		     holder_scope = {
+				banish = ROOT
+			 }
+	    }
+	}
+}
