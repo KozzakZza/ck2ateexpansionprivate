@@ -1,0 +1,879 @@
+42000001 = { name="Washington" culture=southron used_for_random = no }
+42000002 = { name="Adams" culture=yankee used_for_random = no }
+42000003 = { name="Jefferson" culture=yankee used_for_random = no }
+42000004 = { name="Madison" culture=yankee used_for_random = no }
+42000005 = { name="Monroe" culture=yankee used_for_random = no }
+42000006 = { name="Adams" culture=yankee used_for_random = no }
+42000007 = { name="Jackson" culture=yankee used_for_random = no }
+42000008 = { name="van Buren" culture=deitsch used_for_random = no }
+42000009 = { name="Harrison" culture=deitsch used_for_random = no }
+42000010 = { name="Tyler" culture=deitsch used_for_random = no }
+42000011 = { name="Polk" culture=deitsch used_for_random = no }
+42000012 = { name="Taylor" culture=deitsch used_for_random = no }
+42000013 = { name="Fillmore" culture=deitsch used_for_random = no }
+42000014 = { name="Pierce" culture=deitsch used_for_random = no }
+42000015 = { name="Buchanan" culture=deitsch used_for_random = no }
+42000016 = { name="Lincoln" culture=deitsch used_for_random = no }
+42000017 = { name="Johnson" culture=deitsch used_for_random = no }
+42000018 = { name="Grant" culture=deitsch used_for_random = no }
+42000019 = { name="Hayes" culture=deitsch used_for_random = no }
+42000020 = { name="Garfield" culture=deitsch used_for_random = no }
+42000021 = { name="Arthur" culture=deitsch used_for_random = no }
+42000022 = { name="Cleveland" culture=deitsch used_for_random = no }
+42000023 = { name="Harrison" culture=deitsch used_for_random = no }
+42000024 = { name="McKinley" culture=deitsch used_for_random = no }
+42000025 = { name="Roosevelt" culture=deitsch used_for_random = no }
+42000026 = { name="Taft" culture=deitsch used_for_random = no }
+42000027 = { name="Wilson" culture=deitsch used_for_random = no }
+42000028 = { name="Harding" culture=deitsch used_for_random = no }
+42000029 = { name="Coolidge" culture=deitsch used_for_random = no }
+42000030 = { name="Hoover" culture=deitsch used_for_random = no }
+42000032 = { name="Truman" culture=deitsch used_for_random = no }
+42000033 = { name="Eisenhower" culture=deitsch used_for_random = no }
+42000034 = { name="Kennedy" culture=deitsch used_for_random = no }
+42000037 = { name="Nixon" culture=deitsch used_for_random = no }
+42000038 = { name="Ford" culture=deitsch used_for_random = no }
+42000041 = { name="Carter" culture=deitsch used_for_random = no }
+42000042 = { name="Reagan" culture=deitsch used_for_random = no }
+42000043 = { name="Bush" culture=deitsch used_for_random = no }
+42000044 = { 
+name="Antalopez" 
+culture=valluno
+religion=jesuite
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 170
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000045 = { name="Castro" culture=cubano used_for_random = no }
+42000046 = { name="Batista" culture=cubano used_for_random = no }
+42000047 = { name="de Cespedes" culture=cubano used_for_random = no }
+42000048 = { name="Machado" culture=cubano used_for_random = no }
+42000049 = { name="Catierrez" culture=cubano used_for_random = no }
+42000050 = { name="Lopez" culture=cubano used_for_random = no }
+42000051 = { name="Salatero" culture=cubano used_for_random = no }
+42000052 = { name="Capero" culture=cubano used_for_random = no }
+42000053 = { 
+name="Rataroz" 
+culture=valluno
+religion=jesuite
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 171
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000054 = { name="Pelero" culture=cubano used_for_random = no }
+42000055 = { 
+name="Wessex" 
+culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 172
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000056 = { 
+name="de Normandie" 
+culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 173
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000057 = { 
+name="Plantagenet" 
+culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 173
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000058 = { 
+name="York" 
+culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 175
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000059 = { 
+name="Lancaster" 
+culture=cubano 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 174
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000060 = { 
+name="Tudor" 
+culture=cubano 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 176
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000061 = { 
+name="Stuart" 
+culture=cubano 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 177
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000062 = { 
+name="von Hannover" 
+culture=cubano 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 178
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000063 = { 
+name="Windsor" 
+culture=cubano 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 179
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000064 = { 
+name="Desart" 
+culture=ontarian 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 180
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000065 = { 
+name="Rideau" 
+culture=ontarian 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 181
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000066 = { 
+name="Renfrew" 
+culture=ontarian 
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 182
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000067 = { 
+name="Davies" 
+culture=southron
+coat_of_arms = {
+	template = 0
+	layer = {
+		texture = 8
+		texture_internal = 183
+		emblem = 0
+		color = 0
+		color = 0
+		color = 0
+	}
+}
+used_for_random = no 
+}
+
+42000068 = { 
+name="Nicolson" 
+culture=southron
+coat_of_arms = {
+	template = 0
+	layer = {
+		texture = 8
+		texture_internal = 184
+		emblem = 0
+		color = 0
+		color = 0
+		color = 0
+	}
+}
+used_for_random = no 
+}
+
+42000069 = { 
+name="Parker" 
+culture=dixie
+coat_of_arms = {
+	template = 0
+	layer = {
+		texture = 8
+		texture_internal = 185
+		emblem = 0
+		color = 0
+		color = 0
+		color = 0
+	}
+}
+used_for_random = no 
+}
+42000070 = { name="La Gonave" culture=haitian used_for_random = no }
+42000071 = { name="Wirkus" culture=haitian used_for_random = no }
+42000072 = { name="Duvalier" culture=haitian used_for_random = no }
+42000073 = { name="Turenne des Pres" culture=haitian 
+    coat_of_arms = {
+		religion = norse_pagan
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+used_for_random = no
+}
+42000074 = { 
+    name="de Cayese" 
+	culture=haitian 
+    coat_of_arms = {
+		religion = norse_pagan
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+used_for_random = no
+}
+42000075 = { 
+    name="de Pigally" 
+	culture=haitian 
+    coat_of_arms = {
+		religion = norse_pagan
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+used_for_random = no
+}
+42000076 = { 
+    name="Eresby"
+	culture=yankee 
+    coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 186
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+used_for_random = no
+}
+42000077 = { 
+    name="Kennedy"
+	culture=yankee 
+    coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 187
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+used_for_random = no
+}
+42000078 = { 
+    name="Walton"
+	culture=yankee 
+    used_for_random = no
+}
+42000079 = { 
+    name="Corleone"
+	culture=gothamite
+    used_for_random = no
+}
+42000080 = { 
+    name="Gladstone"
+	culture=yankee
+    used_for_random = no
+}
+42000081 = { 
+    name="Corleone"
+	culture=gothamite
+    used_for_random = no
+}
+42000082 = { 
+    name="Redcliff"
+	culture=yankee
+    used_for_random = no
+}
+42000083 = { 
+    name="Londonderry"
+	culture=yankee
+    used_for_random = no
+}
+42000084 = { 
+    name="FitzRoy"
+	culture=ontarian
+    coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 188
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+used_for_random = no
+}
+42000085 = { 
+    name="Wolsey"
+	culture=ontarian
+    coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 189
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+used_for_random = no
+}
+42000086 = { 
+    name="Christophe"
+	culture=haitan
+    used_for_random = no
+}
+42000087 = { 
+    name="Bissainthe"
+	culture=haitan
+    used_for_random = no
+}
+42000088 = { 
+    name="Valcin"
+	culture=haitan
+    used_for_random = no
+}
+42000089 = { 
+    name="Bazin"
+	culture=haitan
+    used_for_random = no
+}
+42000090 = { 
+    name="d'Jacmel"
+	culture=haitan
+	coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 191
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+    used_for_random = no
+}
+42000091 = { 
+    name="de la Vega"
+	culture=quisqueyano
+	coat_of_arms = {
+	   template = 0
+	   layer = {
+		  texture = 8
+		  texture_internal = 190
+		  emblem = 0
+		  color = 0
+		  color = 0
+		  color = 0
+	   }
+    }
+    used_for_random = no
+}
+42000092 = { 
+    name="Marcelin"
+	culture=haitan
+    used_for_random = no
+}
+42000093 = { 
+    name="Petit"
+	culture=haitan
+    used_for_random = no
+}
+42000094 = { 
+    name="Smith"
+	culture=yankee
+    used_for_random = no
+}
+42000095 = { 
+    name="Woolley"
+	culture=yankee
+    used_for_random = no
+}
+42000096 = { 
+    name="Strang"
+	culture=gothamite
+    used_for_random = no
+}
+42000097 = { 
+    name="Godbe"
+	culture=anglish
+    used_for_random = no
+}
+42000098 = { 
+    name="Bacalar"
+	culture=kriol
+    used_for_random = no
+}
+42000098 = { 
+    name="Jones"
+	culture=kriol
+    used_for_random = no
+}
+42000099 = {
+    name="Longchamps"
+	culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 192
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000100 = {
+    name="Waelmont"
+	culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 193
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000101 = {
+    name="Falshingham"
+	culture=anglish
+    used_for_random = no 
+}
+42000102 = {
+    name="McWaelmont"
+	culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 194
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000103 = {
+    name="Sindor"
+	culture=anglish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 195
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+   used_for_random = no 
+}
+42000104 = {
+    name="Warhousen"
+	culture=plautdeitsch
+    used_for_random = no 
+}
+42000105 = {
+    name="Quarviegos"
+	culture=plautdeitsch
+    used_for_random = no 
+}
+42000106 = {
+    name="Rideout"
+	culture=kriol
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 196
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+    used_for_random = no 
+}
+42000107 = {
+    name="Gilkey"
+	culture=kriol
+    used_for_random = no 
+}
+42000108 = {
+    name="Morey"
+	culture=kriol
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 197
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+    used_for_random = no 
+}
+42000109 = {
+    name="Layon"
+	culture=kriol
+    used_for_random = no 
+}
+42000110 = {
+    name="Cabran"
+	culture=brazilian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 198
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+    used_for_random = no 
+}
+42000111 = {
+    name="Lepes"
+	culture=brazilian
+    used_for_random = no 
+}
+42000112 = { name="Starkiller" culture=deitsch used_for_random = no }
+42000113 = { name="Patton" culture=deitsch used_for_random = no }
+42000114 = { name="Bariaga" culture=deitsch used_for_random = no }
+42000115 = { name="Alvarez" culture=quisqueyano used_for_random = no }
+42000116 = { name="Rosenberg" culture=yiddish used_for_random = no }
+42000117 = { name="Gutierrez" culture=quisqueyano used_for_random = no }
+42000118 = { name="Trujillo" culture=quisqueyano used_for_random = no }
+42000119 = {
+    name="Cortez"
+	culture=brazilian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 199
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+    used_for_random = yes
+}
+42000120 = { name="de Santa Anna" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000121 = { 
+    name="Juarez" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000122 = { name="Diaz"
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000123 = { 
+    name="Madero" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000124 = { name="Huerta"
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000125 = { name="Zapata"
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000126 = { name="Villa" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000127 = { name="Calles" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000128 = { name="Gorostieta" 
+    culture=abajeno 
+	used_for_random = no 
+	coat_of_arms = {
+		religion = sacred_heart
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+42000129 = { name="of Capone" culture=gothamite used_for_random = no }
+42000130 = { name="Costello" culture=gothamite used_for_random = no }
+42000131 = { name="Raches" culture=abajeno  used_for_random = no }
+42000132 = { name="Villa" culture=abajeno  used_for_random = no }
+42000133 = { name="Escuella" culture=abajeno  used_for_random = no }
+42000134 = { name="Varleta" culture=abajeno  used_for_random = no }
+42000135 = { name="Etranger" culture=haitian  used_for_random = no }

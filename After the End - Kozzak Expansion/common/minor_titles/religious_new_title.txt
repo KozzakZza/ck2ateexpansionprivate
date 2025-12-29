@@ -1,0 +1,50 @@
+title_confessor = {
+	dignity = 0.9
+	grant_limit = 1
+	opinion_effect = 10
+	revoke_allowed = yes
+	
+	monthly_piety = 0.1
+	
+	allowed_to_grant = {
+		is_landed = yes
+		OR = {
+		    religion = catholic
+			religion = nestorian
+			religion = sedevacantist
+			religion = anticonclavist
+			religion = jesuite
+			religion = belizean_catholic
+		}
+	}
+	
+	allowed_to_hold = {
+		is_adult = yes
+		AND = {
+		OR = {
+		   trait="monk"
+		   AND = {
+		       government = theocracy_government
+			   is_landed = yes
+		   }
+		}
+		religion_group = christian
+		religion = ROOT
+		}
+	}
+
+	revoke_trigger = {
+		always = yes
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+	retire_effect = {
+	}
+	death_effect = {
+	}
+
+	message = yes
+}

@@ -1,0 +1,335 @@
+president_of_hcc_congress = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	allowed_to_hold = {
+		has_landed_title = d_confederate_congress
+		can_be_councilmember_king_trigger = yes
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_president_of_supreme_court = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		NOT = {
+		    trait = incapable
+			trait = infirm
+			trait = canibbal
+		}
+		learning = 12
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_judge_of_supreme_court = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 8
+	opinion_effect = 5
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.2
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		NOT = {
+		    trait = incapable
+			trait = infirm
+			trait = canibbal
+		}
+		learning = 10
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_head_of_the_trade_department = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		stewardship = 10
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_head_of_the_health_department = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		learning = 10
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_head_of_the_labour_department = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		diplomacy = 10
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_head_of_the_culture_department = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		is_adult = yes
+		diplomacy = 10
+	}
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_attroney_general = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		has_landed_title = e_dixie
+		has_dlc = "Zeus"
+	}
+	
+	allowed_to_hold = {
+		is_adult = yes
+		NOT = {
+		    trait = incapable
+			trait = infirm
+			trait = canibbal
+		}
+		learning = 10
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+

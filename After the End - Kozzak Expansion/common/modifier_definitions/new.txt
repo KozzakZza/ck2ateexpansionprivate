@@ -1,0 +1,15 @@
+has_ura_president_term = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+hcc_congresspresident_impich = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = yes
+	max_decimals = 0
+}

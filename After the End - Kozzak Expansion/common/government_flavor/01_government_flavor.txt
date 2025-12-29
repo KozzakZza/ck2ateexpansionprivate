@@ -1,0 +1,88 @@
+government_flavor = {
+	name = gov_can_government
+	graphics = GFX_evt_found_hre
+	priority = 2
+	trigger = {
+		government = can_imperial_government
+	}
+}
+
+government_flavor = {
+	name = gov_federal_government
+	graphics = GFX_evt_americanist_intervention
+	priority = 2
+	trigger = {
+		government = federal_government
+	}
+}
+
+government_flavor = {
+	name = gov_confederate_congress_government
+	graphics = GFX_event_confederate_congress
+	priority = 2
+	trigger = {
+		government = confederate_congress_government
+	}
+}
+
+government_flavor = {
+	name = gov_confederacy_govenment
+	graphics = GFX_event_holy_roman_emperor
+	priority = 2
+	trigger = {
+		government = confederacy_government
+	}
+}
+
+government_flavor = {
+	name = gov_new_union
+	graphics = GFX_event_rule_the_waves
+	priority = 2
+	trigger = {
+		OR = {
+		   government = new_republican_government
+		   government = new_republican_rep_government
+		}
+	}
+}
+
+government_flavor = {
+	name = gov_4rd_haitian_empire
+	graphics = GFX_evt_victory_arch_byzantine
+	priority = 2
+	trigger = {
+		government = haiti_imperial_government
+	}
+}
+
+
+government_flavor = {
+	name = gov_theocratic_republic
+	graphics = GFX_evt_cenobium_christian
+	priority = 5
+	trigger = {
+		AND = {
+			government = theocratic_republic_government
+		}
+	}
+}
+
+government_flavor = {
+	name = gov_corpo
+	graphics = GFX_evt_consumerist_uprising
+	priority = 5
+	trigger = {
+		AND = {
+			government = consumerist_government
+		}
+	}
+}
+
+government_flavor = {
+	name = gov_martial_law
+	graphics = GFX_evt_americanist_intervention
+	priority = 2
+	trigger = {
+		government = us_army_government
+	}
+}

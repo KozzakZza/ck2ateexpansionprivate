@@ -1,0 +1,93 @@
+americanoslavic = {
+	graphical_cultures = { canadiangfx whitepacificgfx westerngfx }
+	
+	polovarien = {
+		graphical_cultures = { easternslavicgfx canadiangfx }
+		
+		color = { 0.15 0.45 0.5 }
+		
+		male_names = { 
+		    Aleksy_Alexis Antoni_Anthony Antek_Anthony Artur_Arthur Jedrzej_Andrew Andrzej_Andrew Adam_Adam
+		    Bartos_Bartholomew Benjamin_Benjamin Karol_Charles Boleslaw
+			Cyryl_Cyril Marek_Marcus 
+			Daniel_Daniel Dawid_David Donald 
+			Ezechiel_Ezekiel Eliasz_Elijah Eustachy_Eustace Eugeniusz_Eugene
+			Jurek_George Jerzy_George
+			Henryk_Henry Horacy_Horace 
+			Izaak_Issac Ignacy_Ignatius Ignac_Ingatius
+			Jan_John Janko_John Janek_John Jakub_Jacob Jozek_Joseph Hieronim_Jerome
+			Lukasz_Luke 
+			Mateusz_Matthew 
+			Edek_Edward Edward_Edward
+			Pietrek_Peter Piotr_Peter Pawel_Paul Filip_Philip
+			Szymon_Simon 
+			Olek_Alexander 
+			Teodor_Theodore Tomasz_Thomas Tomaszek_Thomas Teofil_Theophilus
+			Wilus_William
+			Roman Radoslaw_Radoslav
+			Zachariasz_Zachary
+			Stefan_Stephen 
+			Kazimierz Wladyslaw Boguslaw Bogumil Tadeusz_Thaddeus 
+			Nikodem_Nicodemus Polikarp_Polycarp Sebastian_Sebastian Sergiusz_Sergius
+			Stanislaw_Stanislaus Staszek_Stanislaus Stach_Stanislaus
+			Juliusz_Julius Marceli_Marcellus Franciszek_Francis Franek_Francis
+			Ferdek_Ferdinand Ferdynand_Ferdinand Klemens_Clement 
+			Barnaba_Barbanas Benedykt_Benedict Albert_Albert Alojzy_Aloysius
+			Zbigniew Fastyn_Faustinus Euzebiusz_Eusebius 
+		}
+		
+		female_names = {
+		   Alicja_Alice Anna_Anna Agata Aleksandra_Alexandra Amelia_Amelia Anastazja_Anastasia  
+		   Elzbieta_Elizabeth Barbara_Barbara
+		   Karolina_Caroline 
+		   Dorota_Dorothea Dominika 
+		   Estera_Esther Edyta_Edith Helena_Helen Emilia_Emily Ewelina_Evelyn Eugenia_Eugenia
+		   Laska_Grace
+		   Iza_Isabelle
+		   Jula_Julia
+		   Marianna_Mary Matylda_Matilda Marcela_Marceline Marta_Martha Malgorzata_Margaret 
+		   Nikola_Nicole
+		   Rebeka_Rebecca Rut_Ruth Roza_Rose Rachela_Rachel
+		   Teodora_Theodora
+		   Irena_Irene Joanna_Jane Joanna_Joan Joanna_Joanna Jozefina_Josephine
+		   Patrycja_Patricia Paulina_Pauline Petra Filomena_Philomena Pryska_Prisca
+		   Kazimiera Grazyna Wanda_Wanda Wiktoria_Victoria Monika_Monica Celestyna_Celistine
+		   Antonina_Antoinette Katarzyna_Catherine Bernardyna_Bernardine Cecylia_Cecelia
+		   Szarlotta_Charlotte Klaudia_Claudia Klaudyna_Claudine Kornelia_Cornelia 
+		   Stefania_Stephanie Weronika_Veronica Beatrycze_Beatrice Rozalia_Rosalie
+		   Zofia_Sofia Iwona_Yyonne Alelajda_Adelaide 
+		}
+		
+		male_patronym = "ievich"
+		female_patronym = "ievichovna"
+		from_dynasty_prefix = "z "
+		
+		used_for_random = no
+		modifier = default_culture_modifier
+	}
+	
+	serbian = {
+		graphical_cultures = { serbsouthslavicgfx }
+		
+		color = { 0.5 0.3 0.3 }
+
+		male_names = {
+			Aleksandar_Alexander Aldimir Asen Berbat Blaz_Blaise Boleslav Borna Branimir Budimir Kosmin Danilo_Daniel Djordje_George Dmitar_Demetrius Dobroslav Dragija Dragos Dragutin Gavrilo_Gabriel Godimir Goran
+			Grgur_Gregory Ilija_Elijah Ivan_John Josif_Joseph Josip_Joseph Jovan_John Kasjan Konstantin_Constantine Krsto_Christopher Lazar_Lazarus Ljudevit Luka_Luke Marko_Marcus Martin_Martin Matija_Matthew Mihailo_Michael Mihovil Milorad Milutin Mircea Miroslav_Miroslav Mislav Nenad Nikodim_Nicodemus Nikola_Nicholas
+			Ninoslav Petar_Peter Porin Prvoslav Radoslav Rastko Ratomir_Ratimir Roman_Roman Serapion_Seraphin Simeon_Simon Sinisa Slavko Slobodan Stefan_Stephen Teodosije_Theodosius Trajan_Trajan Uros Visarion Vladimir_Vladimir Vladislav_Vladislav Vlastimir
+			Vuk_Lupo Vukan Vukasin Vukoman Zoran Zvonimir
+		}
+		female_names = {
+			Agata_Agatha Barbara_Barbara Branimira Desislava Dubravka Elena_Helen Hicela Jelena Karolina_Caroline Keratza Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
+			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+			Ljubica Luka_Lucia Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+		}
+		
+		from_dynasty_prefix = "od "
+		
+		male_patronym = "ic"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+}

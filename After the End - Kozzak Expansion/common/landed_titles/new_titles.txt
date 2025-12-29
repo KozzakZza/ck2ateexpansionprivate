@@ -1,0 +1,441 @@
+d_jesuite = {
+	color={ 244 211 145 }
+	color2={ 211 188 0 }
+	
+	capital = 1937 #Caracas
+	
+	title = "BISHOP_SUPERIOR"
+	foa = "POPE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	landless = yes
+	controls_religion = jesuite
+	religion = jesuite
+	primary = yes
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_belicath = {
+	color={ 219 244 189 }
+	color2={ 211 188 0 }
+	
+	capital = 1832
+	
+	title = "ADMIN_DIE"
+	foa = "POPE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	landless = yes
+	controls_religion = belizean_catholic
+	religion = belizean_catholic
+	primary = yes
+	assimilate = no # Nothing drifts in or out
+}
+
+d_anticonclavist = {
+	color={ 244 211 145 }
+	color2={ 211 188 0 }
+	
+	capital = 1050 # St. Louis
+	
+	title = "BISHOP_SUPERIOR"
+	foa = "POPE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	landless = yes
+	controls_religion = anticonclavist
+	religion = anticonclavist
+	primary = yes
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+k_canada = {
+	color = { 54 127 75 }
+	color2= { 220 220 0 }
+
+	capital = 1297 # Ottawa
+	
+	title = "LORD_PROTECTOR"
+	title_female = "LADY_PROTECOR"
+	location_ruler_title = yes
+	
+	primary = yes
+	assimilate = no 
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+k_order_of_st_ursula = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 1199 # Quebec City
+	
+	title = "ABBOT_GENERAL"
+	title_female = "ABBESS_GENERAL"
+
+	religion = anticonclavist
+	
+	culture = quebecois
+	
+	landless = yes
+	primary = yes
+	monthly_income = 4
+
+	mercenary_type = d_knights_st_flanelle_composition
+}
+
+d_confederate_congress = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 164
+	
+	title = "PRESIDENT"
+	title_female = "PRESIDENT"
+	
+	culture = southron
+	
+	primary = yes
+	landless = yes
+}
+
+d_gaspar_host = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 672
+	
+	title = "KING"
+	title_female = "KING_FEMALE"
+	
+	culture = brazilian
+	
+	landless = yes
+	primary = yes
+}
+
+k_united_republics = {
+	color={ 60 59 110 }
+	color2={ 315 315 80 }
+	
+	capital = 3
+	
+	title = "PRESIDENT"
+	title_female = "PRESIDENT"
+	foa = "PRESIDENT_FOA"
+	
+	culture = gothamite
+	
+	primary = yes
+}
+
+e_united_republics = {
+	color={ 60 59 110 }
+	color2={ 315 315 80 }
+	
+	capital = 3
+	
+	title = "PRESIDENT"
+	title_female = "PRESIDENT"
+	foa = "PRESIDENT_FOA"
+	
+	culture = gothamite
+	
+	primary = yes
+}
+
+d_jacobite_dummy = {
+	color={ 60 59 110 }
+	color2={ 315 315 80 }
+	
+	capital = 3
+	
+	culture = scottish
+	
+	primary = yes
+}
+
+d_belizean_trade_company = {
+	color={ 198 40 135 }
+	color2={ 220 220 0 }
+	
+	capital = 1832
+	
+	title = "BGOVEROR"
+	title_female = "BGOVEROR_FEM"
+	
+	culture = kriol
+	
+	primary = yes
+	#landless = yes
+}
+
+d_brasilian_trade_company = {
+	color={ 198 40 135 }
+	color2={ 220 220 0 }
+	
+	capital = 1832
+	
+	title = "BRGOVEROR"
+	title_female = "BRGOVEROR_FEM"
+	
+	culture = brazilian
+	
+	primary = yes
+	#landless = yes
+}
+
+k_puppet_california = {
+	color={ 201 22 57 }
+	color2={ 50 49 99 }
+
+	capital = 2046 # c_sacramento
+	
+	culture = valleyan
+	
+	californiano = "Las Californias"
+	chino = "Las Californias"
+	choyero = "Las Californias"
+	
+	title = "NEMPEROR"
+	title_female = "NEMPEROR_FEM"
+	
+	primary = yes
+}
+
+k_us_army = {
+	color={ 10 100 45 }
+	color2={ 315 315 80 }
+	
+	dignity = 100 # Counted as having this many more counties than it does
+	
+	capital = 3 # Manhattan
+	
+	short_name = yes
+	controls_religion = militarist
+	religion = militarist
+	caliphate = yes	
+	
+	primary = yes
+	
+	assimilate = no
+	
+	dynasty_title_names = no	# Will not be named "Seljuk", etc.
+}
+
+e_us_army = {
+	color={ 10 100 45 }
+	color2={ 315 315 80 }
+	
+	capital = 3
+	
+	title = "USARMY_LEADER"
+	title_fem = "USARMY_LEADER_FEM"
+	
+	culture = scottish
+	short_name = yes
+	
+	primary = yes
+}
+
+k_west_mexico = {
+	color={ 45 94 70 }
+	color2={ 315 315 80 }
+	
+	capital = 1767 # c_mexico
+	
+	culture = chilango
+	
+	name_tier = emperor
+	
+	allow = {
+		trigger = {
+			NOT = {
+				has_global_flag = mexican_empire_restored
+			}
+		}
+	}
+	
+	short_name = yes
+	
+	primary = yes
+}
+
+d_californian_trade_company = {
+	color={ 201 22 57 }
+	color2={ 50 49 99 }
+
+	capital = 2046 # c_sacramento
+	
+	culture = valleyan
+	
+	title = "BGOVEROR"
+	title_female = "BGOVEROR_FEM"
+	short_name = yes
+	
+	primary = yes
+	#landless = yes
+}
+
+d_cuban_trade_company = {
+	color={ 201 22 57 }
+	color2={ 50 49 99 }
+
+	capital = 1100
+	
+	culture = valleyan
+	
+	title = "MINISTER_CUBA"
+	title_female = "MINISTER_CUBA_FEM"
+	short_name = yes
+	
+	primary = yes
+	#landless = yes
+}
+
+d_haitian_trade_company = {
+	color={ 201 22 57 }
+	color2={ 50 49 99 }
+
+	capital = 2046 # c_sacramento
+	
+	culture = valleyan
+	
+	title = "BGOVEROR"
+	title_female = "BGOVEROR_FEM"
+	short_name = yes
+	
+	primary = yes
+	#landless = yes
+}
+
+k_haiti_imperial = {
+	color={ 180 190 185 }
+	color2={ 211 188 0 }
+	
+	capital = 1187 # Port-au-Prince
+	
+	short_name = yes
+	location_ruler_title = yes
+	
+	title = "EMPEROR_HAITI"
+	title_female = "EMPEROR_HAITI_FEM"
+	foa = "HAITIAN_EMPEROR_FOA"
+	title_prefix = "EMPIRE_HAITI_OF"
+	
+	landless = no
+	controls_religion = haiti_imperial
+	religion = haiti_imperial
+	primary = yes
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+e_new_world_spain = {
+	color = { 249 253 60 }
+
+	color2= { 255 255 255 }
+
+	capital = 1190
+
+	culture = spanish
+	religion = espana
+
+	title = "LORD_ADMIRAL_SPA"
+	foa = "LORD_ADMIRAL_FOA"
+
+	# Always exists
+	landless = yes
+
+	#tribe = yes
+
+	short_name = yes
+
+	allow = {
+		always = no
+	}
+
+}
+
+k_haiti_pretender = {
+	color={ 180 190 185 }
+	color2={ 211 188 0 }
+	
+	capital = 1187 # Port-au-Prince
+	
+	short_name = yes
+	location_ruler_title = yes
+	
+	title = "LEADER_HAITI"
+	title_female = "LEADER_HAITI_FEM"
+	
+	landless = yes
+	primary = yes
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+k_veracruz_mexico = {
+	color={ 103 245 162 }
+	color2={ 315 315 80 }
+	
+	capital = 1779
+	
+	name_tier = emperor
+	
+	allow = {
+		trigger = {
+			NOT = {
+				has_global_flag = mexican_empire_restored
+			}
+		}
+	}
+	
+	short_name = yes
+	primary = yes
+}
+
+d_orthodox = {
+	color = { 189 49 108 }
+	color2= { 225 255 255 }
+
+	capital = 63 #Washington
+	creation_requires_capital = no
+	
+	title = "ECUMENICAL_PATRIARCH"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	short_name = yes
+
+	location_ruler_title = yes
+	
+	religion = orthodox
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Controls a religion
+	controls_religion = orthodox
+
+	landless = yes
+
+	#caliphate = yes
+	dynasty_title_names = no
+	
+    male_names = {
+	    Anthimus Atenagoras Agathangelus Bartholomew Beniamin Cyril 
+		Dionysius Demetrios Ioannes Joachim Jeremias Joannicius Joasaph Parthenius Paisius Paulus Petrus Philotheus 
+		Raphael Sophronius Samuel Seraphim Theoleptus 
+		Germanus Methodius Manuel Michael Leontius Basil Nicetas
+		Theodosius Cosmas Leo Alexius Tryphon Ignatius Anastasius 
+	}
+}

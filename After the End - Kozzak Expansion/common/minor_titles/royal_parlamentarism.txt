@@ -1,0 +1,2436 @@
+title_parlament_member_1 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+		    primary_title = { has_law = parlament_size_0 }
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_0 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_2 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+			primary_title = { has_law = parlament_size_0 }
+		}
+	}
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+				primary_title = { has_law = parlament_size_0 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_3 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_0 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_0 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_4 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_0 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_5 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_0 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_0 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_6 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_7 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_8 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_9 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_10 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_1 }
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_11 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_12 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_13 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_14 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_15 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_16 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_17 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_18 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_19 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_20 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_2 }
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_21 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_22 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_23 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_24 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_25 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_26 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_27 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_28 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_29 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parlament_member_30 = {
+	is_high_prio = yes
+	dignity = 0.100
+	grant_limit = 1
+	monthly_salary = 0.50
+	monthly_prestige = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		
+		has_dlc = "Zeus"
+		OR = {
+			primary_title = { has_law = parlament_size_3 }
+		}
+	}
+	
+	allowed_to_hold = {
+		can_be_councilmember_king_trigger = yes
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	
+	}
+	lose_effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = swapping_councillors
+					}
+				}
+			}
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
+		}
+	}
+
+	retire_effect = {
+		if = {
+			limit = {
+				NOT = {
+					age = 65
+				}
+				health = 3
+				NOT = {
+					is_sick_or_injured_trigger = yes
+				}
+				can_be_councilmember_king_trigger = yes
+			}
+
+			FROM = { 
+				opinion = { who = ROOT modifier = opinion_resigned_from_council }
+			}
+		}
+	}
+
+	message = yes
+}
+
+title_parliament_recorder = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.3
+	
+	is_unique = yes
+	
+	allowed_to_grant = {
+		independent = yes
+		has_dlc = "Zeus"
+		OR = {
+				primary_title = { has_law = parlament_size_0 }
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+				primary_title = { has_law = parlament_size_4 }
+		}
+	}
+	
+	allowed_to_hold = {
+		liege = {
+			OR = {
+				primary_title = { has_law = parlament_size_0 }
+				primary_title = { has_law = parlament_size_1 }
+				primary_title = { has_law = parlament_size_2 }
+				primary_title = { has_law = parlament_size_3 }
+				primary_title = { has_law = parlament_size_4 }
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

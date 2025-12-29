@@ -1,0 +1,216 @@
+law_groups = {
+	parlament_size = {
+		law_type = realm
+	}
+}
+
+laws = { #5-10-20-35
+	parlament_size_0 = { #Small Parlament (5 parlament members)
+		group = parlament_size
+		allow = {
+			OR = {
+				has_law = parlament_size_1
+				AND = {
+					NOT = {	has_law = parlament_size_0 }
+					NOT = {	has_law = parlament_size_1 }
+					NOT = {	has_law = parlament_size_2 }
+					NOT = {	has_law = parlament_size_3 }
+				}
+			}
+		}
+		potential = {
+			holder_scope = {
+				government = can_imperial_government
+				independent = yes
+			}
+		}
+		pass_effect = {
+
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = parlament_size_1
+					}
+					revoke_law = parlament_size_1
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_2
+					}
+					revoke_law = parlament_size_2
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_3
+					}
+					revoke_law = parlament_size_3
+				}
+			}		
+		}
+		demesne_size = 1
+		feudal_opinion = -5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+parlament_size_1 = {
+		group = parlament_size
+		default = yes
+		allow = {
+			OR = {
+				has_law = parlament_size_0
+				has_law = parlament_size_2
+			}
+			OR = {
+				NOT = { has_law = law_voting_power_0 }
+				has_law = parlament_size_2
+			}
+		}
+		potential = {
+			holder_scope = {
+				government = can_imperial_government
+				independent = yes
+			}
+			 
+		}
+		
+		pass_effect = {
+
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = parlament_size_0
+					}
+					revoke_law = parlament_size_0
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_2
+					}
+					revoke_law = parlament_size_2
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_3
+					}
+					revoke_law = parlament_size_3
+				}
+			}
+		}
+		vassal_limit = 5
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_law = parlament_size_2 }
+			}
+		}
+	}
+	parlament_size_2 = {
+		group = parlament_size
+		allow = {
+			OR = {
+				has_law = parlament_size_1
+				has_law = parlament_size_3
+			}
+			holder_scope = {
+				independent = yes
+			}
+			higher_real_tier_than = COUNT
+		}
+		potential = {
+			holder_scope = {
+				government = can_imperial_government
+				independent = yes
+			}
+		}
+		
+		pass_effect = {
+
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = parlament_size_0
+					}
+					revoke_law = parlament_size_0
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_1
+					}
+					revoke_law = parlament_size_1
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_3
+					}
+					revoke_law = parlament_size_3
+				}
+			}
+		}
+		vassal_limit = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_law = parlament_size_3 }
+			}
+		}
+	}
+	parlament_size_3 = {
+		group = parlament_size
+		allow = {
+			OR = {
+				has_law = parlament_size_2
+			}
+			holder_scope = {
+				independent = yes
+			}
+			higher_real_tier_than = DUKE
+		}
+		potential = {
+			holder_scope = {
+				government = can_imperial_government
+				independent = yes
+			}
+			 
+		}
+		
+		pass_effect = {
+
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = parlament_size_0
+					}
+					revoke_law = parlament_size_0
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_1
+					}
+					revoke_law = parlament_size_1
+				}
+				if = {
+					limit = {
+						has_law = parlament_size_2
+					}
+					revoke_law = parlament_size_2
+				}
+			}
+		}
+		vassal_limit = 20
+		feudal_opinion = 5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
