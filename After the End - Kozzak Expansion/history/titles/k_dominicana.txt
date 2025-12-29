@@ -1,0 +1,123 @@
+1804.9.2={
+   holder=2001997
+}
+1806.10.17={
+	holder=0
+}
+1930.1.1={
+	holder=10000935
+}
+1961.5.30={
+	holder=0
+}
+2151.1.1={  #Jerome I
+    holder=10000585
+}
+2189.1.1={ #Auguste I
+    holder=10000586
+}
+2193.3.5={ #Jerome II
+    holder=10000587
+}
+2232.1.1={ #Faustin III
+    holder=10000588
+}
+2236.3.12={ #Auguste II
+    holder=10000589
+}
+2236.5.20={ #Faustin IV
+    holder=10000593
+}
+2236.7.14={ #Pierre I
+    holder=10000594
+}
+2236.11.16={ #Philippe I
+    holder=10000595
+}
+2268.4.20={ #Alexandre I
+    holder=10000596
+}
+2269.12.4={ #Philippe II
+    holder=10000597
+}
+2272.12.4={ #Antonio
+    holder=10000598
+}
+2290.11.20={ #Jerome III
+    holder=10000600
+}
+2310.2.16={ #Alexandre II
+    holder=10000601
+}
+2312.4.18={ #Felipe III
+    holder=10000604
+}
+2362.2.16={ #Pedro II
+    holder=10000605
+}
+2362.2.16={ #Pierre III
+    holder=10000606
+}
+2363.5.11={ #Alexandre III
+    holder=10000607
+}
+2363.6.4={ #Marco
+    holder=10000608
+}
+2369.6.19={ #Julia
+    holder=10000609
+}
+2370.1.27={ #Jerome IV
+    holder=10000610
+}
+2372.10.14={ #Faustin V
+    holder=10000611
+}
+2373.5.4={ #Marco
+    holder=10000608
+}
+2381.12.16={ #Jerome V
+    holder=10000612
+}
+2385.9.18={ #Filipe IV
+    holder=10000613
+}
+2397.12.4={ #Filipe V
+    holder=10000614
+}
+2398.11.12={ #Marco
+    holder=10000608
+}
+2410.1.19={ #Marco II
+    holder=10000615
+}
+2415.4.11={ #Julia II
+    holder=10000617
+}
+2417.10.6={ #Faustin VI
+    holder=10000618
+}
+2432.1.1={
+    holder=10000616
+}
+2466.10.6={ 
+    holder=10000626
+}
+2488.4.14={
+    holder=0
+}
+2549.1.9={
+    holder=10000949
+}
+2560.4.13={
+    holder=10000939
+}
+2595.4.18={
+    holder=10000940
+}
+2624.12.3={
+    holder=10000941
+}
+2629.12.11={
+    holder=0
+}

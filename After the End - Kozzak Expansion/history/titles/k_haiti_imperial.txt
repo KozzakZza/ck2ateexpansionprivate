@@ -1,0 +1,33 @@
+2362.2.16={ #Pierre III
+    holder=10000606
+}
+2363.5.11={ #Alexandre III
+    holder=10000607
+}
+2363.6.4={
+    holder=0
+}
+2370.1.27={ #Jerome IV
+    holder=10000610
+}
+2372.10.14={ #Faustin V
+    holder=10000611
+}
+2373.5.4={ 
+    holder=0
+}
+2381.12.16={ #Jerome V
+    holder=10000612
+}
+2385.9.18={
+    holder=0
+}
+2415.4.11={ #Julia II
+    holder=10000617
+}
+2417.10.6={ #Faustin VI
+    holder=10000618
+}
+2432.1.1={
+    holder=0
+}

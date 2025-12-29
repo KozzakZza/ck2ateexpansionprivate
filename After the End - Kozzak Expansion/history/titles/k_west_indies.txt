@@ -1,0 +1,13 @@
+2577.7.14={ #Isabella
+    holder=10000188
+}
+2580.8.15={
+    holder=0
+}
+2615.1.1={
+	holder=2000009
+}
+2620.4.9={
+	holder=2000011
+	liege=e_caribbean
+}
