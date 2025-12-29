@@ -1,0 +1,32 @@
+# 1190 - Santo Domingo
+
+# County Title
+title=c_santo_domingo
+
+# Settlements
+max_settlements=6
+b_santo_domingo_de_guzman_DR=castle
+b_los_alcarrizos_DR=city
+b_bajos_de_haina_DR=temple
+b_san_cristobal_DR=castle
+
+# Misc
+culture=quisqueyano
+religion=santeria
+terrain=hills
+
+1504.1.1={
+	build_wonder=wonder_santo_domingo_cathedral
+}
+1514.1.1={	
+	set_wonder_stage=1
+}
+1524.1.1={
+	set_wonder_stage=2
+}
+1534.1.1={
+	set_wonder_stage=3
+}
+1550.1.1={
+	set_wonder_stage=3
+}

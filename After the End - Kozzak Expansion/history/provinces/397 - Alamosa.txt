@@ -1,0 +1,13 @@
+# 397 - Alamosa
+
+# County Title
+title=c_alamosa
+
+# Settlements
+max_settlements=3
+b_alamosa_CO=castle
+
+# Misc
+culture=neomexicano
+religion=militarist
+terrain=highlands

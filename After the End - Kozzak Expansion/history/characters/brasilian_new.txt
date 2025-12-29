@@ -1,0 +1,317 @@
+10000044={
+	name="Gaspar" 
+	dynasty=2004043
+	culture=brazilian
+	religion=jesuite
+	father=2100052
+	trait="charismatic_negotiator"
+	trait="ambitious"
+	trait="poet"
+	trait="erudite"
+	trait="brave"
+	trait="patient"
+	trait="pious"
+	trait="disinherited"
+	martial=12
+	2649.4.14={birth=yes}
+	2703.1.1={death=yes}
+}
+
+10000045={
+	name="Renato" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=2100007
+	trait=bastard
+	2444.1.1={birth=yes}
+	2501.1.1={death=yes}
+}
+
+10000046={
+	name="Ruan" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000045
+	2471.1.1={birth=yes}
+	2522.1.1={death=yes}
+}
+
+10000047={
+	name="Pedro" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000046
+	2492.1.1={birth=yes}
+	2546.1.1={death=yes}
+}
+
+10000048={
+	name="Vasco" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000047
+	2512.1.1={birth=yes}
+	2571.1.1={death=yes}
+}
+
+10000049={
+	name="Clemente" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000048
+	2540.1.1={birth=yes}
+	2601.1.1={death=yes}
+}
+
+10000050={
+	name="Pedro" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000049
+	2585.1.1={birth=yes}
+	2634.1.1={death=yes}
+}
+
+10000051={
+	name="Manuel" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	father=10000050
+	2615.1.1={birth=yes}
+	2639.1.1={
+	   add_spouse=10000052
+	   secret_religion=jesuite
+	}
+	2688.1.1={death=yes}
+}
+
+10000052={
+	name="Teresa" 
+	female=yes
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	2618.1.1={birth=yes}
+	2688.1.1={death=yes}
+}
+
+10000053={
+	name="Renato" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	father=10000051
+	mother=10000052
+	2640.1.1={birth=yes}
+	2688.1.1={death=yes}
+}
+
+10000054={
+	name="Manuel" 
+	dynasty=2004063 #Tavares
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	father=10000051
+	mother=10000052
+	2643.1.1={birth=yes}
+	2688.1.1={death=yes}
+}
+
+10000055={
+	name="Teresa" 
+	dynasty=2004063 #Tavares
+	female=yes
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	father=10000051
+	mother=10000052
+	2645.1.1={birth=yes}
+	2688.1.1={death=yes}
+}
+
+
+###More Bragancas
+
+10000865={  
+	name="Rodrigo"
+	dynasty=2004043 #de Bragan?
+	culture=brazilian
+	religion=apostolic
+	father=2100015
+	trait=skilled_tactician
+	trait=ambitious
+	trait=brave
+	2593.10.22={birth=yes}
+	2657.1.1={death=yes}
+}
+
+10000866={  
+	name="Pedro"
+	dynasty=2004043 #de Bragan?
+	culture=brazilian
+	religion=apostolic
+	father=10000865
+	trait=administrator
+	trait=brave
+	trait=erudite
+	trait=just
+	2617.4.19={birth=yes}
+	2640.1.1={
+	    add_spouse=10000867
+	}
+	2665.12.15={
+	   death = {
+	      death_reason=death_accident
+	   }
+	}
+}
+
+10000867={  
+	name="Teresa"
+	female=yes
+	culture=brazilian
+	religion=apostolic
+	2620.5.29={birth=yes}
+	2660.1.1={
+	   employer=10000866
+	}
+	2690.1.1={death=yes}
+}
+
+10000868={  
+	name="Felipe"
+	dynasty=2004043 #de Bragan?
+	culture=brazilian
+	religion=apostolic
+	father=10000866
+	mother=10000867
+	2644.10.6={birth=yes}
+	2660.1.1={
+	   employer=10000866
+	}
+	2690.1.1={death=yes}
+}
+
+10000869={  
+	name="Teresa"
+	female=yes
+	dynasty=2004043 #de Bragan?
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	father=10000866
+	mother=10000867
+	trait=brave
+	trait=zealous
+	trait=kind
+	2649.10.6={birth=yes}
+	2660.1.1={
+	   employer=10000866
+	}
+	2690.1.1={death=yes}
+}
+
+10000886={ 
+	name="Mateus"
+	dynasty=2004043 #de Bragan?
+	culture=brazilian
+	religion=apostolic
+	father=10000866
+	mother=10000867
+	stewardship=16
+	trait="midas_touched"
+	trait="genius"
+	trait="administrator"
+	trait="shy"
+	trait="erudite"
+	trait="chaste"
+	2642.2.19={birth=yes}
+	2690.1.1={death=yes}
+}
+
+10000890={ 
+	name="Rafael"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	2572.6.12={birth=yes}
+	2637.2.14={death=yes}
+}
+
+10000888={ 
+	name="Pedro"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	father=10000890
+	2599.5.15={birth=yes}
+	2662.10.2={death=yes}
+}
+
+10000889={ 
+	name="Felipe"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	father=10000890
+	2601.5.15={birth=yes}
+	2656.1.1={death=yes}
+}
+
+10000887={ 
+	name="Clemente"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	trait="erudite"
+	trait="falconer"
+	trait="ambitious"
+	trait="humble"
+	trait="craven"
+	father=10000888
+	2637.12.28={birth=yes}
+	2690.1.1={death=yes}
+}
+
+10000891={ 
+	name="Pedro"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	trait="tough_soldier"
+	trait="brave"
+	father=10000889
+	2640.11.26={birth=yes}
+	2690.1.1={death=yes}
+}
+
+10000892={ 
+	name="Henrique"
+	dynasty=42000110
+	culture=brazilian
+	religion=apostolic
+	secret_religion=jesuite
+	father=10000889
+	2642.6.16={birth=yes}
+	2690.1.1={death=yes}
+}
+
+10000893={ 
+	name="Henrique"
+	dynasty=42000111
+	culture=brazilian
+	religion=apostolic
+	2648.11.22={birth=yes}
+	2690.1.1={death=yes}
+}

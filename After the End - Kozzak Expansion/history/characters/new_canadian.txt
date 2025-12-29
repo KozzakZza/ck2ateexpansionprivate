@@ -1,0 +1,485 @@
+10000248={ 
+	name="Howard"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	trait="legendary"
+	trait="brave"
+	trait="ambitious"
+	trait="inspiring_leader"
+	trait="strong"
+	2276.1.1={birth=yes}
+	2339.1.1={
+	    death=yes
+	}
+}
+
+10000249={ 
+	name="Kinsley"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	trait="shy"
+	trait="kind"
+	trait="slow"
+	father=10000248
+	2310.1.1={birth=yes}
+	2349.1.1={
+	    death={
+		   death_reason=death_battle_duel
+		   killer=10000250
+		}
+	}
+}
+
+10000250={ 
+	name="Owen"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	trait="deceitful"
+	trait="ambitious"
+	trait="one_eyed"
+	trait="brave"
+	trait="gregarious"
+	2298.1.1={birth=yes}
+	2360.1.1={
+	    death={
+		   death_reason=death_murder
+		   killer=10000251
+		}
+	}
+}
+
+10000251={ 
+	name="Howard"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	trait="deceitful"
+	trait="shy"
+	trait="stressed"
+	trait="erudite"
+	trait="ambitious"
+	trait="quick"
+	father=10000249
+	2328.1.1={birth=yes}
+	2394.1.1={
+	    death=yes
+	}
+}
+
+10000252={ 
+	name="Howard"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000251
+	2357.1.1={birth=yes}
+	2399.1.1={
+	    death={
+		   death_reason=death_murder
+		   killer=10000253
+		}
+	}
+}
+
+10000253={ 
+	name="Aberhart"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000250
+	2345.1.1={birth=yes}
+	2402.1.1={
+	    death={
+		   death_reason=death_executed
+		   killer=10000255
+		}
+	}
+}
+
+10000254={ 
+	name="Owen"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000249
+	2331.1.1={birth=yes}
+	2397.1.1={
+	    death=yes
+	}
+}
+
+10000255={ 
+	name="Franklin"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000254
+	2380.1.1={birth=yes}
+	2441.1.1={
+	    death=yes
+	}
+}
+
+10000256={ 
+	name="Winston"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000255
+	2415.1.1={birth=yes}
+	2475.1.1={
+	    death=yes
+	}
+}
+
+10000257={ 
+	name="Howard"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000253
+	2369.1.1={birth=yes}
+	2442.1.1={
+	    death=yes
+	}
+}
+
+10000258={ 
+	name="Aberhart"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000257
+	2395.1.1={birth=yes}
+	2469.1.1={
+	    death=yes
+	}
+}
+
+10000259={ 
+	name="Franklin"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000258
+	2436.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_executed
+		   killer=10000261
+		}
+	}
+}
+
+10000260={ 
+	name="Franklin"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000256
+	2440.1.1={birth=yes}
+	2480.1.1={
+	    death={
+		   death_reason=death_murder
+		   killer=10000259
+		}
+	}
+}
+
+10000261={ 
+	name="Ronald"
+	dynasty=42000064
+	culture=ontarian
+	religion=high_church
+	father=10000256
+	trait="cruel"
+	trait="gregarious"
+	trait="ambitious"
+	trait="proud"
+	2465.1.1={birth=yes}
+	2492.1.1={
+	    death={
+		   death_reason=death_poison
+		}
+	}
+}
+
+10000262={ 
+	name="Aberhart"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000259
+	2457.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_execution
+		   killer=10000261
+		}
+	}
+}
+
+10000263={ 
+	name="Winston"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000259
+	2460.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_execution
+		   killer=10000261
+		}
+	}
+}
+
+10000264={ 
+	name="Gilian"
+	female=yes
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000259
+	2465.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_execution
+		   killer=10000261
+		}
+	}
+}
+
+
+10000265={ 
+	name="Franklin"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000262
+	2481.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_execution
+		   killer=10000261
+		}
+	}
+}
+
+10000266={ 
+	name="Winston"
+	dynasty=42000065
+	culture=ontarian
+	religion=nonconformist
+	father=10000263
+	2484.1.1={birth=yes}
+	2489.1.1={
+	    death={
+		   death_reason=death_execution
+		   killer=10000261
+		}
+	}
+}
+
+10000268={ 
+	name="Winston"
+	dynasty=42000066
+	culture=ontarian
+	religion=high_church
+	2451.1.1={birth=yes}
+	2512.1.1={
+	    death={
+		   death=yes
+		}
+	}
+}
+
+10000269={ 
+	name="Michael"
+	dynasty=42000066
+	culture=ontarian
+	religion=high_church
+	father=10000268
+	2485.1.1={birth=yes}
+	2542.1.1={
+	    death={
+		   death=yes
+		}
+	}
+}
+
+10000270={ 
+	name="Franklin"
+	dynasty=42000066
+	culture=ontarian
+	religion=high_church
+	father=10000269
+	2519.1.1={birth=yes}
+	2567.1.1={
+	    death={
+		   death_reason=death_battle
+		   killer=1763040
+		}
+	}
+}
+
+10000271={ 
+	name="Michael"
+	dynasty=42000066
+	culture=ontarian
+	religion=high_church
+	father=10000270
+	trait="twin"
+	2550.1.1={birth=yes}
+	2567.1.1={
+	    death={
+		   death_reason=death_battle
+		   killer=1763040
+		}
+	}
+}
+
+10000272={ 
+	name="Winston"
+	dynasty=42000066
+	culture=ontarian
+	religion=high_church
+	father=10000270
+	trait="twin"
+	2550.1.1={birth=yes}
+	2567.1.1={
+	    death={
+		   death_reason=death_battle
+		   killer=1763040
+		}
+	}
+}
+
+#######
+
+10000576={
+	name="George"
+	dynasty=42000084
+	culture=ontarian
+	religion=high_church
+	trait="high_anglican"
+	trait="just"
+	trait="patient"
+	trait="devout"
+	trait="content"
+	dna="cfhgh0de0a0"
+	2621.5.27={birth=yes}
+	2645.1.1={
+	    add_spouse=10000577
+		create_bloodline={
+			type=stuart_bastards_bloodline
+			has_dlc="Holy Fury"
+		}
+	}
+	2665.12.18={
+	    death={
+		    death_reason=death_accident
+		}
+	}
+}
+
+10000577={
+	name="Blanche"
+	female=yes
+	culture=ontarian
+	religion=high_church
+	father=1857092
+	trait="bastard"
+	trait="high_anglican"
+	trait="kind"
+	trait="devout"
+	trait="temperate"
+	trait="patient"
+	trait="kind"
+	dna="ceedj0beca0"
+	2625.12.5={birth=yes}
+	2665.12.18={
+	    death={
+		    death_reason=death_accident
+		}
+	}
+}
+
+10000578={
+	name="Vincent"
+	dynasty=42000084
+	culture=ontarian
+	religion=high_church
+	father=1857092
+	father=10000576
+	mother=10000577
+	trait="twin"
+	trait="broad_anglican"
+	dna="cdjgf0gbea0"
+	2646.5.20={birth=yes}
+	2665.12.18={
+	    death={
+		    death_reason=death_accident
+		}
+	}
+}
+
+10000579={
+	name="Malcolm"
+	dynasty=42000084
+	culture=ontarian
+	religion=high_church
+	father=1857092
+	father=10000576
+	mother=10000577
+	trait="twin"
+	trait="high_anglican"
+	dna="cdjgf0gbea0"
+	2646.5.20={birth=yes}
+	2665.12.18={
+	    death={
+		    death_reason=death_accident
+		}
+	}
+}
+
+10000580={
+	name="Edward"
+	dynasty=42000084
+	culture=ontarian
+	religion=high_church
+	father=10000576
+	mother=10000577
+	trait="no_marriage"
+	trait="shy"
+	trait="erudite"
+	trait="kind"
+	trait="devout"
+	trait="high_church"
+	trait="depression"
+	dna="bfhia0jcda0"
+	properties="0e0d0k"
+	2650.7.25={birth=yes}
+	2666.12.18={
+	    death={
+		    death_reason=death_accident
+		}
+	}
+}
+
+10000935={ 
+	name="James"
+	culture=ontarian
+	religion=nonjuring
+	trait="zealous"
+	martial=17
+	2643.4.8={birth=yes}
+	2742.1.1={
+	    death={
+		   death=yes
+		}
+	}
+}

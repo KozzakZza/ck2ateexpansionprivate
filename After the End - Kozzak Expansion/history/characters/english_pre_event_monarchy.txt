@@ -1,0 +1,772 @@
+10000199={ #Edward the Confessor
+	name="Edward"
+	occluded=yes
+	dynasty=42000055
+	culture=anglish
+	religion=catholic
+	trait="saint"
+	trait="legendary"
+	trait="devout"
+	trait="patient"
+	trait="chaste"
+	trait="brave"
+	1002.1.1={birth=yes}
+	1066.1.5={
+	    death=yes
+	}
+}
+
+10000200={ 
+	name="William"
+	occluded=yes
+	dynasty=42000056
+	culture=anglish
+	religion=catholic
+	trait="legendary"
+	trait="brave"
+	trait="ambitious"
+	give_nickname=nick_the_conqueror
+	1027.1.1={birth=yes}
+	1087.1.5={
+	    death=yes
+	}
+}
+
+10000201={ 
+	name="William"
+	dynasty=42000056
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000200
+	trait="legendary"
+	1056.1.1={birth=yes}
+	1100.1.1={
+	    death=yes
+	}
+}
+
+10000202={ 
+	name="Henry"
+	dynasty=42000056
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000200
+	trait="legendary"
+	1069.1.1={birth=yes}
+	1135.1.1={
+	    death=yes
+	}
+}
+
+10000203={ 
+	name="Matilda"
+	female=yes
+	dynasty=42000056
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000202
+	trait="legendary"
+	1102.1.1={birth=yes}
+	1141.1.1={
+	    death=yes
+	}
+}
+
+10000204={ 
+	name="Henry"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	mother=10000203
+	trait="legendary"
+	1133.1.1={birth=yes}
+	1189.1.1={
+	    death=yes
+	}
+}
+
+10000205={ 
+	name="Richard"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000204
+	trait="legendary"
+	1156.1.1={birth=yes}
+	1199.1.1={
+	    death=yes
+	}
+}
+
+10000206={ 
+	name="John"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000204
+	trait="legendary"
+	1167.1.1={birth=yes}
+	1216.1.1={
+	    death=yes
+	}
+}
+
+10000207={ 
+	name="Henry"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000206
+	trait="legendary"
+	1207.1.1={birth=yes}
+	1272.1.1={
+	    death=yes
+	}
+}
+
+10000208={ 
+	name="Edward"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000207
+	trait="legendary"
+	1239.1.1={birth=yes}
+	1327.1.1={
+	    death=yes
+	}
+}
+
+10000210={ 
+	name="Edward"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000208
+	trait="legendary"
+	1312.1.1={birth=yes}
+	1377.1.1={
+	    death=yes
+	}
+}
+
+10000211={ 
+	name="Richard"
+	dynasty=42000057
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000210
+	trait="legendary"
+	1367.1.1={birth=yes}
+	1400.1.1={
+	    death=yes
+	}
+}
+
+10000212={ #Lancaster
+	name="Henry"
+	occluded=yes
+	dynasty=42000059
+	culture=anglish
+	religion=catholic
+	father=10000210
+	trait="legendary"
+	trait="twin"
+	1370.1.1={birth=yes}
+	1413.1.1={
+	    death=yes
+	}
+}
+
+10000213={ #Lancaster
+	name="Henry"
+	occluded=yes
+	dynasty=42000059
+	culture=anglish
+	religion=catholic
+	father=10000212
+	trait="legendary"
+	1387.1.1={birth=yes}
+	1422.1.1={
+	    death=yes
+	}
+}
+
+10000214={ #Lancaster
+	name="Henry"
+	dynasty=42000059
+	occluded=yes
+	culture=anglish
+	religion=catholic
+	father=10000213
+	trait="legendary"
+	trait="lunatic"
+	1421.1.1={birth=yes}
+	1471.1.1={
+	    death={
+		   death_reason=death_murder
+		   killer=10000216
+		}
+	}
+}
+
+10000215={ #York
+	name="Richard"
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000210
+	trait="legendary"
+	trait="twin"
+	1370.1.1={birth=yes}
+	1461.1.1={
+	    death={
+		   death_reason=death_battle
+		}
+	}
+}
+
+10000216={ #York
+	name="Edward"
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000215
+	trait="legendary"
+	1442.1.1={birth=yes}
+	1483.1.1={
+	    death=yes
+	}
+}
+
+10000217={ #York
+	name="Edward"
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000216
+	trait="legendary"
+	1470.1.1={birth=yes}
+	1483.6.6={
+	    death={
+		   death_reason=death_murder
+		   killer=10000219
+		}
+	}
+}
+
+10000218={ #York
+	name="Richard"
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000216
+	trait="legendary"
+	1473.1.1={birth=yes}
+	1483.6.6={
+	    death={
+		   death_reason=death_murder
+		   killer=10000219
+		}
+	}
+}
+
+10000219={ #York
+	name="Richard"
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000215
+	trait="legendary"
+	trait="cruel"
+	trait="hunchback"
+	trait="kislayer"
+	trait="possesed"
+	1452.1.1={birth=yes}
+	1485.8.22={
+	    death={
+		  death_reason=death_battle_duel
+		  killer=10000221
+		}
+	}
+}
+
+10000220={ #York
+	name="Elizabeth"
+	female=yes
+	occluded=yes
+	dynasty=42000058
+	culture=anglish
+	religion=catholic
+	father=10000216
+	trait="legendary"
+	1466.1.1={birth=yes}
+	1503.1.1={
+	    death=yes
+	}
+}
+
+10000221={ #Tudor
+	name="Henry"
+	occluded=yes
+	dynasty=42000060
+	culture=anglish
+	religion=catholic
+	trait="legendary"
+	1457.1.1={birth=yes}
+	1486.1.1={
+	   add_spouse=10000220
+	}
+	1509.1.1={
+	    death=yes
+	}
+}
+
+10000222={ #Henry VIII
+	name="Henry"
+	dynasty=42000060
+	occluded=yes
+	culture=anglish
+	religion=high_church
+	trait="high_anglican"
+	trait="arbitrary"
+	trait="ambitious"
+	trait="is_fat"
+	trait="falconer"
+	trait="wroth"
+	trait="legendary"
+	father=10000221
+	mother=10000220
+	1491.1.1={birth=yes}
+	1547.1.28={
+	    death=yes
+	}
+}
+
+10000223={ 
+	name="Edward"
+	dynasty=42000060
+	occluded=yes
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000222
+	1537.10.24={birth=yes}
+	1553.1.1={
+	    death=yes
+	}
+}
+
+10000224={ 
+	name="Mary"
+	female=yes
+	occluded=yes
+	dynasty=42000060
+	culture=anglish
+	religion=catholic
+	trait="zealous"
+	trait="legendary"
+	father=10000222
+	1516.1.1={birth=yes}
+	1558.1.1={
+	    death=yes
+	}
+}
+
+10000225={ 
+	name="Elizabeth"
+	female=yes
+	occluded=yes
+	dynasty=42000060
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000222
+	1533.1.1={birth=yes}
+	1603.1.1={
+	    death=yes
+	}
+}
+
+10000226={ 
+	name="Margaret"
+	female=yes
+	occluded=yes
+	dynasty=42000060
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000221
+	mother=10000220
+	1489.1.1={birth=yes}
+	1541.1.1={
+	    death=yes
+	}
+}
+
+10000227={ 
+	name="James"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	mother=10000226
+	1512.1.1={birth=yes}
+	1542.12.14={
+	    death=yes
+	}
+}
+
+10000228={ 
+	name="Mary"
+	female=yes
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	father=10000227
+	1542.1.1={birth=yes}
+	1587.1.1={
+	    death={
+		   death_reason=death_executed
+		   killer=10000225
+		}
+	}
+}
+
+10000229={ 
+	name="James"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=high_church
+	trait="legendary"
+	mother=10000228
+	1566.1.1={birth=yes}
+	1625.1.1={
+	    death=yes
+	}
+}
+
+10000230={ 
+	name="Charles"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=high_church
+	trait="legendary"
+	father=10000229
+	1600.1.1={birth=yes}
+	1649.1.1={
+	    death={
+		   death_reason=death_executed
+		   killer=10000231
+		}
+	}
+}
+
+10000231={ 
+	name="Oliver"
+	occluded=yes
+	culture=anglish
+	religion=high_church
+	trait="low_anglican"
+	trait="legendary"
+	1599.1.1={birth=yes}
+	1658.1.1={
+	    death={
+		   death_reason=death_battle_duel
+		   killer=10000232
+		}
+	}
+}
+
+10000232={ 
+	name="Charles"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=high_church
+	trait="legendary"
+	father=10000230
+	1630.1.1={birth=yes}
+	1685.1.1={
+	    death=yes
+	}
+}
+
+10000233={ 
+	name="James"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	father=10000230
+	1633.1.1={birth=yes}
+	1701.1.1={
+	    death=yes
+	}
+}
+
+10000234={ 
+	name="Mary"
+	female=yes
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=high_church
+	trait="legendary"
+	mother=10000233
+	1662.1.1={birth=yes}
+	1694.1.1={
+	    death=yes
+	}
+}
+
+10000235={ 
+	name="William"
+	culture=deitsch
+	occluded=yes
+	religion=high_church
+	trait="legendary"
+	1650.1.1={birth=yes}
+	1667.1.1={
+	   add_spouse=10000234
+	}
+	1702.1.1={
+	    death=yes
+	}
+}
+
+10000236={ 
+	name="Anne"
+	female=yes
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=high_church
+	trait="legendary"
+	mother=10000233
+	1665.1.1={birth=yes}
+	1714.1.1={
+	    death=yes
+	}
+}
+
+10000237={ 
+	name="Georg"
+	occluded=yes
+	dynasty=42000062
+	culture=plautdietsch
+	religion=high_church
+	trait="legendary"
+	1660.1.1={birth=yes}
+	1727.1.1={
+	    death=yes
+	}
+}
+
+10000238={ 
+	name="Georg"
+	occluded=yes
+	dynasty=42000062
+	culture=plautdietsch
+	religion=high_church
+	trait="legendary"
+	father=10000237
+	1683.1.1={birth=yes}
+	1760.1.1={
+	    death=yes
+	}
+}
+
+10000239={ 
+	name="George"
+	occluded=yes
+	dynasty=42000062
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000238
+	1738.1.1={birth=yes}
+	1820.1.1={
+	    death=yes
+	}
+}
+
+10000240={ 
+	name="George"
+	occluded=yes
+	dynasty=42000062
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000239
+	1762.1.1={birth=yes}
+	1830.1.1={
+	    death=yes
+	}
+}
+
+10000241={ 
+	name="William"
+	occluded=yes
+	dynasty=42000062
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000239
+	1765.1.1={birth=yes}
+	1837.1.1={
+	    death=yes
+	}
+}
+
+10000242={ 
+	name="Victoria"
+	occluded=yes
+	female=yes
+	dynasty=42000062
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000241
+	1819.1.1={birth=yes}
+	1901.1.1={
+	    death=yes
+	}
+}
+
+10000243={ 
+	name="Edward"
+	occluded=yes
+	dynasty=42000063
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	mother=10000242
+	1841.1.1={birth=yes}
+	1910.1.1={
+	    death=yes
+	}
+}
+
+10000244={ 
+	name="George"
+	occluded=yes
+	dynasty=42000063
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000243
+	1865.1.1={birth=yes}
+	1936.1.1={
+	    death=yes
+	}
+}
+
+10000245={ 
+	name="Edward"
+	occluded=yes
+	dynasty=42000063
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000244
+	1894.1.1={birth=yes}
+	1972.1.1={
+	    death=yes
+	}
+}
+
+10000246={ 
+	name="George"
+	occluded=yes
+	dynasty=42000063
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000244
+	1895.1.1={birth=yes}
+	1952.1.1={
+	    death=yes
+	}
+}
+
+10000247={ 
+	name="Elizabeth"
+	dynasty=42000063
+	occluded=yes
+	female=yes
+	culture=anglish
+	religion=high_church
+	trait="legendary"
+	father=10000246
+	1926.1.1={birth=yes}
+	2100.1.1={
+	    death=yes
+	}
+}
+
+########### Jacobite Kings
+
+10000573={
+	name="James"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	mother=10000233
+	1688.1.1={birth=yes}
+	1766.1.1={
+	    death=yes
+	}
+}
+
+10000574={
+	name="Charles"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	mother=10000573
+	1720.1.1={birth=yes}
+	1788.1.1={
+	    death=yes
+	}
+}
+
+10000575={
+	name="Henry"
+	occluded=yes
+	dynasty=42000061
+	culture=scottish
+	religion=catholic
+	trait="legendary"
+	trait="monk"
+	mother=10000573
+	1725.1.1={birth=yes}
+	1807.1.1={
+	    death=yes
+	}
+}

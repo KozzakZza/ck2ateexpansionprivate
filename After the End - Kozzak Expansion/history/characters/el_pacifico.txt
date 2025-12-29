@@ -1,0 +1,784 @@
+10000056={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="quick"
+	trait="zealous"
+	trait="kind"
+	trait="gregarious"
+	trait="humble"
+	trait="chaste"
+	trait="brave"
+	trait="patient"
+	trait="temperate"
+	trait="just"
+	give_nickname=nick_the_great
+	2035.1.1={birth=yes}
+	2100.1.1={death=yes}
+}
+
+10000057={
+	name="Felipe" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="quick"
+	trait="zealous"
+	trait="ambitious"
+	trait="brilliant_tactician"
+	trait="chaste"
+	trait="brave"
+	trait="patient"
+	trait="temperate"
+	trait="just"
+	give_nickname=nick_the_conqueror
+	father=10000056
+	2070.1.1={birth=yes}
+	2135.1.1={death=yes}
+}
+
+10000058={
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="cruel"
+	trait="ambitious"
+	trait="gregarious"
+	trait="drunkard"
+	trait="wroth"
+	give_nickname=nick_the_cruel
+	father=10000057
+	2099.1.1={birth=yes}
+	2135.1.1={death=yes}
+}
+
+10000059={
+	name="Emilse" 
+	female=yes
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="kind"
+	trait="zealous"
+	trait="temperate"
+	trait="patient"
+	give_nickname=nick_the_pious
+	father=10000057
+	2101.1.1={birth=yes}
+	2201.1.1={death=yes}
+}
+
+10000060={
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="kind"
+	trait="zealous"
+	trait="temperate"
+	trait="patient"
+	trait="chaste"
+	trait="brave"
+	trait="content"
+	give_nickname=nick_the_pious
+	mother=10000059
+	2122.1.1={birth=yes}
+	2185.1.1={death=yes}
+}
+
+10000061={
+	name="Felipe" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	father=10000060
+	2150.1.1={birth=yes}
+	2186.1.1={death=yes}
+}
+
+10000062={
+	name="Juan" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+    occluded=yes
+	trait="legendary"
+	trait="erudite"
+	trait="scholar"
+	trait="shy"
+	trait="poet"
+	father=10000060
+	give_nickname=nick_the_poet
+	2154.1.1={birth=yes}
+	2216.1.1={death=yes}
+}
+
+10000063={
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="strong"
+	trait="gluttonous"
+	trait="patient"
+	trait="gregarious"
+	trait="fat"
+	father=10000062
+	give_nickname=nick_the_strong
+	2189.1.1={birth=yes}
+	2240.1.1={death=yes}
+}
+
+10000064={
+	name="Rodrigo" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	father=10000063
+	2215.1.1={birth=yes}
+	2251.1.1={
+	    death={
+			death_reason=death_murder
+			killer=10000065
+		}
+	}
+}
+
+10000065={
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="bastard"
+	trait="cruel"
+	trait="greedy"
+	trait="kinslayer"
+	trait="strategist"
+	trait="inspiring_leader"
+	father=10000063
+	give_nickname=nick_the_usurper
+	2212.1.1={birth=yes}
+	2259.1.1={
+		death={
+			death_reason=death_execution
+			killer=10000066
+		}
+	}
+}
+
+10000066={
+	name="Isabella" 
+	dynasty=42000044
+	female=yes
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="fair"
+	trait="ambitious"
+	trait="patient"
+	trait="deceitful"
+	father=10000064
+	give_nickname=nick_the_avenger
+	2235.1.1={birth=yes}
+	2261.1.1={
+	    death={
+			death_reason=death_execution
+			killer=10000067
+		}
+	}
+}
+
+10000068={
+	name="Ramona" 
+	female=yes
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	mother=10000066
+	2255.1.1={birth=yes}
+	2312.1.1={death=yes}
+}
+
+10000067={
+	name="Luis" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="proud"
+	trait="patient"
+	trait="duelist"
+	trait="one_eyed"
+	trait="brave"
+	trait="ambitious"
+	father=10000065
+	give_nickname=nick_the_lucky
+	2233.1.1={birth=yes}
+	2264.1.1={
+		death={
+			death_reason=death_battle_duel
+			killer=10000069
+		}
+	}
+}
+
+10000070={
+	name="Manuel" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	father=10000062
+	2193.1.1={birth=yes}
+	2245.1.1={death=yes}
+}
+
+10000069={
+	name="Juan" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="humble"
+	trait="zealous"
+	trait="ambitious"
+	give_nickname=nick_the_bald
+	father=10000070
+	2239.1.1={birth=yes}
+	2268.1.1={
+	    death={
+			death_reason=death_murder
+		}
+	}
+}
+
+10000071={
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="ugly"
+	trait="erudite"
+	trait="poet"
+	trait="shy"
+	trait="temperate"
+	trait="patient"
+	father=10000065
+	give_nickname=nick_the_unlucky
+	2236.1.1={birth=yes}
+	2271.1.1={
+		death={
+			death_reason=death_murder
+		}
+	}
+}
+
+10000072={
+	name="Felipe" 
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="fair"
+	trait="quick"
+	trait="poet"
+	trait="kind"
+	trait="just"
+	father=10000069
+	give_nickname=nick_the_great
+	2253.1.1={birth=yes}
+	2274.1.1={
+	    add_spouse=10000068
+	}
+	2304.1.1={death=yes}
+}
+
+10000073={ #First 100% historical king of El Pacifico
+	name="Carlos" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000072
+	mother=10000068
+	trait="gregarious"
+	trait="content"
+	trait="patient"
+	trait="grey_eminence"
+	trait="fair"
+	give_nickname=nick_the_diplomat
+	2278.1.1={birth=yes}
+	2340.1.1={death=yes}
+}
+
+10000074={ 
+	name="Pedro" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000073
+	2299.1.1={birth=yes}
+	2350.1.1={death=yes}
+}
+
+10000075={ 
+	name="Carlos" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000074
+	trait="zealous"
+	trait="patient"
+	trait="genius"
+	trait="shy"
+	trait="ambitious"
+	trait="erudite"
+	give_nickname=nick_the_old
+	2325.1.1={birth=yes}
+	2404.1.1={death=yes}
+}
+
+10000076={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000075
+	2351.1.1={birth=yes}
+	2384.1.1={
+	    death={
+			death_reason=death_accident
+		}
+	}
+}
+
+10000077={ 
+	name="Carlos" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000076
+	trait="celibate"
+	trait="fair"
+	trait="gregarious"
+	trait="kind"
+	trait="temperate"
+	give_nickname=nick_the_monk
+	2379.1.1={birth=yes}
+	2411.1.1={
+	    death={
+			death_reason=death_murder_unknown
+		}
+	}
+}
+
+10000078={ 
+	name="Luis" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000075
+	2354.1.1={birth=yes}
+	2420.1.1={death=yes}
+}
+
+10000079={ 
+	name="Leonardo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000078
+	2385.1.1={birth=yes}
+	2432.1.1={death=yes}
+}
+
+10000080={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000079
+	trait="quick"
+	trait="proud"
+	trait="deceitful"
+	trait="patient"
+	trait="midas_tough"
+	2415.1.1={birth=yes}
+	2471.1.1={death=yes}
+}
+
+13405082={ 
+	name="Luis" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000079
+	trait="ugly"
+	trait="drunkard"
+	trait="brave"
+	trait="proud"
+	trait="content"
+	2446.1.1={birth=yes}
+	2465.1.1={
+	   	death={
+			death_reason=death_murder_unknown
+		}
+	}
+}
+
+10000081={ 
+	name="Pedro" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000079
+	trait="ugly"
+	trait="drunkard"
+	trait="brave"
+	trait="proud"
+	trait="content"
+	trait="cruel"
+	trait="impaler"
+	2449.1.1={birth=yes}
+	2501.1.1={death=yes}
+}
+
+10000082={ 
+	name="Felipe" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000081
+	2475.1.1={birth=yes}
+	2518.1.1={death=yes}
+}
+
+10000083={ 
+	name="Juan" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000082
+	trait="quick"
+	trait="kind"
+	trait="ambitious"
+	trait="administrator"
+	2499.1.1={birth=yes}
+	2538.1.1={death=yes}
+}
+
+10000084={ 
+	name="Pablo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000083
+	2520.1.1={birth=yes}
+	2543.1.1={
+	   	death={
+			death_reason=death_health
+		}
+	}
+}
+
+10000085={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000083
+	2526.1.1={birth=yes}
+	2553.4.4={
+	   	death={
+			death_reason=death_execution
+			killer=1811003
+		}
+	}
+}
+
+10000086={ 
+	name="Gabriela" 
+	female=yes
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	trait="ambitious"
+	trait="cruel"
+	trait="deceitful"
+	father=10000083
+	2523.1.1={birth=yes}
+	2572.1.1={death=yes}
+}
+
+###Line of Gabriela Antalopez
+
+10000087={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	mother=10000086
+	2553.4.4={
+	   	birth=yes
+	}
+	2581.1.1={
+		death={
+			death_reason=death_execution
+			killer=1811016
+		}
+	}
+}
+
+10000088={ 
+	name="Pedro" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000087
+	2579.4.4={
+	   	birth=yes
+	}
+	2616.1.1={
+		death={
+			death_reason=death_murder
+			killer=10000097
+		}
+	}
+}
+
+10000089={ 
+	name="Leonardo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000088
+	2601.1.1={
+	   	birth=yes
+	}
+	2661.1.1={death=yes}
+}
+
+10000090={ 
+	name="Pablo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000089
+	2635.1.1={
+	   	birth=yes
+	}
+	2677.1.1={death=yes}
+}
+
+10000091={ 
+	name="Ospina"
+    female=yes	
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000098
+	mother=10000099 
+	2634.1.1={
+	   	birth=yes
+	}
+	2677.1.1={death=yes}
+}
+
+10000092={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000090
+	mother=10000091
+	2656.1.1={
+	   	birth=yes
+	}
+	2677.1.1={death=yes}
+}
+
+10000093={ 
+	name="Isabella" 
+	female=yes
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000090
+	mother=10000091
+	2658.1.1={
+	   	birth=yes
+	}
+	2677.1.1={death=yes}
+}
+
+10000094={ 
+	name="Pablo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000090
+	mother=10000091
+	2661.1.1={
+	   	birth=yes
+	}
+	2677.1.1={death=yes}
+}
+
+###Line of Miguel Antalopez
+
+10000095={ 
+	name="Miguel" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000082
+	trait="tough_soldier"
+	trait="strong"
+	trait="brave"
+	trait="ambitious"
+	2503.1.1={birth=yes}
+	2556.1.1={
+	    death={
+			death_reason=death_battle_duel
+			killer=1811003
+		}
+	}
+}
+
+10000096={ 
+	name="Luis" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000095
+	2534.1.1={birth=yes}
+	2567.1.1={
+		death={
+			death_reason=death_execution
+			killer=10000086
+		}
+	}
+}
+
+10000097={ 
+	name="Miguel" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000096
+	2562.1.1={birth=yes}
+	2628.1.1={
+		death=yes
+	}
+}
+
+10000098={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000097
+	2595.1.1={birth=yes}
+	2617.1.1={
+	   add_spouse=10000099
+	}
+	2668.1.1={
+		death=yes
+	}
+}
+
+10000099={ 
+	name="Daleth" 
+	female=yes
+	culture=valluno
+	religion=jesuite
+	2597.1.1={birth=yes}
+	2668.1.1={
+		death=yes
+	}
+}
+
+10000100={ 
+	name="Pablo" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000098
+	mother=10000099
+	2620.1.1={birth=yes}
+	2640.1.1={
+	   add_spouse=10000101
+	}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000101={ 
+	name="Isabella" 
+	female=yes
+	culture=valluno
+	religion=jesuite
+	2619.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000102={ 
+	name="Pedro" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000100
+	mother=10000101
+	2641.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000103={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000100
+	mother=10000101
+	2644.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000104={ 
+	name="Luis" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000100
+	mother=10000101
+	2649.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}

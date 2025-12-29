@@ -1,0 +1,1415 @@
+########### Historical haitian Rulers
+2001997={
+	name="Jacques"
+	dynasty=2001002
+	culture=haitian
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	trait=cruel
+	1758.9.20={birth=yes}
+	1806.10.17={death={
+			death_reason=death_execution
+			killer=2001998
+		}
+	}
+}
+2001998={
+	name="Henri"
+	dynasty=2001054
+	culture=haitian
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	1767.10.6={birth=yes}
+	1820.10.8={death={
+			death_reason=death_suicide
+		}
+	}
+}
+2001999={
+	name="Faustin"
+	dynasty=2001015
+	culture=haitian
+	occluded=yes
+	religion=voodoo
+	trait=legendary
+	1782.8.15={birth=yes}
+	1867.8.6={death=yes}
+}
+
+10000432={ 
+	name="Henri"
+	dynasty=2001054
+	culture=haitian
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	father=2001998
+	1804.3.3={birth=yes}
+	1820.10.18={
+        death={
+			death_reason=death_murder
+		}
+	}
+}
+
+10000433={ 
+	name="Faustin"
+	dynasty=42000071
+	culture=chicagoan
+	occluded=yes
+	religion=voodoo
+	trait=legendary
+	1896.11.16={birth=yes}
+	1926.7.18={
+        add_spouse=10000434
+    }
+	1945.10.8={death=yes}
+}
+
+10000434={ 
+	name="Timemenne"
+	dynasty=42000070
+	female=yes
+	culture=haitian
+	occluded=yes
+	religion=voodoo
+	trait=legendary
+	1896.11.16={birth=yes}
+	1929.1.1={death=yes}
+}
+
+10000435={ 
+	name="Francois"
+	dynasty=42000072
+	culture=haitian
+	occluded=yes
+	religion=voodoo
+	trait=legendary
+	trait=cruel
+	1907.4.14={birth=yes}
+	1971.4.21={death=yes}
+}
+
+10000436={ 
+	name="Jean-Claude"
+	dynasty=42000072
+	culture=haitian
+	occluded=yes
+	religion=voodoo
+	trait=legendary
+	father=10000435
+	1951.7.3={birth=yes}
+	1986.2.6={death=yes}
+}
+
+######### Nowadays Kings
+
+10000437={ 
+	name="Henri"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	trait=brave
+	trait=ambitious
+	trait=cruel
+	2401.1.1={birth=yes}
+	2461.4.10={death=yes}
+}
+
+10000452={ 
+	name="Henri"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000437
+	2425.1.1={birth=yes}
+	2463.4.18={
+	  death = {
+	       death_reason=death_murder
+		   killer = 10000438
+	  }
+	}
+}
+
+10000438={ 
+	name="Louis"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000437
+	trait="kinslayer"
+	trait="cruel"
+	trait="cynical"
+	trait="zealous"
+	2429.1.1={birth=yes}
+	2477.5.18={
+	    death={
+		    death_reason = death_murder
+			killer = 10000439
+		}
+	}
+}
+
+10000439={ 
+	name="Hugues"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000438
+	trait="cruel"
+	trait="ambitious"
+	trait="kinslayer"
+	2461.5.18={birth=yes}
+	2480.12.4={
+	    death={
+		    death_reason = death_battle_duel
+			killer = 10000456
+		}
+	}
+}
+
+10000455={ 
+	name="Francois"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000438
+	2463.6.11={birth=yes}
+	2480.12.4={
+	    death={
+		    death_reason = death_battle_duel
+			killer = 10000456
+		}
+	}
+}
+
+2001010={ 
+	name="Philippe"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=10000469
+	2615.5.16={birth=yes}
+	2633.1.1={
+	    add_spouse=2002004
+	}
+	2667.1.1={death=yes}
+}
+
+10000453={ 
+	name="Henri"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000452
+	trait="twin"
+	2462.1.1={birth=yes}
+	2463.4.18={
+	  death = {
+	       death_reason=death_murder
+		   killer=10000438
+	  }
+	}
+}
+
+10000454={ 
+	name="Philippe"
+	dynasty=42000073
+	culture=haitian
+	religion=voodoo
+	father=10000452
+	trait="twin"
+	2462.1.1={birth=yes}
+	2463.4.18={
+	  death = {
+	       death_reason=death_murder
+		   killer=10000438
+	  }
+	}
+}
+
+#####
+
+10000445={ 
+	name="Ulrick"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	trait="bastard"
+	father=10000618
+	2415.1.1={birth=yes}
+	2481.1.1={death=yes}
+}
+
+10000446={ 
+	name="Philippe"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000445
+	2441.1.1={birth=yes}
+	2500.1.1={death=yes}
+}
+
+10000447={ 
+	name="Emmanuel"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000446
+	2472.1.1={birth=yes}
+	2527.1.1={death=yes}
+}
+
+10000448={ 
+	name="Alexandre"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000447
+	2501.1.1={birth=yes}
+	2555.1.1={death=yes}
+}
+
+10000449={ 
+	name="Faustin"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000448
+	give_nickname=nick_the_old
+	2533.1.1={birth=yes}
+	2612.1.1={death=yes}
+}
+
+10000450={ 
+	name="Jacques"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000449
+	give_nickname=nick_the_old
+	2567.1.1={birth=yes}
+	2638.1.1={death=yes}
+}
+
+10000451={ 
+	name="Francois"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000450
+	2599.1.1={birth=yes}
+	2628.1.1={
+	    add_spouse=10000480
+	}
+	2686.1.1={death=yes}
+}
+10000456={ 
+	name="Alexis"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	trait="ambitious"
+	trait="quick"
+	2466.4.4={birth=yes}
+	2524.6.20={death=yes}
+}
+
+10000457={ 
+	name="Henri"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000456
+	trait="slow"
+	2491.5.18={birth=yes}
+	2534.7.4={
+	   death={
+	       death_reason = death_health
+	   }
+	}
+}
+
+10000458={ 
+	name="Jacques"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000457
+	2518.7.22={birth=yes}
+	2539.5.14={
+	   death={
+	       death_reason = death_accident
+	   }
+	}
+}
+
+10000459={ 
+	name="Alexis"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000456
+	2498.12.25={birth=yes}
+	2560.10.18={death=yes}
+}
+
+10000460={ 
+	name="Jean"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000459
+	2521.4.6={birth=yes}
+	2570.10.18={death=yes}
+}
+
+10000461={ 
+	name="Louis"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000460
+	2539.2.24={birth=yes}
+	2572.9.28={
+	   death={
+	       death_reason = death_battle
+		   killer=10000188
+	   }
+	}
+}
+
+10000462={ 
+	name="Jacques"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000463
+	2561.6.11={birth=yes}
+	2621.1.15={death=yes}
+}
+
+10000463={ 
+	name="Alexandre"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000460
+	2555.7.14={birth=yes}
+	2572.9.28={
+	   death={
+	       death_reason = death_battle
+		   killer=10000188
+	   }
+	}
+}
+
+10000465={ 
+	name="Carline"
+	female=yes
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000461
+	2561.7.14={birth=yes}
+	2630.5.22={death=yes}
+}
+
+10000466={ 
+	name="Samuel"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000462
+	2595.8.29={birth=yes}
+	2661.3.4={death=yes}
+}
+
+10000467={ 
+	name="Rigaud"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000466
+	2628.4.15={birth=yes}
+	2650.1.1={
+	   add_spouse=10000471
+	}
+	2668.3.4={death=yes}
+}
+
+10000468={ 
+	name="Henri"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	martial=12
+	trait="tough_soldier"
+	trait="ambitious"
+	2560.8.19={birth=yes}
+	2581.1.1={
+	   add_spouse=10000465
+	}
+	2624.10.12={death=yes}
+}
+
+10000469={ 
+	name="Alexis"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=10000468
+	mother=10000465
+	2584.8.19={birth=yes}
+	2619.5.18={
+	   death={
+	       death_reason = death_battle_duel
+		   killer=2002019
+	   }
+	}
+}
+
+10000470={ 
+	name="Henri"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=10000469
+	2610.6.21={birth=yes}
+	2629.12.11={
+	   death={
+	       death_reason = death_battle
+		   killer=2000011
+	   }
+	}
+}
+
+10000471={ 
+	name="Maryse"
+	female=yes
+	culture=haitian
+	religion=voodoo
+	2610.6.21={birth=yes}
+	2669.12.11={
+	   death={
+	       death_reason = death_battle
+		   killer=2000011
+	   }
+	}
+}
+
+10000472={ 
+	name="Alexis"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000467
+	mother=10000471
+	2652.6.22={birth=yes}
+	2668.3.4={death=yes}
+}
+
+10000478={ 
+	name="Alexandre"
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000467
+	mother=10000471
+	trait="twin"
+	2656.10.6={birth=yes}
+	2668.3.4={death=yes}
+}
+
+10000479={ 
+	name="Nicole"
+	female=yes
+	dynasty=42000074
+	culture=haitian
+	religion=voodoo
+	father=10000467
+	mother=10000471
+	trait="twin"
+	2656.10.6={birth=yes}
+	2668.3.4={death=yes}
+}
+
+10000480={ 
+	name="Loune"
+	female=yes
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=10000469
+	2607.7.15={birth=yes}
+	2668.3.4={death=yes}
+}
+
+10000481={ 
+	name="Francois"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000451
+	mother=10000480
+	2631.6.15={birth=yes}
+	2686.1.1={death=yes}
+}
+
+10000482={ 
+	name="Faustin"
+	dynasty=2001001
+	culture=haitian
+	religion=voodoo
+	father=10000451
+	mother=10000480
+	2635.11.29={birth=yes}
+	2686.1.1={death=yes}
+}
+
+10000483={ 
+	name="Henri"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=2001010
+	mother=2002004
+	2635.12.7={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000484={ 
+	name="Philippe"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=2001010
+	mother=2002004
+	trait="twin"
+	2639.7.27={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000485={ 
+	name="Alexis"
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=2001010
+	mother=2002004
+	trait="twin"
+	2639.7.27={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000486={ 
+	name="Carline"
+	female=yes
+	dynasty=42000075
+	culture=haitian
+	religion=voodoo
+	father=2001010
+	mother=2002004
+	2642.2.28={birth=yes}
+	2667.1.1={death=yes}
+}
+
+
+2001030={
+	name="Romara"
+	female=yes
+	dynasty=1635001
+	dna="jagjpdnmghg"
+	culture=venteux
+	religion=voodoo
+	martial=2
+	diplomacy=3
+	stewardship=6
+	intrigue=1
+	learning=7
+	trait=fortune_builder
+	trait=zealous
+	trait=just
+	trait=kind
+	2636.1.1={birth=yes}
+	2656.12.4={add_spouse=2001031}
+	2705.7.1={death=yes}
+}
+
+2001031={
+	name="Jean-Luc"
+	dynasty=1635000
+	dna="lanpppdobgf"
+	culture=venteux
+	religion=voodoo
+	martial=4
+	diplomacy=1
+	stewardship=2
+	intrigue=2
+	learning=6
+	trait=fortune_builder
+	trait=temperate
+	trait=greedy
+	2637.8.23={birth=yes}
+	2656.12.4={add_spouse=2001030}
+	2706.6.12={death=yes}
+}
+
+2001032={
+	name="Marie-Thérčse"
+	female=yes
+	dynasty=1635000
+	dna="ljgcppnmghg"
+	culture=venteux
+	religion=voodoo
+	martial=3
+	diplomacy=6
+	stewardship=2
+	intrigue=7
+	learning=5
+	trait=midas_touched
+	trait=trusting
+	trait=temperate
+	father=2001031
+	mother=2001030
+	2657.12.18={birth=yes}
+	2677.2.3={add_spouse=2001033}
+	2726.10.15={death=yes}
+}
+
+2001033={
+	name="Alexandre"
+	dynasty=2001011
+	dna="bdckdopjilc"
+	culture=haitian
+	religion=voodoo
+	martial=0
+	diplomacy=8
+	stewardship=6
+	intrigue=2
+	learning=1
+	trait=indulgent_wastrel
+	trait=impaler
+	trait=trusting
+	trait=charitable
+	2660.9.14={birth=yes}
+	2677.2.3={add_spouse=2001032}
+	2719.7.10={death=yes}
+}
+
+2001034={
+	name="Sylviane"
+	female=yes
+	dynasty=1635000
+	dna="lagpppnmbff"
+	culture=venteux
+	religion=voodoo
+	martial=5
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=3
+	trait=thrifty_clerk
+	trait=proud
+	father=2001031
+	mother=2001030
+	2662.1.26={birth=yes}
+	2725.4.24={death=yes}
+}
+
+2001035={
+	name="Raphaël"
+	dynasty=1635000
+	dna="lagpppnoghf"
+	culture=venteux
+	religion=voodoo
+	martial=1
+	diplomacy=3
+	stewardship=1
+	intrigue=7
+	learning=5
+	trait=flamboyant_schemer
+	trait=deceitful
+	trait=content
+	trait=cynical
+	father=2001031
+	mother=2001030
+	2664.10.19={birth=yes}
+	2684.3.7={add_spouse=2001036}
+	2725.1.21={death=yes}
+}
+
+2001040={
+	name="Jack"
+	dynasty=2000070 #Sparrow
+	martial=6
+	diplomacy=7
+	stewardship=3
+	intrigue=5
+	learning=2
+	culture=brown
+	religion=brethren
+	trait=charismatic_negotiator
+	trait=adventurer
+	trait=duelist
+	trait=drunkard
+	trait=proud
+	trait=craven
+	trait=lustful
+	trait=shrewd
+	2634.12.24={birth=yes
+		culture=west_indian
+	}
+	2650.12.25={
+		effect={add_artifact=ate_telescope}
+	}
+	2650.12.26={
+		effect={add_artifact=ate_compass}
+	}
+	2652.12.24={
+		wealth=250
+		prestige=500
+		give_nickname=nick_the_savvy
+	}
+	2700.10.18={death=yes}
+}
+2001041={
+	name="Léandre"
+	dynasty=1635054
+	culture=venteux
+	religion=voodoo
+	trait=chaste
+	trait=charitable
+	trait=content
+	trait=grey_eminence
+	2633.2.3={birth=yes}
+	2700.1.1={death=yes}
+}
+2001042={
+	name="Alfred"
+	dynasty=1635054
+	culture=venteux
+	religion=voodoo
+	father=2001041
+	2656.2.3={birth=yes}
+	2700.1.1={death=yes}
+}
+
+
+######haitian Emperors 2150-2400
+
+10000585={
+	name="Jerome"
+	occluded = yes
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="devout"
+	trait="brave"
+	trait="ambitious"
+	trait="kind"
+	trait="gregarious"
+	trait="chaste"
+	2132.12.27={birth=yes}
+	2150.1.1={
+	    give_nickname = nick_renovator
+	}
+	2189.1.1={death=yes}
+}
+
+10000586={
+	name="Auguste"
+	occluded = yes
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="drunkard"
+	trait="greedy"
+	trait="cruel"
+	father=10000585
+	2161.5.20={birth=yes}
+	2150.1.1={
+	    give_nickname = nick_the_tyrant
+	}
+	2193.3.5={ 
+	   death = {
+	      death_reason = death_murder_unknown
+	   }
+	}
+}
+
+10000587={
+	name="Jerome"
+	occluded = yes
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="devout"
+	father=10000585
+	2169.11.27={birth=yes}
+	2232.1.1={death=yes}
+}
+
+10000588={
+	name="Faustin"
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="devout"
+	father=10000587
+	2195.11.27={birth=yes}
+	2236.3.12={
+	   death = {
+	       death_reason = death_murder
+		   killer = 10000589
+	   }
+	}
+}
+
+10000589={
+	name="Auguste"
+	dynasty=42000087
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="cruel"
+	trait="ambitious"
+	2194.5.22={birth=yes}
+	2236.5.20={
+	   death = {
+	       death_reason = death_suicide
+	   }
+	}
+}
+
+10000590={
+	name="Jerome"
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="devout"
+	father=10000588
+	2219.5.20={birth=yes}
+	2236.3.12={
+	   death = {
+	       death_reason = death_murder
+		   killer = 10000589
+	   }
+	}
+}
+
+10000591={
+	name="Faustin"
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="devout"
+	father=10000588
+	2222.7.11={birth=yes}
+	2236.3.12={
+	   death = {
+	       death_reason = death_murder
+		   killer = 10000589
+	   }
+	}
+}
+
+10000592={
+	name="Pierre"
+	dynasty=42000086
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	trait="brave"
+	trait="devout"
+	father=10000588
+	2228.3.20={birth=yes}
+	2236.3.12={
+	   death = {
+	       death_reason = death_murder
+		   killer = 10000589
+	   }
+	}
+}
+
+10000593={
+	name="Faustin"
+	dynasty=42000088
+	culture=haitian
+	religion=voodoo
+	trait="legendary"
+	trait="drunkard"
+	trait="strong"
+	trait="cruel"
+	trait="ambitious"
+	2210.11.4={birth=yes}
+	2236.7.14={
+	   death = {
+	       death_reason = death_battle
+		   killer = 10000594
+	   }
+	}
+}
+
+10000594={
+	name="Pierre"
+	dynasty=42000089
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	2159.2.14={birth=yes}
+	2236.11.16={death=yes}
+}
+
+
+10000595={
+	name="Philippe"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	trait="legendary"
+	2208.6.29={birth=yes}
+	2268.4.20={death=yes}
+}
+
+10000596={
+	name="Alexandre"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000595
+	trait="twin"
+	trait="kind"
+	trait="devout"
+	2234.11.20={birth=yes}
+	2269.12.4={ 
+	   death = {
+	       death_reason = death_murder
+		   killer = 10000597
+	   }
+	}
+}
+
+10000597={
+	name="Philippe"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000595
+	trait="twin"
+	trait="kind"
+	trait="devout"
+	2234.11.20={birth=yes}
+	2272.6.21={ 
+	   death = {
+	       death_reason = death_battle_duel
+		   killer = 10000598
+	   }
+	}
+}
+
+10000598={
+	name="Antonio"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	trait="brilliant_strategist"
+	trait="inspiring_leader"
+	trait="gluttonous"
+	trait="chaste"
+	2249.11.20={birth=yes}
+	2272.12.4={
+		create_bloodline={
+			type=haitan_emperor_blood_la_vega_bloodline
+			has_dlc="Holy Fury"
+		}
+    }
+	2277.5.11={
+	   add_spouse=10000599
+	}
+	2290.11.20={death=yes}
+}
+
+10000599={
+	name="Michele"
+	female=yes
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000596
+	trait="twin"
+	2258.5.14={birth=yes}
+	2309.11.20={death=yes}
+}
+
+10000600={
+	name="Jerome"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000596
+	trait="twin"
+	trait="shy"
+	trait="erudite"
+	trait="kind"
+	2258.5.14={birth=yes}
+	2310.2.16={death=yes}
+}
+
+10000601={
+	name="Alexandre"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000600
+	trait="ambitious"
+	2282.5.14={birth=yes}
+	2312.4.18={
+	   death= {
+	       death_reason = death_battle
+		   killer = 2100002
+	   }
+	}
+}
+
+10000602={
+	name="Philippe"
+	dynasty=42000090
+	culture=haitian
+	religion=jesuite
+	father=10000601
+	2301.5.14={birth=yes}
+	2311.1.1={
+	   give_nickname = nick_the_false_emperor
+	}
+	2312.4.18={
+	   death= {
+	       death_reason = death_went_to_china
+	   }
+	}
+}
+
+10000603={
+	name="Luis"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000598
+	mother=10000599
+	2278.10.18={birth=yes}
+	2312.4.18={
+	   death= {
+	       death_reason = death_battle
+		   killer = 2100002
+	   }
+	}
+}
+
+10000604={
+	name="Felipe"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000603
+	2298.1.22={birth=yes}
+	2340.1.1={
+	   give_nickname=nick_the_great
+	}
+	2362.2.16={death=yes}
+}
+
+10000605={
+	name="Pedro"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000604
+	trait="weak"
+	trait="erudite"
+	trait="poet"
+	2329.1.22={birth=yes}
+	2360.1.1={
+	   give_nickname=nick_the_poet
+	}
+	2362.8.22={
+		death= {
+	       death_reason = death_murder
+		   killer = 10000606
+	   }
+	}
+}
+
+10000606={
+	name="Pierre"
+	dynasty=42000092
+	culture=haitian
+	religion=haiti_imperial
+	trait="slow"
+	trait="tough_soldier"
+	2326.1.22={birth=yes}
+	2360.1.1={
+	   give_nickname = nick_the_apostate
+	}
+	2363.5.11={
+		death= {
+	       death_reason = death_battle
+	   }
+	}
+}
+
+10000607={
+	name="Alexandre"
+	dynasty=42000092
+	culture=haitian
+	religion=haiti_imperial
+	father=10000606
+	2346.8.2={birth=yes}
+	2363.6.4={
+		death= {
+	       death_reason = death_battle
+	   }
+	}
+}
+
+10000609={
+	name="Julia"
+	dynasty=42000091
+	female=yes
+	culture=quisqueyano
+	religion=jesuite
+	father=10000605
+	2351.4.19={birth=yes}
+	2369.6.19={
+	   give_nickname=nick_the_usurper
+	}
+	2370.1.27={ 
+      death={
+	     death_reason=death_suicide
+	  }
+	}
+}
+
+10000608={
+	name="Marco"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000605
+	2358.1.22={birth=yes}
+	2410.1.19={death=yes}
+}
+
+10000610={
+	name="Jerome"
+	dynasty=42000093
+	culture=haitian
+	religion=voodoo
+	2331.1.22={birth=yes}
+	2372.10.14={  
+	    death={
+		    death_reason=death_battle_duel
+			killer=10000611
+		}
+    }
+}
+
+10000611={
+	name="Faustin"
+	dynasty=42000092
+	culture=haitian
+	religion=haiti_imperial
+	father=10000606
+	2351.4.19={birth=yes}
+	2373.5.4={  
+	    death={
+		    death_reason=death_murder_unknown
+		}
+    }
+}
+
+10000612={
+	name="Jerome"
+	dynasty=42000092
+	culture=haitian
+	religion=haiti_imperial
+	father=10000606
+	2356.4.19={birth=yes}
+	2385.9.18={  
+	    death={
+		    death_reason=death_battle
+			killer=10000613
+		}
+    }
+}
+
+10000613={
+	name="Filipe"
+	dynasty=2004043
+	culture=brazilian
+	religion=apostolic
+	father=2100047
+	trait=shy
+	trait=proud
+	trait=craven
+	trait=erudite
+	trait=deceitful
+	2360.9.15={birth=yes}
+	2397.12.4={ 
+	  death={
+	      death_reason = death_murder_unknown
+	  }
+	}
+}
+
+10000614={
+	name="Filipe"
+	dynasty=2004043
+	culture=brazilian
+	religion=jesuite
+	father=10000613
+	2381.10.4={birth=yes}
+	2398.11.12={ 
+	  death={
+	      death_reason = death_went_to_china
+	  }
+	}
+}
+
+10000615={
+	name="Marco"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000608
+	2380.1.22={birth=yes}
+	2415.4.11={
+	  death={
+	      death_reason = death_health
+	  }
+	}
+}
+
+10000616={ 
+	name="Antonio"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000615
+	2404.4.18={birth=yes}
+	2466.10.6={death=yes}
+}
+
+10000617={ 
+	name="Julia"
+	female=yes
+	dynasty=42000091
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000615
+	trait="deceitful"
+	2398.10.4={birth=yes}
+	2415.4.11={
+	   give_nickname=nick_the_usurper
+	}
+	2416.12.4={
+	    add_spouse=10000618
+	}
+	2417.10.6={
+	   death = {
+	      death_reason=death_childbirth
+	   }
+	}
+}
+
+10000619={ 
+	name="Faustin"
+	dynasty=2001001
+	culture=haitian
+	religion=haiti_imperial
+	father=10000618
+	mother=10000617
+	2417.10.6={birth=yes}
+	2418.2.10={
+	   death = {
+	      death_reason=death_health
+	   }
+	}
+}
+
+10000618={ 
+	name="Faustin"
+	dynasty=2001001
+	culture=haitian
+	religion=santeria
+	trait="brave"
+	trait="cruel"
+	trait="inspiring_leader"
+	2391.7.26={birth=yes}
+	2417.10.6={
+		create_bloodline={
+			type=haitan_emperor_telemarque_bloodline
+			has_dlc="Holy Fury"
+		}
+    }
+	2432.1.1={
+	   death = {
+	      death_reason=death_battle_duel
+		  killer=10000437
+	   }
+	}
+}
+
+11000001={
+	name="Line of d'Jacmel"
+	occluded=yes
+	culture=haitian
+	religion=jesuite
+	trait=legendary
+	real_father=10000602
+	2312.4.18={birth=yes}
+	2665.1.1={death=yes}
+}
+
+10000999={ 
+	name="Jerome"
+	dna="bdbgb0ac0c0"
+	properties="qb0g0k00000000000000000000000000000000"
+	culture=haitian
+	religion=voodoo
+	real_father=11000001
+	trait="quick"
+	trait="fair"
+	trait="brave"
+	trait="ambitious"
+	2653.5.3={birth=yes}
+	2688.2.19={death=yes}
+}
+
+#Eventy:
+#1-Pogłoski o dziedzicu (2667, Imperium Karaibskie i jego wasale, haitańczycy wszystcy)
+#2-Specjalny (Odpalacz)
+#3-Jego, z jego perspektywy
+#4-Decyzja, czy słać po Brazylijczyków czy też samemu to zrobić
+#5-Event dla Cesarza HCC: Wojna w Haiti, możliwość pomocy
+#6-List z HCC, oferta pomocy - Haiti niepodległe, Floryda do HCC (zgoda lub nie)
+#7-Statek z żoną (z Brazylii) - jak odrzucisz do koniec sojuszu, jak przyjmiesz to sie żenisz
+#8-Statek z żoną (z HCC, jeśli ma córke, jeśli nie to bękarcia siostra or sth else, to samo jak przy Brazylii)
+#9-Zwycięstwo (Host, decyzja o stolicy. AI zawsze Port de Prince)
+#10-Zwycięstwo (inni, major event)
+#11-Wybór religii (Jesuite/Holy Imperial/Santeria/VooDoo/Religia Brazylijczyków/Protestantyzm jeśli żona z HCC)
+#12-Edykt z Port d'Prince/Santo Domingo (idea wydania edyktu o tolerancji religijnej, jak jesteś protestantem/apostolic to nie masz wyboru)
+#13-Przegrana (Carribean, los buntownika)
+#14-Przegrana (inni)

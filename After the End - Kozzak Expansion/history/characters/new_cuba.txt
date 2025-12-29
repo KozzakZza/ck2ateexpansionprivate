@@ -1,0 +1,1386 @@
+###Pre-Event Leaders
+
+10000108={ 
+	name="Carlos Manuel" 
+	occluded=yes
+	dynasty=42000047
+	culture=cubano
+	religion=jesuite
+	trait="legendary"
+	1819.4.18={birth=yes}
+	1874.2.1={
+	   death=yes
+	}
+}
+
+10000109={ 
+	name="Tomas Estrada" 
+	occluded=yes
+	dynasty=42000048
+	culture=cubano
+	religion=jesuite
+	trait="legendary"
+	1832.7.9={birth=yes}
+	1933.8.13={
+	   death={
+	    death_reason=death_murder
+		killer=10000106
+	  }
+	}
+}
+
+
+10000106={ 
+	name="Fulgencio" 
+	occluded=yes
+	dynasty=42000046
+	culture=cubano
+	religion=jesuite
+	trait="strategist"
+	trait="ambitious"
+	trait="cruel"
+	trait="greedy"
+	trait="legendary"
+	1901.1.16={birth=yes}
+	1961.4.19={ #Historical, he died in 1970s, but in cuban legends he died during the american invasion in duel with Fidel
+	    death={
+			death_reason=death_battle_duel
+			killer=10000107
+		}
+	}
+}
+
+10000107={ 
+	name="Fidel" 
+	occluded=yes
+	dynasty=42000045
+	culture=cubano
+	religion=jesuite
+	trait="strategist"
+	trait="brave"
+	trait="ambitious"
+	trait="legendary"
+	1926.8.13={birth=yes}
+	2000.1.1={
+		death=yes
+	}
+}
+
+####Leader of Havana Republic
+
+10000110={ 
+	name="Rafael" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	trait="ambitious"
+	trait="devout"
+	trait="brave"
+	trait="gregarious"
+	trait="patient"
+	2541.1.1={birth=yes}
+	2604.1.1={
+		death=yes
+	}
+}
+
+10000111={ 
+	name="Fulgencio" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000110
+	2580.1.1={birth=yes}
+	2642.1.1={
+		death=yes
+	}
+}
+
+10000112={ 
+	name="Laureano" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000111
+	2601.1.1={birth=yes}
+	2664.1.1={
+		death=yes
+	}
+}
+
+10000113={ 
+	name="Danilo" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000112
+	2625.1.1={birth=yes}
+	2689.1.1={
+		death=yes
+	}
+}
+
+10000114={ 
+	name="Laureano" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000112
+	2625.1.1={birth=yes}
+	2689.1.1={
+		death=yes
+	}
+}
+
+10000115={ 
+	name="Dolores" 
+	female=yes
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000112
+	2639.1.1={birth=yes}
+	2689.1.1={
+		death=yes
+	}
+}
+
+10000116={ 
+	name="Rafael" 
+	dynasty=42000049
+	culture=cubano
+	religion=jesuite
+	father=10000112
+	2641.1.1={birth=yes}
+	2689.1.1={
+		death=yes
+	}
+}
+
+#Second House
+
+10000117={ 
+	name="Eduardo" 
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	2549.1.1={birth=yes}
+	2598.1.1={
+		death=yes
+	}
+}
+
+10000118={ 
+	name="Garcia" 
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	father=10000117
+	2576.1.1={birth=yes}
+	2628.2.8={
+	    death={
+			death_reason=death_battle
+			killer=2000011
+		}
+	}
+}
+
+10000119={ 
+	name="Barbarito" 
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	father=10000118
+	2601.1.1={birth=yes}
+	2620.1.1={
+	   add_spouse=10000120
+	}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000120={ 
+	name="Elena" 
+	female=yes
+	culture=cubano
+	religion=jesuite
+	2602.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000121={ 
+	name="Wilber" 
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	father=10000119
+	mother=10000120
+	trait="twin"
+	2623.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000122={ 
+	name="Rosel" 
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	father=10000119
+	mother=10000120
+	trait="twin"
+	2623.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000123={ 
+	name="Adele" 
+	female=yes
+	dynasty=42000051
+	culture=cubano
+	religion=jesuite
+	father=10000119
+	mother=10000120
+	2628.1.1={birth=yes}
+	2688.1.1={
+		death=yes
+	}
+}
+
+10000124={ 
+	name="Sergio" 
+	dynasty=42000052
+	culture=cubano
+	religion=jesuite
+	2599.1.1={birth=yes}
+	2664.1.1={
+		death=yes
+	}
+}
+
+10000125={ 
+	name="Rafael"
+	dynasty=42000052
+	culture=cubano
+	religion=jesuite
+	father=10000124
+	2640.1.1={birth=yes}
+	2667.1.1={
+		death=yes
+	}
+}
+
+
+###King Gaspar the Great and his children grandchildren etc.
+
+10000126={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	trait="legendary"
+	trait="strong"
+	trait="genius"
+	trait="fair"
+	trait="brave"
+	trait="ambitious"
+	trait="patient"
+	trait="gregarious"
+	2156.1.1={birth=yes}
+	2215.1.1={
+	   give_nickname=nick_the_great
+	   	create_bloodline={
+			type=cuba_king_gasparrido
+			has_dlc="Holy Fury"
+		}
+	}
+	2235.1.1={
+		death=yes
+	}
+}
+
+10000127={ 
+	name="Norberto"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000126
+	trait="legendary"
+	2198.1.1={birth=yes}
+	2237.1.1={
+	   death={
+	    death_reason=death_murder
+		killer=10000128
+	  }
+	}
+}
+
+10000128={ 
+	name="Rafael"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000126
+	trait="legendary"
+	2202.1.1={birth=yes}
+	2237.1.1={
+	   death={
+	    death_reason=death_execution
+		killer=10000129
+	  }
+	}
+}
+
+10000129={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000126
+	trait="legendary"
+	2211.1.1={birth=yes}
+	2277.1.1={
+		death=yes
+	}
+}
+
+##Main Line of Norberto
+
+10000130={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000129
+	trait="legendary"
+	2235.1.1={birth=yes}
+	2300.1.1={
+		death=yes
+	}
+}
+
+10000131={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000130
+	trait="legendary"
+	2280.1.1={birth=yes}
+	2370.1.1={
+		death=yes
+	}
+}
+
+10000132={ 
+	name="Ponciano"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000131
+	trait="legendary"
+	2330.1.1={birth=yes}
+	2410.1.1={
+		death=yes
+	}
+}
+
+10000133={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000132
+	2390.1.1={birth=yes}
+	2458.1.1={
+		death=yes
+	}
+}
+
+10000134={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000133
+	2425.1.1={birth=yes}
+	2489.1.1={
+		death=yes
+	}
+}
+
+10000135={ 
+	name="Rafael"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000134
+	2461.1.1={birth=yes}
+	2521.1.1={
+		death=yes
+	}
+}
+
+10000136={ 
+	name="Tico"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000135
+	2499.1.1={birth=yes}
+	2552.1.1={
+		death=yes
+	}
+}
+
+10000137={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000136
+	2521.1.1={birth=yes}
+	2589.1.1={
+		death=yes
+	}
+}
+
+10000138={ 
+	name="Gonzalo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000137
+	trait="cruel"
+	trait="ambitious"
+	trait="gluttonous"
+	trait="brave"
+	trait="duelist"
+	trait="one_eyed"
+	trait="strong"
+	2551.1.1={birth=yes}
+	2588.1.1={
+		death = {
+		   death_reason=death_battle
+		   killer=10000185
+		}
+	}
+}
+
+10000139={ 
+	name="Nelson"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000138
+	2582.1.1={birth=yes}
+	2641.1.1={
+		death=yes
+	}
+}
+
+10000140={ 
+	name="Rabinato"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000139
+	2602.1.1={birth=yes}
+	2625.1.1={
+	   add_spouse=10000141
+	}
+	2677.1.1={
+		death=yes
+	}
+}
+
+10000141={ 
+	name="Blanca"
+	female=yes
+	culture=cubano
+	religion=santeria
+	2603.1.1={birth=yes}
+	2677.1.1={
+		death=yes
+	}
+}
+
+10000142={ 
+	name="Wilber"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000140
+	mother=10000141
+	2626.1.1={birth=yes}
+	2677.1.1={
+		death=yes
+	}
+}
+
+10000143={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000140
+	mother=10000141
+	2631.1.1={birth=yes}
+	2677.1.1={
+		death=yes
+	}
+}
+
+10000144={ 
+	name="Ale"
+	dynasty=42000053
+	female=yes
+	culture=cubano
+	religion=santeria
+	father=10000140
+	mother=10000141
+	2642.1.1={birth=yes}
+	2677.1.1={
+		death=yes
+	}
+}
+
+##Main line of Rafael 
+
+10000145={ 
+	name="Yiandro"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000128
+	trait="legendary"
+	2234.1.1={birth=yes}
+	2340.1.1={
+		death=yes
+	}
+}
+
+10000146={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000145
+	trait="legendary"
+	2310.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
+}
+
+10000147={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000146
+	2383.1.1={birth=yes}
+	2447.1.1={
+		death=yes
+	}
+}
+
+10000148={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000147
+	2421.1.1={birth=yes}
+	2489.1.1={
+		death=yes
+	}
+}
+
+10000149={ 
+	name="Rafael"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000148
+	2451.1.1={birth=yes}
+	2510.1.1={
+		death=yes
+	}
+}
+
+10000150={ 
+	name="Servando"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000149
+	2489.1.1={birth=yes}
+	2547.1.1={
+		death=yes
+	}
+}
+
+10000151={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000150
+	2522.1.1={birth=yes}
+	2581.1.1={
+		death=yes
+	}
+}
+
+10000152={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000151
+	2557.1.1={birth=yes}
+	2610.1.1={
+		death=yes
+	}
+}
+
+10000153={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000152
+	2589.1.1={birth=yes}
+	2610.1.1={
+	   add_spouse=10000154
+	}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000154={ 
+	name="Adele"
+	female=yes
+	culture=cubano
+	religion=santeria
+	2590.1.1={birth=yes}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000156={ 
+	name="Diana"
+	female=yes
+	culture=cubano
+	religion=santeria
+	2615.1.1={birth=yes}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000155={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000153
+	mother=10000154
+	trait="content"
+	trait="patient"
+	trait="slothful"
+	trait="shy"
+	2612.1.1={birth=yes}
+	2640.1.1={
+	   add_spouse=10000156
+	}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000157={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000155
+	mother=10000156
+	2642.1.1={birth=yes}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000158={ 
+	name="Diana"
+	female=yes
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000155
+	mother=10000156
+	2645.1.1={birth=yes}
+	2678.1.1={
+		death=yes
+	}
+}
+
+10000159={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000155
+	mother=10000156
+	2649.1.1={birth=yes}
+	2678.1.1={
+		death=yes
+	}
+}
+
+##Anot-Branch
+
+10000160={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000138
+	2587.1.1={birth=yes}
+	2628.2.8={
+	    death={
+			death_reason=death_battle
+			killer=2000011
+		}
+	}
+}
+
+10000161={ 
+	name="Rosel"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000160
+	2611.1.1={birth=yes}
+	2628.2.8={
+	    death={
+			death_reason=death_battle
+			killer=2000011
+		}
+	}
+}
+
+10000162={ 
+	name="Sergio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	secret_religion=jesuite
+	father=10000161
+	trait="patient"
+	trait="erudite"
+	trait="weak"
+	trait="temperate"
+	trait="quick"
+	diplomacy=15
+	stewardship=17
+	2628.8.20={birth=yes}
+	2677.1.1={
+	    death={
+			death_reason=death_battle
+			killer=2000011
+		}
+	}
+}
+
+#Anot Branch
+
+10000163={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000132
+	2392.1.1={birth=yes}
+	2462.1.1={
+		death=yes
+	}
+}
+
+10000164={ 
+	name="Antonio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000163
+	2430.1.1={birth=yes}
+	2501.1.1={
+		death=yes
+	}
+}
+
+10000165={ 
+	name="Batista"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000164
+	2475.1.1={birth=yes}
+	2548.1.1={
+		death=yes
+	}
+}
+
+10000166={ 
+	name="Claudio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000165
+	2515.1.1={birth=yes}
+	2581.1.1={
+		death=yes
+	}
+}
+
+10000167={ 
+	name="Bienvenido"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000166
+	2552.1.1={birth=yes}
+	2621.1.1={
+		death=yes
+	}
+}
+
+10000168={ 
+	name="Pablo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000167
+	2591.1.1={birth=yes}
+	2628.2.8={
+	    death={
+			death_reason=death_battle
+			killer=2000011
+		}
+	}
+}
+
+10000169={ 
+	name="Gonzalo"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000168
+	2614.1.1={birth=yes}
+	2657.1.1={
+	    death={
+			death_reason=death_murder
+		}
+	}
+}
+
+10000170={ 
+	name="Carlos"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000169
+	trait="deceitful"
+	trait="brave"
+	trait="one_eyed"
+	trait="strong"
+	trait="gregarious"
+	trait="drunkard"
+	trait="ambitious"
+	trait="wroth"
+	martial=18
+	2640.1.1={birth=yes}
+	2688.1.1={
+	    death={
+			death_reason=death_murder
+		}
+	}
+}
+
+#Anot Branch - Cienfuegos
+
+10000171={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000150
+	2528.1.1={birth=yes}
+	2585.1.1={
+		death=yes
+	}
+}
+
+10000172={ 
+	name="Ponciano"
+	dynasty=42000053
+	culture=cubano
+	religion=isabelinism
+	father=10000171
+	2565.1.1={birth=yes}
+	2645.1.1={
+		death=yes
+	}
+}
+
+10000173={ 
+	name="Arsenio"
+	dynasty=42000053
+	culture=cubano
+	religion=isabelinism
+	father=10000172
+	2599.1.1={birth=yes}
+	2641.1.1={
+	    death={
+			death_reason=death_murder
+		}
+	}
+}
+
+10000174={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=isabelinism
+	father=10000173
+	trait="genius"
+	trait="lunatic"
+	trait="brave"
+	trait="gregarious"
+	trait="strategist"
+	trait="siege_leader"
+	trait="inspiring_leader"
+	trait="cruel"
+	trait="proud"
+	trait="deceitful"
+	martial=20
+	intrigue=17
+	2638.1.1={birth=yes}
+	2699.1.1={
+	    death={
+			death_reason=death_murder
+		}
+	}
+}
+
+###Norberto Line
+
+10000175={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000127
+	trait="legendary"
+	trait="weak"
+	trait="content"
+	trait="craven"
+	trait="gregarious"
+	trait="drunkard"
+	give_nickname=nick_the_weak
+	2234.1.1={birth=yes}
+	2282.1.1={
+	    death={
+			death_reason=death_health
+		}
+	}
+}
+
+10000176={ 
+	name="Alejandro"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000175
+	trait="brave"
+	trait="zealous"
+	trait="patient"
+	trait="temperate"
+	give_nickname=nick_the_martyr
+	2278.1.1={birth=yes}
+	2303.1.1={
+	    death = {
+		   death_reason=death_murder
+		   killer=10000177
+		}
+	}
+}
+
+10000177={ 
+	name="Antonio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000175
+	trait="brave"
+	trait="cruel"
+	trait="ambitious"
+	trait="proud"
+	2282.1.1={birth=yes}
+	2342.1.1={
+	    death=yes
+	}
+}
+
+10000178={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000177
+	trait="shy"
+	trait="erudite"
+	trait="cynical"
+	trait="patient"
+	2308.1.1={birth=yes}
+	2369.1.1={
+	    death=yes
+	}
+}
+
+10000179={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000178
+	trait="patient"
+	trait="cynical"
+	trait="craven"
+	trait="quick"
+	give_nickname=nick_the_old
+	2335.1.1={birth=yes}
+	2421.1.1={
+	    death=yes
+	}
+}
+
+10000180={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000179
+	2360.1.1={birth=yes}
+	2417.1.1={
+	    death=yes
+	}
+}
+
+10000181={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000180
+	trait="kind"
+	trait="temperate"
+	trait="is_fat"
+	2391.1.1={birth=yes}
+	2462.1.1={
+	    death=yes
+	}
+}
+
+10000182={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000181
+	trait="zealous"
+	trait="brave"
+	trait="content"
+	trait="patient"
+	trait="chaste"
+	give_nickname=nick_the_martyr
+	2430.1.1={birth=yes}
+	2468.2.4={
+	   religion=jesuite
+	}
+	2468.10.5={
+	    death = {
+		   death_reason=death_murder
+		   killer=10000138
+		}
+	}
+}
+
+10000183={ 
+	name="Alejandro"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000182
+	trait="brave"
+	trait="gregarious"
+	trait="zealous"
+	trait="patient"
+	2460.1.1={birth=yes}
+	2482.1.1={
+	    death = {
+		   death_reason=death_battle_duel
+		   killer=10000138
+		}
+	}
+}
+
+10000184={ 
+	name="Antonio"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000181
+	2435.1.1={birth=yes}
+	2465.1.1={
+	   religion=jesuite
+	}
+	2468.10.5={
+	    death = {
+		   death_reason=death_murder
+		   killer=10000138
+		}
+	}
+}
+
+10000185={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=santeria
+	father=10000184
+	trait="ambitious"
+	trait="gregarious"
+	trait="fair"
+	trait="shy"
+	2457.1.1={birth=yes}
+	2465.1.1={
+	   religion=jesuite
+	}
+	2510.1.1={
+	    death=yes
+	}
+}
+
+10000186={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000185
+	trait="slothful"
+	trait="drunkard"
+	give_nickname=nick_the_drunkard
+	2491.1.1={birth=yes}
+	2545.1.1={
+	    death=yes
+	}
+}
+
+10000187={ 
+	name="Norberto"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000186
+	trait="kind"
+	trait="stressed"
+	trait="erudite"
+	trait="shy"
+	trait="content"
+	trait="weak"
+	give_nickname=nick_the_weak
+	2525.1.1={birth=yes}
+	2564.1.1={
+	    death = {
+		   death_reason=death_stressed
+		}
+	}
+}
+
+10000188={ 
+	name="Isabella"
+	dynasty=42000053
+	female=yes
+	dna="c0gcb0ab0e0"
+	culture=cubano
+	religion=jesuite
+	father=10000187
+	trait="proud"
+	trait="quick"
+	trait="wroth"
+	trait="temperate"
+	trait="ambitious"
+	trait="cruel"
+	trait="cynical"
+	trait="deceitful"
+	trait="arbitrary"
+	trait="administrator" 
+	trait="sturdy"
+	2553.1.1={birth=yes}
+	2570.1.1={
+	   add_spouse=2100014
+	}
+	2582.1.1={
+	    death = {
+		   death_reason=death_suicide
+		}
+	}
+}
+
+10000189={ 
+	name="Sergio"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000186
+	2528.1.1={birth=yes}
+	2579.1.1={
+	    death = {
+		   death_reason=death_execution
+		   killer=10000188
+		}
+	}
+}
+
+10000190={ 
+	name="Ponciano"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000189
+	2556.1.1={birth=yes}
+	2604.1.1={
+	    death=yes
+	}
+}
+
+10000191={ 
+	name="Alejandro"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000190
+	2586.1.1={birth=yes}
+	2658.1.1={
+	    death=yes
+	}
+}
+
+10000192={ 
+	name="Antonio"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000191
+	2621.1.1={birth=yes}
+	2642.1.1={
+	   add_spouse=10000193
+	}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000193={ 
+	name="Isabella"
+	female=yes
+	culture=cubano
+	religion=jesuite
+	2620.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000194={ 
+	name="Sergio"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000192
+	mother=10000193
+	2643.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000195={ 
+	name="Agostino"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000192
+	mother=10000193
+	2646.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000196={ 
+	name="Isabella"
+	dynasty=42000053
+	female=yes
+	culture=cubano
+	religion=jesuite
+	father=10000192
+	mother=10000193
+	2651.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000197={ 
+	name="Gaspar"
+	dynasty=42000053
+	culture=cubano
+	religion=jesuite
+	father=10000192
+	mother=10000193
+	2655.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}
+
+10000198={ 
+	name="Rafael"
+	dynasty=42000054
+	culture=cubano
+	religion=jesuite
+	trait="quick"
+	trait="ambitious"
+	trait="fair"
+	trait="zealous"
+	trait="architect"
+	trait="shy"
+	trait="patient"
+	stewardship=26
+	2630.1.1={birth=yes}
+	2677.1.1={
+	    death=yes
+	}
+}

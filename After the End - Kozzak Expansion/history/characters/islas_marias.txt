@@ -1,0 +1,101 @@
+10000905={ #Alejandro II
+	name="Alejandro"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	trait=tough_soldier
+	trait=devout
+	trait=diligent
+	trait=ambitious
+	trait=shy
+	father=6900080
+	2511.8.16={birth=yes}
+	2553.12.3={
+		death={
+			death_reason=death_health
+		}
+	}
+}
+
+10000904={ 
+	name="Wenceslao"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	father=6900101
+	2524.7.16={birth=yes}
+	2541.12.3={
+			death={
+			death_reason=death_battle
+			killer=6900083 #Benemérito Wenceslao I Nájera defeated Benemérito Maximiliano II Jaurégui
+			}
+	}
+}
+
+10000906={ #Maximiliano III
+	name="Maximiliano"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	trait=erudite
+	trait=zealous
+	trait=shy
+	trait=content
+    trait=monk
+	father=10000905
+	give_nickname=nick_the_pious
+	2540.10.3={birth=yes}
+	2591.3.18={death=yes}
+}
+
+10000907={
+	name="Plutarco"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	trait=deceitful
+	trait=ambitious
+	trait=brave
+	father=10000905
+	2542.12.20={birth=yes}
+	2578.5.22={
+		death={
+			death_reason=death_executed
+			killer=6900086
+		}
+	}
+}
+
+10000908={
+	name="Fernando"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	trait=weak
+	trait=gregarious
+	trait=drunkard
+	father=10000907
+	give_nickname=nick_the_drunkard
+	2564.5.4={birth=yes}
+	2598.10.2={
+	   death={
+	       death_reason=death_drunkard
+	   }
+	}
+}
+
+10000909={ 
+	name="Rita"
+	religion=cristo_rey
+	culture=chilango
+	dynasty=5001130
+	trait=tough_soldier
+	trait=devout
+	trait=diligent
+	trait=ambitious
+	trait=shy
+	father=6900080
+	2519.11.27={birth=yes}
+	2548.11.18={add_spouse=6900035}
+	2594.5.14={death=yes}
+}

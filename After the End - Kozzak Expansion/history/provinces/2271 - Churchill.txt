@@ -1,0 +1,11 @@
+# County Title
+title=c_churchill
+
+# Settlements
+max_settlements=2
+b_churchill_POL=tribal
+
+# Misc
+culture=cree
+religion=exovedate
+terrain=taiga

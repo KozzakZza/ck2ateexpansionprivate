@@ -1,0 +1,390 @@
+######2500-2666 Jesuite Bishops-Suprevisors
+
+10000401={
+	name="Sergio"
+	culture=cubano
+	religion=jesuite
+	2579.1.1={birth=yes}
+	2645.1.1={death=yes}
+}
+
+10000402={
+	name="Pablo"
+	culture=cubano
+	religion=jesuite
+	father=10000401
+	trait="monk"
+	trait="devout"
+	trait="patient"
+	trait="temperate"
+	2601.1.1={birth=yes}
+	2666.3.20={
+	   death = {
+	      death_reason = death_execution_burning
+		  killer = 2000011
+	   }
+	}
+}
+
+10000403={
+	name="Sancho"
+	culture=cubano
+	religion=jesuite
+	father=10000401
+	trait="monk"
+	trait="devout"
+	trait="patient"
+	trait="temperate"
+	2604.1.1={birth=yes}
+	2666.3.20={
+	   death = {
+	      death_reason = death_execution_burning
+		  killer = 2000011
+	   }
+	}
+}
+
+10000404={
+	name="Laureano"
+	culture=cubano
+	religion=jesuite
+	father=10000401
+	trait="monk"
+	trait="devout"
+	trait="patient"
+	trait="temperate"
+	2607.1.1={birth=yes}
+	2666.3.20={
+	   death = {
+	      death_reason = death_execution_burning
+		  killer = 2000011
+	   }
+	}
+}
+
+10000405={
+	name="Emmeth"
+	culture=kriol
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	trait="kind"
+	trait="erudite"
+	2610.1.1={birth=yes}
+	2667.8.20={
+	   death = {
+	      death_reason = death_accident
+	   }
+	}
+}
+
+10000406={
+	name="Aurelio"
+	culture=quisqueyano
+	religion=jesuite
+	trait="monk"
+	2585.1.1={birth=yes}
+	2654.1.1={death=yes}
+}
+
+10000407={
+	name="Jules"
+	culture=sranan
+	religion=jesuite
+	trait="monk"
+	trait="just"
+	trait="devout"
+	2587.1.1={birth=yes}
+	2639.10.15={
+		death = {
+	      death_reason = death_execution_lion
+		  killer = 1384020
+	   }
+	}
+}
+
+10000408={
+	name="Lloyd"
+	culture=guyanese
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2579.1.1={birth=yes}
+	2634.4.12={
+		death = {
+	      death_reason = death_execution_horses
+		  killer = 1384020
+	   }
+	}
+}
+
+10000409={
+	name="Errol"
+	culture=guyanese
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2579.1.1={birth=yes}
+	2631.5.4={
+		death = {
+	      death_reason = death_execution_stoning
+		  killer = 1384020
+	   }
+	}
+}
+
+10000410={
+	name="Fabien"
+	culture=caraqueno
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2574.1.1={birth=yes}
+	2628.5.29={
+		death = {
+	      death_reason = death_execution_horses
+		  killer = 1811126
+	   }
+	}
+}
+
+10000411={
+	name="Santiago"
+	culture=caraqueno
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2553.1.1={birth=yes}
+	2621.7.4={death=yes}
+}
+
+10000412={
+	name="Pedro"
+	culture=brazilian
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2540.1.1={birth=yes}
+	2602.3.12={
+	    death = {
+	      death_reason = death_execution_burning
+		  killer = 2100014
+	   }
+	}
+}
+
+10000413={
+	name="Romario"
+	culture=cubano
+	religion=jesuite
+	trait="monk"
+	trait="devout"
+	2517.1.1={birth=yes}
+	2581.7.4={death=yes}
+}
+
+10000414={
+	name="Emiliano"
+	culture=chocoano
+	religion=jesuite
+	trait="monk"
+	2492.1.1={birth=yes}
+	2553.4.4={
+	   	death={
+			death_reason=death_execution
+			killer=1811003
+		}
+	}
+}
+
+10000415={
+	name="Luis"
+	culture=valluno
+	religion=jesuite
+	trait="monk"
+	2452.1.1={birth=yes}
+	2535.1.1={death=yes}
+}
+
+10000416={
+	name="Hamilto"
+	culture=chocoano
+	religion=jesuite
+	trait="monk"
+	2390.1.1={birth=yes}
+	2457.1.1={death=yes}
+}
+
+10000417={ 
+	name="Jorge" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	father=10000072
+	mother=10000068
+	2280.1.1={birth=yes}
+	2337.1.1={death=yes}
+}
+
+10000418={ 
+	name="Carlos" 
+	dynasty=42000044
+	culture=valluno
+	religion=jesuite
+	trait="monk"
+	father=10000417
+	2315.1.1={birth=yes}
+	2401.1.1={death=yes}
+}
+
+10000419={ 
+	name="Miguel" 
+	culture=chocoano
+	religion=jesuite
+	trait="monk"
+	2272.1.1={birth=yes}
+	2357.1.1={death=yes}
+}
+
+10000420={ 
+	name="Juan" 
+	culture=chocoano
+	religion=jesuite
+	trait="monk"
+	2261.1.1={birth=yes}
+	2322.1.1={death=yes}
+}
+
+10000421={ 
+	name="Miguel"
+	culture=chocoano
+	religion=jesuite
+	trait="monk"
+	trait="zealous"
+	trait="quick"
+	trait="kind"
+	trait="patient"
+	trait="legendary"
+	2232.1.1={birth=yes}
+	2299.1.1={death=yes}
+}
+
+10000422={ 
+	name="Edwino"
+	culture=chocoano
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	2180.1.1={birth=yes}
+	2264.1.1={death=yes}
+}
+
+10000423={ 
+	name="Fernando"
+	culture=chocoano
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	2150.1.1={birth=yes}
+	2225.1.1={death=yes}
+}
+
+10000424={ 
+	name="Danilo"
+	occluded=yes
+	culture=chocoano
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	trait="brave"
+	trait="devout"
+	trait="erudite"
+	trait="kind"
+	2103.1.1={birth=yes}
+	2191.1.1={death=yes}
+}
+
+10000425={ 
+	name="Miguel"
+	occluded=yes
+	culture=chocoano
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	trait="brave"
+	trait="devout"
+	trait="patient"
+	2088.1.1={birth=yes}
+	2152.1.1={death=yes}
+}
+
+10000426={ 
+	name="Jorge"
+	occluded=yes
+	dynasty=42000044
+	culture=valluno 
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	trait="brave"
+	trait="devout"
+	trait="patient"
+	father=10000056
+	2073.1.1={birth=yes}
+	2128.1.1={death=yes}
+}
+
+10000427={ 
+	name="Emiliano"
+	occluded=yes
+	culture=chocoano
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	2032.1.1={birth=yes}
+	2105.1.1={death=yes}
+}
+
+10000428={ 
+	name="Carlos"
+	occluded=yes
+	culture=valluno
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	2003.1.1={birth=yes}
+	2052.1.1={death=yes}
+}
+
+10000429={ 
+	name="Henrique"
+	occluded=yes
+	culture=brazilian
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	1994.6.2={birth=yes}
+	2045.1.1={death=yes}
+}
+
+10000430={ 
+	name="Henrique"
+	occluded=yes
+	culture=brazilian
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	1978.5.14={birth=yes}
+	2010.1.1={death=yes}
+}
+
+10000431={ 
+	name="John"
+	occluded=yes
+	culture=american
+	religion=jesuite
+	trait="legendary"
+	trait="monk"
+	1951.6.20={birth=yes}
+	1992.1.1={death=yes}
+}

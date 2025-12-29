@@ -1,0 +1,136 @@
+10000690={ 
+	name="Joseph"
+	occluded=yes
+	dynasty=42000094
+	culture=yankee
+	religion=mormon
+	trait="legendary"
+	trait="inspiring_leader"
+	father=10000692
+	1805.12.23={birth=yes}
+	1844.6.27={
+	   death = {
+	      death_reason=death_battle
+	   }
+	}
+}
+
+10000691={ 
+	name="Brigham"
+	occluded=yes
+	dynasty=42000094
+	culture=yankee
+	religion=mormon
+	trait="legendary"
+	trait="zealous"
+	trait="strategist"
+	father=10000692
+	give_nickname=nick_the_young
+	1801.6.1={birth=yes}
+	1877.9.19={death=yes}
+}
+
+10000692={ 
+	name="Joseph"
+	dynasty=42000094
+	occluded=yes
+	culture=yankee
+	religion=mormon
+	trait="legendary"
+	1771.6.12={birth=yes}
+	1840.9.14={death=yes}
+}
+
+10000693={ 
+	name="John Wilford"
+	dynasty=42000094
+	occluded=yes
+	culture=yankee
+	religion=mormon
+	trait="legendary"
+	father=10000692
+	1807.11.1={birth=yes}
+	1898.9.2={death=yes}
+}
+
+10000694={ 
+	name="Joseph Fielding"
+	dynasty=42000094
+	occluded=yes
+	culture=utahn
+	religion=mormon
+	trait="legendary"
+	father=10000691
+	1838.11.13={birth=yes}
+	1918.11.19={death=yes}
+}
+
+10000695={ 
+	name="George Albert"
+	dynasty=42000094
+	occluded=yes
+	culture=utahn
+	religion=mormon
+	trait="legendary"
+	father=10000694
+	1870.4.4={birth=yes}
+	1951.4.4={death=yes}
+}
+
+10000697={ 
+	name="John"
+	dynasty=42000095
+	occluded=yes
+	culture=utahn
+	religion=mormon
+	trait="legendary"
+	father=10000690
+	1831.12.30={birth=yes}
+	1928.12.13={death=yes}
+}
+
+10000698={ 
+	name="Lorin"
+	dynasty=42000095
+	occluded=yes
+	culture=utahn
+	religion=woolleyite
+	trait="legendary"
+	father=10000697
+	1856.10.23={birth=yes}
+	1934.9.19={death=yes}
+}
+
+10000699={ 
+	name="Heber"
+	dynasty=42000018
+	occluded=yes
+	culture=rostmann
+	religion=mormon
+	trait="legendary"
+	father=10000018
+	1856.11.22={birth=yes}
+	1945.5.14={death=yes}
+}
+
+10000700={ 
+	name="James"
+	dynasty=42000096
+	occluded=yes
+	culture=gothamite
+	religion=strangite
+	trait="legendary"
+	1813.3.21={birth=yes}
+	1856.3.12={death=yes}
+}
+
+10000701={ 
+	name="William Samuel"
+	dynasty=42000097
+	occluded=yes
+	culture=anglish
+	religion=neogodbeite
+	trait="legendary"
+	1833.6.26={birth=yes}
+	1902.8.1={death=yes}
+}

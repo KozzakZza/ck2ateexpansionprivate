@@ -1,0 +1,770 @@
+####House Davies
+
+10000348={ 
+	name="Thomas"
+	dynasty=42000067
+	culture=southron
+	religion=evangelical
+	trait="genius"
+	trait="ambitious"
+	2321.1.1={birth=yes}
+	2392.1.1={
+	    death=yes
+	}
+}
+
+10000349={ 
+	name="Wade"
+	dynasty=42000067
+	culture=southron
+	religion=evangelical
+	father=10000348
+	trait="twin"
+	2356.1.1={birth=yes}
+	2412.1.1={
+	    death=yes
+	}
+}
+
+10000350={ 
+	name="Scarlett"
+	female=yes
+	dynasty=42000067
+	culture=southron
+	religion=evangelical
+	father=10000348
+	trait="twin"
+	2356.1.1={birth=yes}
+	2392.1.1={death={death_reason=death_health}}
+}
+
+10000353={ 
+	name="Goode"
+	dynasty=42000067
+	culture=southron
+	religion=evangelical
+	father=10000349
+	2385.1.1={birth=yes}
+	2448.1.1={
+	    death=yes
+	}
+}
+
+10000354={ 
+	name="Fitzhugh"
+	dynasty=42000067
+	culture=southron
+	religion=evangelical
+	father=10000353
+	2421.1.1={birth=yes}
+	2477.1.1={
+	    death=yes
+	}
+}
+
+####### House Nicolson
+
+10000351={ 
+	name="Gabriel"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	2391.1.1={birth=yes}
+	2452.1.1={
+	    death=yes
+	}
+}
+
+10000352={ 
+	name="George-Lee"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000351
+	2424.1.1={birth=yes}
+	2479.1.1={
+	    death=yes
+	}
+}
+
+10000357={ 
+	name="Thomas"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000351
+	2450.1.1={birth=yes}
+	2505.1.1={
+	    death={
+			death_reason=death_execution_beheading
+			killer=1861200
+		}
+	}
+}
+
+10000359={ 
+	name="Timon"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000357
+	2491.1.1={birth=yes}
+	2557.1.1={death=yes}
+}
+
+10000370={
+    name="Thomas"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000359
+	2521.1.1={birth=yes}
+	2560.1.1={
+		death={
+			death_reason=death_accident
+		}
+    }
+}
+
+10000371={
+    name="Pellinore"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000359
+	2525.1.1={birth=yes}
+	2572.1.1={
+		death=yes
+    }
+}
+
+10000372={
+    name="Percival"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000371
+	2564.5.2={birth=yes}
+	2621.12.17={
+		death=yes
+    }
+}
+
+10000373={
+    name="William"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000372
+	2590.7.20={birth=yes}
+	2641.3.15={
+		death=yes
+    }
+}
+
+10000374={
+    name="Frederick"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000373
+	2618.9.17={birth=yes}
+	2640.1.1={
+	   add_spouse=10000375
+	}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000375={
+    name="April"
+	dynasty=1782060 # Josias
+	female=yes
+	culture=southron
+	religion=evangelical
+	father=10000364
+	2616.4.10={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000376={
+    name="Jefferson"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000374
+	mother=10000375
+	2642.11.5={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000377={
+    name="Clover"
+	female=yes
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000374
+	mother=10000375
+	trait="twin"
+	2644.12.10={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000378={
+    name="Henrietta"
+	female=yes
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000374
+	mother=10000375
+	trait="twin"
+	2644.12.10={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000379={
+    name="Lionel"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000374
+	mother=10000375
+	2647.6.29={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+10000380={
+    name="Beatrice"
+	female=yes
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000374
+	mother=10000375
+	2650.11.8={birth=yes}
+	2668.3.15={
+		death=yes
+    }
+}
+
+####### Congressmen Gee
+
+10000355={ 
+	name="Columbus"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=1861180
+	2431.1.1={birth=yes}
+	2488.1.1={death=yes}
+}
+
+10000356={ 
+	name="Stephanus"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=1861180
+	2464.1.1={birth=yes}
+	2511.1.1={death=yes}
+}
+
+10000358={ 
+	name="Irvine"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=1861180
+	2490.1.1={birth=yes}
+	2542.1.1={death=yes}
+}
+
+10000366={
+	name="Virginius"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000358
+	2524.5.3={birth=yes}
+	2588.12.12={death=yes}
+}
+
+10000367={
+	name="Carmichael"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000366
+	2550.6.22={birth=yes}
+	2612.2.27={death=yes}
+}
+
+10000368={
+	name="Isaiah"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000367
+	2592.11.12={birth=yes}
+	2655.5.2={death=yes}
+}
+
+10000369={
+	name="Marcellus"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000368
+	2631.4.5={birth=yes}
+	2651.1.1={
+	    add_spouse=10000386
+	}
+	2667.5.2={death=yes}
+}
+
+10000386={
+	name="Eden"
+	female=yes
+	culture=southron
+	culture=tuskegean
+	religion=evangelical
+	2632.5.3={birth=yes}
+	2677.10.14={death=yes}
+}
+
+10000387={
+	name="Langston"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000369
+	mother=10000386
+	2652.10.5={birth=yes}
+	2677.10.14={death=yes}
+}
+
+10000388={
+	name="Scott"
+	dynasty=1785019 # Gee
+	culture=tuskegean
+	religion=evangelical
+	father=10000369
+	mother=10000386
+	2657.4.12={birth=yes}
+	2677.10.14={death=yes}
+}
+
+####### Congressmen Josias
+
+10000360={
+	name="Walter"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=1861301
+	2490.5.8={birth=yes}
+	2541.5.17={death=yes}
+}
+
+10000361={
+	name="Leonidas"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000360
+	2517.8.29={birth=yes}
+	2574.2.24={death=yes}
+}
+
+10000362={
+	name="Thomas"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000361
+	2542.11.4={birth=yes}
+	2610.5.16={death=yes}
+}
+
+10000363={
+	name="Octavian"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000362
+	2570.6.11={birth=yes}
+	2615.1.22={death=yes}
+}
+
+10000364={
+	name="Raphael"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000363
+	2599.11.25={birth=yes}
+	2654.10.14={death=yes}
+}
+
+10000365={
+	name="Virginius"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000364
+	2620.5.16={birth=yes}
+	2639.1.1={
+	   add_spouse=10000381
+	}
+	2677.10.14={death=yes}
+}
+
+10000381={
+    name="Megara"
+	female=yes
+	dynasty=1782044 # Spratt
+	culture=southron
+	religion=evangelical
+	father=1861286
+	trait=content
+	trait=diligent
+	trait=zealous
+	trait=kind
+	2619.6.11={birth=yes}
+	2673.10.3={death=yes}
+}
+
+10000382={
+	name="April"
+	female=yes
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000365
+	mother=10000381
+	2640.4.22={birth=yes}
+	2677.10.14={death=yes}
+}
+
+10000383={
+	name="Lamartine"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000365
+	2643.5.6={birth=yes}
+	2677.10.14={death=yes}
+}
+
+10000384={
+	name="Oliver"
+	dynasty=1782060 # Josias
+	culture=southron
+	religion=evangelical
+	father=10000365
+	mother=10000381
+	2645.11.2={birth=yes}
+	2677.10.14={death=yes}
+}
+
+#### Littlepage Congressmen
+
+10000389={
+	name="James" 
+	dynasty=1782002 # Littlepage
+	culture=southron
+	religion=evangelical
+	father=1861347
+	2587.1.1={birth=yes}
+	2639.1.1={death=yes}
+}
+
+10000390={
+	name="Edward" 
+	dynasty=1782002 # Littlepage
+	culture=southron
+	religion=evangelical
+	father=10000389
+	2618.5.22={birth=yes}
+	2641.1.1={
+	    add_spouse=10000397
+	}
+	2663.4.18={
+	   death={
+	      death_reason = death_execution_beheading
+		  killer = 1861024
+	   }
+	}
+}
+
+10000391={
+	name="Geoffrey" 
+	dynasty=1782002 # Littlepage
+	culture=southron
+	religion=evangelical
+	father=10000390
+	mother=10000397
+	2642.7.16={birth=yes}
+	2663.4.18={
+	   death={
+	      death_reason = death_execution_beheading
+		  killer = 1861024
+	   }
+	}
+}
+
+10000392={
+	name="Paulus" 
+	dynasty=1782002 # Littlepage
+	culture=southron
+	religion=evangelical
+	father=10000390
+	mother=10000397
+	2644.9.8={birth=yes}
+	2678.1.1={death=yes}
+}
+
+10000393={
+	name="April" 
+	female=yes
+	dynasty=1782002 # Littlepage
+	culture=southron
+	religion=evangelical
+	father=10000390
+	mother=10000397
+	2646.4.28={birth=yes}
+	2678.1.1={death=yes}
+}
+
+#### Parker
+
+10000394={
+	name="Quentin" 
+	dynasty=42000069
+	culture=dixie
+	religion=evangelical
+	2489.3.15={birth=yes}
+	2655.12.13={death=yes}
+}
+
+10000396={
+	name="Winchester" 
+	dynasty=42000069
+	culture=dixie
+	religion=evangelical
+	father=10000394
+	2618.6.4={birth=yes}
+	2645.1.1={
+	   add_spouse=10000398
+	}
+	2678.12.13={death=yes}
+}
+
+10000397={
+	name="Diamond"
+	female=yes
+	dynasty=42000069
+	culture=dixie
+	religion=evangelical
+	father=10000394
+	2620.3.15={birth=yes}
+	2678.12.13={death=yes}
+}
+
+10000398={
+	name="Justitia"
+	female=yes
+	culture=southron
+	religion=evangelical
+	2619.5.4={birth=yes}
+	2678.12.13={death=yes}
+}
+
+10000399={
+	name="Tyler"
+	dynasty=42000069
+	culture=dixie
+	religion=evangelical
+	father=10000396
+	mother=10000398
+	2647.4.22={birth=yes}
+	2678.12.13={death=yes}
+}
+
+10000400={
+	name="Tate"
+	dynasty=42000069
+	culture=dixie
+	religion=evangelical
+	father=10000396
+	mother=10000398
+	2650.8.19={birth=yes}
+	2678.12.13={death=yes}
+}
+
+####### Dixieland Bogdanskis'
+
+10000756={ 
+    name="Winchester"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000372
+	2587.10.21={birth=yes}
+	2629.1.1={
+	    add_trait="incapable"
+	}
+	2640.2.18={
+		death={
+		   death_reason=death_health
+		}
+    }
+}
+
+10000757={ 
+    name="Oliver"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000756
+	dna="cda0g0hbd00"
+	properties="ch0a0c00000000000000000000000000000000"
+	2610.10.21={birth=yes}
+	2629.3.12={
+	   add_spouse=10000758
+	}
+	2639.12.20={
+		death={
+		   death_reason=death_missing
+		}
+    }
+}
+
+10000758={ 
+    name="Justitia"
+	female=yes
+	dynasty=1782059 # Quarles
+	culture=southron
+	religion=evangelical
+	father=1861215
+	dna="0aaag0hbd00"
+	2608.5.14={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_missing
+		}
+    }
+}
+
+10000759={ 
+    name="Algernon"
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000757
+	mother=10000758
+	trait="twin"
+	2630.2.29={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_missing
+		}
+    }
+}
+
+10000760={ 
+    name="Sarah"
+	female=yes
+	dynasty=42000068
+	culture=southron
+	religion=evangelical
+	father=10000757
+	mother=10000758
+	trait="twin"
+	2630.2.29={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_missing
+		}
+    }
+}
+
+#False killed
+
+10000761={ 
+    name="Oliver"
+	culture=southron
+	religion=evangelical
+	dna="cda0g0hbd00"
+	properties="ch0a0c00000000000000000000000000000000"
+	2610.10.21={birth=yes}
+	2629.3.12={
+	   add_spouse=10000762
+	}
+	2639.12.29={
+		death={
+		   death_reason=death_suicide
+		}
+    }
+}
+
+10000762={ 
+    name="Justitia"
+	female=yes
+	culture=southron
+	religion=evangelical
+	dna="0aaag0hbd00"
+	2608.5.14={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_murder
+		   killer=10000761
+		}
+    }
+}
+
+10000763={ 
+    name="Algernon"
+	culture=southron
+	religion=evangelical
+	father=10000761
+	mother=10000762
+	trait="twin"
+	2630.2.29={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_murder
+		   killer=10000761
+		}
+    }
+}
+
+10000764={ 
+    name="Sarah"
+	female=yes
+	culture=southron
+	religion=evangelical
+	father=10000761
+	mother=10000762
+	trait="twin"
+	2630.2.29={birth=yes}
+	2639.12.20={
+		death={
+		   death_reason=death_murder
+		   killer=10000761
+		}
+    }
+}

@@ -1,0 +1,33 @@
+# c_belize_city
+
+# County Title
+title=c_belize_city
+
+# Settlements
+max_settlements=7
+
+b_royal_district_BL=castle
+b_buttonwood_bay_BL=city
+b_holy_redeemer_cath_BL=temple
+b_freetown_BL=city
+b_vista_del_mar_BL=temple
+b_belama_BL=castle
+b_coral_grove_BL=temple
+
+# Misc
+culture=kriol
+religion=belizean_catholic
+terrain=farmlands
+
+1970.1.1={
+	build_wonder=wonder_belizean_parliament
+}
+1970.1.1={
+	set_wonder_stage=1
+}
+1970.1.1={
+	set_wonder_stage=2
+}
+1970.1.1={
+	set_wonder_stage=3
+}

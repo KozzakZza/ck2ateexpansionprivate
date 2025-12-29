@@ -1,0 +1,20 @@
+# c_dzuluinicob
+
+# County Title
+title=c_dzuluinicob
+
+# Settlements
+max_settlements=7
+
+b_hopkins_BL=castle
+b_dangriga_BL=city
+b_seine_bight_BL=temple
+b_la_democracia_BL=city
+b_hattieville_BL=temple
+
+# Misc
+culture=kriol
+religion=belizean_catholic
+terrain=farmlands
+
+2660.1.1 = { trade_post = k_belize }

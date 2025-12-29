@@ -1,0 +1,522 @@
+####Pre-Event Rulers of America
+
+10000001={
+	name="George"
+	occluded=yes
+	dynasty=42000001
+	culture=southron
+	religion=americanist
+	trait=legendary
+	trait=president
+	1732.2.22={birth=yes}
+	1799.12.14={death=yes}
+}
+
+10000002={
+	name="John" 
+	occluded=yes
+	dynasty=42000002
+	culture=yankee
+	religion=americanist
+	trait=legendary
+	trait=president
+	1735.10.30={birth=yes}
+	1826.7.4={death=yes}
+}
+
+10000003={
+	name="Thomas" 
+	occluded=yes
+	dynasty=42000003
+	culture=southron
+	religion=jeffersonian
+	trait=legendary
+	trait=president
+	1743.4.13={birth=yes}
+	1826.7.4={death=yes}
+}
+
+10000004={
+	name="James" 
+	occluded=yes
+	dynasty=42000004
+	culture=southron
+	religion=americanist
+	trait=legendary
+	trait=president
+	1751.3.16={birth=yes}
+	1836.6.28={death=yes}
+}
+
+10000005={
+	name="James" 
+	occluded=yes
+	dynasty=42000005
+	culture=southron
+	religion=episcopal
+	trait=legendary
+	trait=brave
+	trait=president
+	1758.4.28={birth=yes}
+	1831.7.4={death=yes}
+}
+
+10000006={
+	name="John" 
+	occluded=yes
+	dynasty=42000006
+	culture=yankee
+	religion=anabaptist
+	trait=legendary
+	trait=president
+	1767.7.11={birth=yes}
+	1848.2.23={death=yes}
+}
+
+10000007={
+	name="Andrew" 
+	occluded=yes
+	dynasty=42000007
+	culture=southron
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1767.3.15={birth=yes}
+	1845.6.8={death=yes}
+}
+
+10000008={
+	name="Martin" 
+	occluded=yes
+	dynasty=42000008
+	culture=deitsch
+	religion=anabaptist
+	trait=legendary
+	trait=president
+	1782.12.5={birth=yes}
+	1862.7.24={death=yes}
+}
+
+10000009={
+	name="William" 
+	occluded=yes
+	dynasty=42000009
+	culture=southron
+	religion=episcopal
+	trait=legendary
+	trait=president
+	1773.2.9={birth=yes}
+	1841.4.4={death=yes}
+}
+
+10000010={
+	name="John" 
+	occluded=yes
+	dynasty=42000010
+	culture=southron
+	religion=episcopal
+	trait=legendary
+	trait=president
+	1790.3.29={birth=yes}
+	1862.1.18={death=yes}
+}
+
+10000011={
+	name="James" 
+	occluded=yes
+	dynasty=42000011
+	culture=southron
+	religion=episcopal
+	trait=legendary
+	trait=president
+	1795.11.2={birth=yes}
+	1849.6.15={death=yes}
+}
+
+10000012={
+	name="Zachary" 
+	occluded=yes
+	dynasty=42000012
+	culture=southron
+	religion=episcopal
+	trait=legendary
+	trait=president
+	1784.11.24={birth=yes}
+	1850.7.9={death=yes}
+}
+
+10000013={
+	name="Millard" 
+	occluded=yes
+	dynasty=42000013
+	culture=gothamite
+	religion=jacobite
+	trait=legendary
+	trait=president
+	1800.1.7={birth=yes}
+	1874.3.8={death=yes}
+}
+
+10000014={
+	name="Franklin" 
+	occluded=yes
+	dynasty=42000014
+	culture=yankee
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1804.11.23={birth=yes}
+	1869.10.8={death=yes}
+}
+
+10000015={
+	name="James" 
+	occluded=yes
+	dynasty=42000015
+	culture=hudsonian
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1791.4.23={birth=yes}
+	1868.6.1={death=yes}
+}
+
+10000016={
+	name="Abraham" 
+	occluded=yes
+	dynasty=42000016
+	culture=appalachian
+	religion=americanist
+	trait=legendary
+	trait=president
+	1809.2.12={birth=yes}
+	1865.4.15={
+		death={
+			death_reason=death_murder_arrow
+		}
+	}
+}
+
+10000017={
+	name="Andrew" 
+	occluded=yes
+	dynasty=42000017
+	culture=southron
+	religion=charismatic
+	trait=legendary
+	trait=president
+	1808.12.29={birth=yes}
+	1875.7.31={death=yes}
+}
+
+10000018={
+	name="Ulysses" 
+	occluded=yes
+	dynasty=42000018
+	culture=rostmann
+	religion=episcopal
+	trait=legendary
+	trait=brilliant_strategist
+	trait=ambitious
+	trait=brave
+	trait=president
+	1822.4.27={birth=yes}
+	1885.7.23={death=yes}
+}
+
+10000019={
+	name="Rutherford" 
+	occluded=yes
+	dynasty=42000019
+	culture=rostmann
+	religion=jacobite
+	trait=legendary
+	trait=president
+	1822.10.4={birth=yes}
+	1893.1.17={death=yes}
+}
+
+10000020={
+	name="James" 
+	occluded=yes
+	dynasty=42000020
+	culture=rostmann
+	religion=anabaptist
+	trait=legendary
+	trait=president
+	1831.11.19={birth=yes}
+	1881.9.19={death=yes}
+}
+
+10000021={
+	name="Chester" 
+	occluded=yes
+	dynasty=42000021
+	culture=yankee
+	religion=episcopal
+	trait=legendary
+	trait=president
+	1830.10.5={birth=yes}
+	1886.11.18={death=yes}
+}
+
+10000022={
+	name="Grover" 
+	occluded=yes
+	dynasty=42000022
+	culture=dalawarean
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1837.3.18={birth=yes}
+	1908.6.24={death=yes}
+}
+
+10000023={
+	name="Benjamin" 
+	occluded=yes
+	dynasty=42000023
+	culture=rostmann
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1833.8.20={birth=yes}
+	1901.3.13={death=yes}
+}
+
+10000024={
+	name="William" 
+	occluded=yes
+	dynasty=42000024
+	culture=rostmann
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1843.1.29={birth=yes}
+	1901.9.14={death=yes}
+}
+
+10000025={
+	name="Theodore" 
+	occluded=yes
+	dynasty=42000025
+	culture=gothamite
+	religion=americanist
+	trait=legendary
+	trait=president
+	1858.10.27={birth=yes}
+	1919.1.6={death=yes}
+}
+
+10000026={
+	name="William" 
+	occluded=yes
+	dynasty=42000026
+	culture=rostmann
+	religion=moravian
+	trait=legendary
+	trait=president
+	1857.9.15={birth=yes}
+	1930.3.8={death=yes}
+}
+
+10000027={
+	name="Woodrow" 
+	occluded=yes
+	dynasty=42000027
+	culture=southron
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1856.12.28={birth=yes}
+	1924.2.3={death=yes}
+}
+
+10000028={
+	name="Warren" 
+	occluded=yes
+	dynasty=42000028
+	culture=rostmann
+	religion=anabaptist
+	trait=legendary
+	trait=president
+	1865.11.2={birth=yes}
+	1923.8.2={death=yes}
+}
+
+10000029={
+	name="Calvin" 
+	occluded=yes
+	dynasty=42000029
+	culture=yankee
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1872.7.4={birth=yes}
+	1933.1.5={death=yes}
+}
+
+10000030={
+	name="Herbert" 
+	occluded=yes
+	dynasty=42000030
+	culture=grangelander
+	religion=anabaptist
+	trait=legendary
+	trait=president
+	1874.8.10={birth=yes}
+	1964.10.20={death=yes}
+}
+
+10000031={
+	name="Franklin" 
+	occluded=yes
+	dynasty=42000025
+	culture=gothamite
+	religion=americanist
+	trait=legendary
+	father=10000025
+	trait=president
+	1882.1.30={birth=yes}
+	1945.4.12={death=yes}
+}
+
+10000032={
+	name="Harry" 
+	occluded=yes
+	dynasty=42000032
+	culture=riverlander
+	religion=americanist
+	trait=legendary
+	trait=president
+	1884.5.8={birth=yes}
+	1972.12.26={death=yes}
+}
+
+10000033={
+	name="Dwight" 
+	occluded=yes
+	dynasty=42000033
+	culture=riverlander
+	religion=evangelical
+	trait=legendary
+	trait=brilliant_strategist
+	trait=president
+	1890.10.14={birth=yes}
+	1969.3.28={death=yes}
+}
+
+10000034={
+	name="John" 
+	occluded=yes
+	dynasty=42000034
+	culture=gothamite
+	religion=catholic
+	trait=legendary
+	trait=fair
+	trait=president
+	1917.5.29={birth=yes}
+    1963.11.22={
+	    death={
+			death_reason=death_murder_arrow
+		}
+
+	}
+}
+
+10000035={
+	name="Lyndon" 
+	occluded=yes
+	dynasty=42000017
+	culture=texan
+	religion=charismatic
+	trait=legendary
+	father=10000036
+	trait=president
+	1908.8.27={birth=yes}
+	1973.1.22={death=yes}
+}
+
+10000036={
+	name="John" 
+	occluded=yes
+	dynasty=42000017
+	culture=texan
+	religion=charismatic
+	trait=legendary
+	father=10000017
+	1871.1.1={birth=yes}
+	1925.1.1={death=yes}
+}
+
+10000037={
+	name="Richard" 
+	occluded=yes
+	dynasty=42000037
+	culture=angeleno
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1913.1.9={birth=yes}
+	1994.4.22={death=yes}
+}
+
+10000039={
+	name="Henry" 
+    occluded=yes
+	dynasty=42000038
+	culture=lacustrine
+	religion=rust_cultist
+	trait=legendary
+	1863.7.30={birth=yes}
+	1947.4.7={death=yes}
+}
+
+10000038={
+	name="Gerard" 
+	occluded=yes
+	dynasty=42000038
+	culture=lacustrine
+	religion=episcopal
+	trait=legendary
+	trait=president
+	father=10000039
+	1913.7.14={birth=yes}
+	2000.1.1={death=yes}
+}
+
+10000040={
+	name="Jimmy" 
+	occluded=yes
+	dynasty=42000040
+	culture=southron
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1924.10.1={birth=yes}
+	2000.1.1={death=yes}
+}
+
+10000042={
+	name="Ronald" 
+	occluded=yes
+	dynasty=42000042
+	culture=ozark
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1911.2.6={birth=yes}
+	2000.1.1={death=yes}
+}
+
+10000043={
+	name="George" 
+	occluded=yes
+	dynasty=42000043
+	culture=yankee
+	religion=evangelical
+	trait=legendary
+	trait=president
+	1924.6.12={birth=yes}
+	2000.1.1={death=yes}
+}

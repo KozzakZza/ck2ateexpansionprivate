@@ -1,0 +1,22 @@
+# c_manche
+
+# County Title
+title=c_manche
+
+# Settlements
+max_settlements=6
+
+b_punta_gorda_BL=castle
+b_independence_and_mango_creek_BL=city
+b_aguacate_BL=temple
+b_monkey_river=castle
+b_placencia_BL=temple
+b_forest_home_BL=city
+
+
+# Misc
+culture=quichean
+religion=belizean_catholic
+terrain=farmlands
+
+2660.1.1 = { trade_post = k_belize }

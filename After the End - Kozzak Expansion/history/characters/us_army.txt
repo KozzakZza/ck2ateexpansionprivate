@@ -1,0 +1,197 @@
+10000901={ 
+	name="Belden"
+	dynasty=42000112
+	culture=coloradan
+	religion=militarist
+	trait="strategist"
+	trait="brave"
+	trait="cruel"
+	trait="ambitious"
+	trait="wroth"
+	trait="one_eyed"
+	give_nickname=nick_the_brave
+	2587.2.15={birth=yes}
+	2646.10.6={death=yes}
+}
+
+10000900={ 
+	name="Simon"
+	dynasty=42000112
+	culture=coloradan
+	religion=militarist
+	father=10000901
+	trait="strategist"
+	trait="brave"
+	trait="ambitious"
+	trait="patient"
+	trait="tough_soldier"
+	2630.8.17={birth=yes}
+	2669.4.27={death=yes}
+}
+
+10000902={ 
+	name="Gray"
+	dynasty=42000113
+	culture=coloradan
+	religion=militarist
+	trait="is_fat"
+	trait="brilliant_strategist"
+	trait="wroth"
+	trait="ambitious"
+	trait="brave"
+	martial=12
+	2641.12.11={birth=yes}
+	2669.4.27={death=yes}
+}
+
+10000903={ 
+	name="Gustavo"
+	dynasty=42000114
+	culture=neomexicano
+	religion=catholic
+	2644.12.11={birth=yes}
+	2669.4.27={death=yes}
+}
+
+10001100={ 
+	name="John"
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	trait="zealous"
+	trait="strategist"
+	trait="brave"
+	trait="ambitious"
+	give_nickname=nick_the_conqueror
+	1958.7.14={birth=yes}
+	2039.9.14={death=yes}
+}
+
+10001101={ 
+	name="Franklin"
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	1972.12.2={birth=yes}
+	2046.4.22={death=yes}
+}
+
+10001102={ 
+	name="James"
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	father=10001100
+	1985.8.11={birth=yes}
+	2062.9.19={death=yes}
+}
+
+10001103={ 
+	name="John"
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	father=10001102
+	2018.5.22={birth=yes}
+	2075.2.29={
+	   death={
+	      death_reason=death_battle
+		  killer=2200000
+	   }
+	}
+}
+
+10001104={ 
+	name="Anne"
+	female=yes
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	father=10001102
+	2022.8.19={birth=yes}
+	2075.3.17={
+	   death={
+	      death_reason=death_suicide
+	   }
+	}
+}
+
+10001105={ 
+	name="Chester"
+	occluded=yes
+	culture=american
+	religion=militarist
+	trait="legendary"
+	trait="brave"
+	trait="cruel"
+	trait="ambitious"
+	mother=10001104
+	give_nickname=nick_the_conqueror
+	2044.12.7={birth=yes}
+	2097.3.17={death=yes}
+}
+
+10001106={ 
+	name="Treyston"
+	occluded=yes
+	culture=coloradan
+	religion=militarist
+	trait="legendary"
+	give_nickname=nick_the_old
+	2076.5.18={birth=yes}
+	2154.10.5={death=yes}
+}
+
+10001107={ 
+	name="Emmet"
+	occluded=yes
+	culture=coloradan
+	religion=militarist
+	trait="legendary"
+	2088.8.12={birth=yes}
+	2163.7.28={death=yes}
+}
+
+10001108={ 
+	name="Plumblon"
+	occluded=yes
+	culture=coloradan
+	religion=militarist
+	trait="legendary"
+	2087.8.12={birth=yes}
+	2166.9.1={death=yes}
+}
+
+10001109={ 
+	name="Gray"
+	culture=coloradan
+	religion=militarist
+	trait="legendary"
+	give_nickname=nick_the_unready
+	father=10001108
+	2118.7.18={birth=yes}
+	2179.8.19={
+	   death={
+	      death_reason=death_battle
+	   }
+	}
+}
+
+10001110={ 
+	name="Zebulon"
+	culture=coloradan
+	religion=militarist
+	trait="legendary"
+	father=10001109
+	2142.7.18={birth=yes}
+	2185.11.14={
+	   death={
+	      death_reason=death_battle
+	   }
+	}
+}

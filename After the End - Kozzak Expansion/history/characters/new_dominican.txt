@@ -1,0 +1,439 @@
+10000626={ 
+	name="Aurelio"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000616
+	2436.1.19={birth=yes}
+	2500.11.16={death=yes}
+}
+
+10000620={ 
+	name="Luis"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000626
+	2478.2.22={birth=yes}
+	2548.12.1={death=yes}
+}
+
+10000621={ 
+	name="Marlon"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000620
+	2505.5.3={birth=yes}
+	2581.3.19={death=yes}
+}
+
+10000622={ 
+	name="Luis"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000621
+	2542.11.4={birth=yes}
+	2604.11.4={death=yes}
+}
+
+10000623={ 
+	name="Manuel"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000622
+	2581.4.24={birth=yes}
+	2642.8.19={death=yes}
+}
+
+10000624={ 
+	name="Luis"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000623
+	2602.8.11={birth=yes}
+	2660.5.30={death=yes}
+}
+
+10000625={ 
+	name="Ignacio"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000624
+	2640.5.14={birth=yes}
+	2699.5.30={death=yes}
+}
+
+
+###La Cilbao Republic
+
+10000917={
+	name="Manuel"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=42000115
+	2618.7.14={birth=yes}
+	2640.1.1={
+	    add_spouse=10000918
+	}
+	2677.5.24={death=yes}
+}
+
+10000918={
+	name="Francisca"
+	religion=jesuite
+	culture=quisqueyano
+	female=yes
+	2620.2.24={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000919={
+	name="Marlon"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=42000115
+	father=10000917
+	mother=10000918
+	2643.9.16={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000920={
+	name="Luis"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=42000115
+	father=10000917
+	mother=10000918
+	2647.11.30={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000921={
+	name="Francisca"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=42000115
+	father=10000917
+	mother=10000918
+	female=yes
+	2651.12.12={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000922={
+	name="Antonio"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=2002001
+	add_trait="brilliant_strategist"
+	add_trait="brave"
+	add_trait="ambitious"
+	add_trait="shy"
+	add_trait="proud"
+	add_trait="patient"
+	martial=15
+	father=10000923
+	2630.9.22={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000923={
+	name="Arsenio"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=2002001
+	father=10000940
+	2602.2.13={birth=yes}
+	2656.4.12={death=yes}
+}
+
+10000924={
+	name="Marko"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=2002001
+	father=10000923
+	2638.11.12={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000925={
+	name="Marlon"
+	religion=jesuite
+	culture=quisqueyano
+	dynasty=2002001
+	father=10000923
+	2641.2.22={birth=yes}
+	2677.5.24={death=yes}
+}
+
+10000926={ 
+	name="Marco"
+	dynasty=42000091
+	culture=quisqueyano
+	religion=jesuite
+	father=10000624
+	2643.12.24={birth=yes}
+	2699.5.30={death=yes}
+}
+
+10000927={ 
+	name="David"
+	dynasty=42000116
+	culture=yiddish
+	religion=reform
+	2645.2.14={birth=yes}
+	2699.5.30={death=yes}
+}
+
+10000928={ 
+	name="Adam"
+	dynasty=42000116
+	culture=yiddish
+	religion=reform
+	add_trait="twin"
+	father=10000927
+	2663.11.15={birth=yes}
+	2699.5.30={death=yes}
+}
+
+10000929={ 
+	name="David"
+	dynasty=42000116
+	culture=yiddish
+	religion=reform
+	add_trait="twin"
+	father=10000927
+	2663.11.15={birth=yes}
+	2699.5.30={death=yes}
+}
+
+######### Historical Pre-Event Dominican Kings
+
+10000934={ 
+	name="Rafael"
+	occluded=yes
+	dynasty=42000118
+	culture=quisqueyano
+	religion=catholic
+	add_trait="legendary"
+	trait="cruel"
+	trait="ambitious"
+	trait="proud"
+	1891.10.24={birth=yes}
+	1961.5.30={
+	   death={
+	      death_reason=death_murder
+		  killer=10000034
+	   }
+	}
+}
+
+
+#################Post-Event Kings
+
+
+10000939={ 
+	name="Luis"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	trait="tough_soldier"
+	trait="gregarious"
+	trait="cruel"
+	trait="brave"
+	2532.9.22={birth=yes}
+	2595.4.18={death=yes}
+}
+
+10000940={ 
+	name="Rafael"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000939
+	2572.9.22={birth=yes}
+	2624.12.3={death=yes}
+}
+
+10000941={ 
+	name="Luis"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000940
+	2596.1.30={birth=yes}
+	2629.12.11={
+	   death={
+	       death_reason = death_battle
+		   killer=2000011
+	   }
+	}
+}
+
+2002004={ 
+	name="Julia"
+	female=yes
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000940
+	2611.6.19={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000942={ 
+	name="Luis"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000941
+	2626.9.14={birth=yes}
+	2650.1.1={
+	   add_spouse=10000943
+	}
+	2667.1.1={death=yes}
+}
+
+10000943={ 
+	name="Julia"
+	female=yes
+	culture=quisqueyano
+	religion=santeria
+	2628.9.14={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000944={ 
+	name="Rafael"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000942
+	mother=10000943
+	2651.10.18={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000945={ 
+	name="Julia"
+	female=yes
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000942
+	mother=10000943
+	2654.2.25={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000946={ 
+	name="Luis"
+	dynasty=2002001
+	culture=quisqueyano
+	religion=santeria
+	father=10000942
+	mother=10000943
+	2655.12.11={birth=yes}
+	2667.1.1={death=yes}
+}
+
+10000948={ 
+	name="Agostino"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	trait="bastard"
+	father=10000611
+	2472.3.17={birth=yes}
+	2524.12.4={death=yes}
+}
+
+10000949={ 
+	name="Pedro"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000948
+	2504.5.2={birth=yes}
+	2560.4.13={
+	   death={
+	       death_reason=death_battle
+		   killer=10000939
+	   }
+	}
+}
+
+10000950={ 
+	name="Manuel"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000949
+	2536.3.12={birth=yes}
+	2602.3.19={death=yes}
+}
+
+10000951={ 
+	name="Rafael"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000950
+	2579.9.3={birth=yes}
+	2638.4.22={death=yes}
+}
+
+10000952={ 
+	name="Antonio"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000951
+	2601.2.18={birth=yes}
+	2664.2.19={death=yes}
+}
+
+10000953={ 
+	name="Marco"
+	dynasty=42000117
+	culture=quisqueyano
+	religion=haiti_imperial
+	father=10000952
+	2637.9.22={birth=yes}
+	2688.2.19={death=yes}
+}
+
+10000954={ 
+	name="Arsenio"
+	culture=quisqueyano
+	religion=haiti_imperial
+	trait="monk"
+	trait="shy"
+	2598.9.22={birth=yes}
+	2688.2.19={death=yes}
+}
+
+10001000={ 
+	name="Carlos"
+	dynasty=42000119
+	culture=spanish
+	religion=espana
+	trait="brilliant_strategist"
+	trait="zealous"
+	trait="greedy"
+	trait="brave"
+	trait="siege_leader"
+	trait="inspiring_leader"
+	martial=14
+	stewardship=15
+	intrigue=13
+	2639.3.14={birth=yes}
+	2688.2.19={death=yes}
+}

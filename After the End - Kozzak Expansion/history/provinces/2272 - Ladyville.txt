@@ -1,0 +1,19 @@
+# c_dzuluinicob
+
+# County Title
+title=c_ladyville
+
+# Settlements
+max_settlements=7
+
+b_ladyville_BL=castle
+b_orange_walk_BL=city
+b_burrell_boom_BL=temple
+b_rockstone_pond_BL=city
+
+# Misc
+culture=kriol
+religion=belizean_catholic
+terrain=farmlands
+
+2660.1.1 = { trade_post = k_belize }

@@ -1,0 +1,799 @@
+10000489={ 
+	name="Edmund"
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	2596.3.29={birth=yes
+	  culture=yankee
+	}
+	2658.6.18={death=yes}
+}
+
+10000490={ 
+	name="Paul"
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	father=10000489
+	2632.6.15={birth=yes
+	  culture=yankee
+	}
+	2654.1.1={
+	   add_spouse=10000506
+	}
+	2688.6.18={death=yes}
+}
+
+10000491={ 
+	name="Agnes"
+	female=yes
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	father=10000489
+	2635.11.6={birth=yes
+	  culture=yankee
+	}
+	2688.6.18={death=yes}
+}
+
+10000492={ 
+	name="Alice"
+	female=yes
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	father=10000490
+	mother=10000506
+	trait="twin"
+	2660.3.22={
+	  birth=yes
+	  culture=yankee
+	}
+	2688.6.18={death=yes}
+}
+
+10000494={ 
+	name="Edmund"
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	father=10000490
+	mother=10000506
+	trait="twin"
+	2656.12.15={
+	  birth=yes
+	  culture=yankee
+	}
+	2688.6.18={death=yes}
+}
+
+10000495={ 
+	name="Malcolm"
+	dynasty=42000076
+	culture=gothamite
+	religion=sedevacantist
+	father=10000490
+	mother=10000506
+	trait="twin"
+	2656.12.15={
+	  birth=yes
+	  culture=yankee
+	}
+	2688.6.18={death=yes}
+}
+
+10000534={
+	name="Caterina"
+	female=yes
+	dynasty=42000081
+	culture=gothamite
+	religion=catholic
+	trait="quick"
+	trait="deceitful"
+	trait="ambitious"
+	trait="schemer"
+	trait="proud"
+	trait="zealous"
+	intrigue=18
+	2638.6.11={birth=yes}
+	2700.1.1={death=yes}
+}
+
+
+#### Boston Republic
+
+10000496={ 
+	name="Malcolm"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	2467.4.22={
+	  birth=yes
+	}
+	2500.1.1={
+	   	create_bloodline={
+			type=kennedy_bloodline
+			has_dlc="Holy Fury"
+		}
+	}
+	2523.12.15={death=yes}
+}
+
+10000497={ 
+	name="Jonathan"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000496
+	2498.4.22={
+	  birth=yes
+	}
+	2509.12.15={
+	   death={
+	      death_reason=death_murder_drowning
+		  killer=1620105
+	   }
+	}
+}
+
+10000498={ 
+	name="Malcolm"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000496
+	2501.5.27={
+	  birth=yes
+	}
+	2567.4.22={death=yes}
+}
+
+10000499={ 
+	name="Charles"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000498
+	2532.12.10={
+	  birth=yes
+	}
+	2599.10.16={death=yes}
+}
+
+10000500={ 
+	name="Giles"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000499
+	2555.9.4={
+	  birth=yes
+	}
+	2610.3.1={death=yes}
+}
+
+10000501={ 
+	name="Arthur"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000500
+	2581.11.15={
+	  birth=yes
+	}
+	2639.5.27={death=yes}
+}
+
+10000502={ 
+	name="Joseph"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000501
+	2610.10.5={
+	  birth=yes
+	}
+	2631.1.1={  
+	  add_spouse=10000503
+	}
+	2690.1.1={death=yes}
+}
+
+10000503={ 
+	name="Anne"
+	female=yes
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	father=10000539
+	2608.5.15={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000504={ 
+	name="Robert"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	2632.6.10={
+	  birth=yes
+	}
+	2659.1.1={
+	    add_spouse=10000491
+	}
+	2690.1.1={death=yes}
+}
+
+10000535={
+	name="Lucas"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000504
+	mother=10000491
+	trait="twin"
+	2661.12.6={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000536={
+	name="Lettice"
+	female=yes
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000504
+	mother=10000491
+	trait="twin"
+	2661.12.6={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000505={ 
+	name="John"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	2638.10.6={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000506={ 
+	name="Rose"
+	female=yes
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	2635.7.22={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000507={ 
+	name="Charles"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	trait="twin"
+	2640.10.6={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000508={ 
+	name="William"
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	trait="twin"
+	2640.10.6={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000509={ 
+	name="Joane"
+	female=yes
+	dynasty=42000077
+	culture=yankee
+	religion=sedevacantist
+	father=10000502
+	mother=10000503
+	2643.12.16={
+	  birth=yes
+	}
+	2690.1.1={death=yes}
+}
+
+10000510={ 
+	name="Wilbur"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	2460.10.2={
+	  birth=yes
+	}
+	2522.11.17={death=yes}
+}
+
+10000511={ 
+	name="Zacharias"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000510
+	2486.7.29={
+	  birth=yes
+	}
+	2549.12.7={death=yes}
+}
+
+10000512={ 
+	name="Warham"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000511
+	2510.11.2={
+	  birth=yes
+	}
+	2582.4.22={death=yes}
+}
+
+10000513={ 
+	name="Jacob"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000512
+	2542.4.4={
+	  birth=yes
+	}
+	2603.1.15={death=yes}
+}
+
+10000514={ 
+	name="Archibald"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000513
+	2570.6.8={
+	  birth=yes
+	}
+	2626.10.14={death=yes}
+}
+
+10000515={ 
+	name="Marmaduke"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000514
+	2601.12.18={
+	  birth=yes
+	}
+	2620.1.1={
+	   add_spouse=10000516
+	}
+	2700.1.1={death=yes}
+}
+
+10000516={ 
+	name="Margaret"
+	female=yes
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000528
+	2601.5.22={
+	  birth=yes
+	}
+	2700.1.1={death=yes}
+}
+
+10000517={ 
+	name="Joseph"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000515
+	mother=10000516
+	2623.6.29={
+	  birth=yes
+	}
+	2700.1.1={death=yes}
+}
+
+10000545={
+	name="Francis"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000572
+	mother=10000532
+	2654.5.2={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000546={
+	name="George"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000572
+	mother=10000532
+	trait="twin"
+	2658.11.4={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000547={
+	name="Susannah"
+	female=yes
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000572
+	mother=10000532
+	trait="twin"
+	2658.11.4={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000572={ 
+	name="William"
+	dynasty=42000078
+	culture=yankee
+	religion=nonconformist
+	father=10000515
+	mother=10000516
+	2631.12.4={
+	  birth=yes
+	}
+	2652.1.1={
+	   add_spouse=10000532
+	}
+	2700.1.1={death=yes}
+}
+
+10000524={
+	name="Francis" 
+	dynasty=42000038
+	culture=lacustrine
+	religion=catholic
+	father=10000038
+	trait="poet"
+	trait="legendary"
+	1939.4.7={birth=yes}
+	1990.1.1={
+	   give_nickname=nick_the_copolla
+	}
+	2000.1.1={death=yes}
+}
+
+10000524={
+	name="Stephen" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	2491.8.22={birth=yes}
+	2548.5.11={death=yes}
+}
+
+10000525={
+	name="Samuel" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000524
+	2518.11.4={birth=yes}
+	2595.4.22={death=yes}
+}
+
+10000526={
+	name="Humphrey" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000525
+	2542.4.12={birth=yes}
+	2611.10.8={death=yes}
+}
+
+10000528={
+	name="Cuthbert" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000526
+	2577.12.4={birth=yes}
+	2648.4.22={death=yes}
+}
+
+10000529={
+	name="Cuthbert" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000528
+	2605.5.28={birth=yes}
+	2626.1.1={
+	    add_spouse=10000530
+	}
+	2700.1.1={death=yes}
+}
+
+10000530={
+	name="Alice" 
+	female=yes
+	culture=yankee
+	religion=nonconformist
+	2607.7.11={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000531={
+	name="Paul" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000529
+	mother=10000530
+	2628.6.11={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000532={
+	name="Jennette" 
+	female=yes
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000529
+	mother=10000530
+	2630.8.22={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000533={
+	name="George" 
+	dynasty=42000080
+	culture=yankee
+	religion=nonconformist
+	father=10000529
+	mother=10000530
+	2634.11.29={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000538={
+	name="John"
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	2539.2.11={birth=yes}
+	2601.1.27={death=yes}
+}
+
+10000539={
+	name="William"
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	father=10000538
+	2564.5.20={birth=yes}
+	2615.12.5={death=yes}
+}
+
+10000540={
+	name="Benjamin"
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	father=10000539
+	2592.10.14={birth=yes}
+	2619.1.1={
+	   add_spouse=10000541
+	}
+	2700.1.1={death=yes}
+}
+
+10000541={
+	name="Anne"
+	female=yes
+	culture=yankee
+	religion=sedevacantist
+	2595.2.22={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000542={
+	name="John"
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	father=10000540
+	mother=10000541
+	2621.6.11={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000543={
+	name="Francis"
+	dynasty=42000082
+	culture=yankee
+	religion=sedevacantist
+	father=10000540
+	mother=10000541
+	2628.1.20={birth=yes}
+	2700.1.1={death=yes}
+}
+
+10000544={
+	name="Susannah"
+	female=yes
+	dynasty=42000083
+	culture=yankee
+	religion=nonconformist
+	trait="quick"
+	intrigue=12
+	2638.9.17={birth=yes}
+	2700.1.1={death=yes}
+}
+
+########### Legendary Corleone Dukes of New York
+
+10000518={ 
+	name="Vito"
+	occluded=yes
+	dynasty=42000079
+	culture=gothamite
+	religion=catholic
+	trait="legendary"
+	1891.12.7={
+	  birth=yes
+	}
+	1955.6.25={death=yes}
+}
+
+10000519={ 
+	name="Michael"
+	occluded=yes
+	dynasty=42000079
+	culture=gothamite
+	religion=catholic
+	trait="legendary"
+	father=10000518
+	1920.10.15={
+	  birth=yes
+	}
+	1980.5.12={
+	   death={
+	       death_reason=death_murder
+	   }
+	}
+}
+
+10000520={ 
+	name="Mary"
+	occluded=yes
+	female=yes
+	dynasty=42000079
+	culture=gothamite
+	religion=catholic
+	trait="legendary"
+	father=10000519
+	1953.5.1={
+	  birth=yes
+	}
+	1980.5.12={
+	   death={
+	       death_reason=death_murder
+	   }
+	}
+}
+
+10000521={ 
+	name="Santino"
+	occluded=yes
+	dynasty=42000079
+	culture=gothamite
+	religion=catholic
+	trait="legendary"
+	father=10000518
+	1916.12.31={
+	  birth=yes
+	}
+	1948.8.7={
+	   death={
+	       death_reason=death_murder
+	   }
+	}
+}
+
+10000522={ 
+	name="Vincent"
+	occluded=yes
+	dynasty=42000079
+	culture=gothamite
+	religion=catholic
+	trait="legendary"
+	father=10000521
+	1947.11.30={
+	  birth=yes
+	}
+	1990.12.25={
+	   death={
+	       death_reason=death_battle_duel
+		   killer=10000523
+	   }
+	}
+}
+
+10000523={
+	name="Francis" 
+	dynasty=42000038
+	culture=lacustrine
+	religion=catholic
+	father=10000038
+	trait="poet"
+	trait="legendary"
+	1939.4.7={birth=yes}
+	1990.1.1={
+	   give_nickname=nick_the_copolla
+	}
+	2000.1.1={death=yes}
+}
+
+####################
+
+10000570={
+	name="Philip"
+	dynasty=1777000
+	martial=10
+	diplomacy=12
+	intrigue=10
+	stewardship=10
+	learning=11
+	culture=hudsonian #"gothamite"
+	religion=libertarian
+	trait=quick
+	trait=ambitious
+	trait=gregarious
+	trait=brave
+	trait=erudite
+	trait=grey_eminence
+	father=1788288
+	2632.5.22={birth=yes
+		culture=gothamite}
+	2666.5.19={
+	    add_trait="ura_president"
+		effect = {
+		add_character_modifier = {
+			  name = has_ura_president_term
+			  years = 7
+			  hidden = yes
+		   }
+		}
+	}
+	2695.1.1={death=yes}
+}
