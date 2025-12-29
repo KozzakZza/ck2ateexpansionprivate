@@ -1,0 +1,1477 @@
+decisions = {
+	organise_anticonclavist_council = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 24
+		
+		potential = {
+			religion=jesuite
+			k_anticonclavist = {
+				has_holder = no
+			}
+		}
+		allow = {
+			religion_authority = 0.5
+			age = 16
+			d_jesuite = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			k_ursuline = { holder_scope = { opinion = { who = ROOT value = 0 } } }
+			d_cristo_rey = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			completely_controls = c_havana
+			prisoner = no
+			OR = {
+			  	any_demesne_title = {
+				  tier = EMPEROR
+			    }
+				realm_size = 85
+			}
+			NOT = {	trait = pregnant }
+			NOT = {	is_incapable = yes }
+			NOT = {	trait = blinded }
+			NOT = {	trait = has_tuberculosis }
+			NOT = {	trait = has_typhoid_fever }
+			NOT = {	trait = has_typhus }
+			NOT = {	trait = has_bubonic_plague }
+			NOT = {	trait = has_measles }
+			NOT = {	trait = has_small_pox }
+			NOT = {	trait = has_aztec_disease }
+			custom_tooltip = {
+				text = organise_anticonclavist_council_custom_tooltip
+			hidden_tooltip = {
+			b_regla_CUB = {
+				holder_scope = {
+					  OR = {
+						religion = jesuite
+						religion = ursuline
+						religion = sedevacantist
+						religion = cristo_rey
+					  }
+						war = no
+					}
+				}
+			b_villa_de_guadalupe_MX = {
+			    holder_scope = {
+					  OR = {
+						religion = jesuite
+						religion = ursuline
+						religion = sedevacantist
+						religion = cristo_rey
+					  }
+						war = no
+					}
+				}
+			b_quebec_QC = {
+				holder_scope = {
+					  OR = {
+						religion = jesuite
+						religion = ursuline
+						religion = sedevacantist
+						religion = cristo_rey
+					  }
+						war = no
+					}
+			}
+		   }
+		 }
+		}
+		effect = {
+			religion=anticonclavist
+			narrative_event = { id = anticolclavist_consuil.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restore_canada = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			has_landed_title = k_canada
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_global_flag = canada_restored }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			primary_title = { title = k_canada }
+			prestige = 1000
+			completely_controls = k_ontario
+			custom_tooltip = {
+				text = royal_restore_canada_custom_tooltip
+			hidden_tooltip = {
+			  	calc_true_if = {
+				amount = 2
+			    completely_controls = k_aurora
+			    completely_controls = k_quebec
+			    completely_controls = k_maritimes
+				completely_controls = k_jamesie
+				cash=3000
+			  }
+			}
+			}
+		}
+		effect = {
+			set_global_flag = canada_restored
+			narrative_event = { id = canada_new.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_mex_northern_border = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			has_landed_title = e_mexico
+			NOT = { has_global_flag = mex_northern_border }
+		}
+
+		allow = {
+			prestige = 500
+			completely_controls = k_rio_bravo
+			completely_controls = k_sierra_madre
+			completely_controls = k_sonora
+			completely_controls = k_baja_california
+			NOT = { has_global_flag = mex_northern_border }
+		}
+
+		effect = {
+				k_rio_bravo = { de_jure_liege = e_mexico }
+				k_sierra_madre = { de_jure_liege = e_mexico }		
+				k_sonora = { de_jure_liege = e_mexico }	
+				k_baja_california = { de_jure_liege = e_mexico }	
+				k_arixo = { de_jure_liege = e_the_rockies }	
+				set_global_flag = mex_northern_border
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restore_mex_southern_border = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			has_landed_title = e_mexico
+			NOT = { has_global_flag = mex_southern_border }
+		}
+
+		allow = {
+			prestige = 500
+			completely_controls = k_chiapas
+			completely_controls = k_peten
+			completely_controls = k_yucatan
+			NOT = { has_global_flag = mex_southern_border }
+		}
+
+		effect = {
+				k_chiapas = { de_jure_liege = e_mexico }
+				k_peten = { de_jure_liege = e_mexico }		
+				k_yucatan = { de_jure_liege = e_mexico }	
+				k_belize = { de_jure_liege = e_centroamerica }	
+				set_global_flag = mex_southern_border
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ask_congress_for_acceptation = {
+		is_high_prio = yes
+		ai_check_interval = 1
+	    potential = {
+			age = 16
+			prisoner = no
+			is_landed = yes
+			NOT = { trait = incapable }
+			is_vice_royalty = no
+			NOT = { government = order_government }
+			OR = { 
+			   has_landed_title=e_dixie
+			   AND = {
+			       has_landed_title = e_usa
+				   has_global_flag = hcc_congress_continuation
+			   }
+			}
+			NOT = { trait = congress_accepted_emperor } 
+			NOT = { trait = congress_refused_emperor } 
+			NOT = { trait = congress_forced_emperor } 
+			#d_senate = { has_holder = yes }
+		} 
+		allow = {	
+			war = no 	
+			has_landed_title=e_dixie
+			e_dixie = {
+			  holder_scope = { 
+			     NOT = { trait = congress_accepted_emperor } 
+			     NOT = { trait = congress_refused_emperor } 
+				 NOT = { trait = congress_forced_emperor } 
+			  }
+		    }
+		}
+		effect = {
+		    cash = -50
+			hidden_tooltip = {
+			d_confederate_congress =  { 
+			    holder_scope = { 
+				    character_event = { id = con_congress.1 } 
+			    } 
+			 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	demand_confederate_impeachment = {
+		is_high_prio = yes
+		ai_check_interval = 1
+	    potential = {
+			age = 16
+			prisoner = no
+			is_landed = yes
+			NOT = { trait = incapable }
+			has_character_flag = ihaveahighground
+			is_vice_royalty = no
+			NOT = { government = order_government }
+			OR = { 
+			   has_landed_title=e_dixie
+			   AND = {
+			       has_landed_title = e_usa
+				   has_global_flag = hcc_congress_continuation
+			   }
+			}
+			NOT = { trait = congress_refused_emperor } 
+			d_confederate_congress = {
+			   holder_scope = {
+			      NOT = { trait = survived_impeachment_conf_pres }
+			   }
+			}
+			NOT = { d_confederate_congress = { holder_scope = { has_character_modifier = hcc_congresspresident_impich } } }
+		} 
+		allow = {	
+			war = no 	
+			has_landed_title=e_dixie
+			NOT = { trait = congress_refused_emperor } 
+			e_dixie = {
+			  holder_scope = { 
+			     NOT = { trait = congress_refused_emperor } 
+			  }
+		    }
+			d_confederate_congress = {
+			   holder_scope = {
+			      NOT = { trait = survived_impeachment_conf_pres }
+			   }
+			}
+		}
+		effect = {
+		  hidden_tooltip = {
+		  any_character = {
+			limit = { 
+				OR = {
+				  AND = {
+				     has_landed_title = d_confederate_congress
+					 is_alive = yes
+				  }
+				 liege = {
+					primary_title = { 
+					    title = d_confederate_congress
+					}
+				 }
+				 has_landed_title = e_dixie
+				}
+			}
+			  narrative_event = { id = con_congress.14 }
+		  }
+		   any_character = {
+			limit = { 
+				OR = {
+				  AND = {
+				     has_landed_title = d_confederate_congress
+					 is_alive = yes
+				  }
+				 liege = {
+					primary_title = { 
+					    title = d_confederate_congress
+					}
+				 }
+				 has_landed_title = e_dixie
+				}
+			}
+			  narrative_event = { id = con_congress.15 days = 7 }
+		  }
+		  }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	convert_to_feudalism_indep_cenobitic = {
+			only_independent = yes
+			is_high_prio = yes
+			ai_check_interval = 12
+
+			potential = {
+				is_playable = yes
+				is_tribal = yes
+				independent = yes
+				#has_character_flag = ihaveahighground
+				OR ={ 
+				religion = edenite
+				religion = angeline
+				  AND = {
+				     religion = charismatic
+					 ai = no
+				  }
+				}
+			}
+			allow = {
+				war = no
+				primary_title = { has_law = tribal_organization_4 }
+				capital_holding = {
+					OR = {
+						AND = {
+							holding_type = tribal
+							has_building = tb_market_town_4	
+						}
+						holding_type = temple
+						holding_type = city
+					}
+				}
+			}
+
+			effect = {
+				if = {
+					limit = { ai = no }
+					set_character_flag = achievement_not_a_tribe
+				}
+				chronicle = {
+					entry = CHRONICLE_ADOPTED_FEUDALISM
+					picture = GFX_evt_castle_construction
+				}
+				set_government_type = theocratic_republic_government
+				add_law = theocratic_republic_elective
+				if = {
+					limit = {
+						higher_tier_than = king
+					}
+					primary_title = {
+						add_law = feudal_administration
+					}
+				}
+	
+				hidden_tooltip = {
+					any_demesne_title = {
+						limit = {
+							tier = baron
+							holding_type = tribal
+						}
+						convert_to = city
+						refill_holding_levy = yes
+
+						if = {
+							limit = {
+								dejure_liege_title = {
+									holder = ROOT
+									location = {
+										num_of_empty_holdings = 2
+									}
+									NOT = {
+										any_direct_de_jure_vassal_title = {
+											holding_type = city
+										}
+									}
+								}
+							}
+							location = {
+								build_holding = {
+									type = city
+								}
+							}
+						}
+						if = {
+							limit = {
+								dejure_liege_title = {
+									holder = ROOT
+									location = {
+										num_of_empty_holdings = 2
+									}
+									NOT = {
+										any_direct_de_jure_vassal_title = {
+											holding_type = temple
+										}
+									}
+								}
+							}
+							location = {
+								build_holding ={
+									type = temple
+								}
+							}
+						}
+					}
+				}
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	convert_to_feudalism_vassal_cenobitic = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		
+		potential = {
+			is_playable = yes
+			is_tribal = yes
+			#has_character_flag = ihaveahighground
+			independent = no
+			OR ={ 
+			religion = edenite
+			religion = angeline
+				  AND = {
+				     religion = charismatic
+					 ai = no
+				  }
+			}
+		}
+		allow = {
+			war = no
+
+			liege = {
+				OR = {
+					is_feudal = yes
+					is_republic = yes
+					is_theocracy = yes
+				}
+			}
+			OR = {
+				capital_holding = {
+					OR = {
+						AND = {
+							holding_type = tribal
+							has_building = tb_market_town_4	
+						}
+						holding_type = temple
+						holding_type = city
+					}
+				}
+				AND = {
+					NOT = { tier = BARON }
+					capital_scope = {
+						any_province_holding = {
+							holding_type = city
+							holder_scope = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
+		effect = {
+			set_character_flag = achievement_not_a_tribe
+
+			chronicle = {
+						entry = CHRONICLE_ADOPTED_FEUDALISM
+						picture = GFX_evt_castle_construction
+			}
+			set_government_type = theocratic_republic_government
+			add_law = theocratic_republic_elective
+			hidden_tooltip = {
+				if = {
+					limit = {
+						capital_holding = {
+							holding_type = tribal
+							ROOT = { NOT = { tier = BARON } }
+						}
+						capital_scope = {
+							any_province_holding = {
+								holding_type = city
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+						}
+					}
+
+					capital_scope = {
+						random_province_holding = {
+							limit = {
+								holding_type = city
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							if = {
+								limit = {
+									NOT = { holder = ROOT }
+								}
+								usurp_title = ROOT
+							}
+							make_capital_holding = yes
+							ROOT = { set_character_flag = feudalize_handled_capital }
+						}
+					}
+				}
+	
+				any_demesne_title = {
+					limit = {
+						tier = baron
+						holding_type = tribal
+						location = {
+							capital_holding = {
+								NOT = { holding_type = castle }
+							}
+						}
+					}
+					convert_to = castle
+					refill_holding_levy = yes
+					location = { #Clear Tribal Great Pillars
+						clr_province_flag = flag_great_pillar_norse
+						clr_province_flag = flag_great_pillar_revelationist
+						clr_province_flag = flag_great_pillar_occultist
+						clr_province_flag = flag_great_pillar_celtic_pagan
+						clr_province_flag = flag_great_pillar_aria_de_machete
+						clr_province_flag = flag_great_pillar_trailwalker
+					}
+
+					if = {
+						limit = {
+							dejure_liege_title = {
+								holder = ROOT
+								location = {
+									num_of_empty_holdings = 2
+								}
+								NOT = {
+									any_direct_de_jure_vassal_title = {
+										holding_type = temple
+									}
+								}
+							}
+						}
+						location = {
+							build_holding = {
+								type = temple
+							}
+						}
+					}
+					if = {
+						limit = {
+							dejure_liege_title = {
+								holder = ROOT
+								location = {
+									num_of_empty_holdings = 2
+								}
+								NOT = {
+									any_direct_de_jure_vassal_title = {
+										holding_type = castle
+									}
+								}
+							}
+						}
+						location = {
+							build_holding = {
+								type = castle
+							}
+						}
+					}
+				}
+	
+				liege = {
+					character_event = { id = 55100 } # Notify Liege
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+				liege = {
+					OR = {
+						NOT = { religion_group = ROOT }
+						AND = {
+							religion_group = pagan_group
+							NOT = { religion = ROOT }
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.1
+				liege = {
+					NOT = { culture_group = ROOT }
+				}
+			}
+
+			modifier = {
+				factor = 0.1
+				liege = {
+					religion_group = ROOT
+					NOT = { religion_group = pagan_group }
+					NOT = { religion = ROOT }
+				}
+			}
+		}
+	}
+	
+	made_ura_empire = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			NOT = {
+				has_game_rule = {
+					name = empire_decisions
+					value = off
+				}
+			}
+			has_landed_title = k_united_republics
+			#NOT = { has_global_flag = nys_formed }
+			#NOT = { has_global_flag = america_restored }
+			independent = yes
+			e_usa = {
+				has_holder = no
+			}
+			NOT = { has_landed_title = e_dixie }
+		}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			NOT = { is_incapable = yes }
+			war = no
+			has_landed_title = k_united_republics
+			completely_controls = k_new_york
+			completely_controls = k_new_england
+			completely_controls = k_columbia
+			completely_controls = k_old_dominion
+			completely_controls = k_tarhell
+			completely_controls = k_palmetto
+			completely_controls = k_georgia
+			completely_controls = k_florida
+		}
+		effect = {
+			activate_title = { title = e_united_republics status = yes }
+			#set_character_flag = restored_the_united_states
+			primary_title = {
+				e_united_republics = {
+					grant_title = ROOT
+					copy_title_laws = k_united_republics
+					add_law = succ_byzantine_elective
+				}
+			}
+			scaled_wealth = -2
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			k_new_york = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_new_england = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_columbia = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_old_dominion = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_tarhell = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_palmetto = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_georgia = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			k_florida = {
+				de_jure_liege = e_united_republics
+				destroy_landed_title = THIS
+			}
+			any_demesne_title = {
+				limit = { 
+					tier = KING
+				}
+				de_jure_liege = e_united_republics
+			}
+			hidden_tooltip = {
+				primary_title = {
+					if = {
+						limit = { tier = EMPEROR }
+						any_direct_de_jure_vassal_title = {
+							de_jure_liege = e_united_republics
+						}
+					}
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = EMPEROR
+					NOT = { title = e_united_republics }
+				}
+				destroy_landed_title = THIS
+				hidden_tooltip = { activate_title = { title = THIS status = no } }
+			}
+			custom_tooltip = { #If the duchy of Green Mountains is controlled, make it de jure under the Kingdom of Vermont
+				text = form_the_empire_state_tooltip_1
+				hidden_tooltip = {
+					if = {
+						limit = { 
+							completely_controls = d_green_mountains 
+							OR = {
+								k_vermont = {
+									is_titular = yes
+								}
+								AND = {
+									k_vermont = {
+										is_titular = no
+									}
+									completely_controls = k_vermont
+								}
+							}
+							OR = {
+								has_landed_title = k_vermont
+								k_vermont = {
+									has_holder = no
+								}
+								k_vermont = {
+									holder_scope = {
+										top_liege = {
+											character = ROOT
+										}
+									}
+								}
+							}
+						}
+						d_green_mountains = {
+							de_jure_liege = k_vermont
+						}
+						k_vermont = {
+							de_jure_liege = e_united_republics
+						}
+					}
+				}
+			}
+			if = { #Prevents americarestored event spam after you form America
+				limit = {
+					completely_controls = k_old_dominion
+				}
+				set_global_flag = virginia
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_allegheny
+					completely_controls = k_deitscherei
+					completely_controls = d_philadelphia
+				}
+				set_global_flag = pennsylvania
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_hudsonia
+					completely_controls = d_new_york
+					completely_controls = d_long_island
+				}
+				set_global_flag = newyork
+				prestige = 500
+			}
+			
+			if = {
+				limit = {
+					completely_controls = d_north_jersey
+					completely_controls = d_jersey
+				}
+				set_global_flag = newjersey
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_new_england
+				}
+				set_global_flag = newengland
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_palmetto
+					completely_controls = k_tarheel
+				}
+				set_global_flag = carolina
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_georgia
+					completely_controls = k_magnolia
+					completely_controls = k_louisiana
+					completely_controls = k_tuskegee
+				}
+				set_global_flag = the_south
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_florida
+				}
+				set_global_flag = florida
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_lakotah
+				}
+				set_global_flag = dakota
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = e_lone_star
+				}
+				set_global_flag = texas
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_cuba
+					completely_controls = d_puerto_rico
+					completely_controls	= c_virgin_islands
+				}
+				set_global_flag = usa_caribbean
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_ontario
+					completely_controls = k_quebec
+					completely_controls = k_maritimes
+				}
+				set_global_flag = usa_canada
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_chicagoland
+					completely_controls = k_michigan
+					completely_controls = k_ohio
+					completely_controls = k_superior
+				}
+				set_global_flag = greatlakes
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = e_heartland
+				}
+				set_global_flag = heartland
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_appalachia
+				}
+				set_global_flag = appalachia
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = e_the_rockies
+					completely_controls = k_arixo
+				}
+				set_global_flag = rockies
+				prestige = 500
+			}
+			if = {
+				limit = {
+					completely_controls = k_jefferson
+					completely_controls = k_francisco
+					completely_controls = k_the_valley
+					completely_controls = k_sacramento
+					completely_controls = k_nevada
+					completely_controls = k_socal
+					completely_controls = k_cascadia
+					completely_controls = k_lincoln
+				}
+				set_global_flag = pacific
+				prestige = 500
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+					NOR = {
+						title = k_columbia
+						clan = yes 
+					}
+				}
+				destroy_landed_title = THIS
+			}
+			set_global_flag = america_restored
+			narrative_event = { id = URA.3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	choose_jesuite_saint = {
+		
+		potential = {
+			religion = jesuite
+			age = 16
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			OR = {
+			    ai = no
+				trait = zealous
+				trait = devout
+			}
+			NOT = { 
+			   trait = st_ignatius_loyola #learning
+			   trait = st_thomas_more #diplomacy
+			   trait = st_george #martial
+			   trait = st_francis_xavier #stewardship
+			}
+		}
+		
+		allow = {
+			religion = jesuite
+			is_playable = yes
+			NOT = { 
+			   trait = st_ignatius_loyola #learning
+			   trait = st_thomas_more #diplomacy
+			   trait = st_george #martial
+			   trait = st_francis_xavier #stewardship
+			}
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = antico_jesuite_pil.20 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	change_jesuite_saint = {
+		ai = no
+		
+		potential = {
+			religion = jesuite
+			age = 16
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			OR = {
+			    ai = no
+				trait = zealous
+				trait = devout
+			}
+			OR = { 
+			   trait = st_ignatius_loyola #learning
+			   trait = st_thomas_more #diplomacy
+			   trait = st_george #martial
+			   trait = st_francis_xavier #stewardship
+			}
+		}
+		
+		allow = {
+			religion = jesuite
+			is_playable = yes
+			OR = { 
+			   trait = st_ignatius_loyola #learning
+			   trait = st_thomas_more #diplomacy
+			   trait = st_george #martial
+			   trait = st_francis_xavier #stewardship
+			}
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = antico_jesuite_pil.20 }
+			}
+		}
+	}
+	
+	choose_catholic_saint = {
+		
+		potential = {
+		    has_character_flag = ihaveahighground
+		    OR = {
+			   religion = catholic
+			   religion = sedevacantist
+			   religion = anticonclavist
+			   religion = belizean_catholic
+			}
+			age = 16
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			OR = {
+			    ai = no
+				trait = zealous
+				trait = devout
+			}
+			NOT = { 
+			   trait = st_elizabeth_ann_senton
+			   trait = st_george_nonjesuite
+			   trait = st_joseph
+			   trait = holy_mary
+			   trait = sacret_heart_cath
+			   trait = st_john_the_baptist
+			   trait = st_peter
+			   trait = st_thomas_aquinas
+			   trait = st_thomas_more_nonjesuite
+			}
+		}
+		
+		allow = {
+			OR = {
+			    religion = catholic
+				religion = sedevacantist
+				religion = anticonclavist
+				religion = belizean_catholic
+			}
+			is_playable = yes
+			NOT = { 
+			   trait = st_elizabeth_ann_senton
+			   trait = st_george_nonjesuite
+			   trait = st_joseph
+			   trait = holy_mary
+			   trait = sacret_heart_cath
+			   trait = st_john_the_baptist
+			   trait = st_peter
+			   trait = st_thomas_aquinas
+			   trait = st_thomas_more_nonjesuite
+			}
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				long_character_event = { id = antico_jesuite_pil.21 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	change_catholic_saint = {
+		ai = no
+		
+		potential = {
+		    has_character_flag = ihaveahighground
+		    OR = {
+			   religion = catholic
+			   religion = sedevacantist
+			   religion = anticonclavist
+			   religion = belizean_catholic
+			}
+			age = 16
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			OR = { 
+			   trait = st_elizabeth_ann_senton
+			   trait = st_george_nonjesuite
+			   trait = st_joseph
+			   trait = st_john_the_baptist
+			   trait = st_peter
+			   trait = st_thomas_aquinas
+			   trait = st_thomas_more_nonjesuite
+			}
+			NOT = {
+				trait = holy_mary
+			}
+		}
+		
+		allow = {
+			OR = {
+			   religion = catholic
+			   religion = sedevacantist
+			   religion = anticonclavist
+			   religion = belizean_catholic
+			}
+			is_playable = yes
+			OR = { 
+			   trait = st_elizabeth_ann_senton
+			   trait = st_george_nonjesuite
+			   trait = st_joseph
+			   trait = st_john_the_baptist
+			   trait = st_peter
+			   trait = st_thomas_aquinas
+			   trait = st_thomas_more_nonjesuite
+			}
+			NOT = {
+				trait = holy_mary
+			    trait = sacret_heart_cath
+			}
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = antico_jesuite_pil.21 }
+			}
+		}
+	}
+	
+	restore_haitian_empire = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			is_playable = yes
+			OR = {
+			   culture = haitian
+			   culture = quisqueyano
+			}
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_landed_title = e_haiti }
+			e_haiti = {
+				has_holder = no
+			}
+			NOT = { is_alternate_start = yes }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		allow = {
+		    independent = yes
+		    OR = {
+			    primary_title = { title = k_haiti }
+				primary_title = { title = k_dominicana }
+		    }
+			prestige = 3000
+			completely_controls = k_haiti
+			completely_controls = k_dominicana
+		}
+		
+		effect = {
+			narrative_event = { id = haiti.1 }
+		}
+	}
+	
+	california_edokko_ultimatum = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			is_playable = yes
+			has_landed_title = e_edokko
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			has_global_flag = edokko_can_vassalize_emperor_of_california
+		}
+		
+		allow = {
+		    has_landed_title = e_edokko
+			completely_controls = d_north_valley
+			completely_controls = d_motherlode
+			completely_controls = d_wineland
+			any_character = {
+				has_landed_title = e_california
+			}
+		}
+		
+		effect = {
+		  hidden_tooltip = {
+		   e_california = {
+		     holder_scope = {
+			    narrative_event = { id = edokko.2 }
+			 }
+		   }
+		   }
+		}
+	}
+	
+	us_army_rebuild = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			is_playable = yes
+			is_adult = yes
+			prisoner = no
+			has_landed_title = k_us_army
+			NOT = { trait = incapable }
+			NOT = { has_landed_title = e_us_army }
+			e_us_army = {
+				has_holder = no
+			}
+		}
+		
+		allow = {
+		    independent = yes
+		    primary_title = { title = k_us_army }
+			prestige = 1000
+			realm_size = 140
+		}
+		
+		effect = {
+			hidden_tooltip = {
+			   e_us_army = {
+			      show_scope_change = no
+			      grant_title = ROOT
+			      hidden_tooltip = { make_primary_title = yes }
+			      copy_title_laws = k_us_army
+			      copy_title_history = k_us_army
+		       }
+			   		k_us_army = {
+			show_scope_change = no
+			destroy_landed_title = THIS
+		}
+		    militarist = {
+				set_religion_head = e_us_army
+			}
+			}
+		}
+	}
+	
+	restore_jesuite_suprevisor = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 36
+		potential = {
+			is_playable = yes
+			independent = yes
+			has_dlc = "Sons of Abraham"
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			religion = jesuite
+
+			controls_religion = no
+
+			c_buenaventura = {
+				holder_scope = {
+					OR = {
+						character = ROOT
+						is_liege_or_above = ROOT
+					}
+					AND = {
+						ROOT = { religion = jesuite }
+						d_jesuite = {
+							holder_scope = {
+								NOT = { character = PREVPREV }
+								NOT = { is_vassal_or_below = PREVPREV }
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					religion = jesuite
+				}
+				d_jesuite = {
+					holder_scope = {
+						c_buenaventura = {
+							grant_title = PREV
+							any_de_jure_vassal_title = {
+								limit = {
+									holder_scope = { 
+										OR = {
+											character = ROOT
+											is_liege_or_above = ROOT
+										}
+									}
+								}
+								grant_title = PREVPREV
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					religion = jesuite
+					NOT = { has_character_flag = restored_jesuite_in_buenaventura }
+				}
+				k_ursuline = {
+					holder_scope = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_restored_to_rome
+						}
+					}
+				}
+				piety = 1000
+				set_character_flag = restored_jesuite_in_buenaventura
+			}
+		}
+	}
+	
+	restore_rival_cristo_rey_empire = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 1
+	    potential = {
+		    NOT = {
+			   k_mexico = {
+			      holder_scope = {
+				    OR = {
+				      religion = cristo_rey
+					  religion = anticonclavist
+					  religion = reformista
+					  religion = jesuite
+					}
+				  }
+			   }
+			   e_mexico = {
+			      holder_scope = {
+				    OR = {
+				      religion = cristo_rey
+					  religion = anticonclavist
+					  religion = reformista
+					  religion = jesuite
+					}
+				  }
+			   }
+			}
+			OR = {
+			   has_landed_title = d_san_luis_potosi
+			   has_landed_title = d_bajio_occidente
+			   has_landed_title = d_guanajuato
+			   has_landed_title = k_bajio
+			   has_landed_title = d_queretaro
+			   has_landed_title = k_gran_chichimeca
+			}
+			NOT = {
+			    has_landed_title = k_west_mexico
+				has_landed_title = k_veracruz_mexico
+				has_landed_title = k_mexico
+				has_landed_title = e_mexico
+			}
+			e_mexico = {
+				has_holder = no
+			}
+			k_west_mexico = {
+				has_holder = no
+			}
+		} 
+		allow = {
+		  OR = {
+			religion = cristo_rey
+			religion = reformista
+			religion = jesuite
+			religion = anticonclavist
+	      }
+		  	completely_controls = k_bajio
+			completely_controls = c_san_luis_potosi
+			completely_controls = c_ciudad_valles
+			completely_controls = c_guadalcazar
+		}
+		effect = {
+		  hidden_tooltip = {
+		    k_west_mexico = {
+			   grant_title = ROOT
+			}
+			narrative_event = { id = MXR.41 }
+		  }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+		
+	end_belizean_isolationism = {
+		is_high_prio = yes
+		only_playable = no
+		ai_check_interval = 1
+	    potential = {
+		    has_landed_title = k_belize
+			OR = {
+			   trait="isolationist_queen"
+			   trait="isolationist_king"
+			}
+			NOT = { global_flag = nonisolationist_belize }
+		} 
+		allow = {
+		    has_landed_title = k_belize
+			prestige = 2000
+			cash = 1000
+			NOT = { trait="content" }
+			NOT = { trait="craven" }
+			NOT = { trait="possessed" }
+			NOT = { trait="infirm" }
+			NOT = { trait="imbecile" }
+			NOT = { trait="slow" }
+			NOT = {	trait = pregnant }
+			NOT = {	trait = blinded }
+			NOT = {	trait = has_tuberculosis }
+			NOT = {	trait = has_typhoid_fever }
+			NOT = {	trait = has_typhus }
+			NOT = {	trait = has_bubonic_plague }
+			NOT = {	trait = has_measles }
+			NOT = {	trait = has_small_pox }
+			NOT = {	trait = has_aztec_disease }
+			NOT = {	is_incapable = yes }
+			d_belicath = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			c_dzuluinicob = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			c_ladyville = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			c_yalbac = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			c_manche = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+			c_chetumal = { holder_scope = { opinion = { who = ROOT value = 50 } } }
+		}
+		effect = {
+		  remove_trait="isolationist_king"
+		  remove_trait="isolationist_queen"
+		  set_global_flag=nonisolationist_belize
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
