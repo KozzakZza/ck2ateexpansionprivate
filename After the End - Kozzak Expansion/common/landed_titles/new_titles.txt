@@ -404,38 +404,3 @@ k_veracruz_mexico = {
 	short_name = yes
 	primary = yes
 }
-
-d_orthodox = {
-	color = { 189 49 108 }
-	color2= { 225 255 255 }
-
-	capital = 63 #Washington
-	creation_requires_capital = no
-	
-	title = "ECUMENICAL_PATRIARCH"
-	foa = "ECUMENICAL_PATRIARCH_FOA"
-	short_name = yes
-
-	location_ruler_title = yes
-	
-	religion = orthodox
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Controls a religion
-	controls_religion = orthodox
-
-	landless = yes
-
-	#caliphate = yes
-	dynasty_title_names = no
-	
-    male_names = {
-	    Anthimus Atenagoras Agathangelus Bartholomew Beniamin Cyril 
-		Dionysius Demetrios Ioannes Joachim Jeremias Joannicius Joasaph Parthenius Paisius Paulus Petrus Philotheus 
-		Raphael Sophronius Samuel Seraphim Theoleptus 
-		Germanus Methodius Manuel Michael Leontius Basil Nicetas
-		Theodosius Cosmas Leo Alexius Tryphon Ignatius Anastasius 
-	}
-}
