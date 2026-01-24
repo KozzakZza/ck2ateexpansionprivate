@@ -4013,7 +4013,8 @@ oldworld = {
 		intermarry = monetarist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
-		 
+		intermarry = Western
+		intermarry = texan_americanist
 	}
 
 	hamiltonian = {
@@ -4106,7 +4107,8 @@ oldworld = {
 		intermarry = monetarist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
-		 
+		intermarry = Western
+		intermarry = texan_americanist
 	}
 
 	libertarian = {
@@ -4156,7 +4158,8 @@ oldworld = {
 		intermarry = monetarist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
-		 
+		intermarry = Western
+		intermarry = texan_americanist
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
@@ -4221,6 +4224,135 @@ oldworld = {
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
 	}
+
+	Western = {
+		parent = americanist
+
+		graphical_culture = hellenicgfx
+		icon = 4
+		heresy_icon = 5
+	
+		color = { 0.4 0.4 0.4 }
+		
+		interface_skin = { americanist_interface oldworld_interface }
+			
+		crusade_name = "Gold Rush"
+		scripture_name = "The Western Genre"
+		priest_title = "Marshal"
+		piety_name = PATRIOTISM
+			
+		high_god_name = "Providence"
+				
+		god_names = {"Bass Reeves" "Buffalo Bill" "Davy Crockett" "Doc Holliday" "Annie Oakley" "Wyatt Earp" "Quanah Parker"}
+		evil_god_names = {"Billy the Kid" "Butch Cassidy" "Jesse James"}
+		character_modifier = {
+		texan_americanist_opinion = -20
+		}
+	
+		can_demand_religious_conversion = yes
+		ai_convert_other_group = 1
+		priests_can_marry = yes
+		priests_can_inherit = no
+		allow_looting = yes
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		allow_in_ruler_designer = yes
+		allow_viking_invasion = yes
+		
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = texan_americanist
+		intermarry = militarist
+		
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = catholic
+		intermarry = trailwalker
+		intermarry = trailwalker_reformed
+	
+				
+		can_excommunicate = yes
+		can_grant_invasion_cb = yes
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		crusade_cb = crusade
+		}
+		
+texan_americanist = {
+		parent = americanist
+
+		graphical_culture = hellenicgfx
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0 0.157 0.408 }
+		
+		interface_skin = { americanist_interface oldworld_interface }
+			
+		scripture_name = "Writings of the Founders"
+		priest_title = "Marshal"
+		
+		character_modifier = {
+		Western_opinion = -20
+		americanist_opinion = -20
+		same_religion_opinion = 20
+		starfolk_opinion = 10
+		}
+
+		piety_name = PATRIOTISM
+			
+		high_god_name = "Texas"
+				
+		god_names = {"Sam Houston" "Stephen F. Austin" "Davy Crockett" "James Fannin" "William B. Travis" "James Bowie" "Juan Seguin" "Lorenzo de Zavala" "The Mother of Texas" "The Angel of Goliad"}
+		evil_god_names = {"Santa Anna" "Goliad" "Martin Perfecto de Cos"}
+				
+		can_demand_religious_conversion = yes
+		ai_convert_other_group = 1
+		priests_can_marry = yes
+		priests_can_inherit = no
+		allow_looting = yes
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		allow_in_ruler_designer = yes
+		pentarchy = yes
+		
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = Western
+		intermarry = militarist
+
+		
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = catholic
+		intermarry = trailwalker
+		intermarry = trailwalker_reformed
+				
+		can_excommunicate = yes
+		can_grant_invasion_cb = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		}	
+
+
 	
 	consumerist = {
 		graphical_culture = hellenicgfx
@@ -4312,6 +4444,8 @@ oldworld = {
 		intermarry = jeffersonian
 		intermarry = libertarian
 		intermarry = militarist
+		intermarry = Western
+		intermarry = texan_americanist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -4364,6 +4498,8 @@ oldworld = {
 		intermarry = jeffersonian
 		intermarry = libertarian
 		intermarry = militarist
+		intermarry = Western
+		intermarry = texan_americanist
 		
 		intermarry = consumerist
 		intermarry = monetarist
@@ -4791,6 +4927,8 @@ pagan_group = {
 		intermarry = jeffersonian
 		intermarry = libertarian
 		intermarry = militarist
+		intermarry = Western
+		intermarry = texan_americanist
 	}
 
 	trailwalker = { 
@@ -4852,6 +4990,7 @@ pagan_group = {
 		intermarry = jeffersonian
 		intermarry = libertarian
 		intermarry = militarist
+		intermarry = Western
 	}
 
 	occultist_reformed = {
