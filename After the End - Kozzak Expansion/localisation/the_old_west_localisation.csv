@@ -12,8 +12,8 @@ texan_americanist_FEATURES;ßY*ß! Texans cannot reform America.\nßY*ß! Texan rule
 
 #titles
 e_new_west;The New West;;;;;;;;;;;;;x
-e_new_west_adj;Western;;;;;;;;;;;;;x
-d_marshals;The Marshals of the West;;;;;;;;;;;;;x
+e_new_west_adj;Great Western;;;;;;;;;;;;;x
+d_marshals;Marshals of the West;;;;;;;;;;;;;x
 d_usms;The United States Marshal Service;;;;;;;;;;;;;x
 d_rangers;Texas Rangers;;;;;;;;;;;;;x
 d_texangoverner;Governate of Texas;;;;;;;;;;;;;x
@@ -29,6 +29,8 @@ western_pilgrimage;Western Pilgrimage;;;;;;;;;;;;;x
 western_pilgrimage_desc;The time has come to make a pilgrimage to the holy sites of our faith;;;;;;;;;;;;;x
 donate_money_to_marshals;Donate money to the Marshals;;;;;;;;;;;;;x
 donate_money_to_marshals_desc;Donate some money to the Marshals;;;;;;;;;;;;;x
+vassalize_marshals;Vassalize the Marshal Holy Order ;;;;;;;;;;;;x
+vassalize_marshals_desc;As a great Western ruler, you have enough sway to command the Marshals toward your interests.;;;;;;;;;;;;x
 texasgreat;Establish the office of Texan Governor.;;;;;;;;;;;;;x
 texasgreat_desc;Now that Texas has been restored, it is time to install a Texan governor to guide our faith in this new age.;;;;;;;;;;;;;x
 texgov;Restored Governate;;;;;;;;;;;;;x
@@ -36,7 +38,7 @@ texgov;Restored Governate;;;;;;;;;;;;;x
 #events
 fair_invitations;Send out some invitations to your vassals;;;;;;;;;;;;;x
 western_events.1.desc;Carving out a place for you and your decendants from the ruins of the West and a new power has now risen on the Plains;;;;;;;;;;;;;x
-marshals_20;[From.GetTitledFirstName] has agreed to enter your service. The Marshals now serve you!;;;;;;;;;;;;;x
+EVTDESCmarshals.20;[From.GetTitledFirstName] has agreed to enter your service. The Marshals now serve you!;;;;;;;;;;;;;x
 THANKS_BE_TO_PROVIDENCE;Thanks be to Providence!;;;;;;;;;;;;;x
 EVTDESCmarshals.31;[From.GetTitledFirstName] has graciously accepted your donation and has assured you it will be put to good use.;;;;;;;;;;;;;x
 EVTDESCmarshals_50;The Marshals have been expelled from [PrimaryTitle.GetFullBaseName] and all their lands handed over to you;;;;;;;;;;;;;x
@@ -172,7 +174,7 @@ temple_barony_of_Western;Field Office of;;;;;;;;;;;;;x
 county_of_Western;Constabulary of;;;;;;;;;;;;;x
 duchy_of_Western;Sheriff's Office of;;;;;;;;;;;;;x
 kingdom_of_Western;State of;;;;;;;;;;;;;x
-empire_of_Western;Grand Directorate;;;;;;;;;;;;;x
+empire_of_Western;Grand Directorate of;;;;;;;;;;;;;x
 baron_texan_americanist;Officer;;;;;;;;;;;;x
 count_texan_americanist;Constable;;;;;;;;;;;;;x
 duke_texan_americanist;Sheriff;;;;;;;;;;;;;x
@@ -248,20 +250,20 @@ alt_start_community_name_Western;The [Western.GetName] Faithful;;;;;;;;;;;;;x
 secret_religious_society_Western_desc;[GetReligiousSocietyDesc_Western];[GetReligiousSocietyDesc_Western];[GetReligiousSocietyDesc_Western];;[GetReligiousSocietyDesc_Western];;;;;;;;;x
 secret_religious_society_Western_desc_REAL;Before Old America won its independence from the Redcoats, true patriots were forced to hide their devotion to the Founding Fathers or be sent to the gallows. Those dark days have descended once again, but true Americanist patriots will not be deterred. They will once again rise up and overthrow the tyrannical rule of their oppressors...;;;;;;;;x
 secretly_convert_to_Western_holy_site;Secretly Convert to Western;;;;;;;;;;;;;x
-secretly_convert_to_Western_holy_site_desc;The ùYWesternù! pilgrims that flock to the holy site in ùY[Root.Location.GetName]ù! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
-secret_religious_society_Western_currency;Devotion;Dùvotion;Hingabe;;Devociùn;;;;;;;;;x
-secret_religious_society_Western_rank_1_female;Faithful;Fidùle;Getreue;;Fiel;;;;x
-secret_religious_society_Western_rank_2_female;Adherent;Adhùrente;Anhùngerin;;Seguidora;;;;x
-secret_religious_society_Western_rank_3_female;Preacher;Prùcheuse;Predigerin;;Predicadora;;;;x
-secret_religious_society_Western_rank_4_female;Herald;Messagùre;Herold;;Mensajera;;;;x
-secret_religious_society_Western_rank_1_male;Faithful;Fidùle;Getreuer;;Fiel;;;;x
-secret_religious_society_Western_rank_2_male;Adherent;Adhùrent;Anhùnger;;Seguidor;;;;x
-secret_religious_society_Western_rank_3_male;Preacher;Prùcheur;Prediger;;Predicador;;;;x
+secretly_convert_to_Western_holy_site_desc;The ßYWesternß! pilgrims that flock to the holy site in ßY[Root.Location.GetName]ß! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_Western_currency;Devotion;Dßvotion;Hingabe;;Devocißn;;;;;;;;;x
+secret_religious_society_Western_rank_1_female;Faithful;Fidßle;Getreue;;Fiel;;;;x
+secret_religious_society_Western_rank_2_female;Adherent;Adhßrente;Anhßngerin;;Seguidora;;;;x
+secret_religious_society_Western_rank_3_female;Preacher;Prßcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_Western_rank_4_female;Herald;Messagßre;Herold;;Mensajera;;;;x
+secret_religious_society_Western_rank_1_male;Faithful;Fidßle;Getreuer;;Fiel;;;;x
+secret_religious_society_Western_rank_2_male;Adherent;Adhßrent;Anhßnger;;Seguidor;;;;x
+secret_religious_society_Western_rank_3_male;Preacher;Prßcheur;Prediger;;Predicador;;;;x
 secret_religious_society_Western_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
 secret_religious_community_Western;Secret Western Community;;;;;;;;;;;;;x
 secret_Western_community;Secret Western Community;;;;;;;;;;;;;x
-secret_Western_community_desc;In secret, Western patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidùles se sont organisùs en tant que communautù dans cette province. De lù, la commaunautù convertit d'autres personnes, grandit et protùge les siens.;;;;;;;;;;;;x
-secret_religious_society_Western_leader_desc;The Chief Justice, leading the international effort of bringing more people into the fold.;Le grand prùtre dirige l'effort mondial visant ù rùunir davantage de personnes dans les rangs de sa sociùtù.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemùhungen leitet, mehr Menschen in den Schoù der Familie zu fùhren.;;El Sumo sacerdote, que dirige la misiùn a escala internacional para atraer a mùs fieles.;;;;;;;;;x
+secret_Western_community_desc;In secret, Western patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidßles se sont organisßs en tant que communautß dans cette province. De lß, la commaunautß convertit d'autres personnes, grandit et protßge les siens.;;;;;;;;;;;;x
+secret_religious_society_Western_leader_desc;The Chief Justice, leading the international effort of bringing more people into the fold.;Le grand prßtre dirige l'effort mondial visant ß rßunir davantage de personnes dans les rangs de sa socißtß.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemßhungen leitet, mehr Menschen in den Schoß der Familie zu fßhren.;;El Sumo sacerdote, que dirige la misißn a escala internacional para atraer a mßs fieles.;;;;;;;;;x
 
 secret_religious_society_texan_americanist;[GetReligiousCommunityName_texan_americanist];[GetReligiousCommunityName_texan_americanist];[GetReligiousCommunityName_texan_americanist];;[GetReligiousCommunityName_texan_americanist];;;;;;;;;x
 secret_religious_society_REAL_texan_americanist;The Tread Upon;;;;;;;;;;;;;x
@@ -269,20 +271,20 @@ alt_start_community_name_texan_americanist;The [texan_americanist.GetName] Faith
 secret_religious_society_texan_americanist_desc;[GetReligiousSocietyDesc_texan_americanist];[GetReligiousSocietyDesc_texan_americanist];[GetReligiousSocietyDesc_texan_americanist];;[GetReligiousSocietyDesc_texan_americanist];;;;;;;;;x
 secret_religious_society_texan_americanist_desc_REAL;Before Old America won its independence from the Redcoats, true patriots were forced to hide their devotion to the Founding Fathers or be sent to the gallows. Those dark days have descended once again, but true Americanist patriots will not be deterred. They will once again rise up and overthrow the tyrannical rule of their oppressors...;;;;;;;;x
 secretly_convert_to_texan_americanist_holy_site;Secretly Convert to texan_americanist;;;;;;;;;;;;;x
-secretly_convert_to_texan_americanist_holy_site_desc;The ùYtexan_americanistù! pilgrims that flock to the holy site in ùY[Root.Location.GetName]ù! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
-secret_religious_society_texan_americanist_currency;Devotion;Dùvotion;Hingabe;;Devociùn;;;;;;;;;x
-secret_religious_society_texan_americanist_rank_1_female;Faithful;Fidùle;Getreue;;Fiel;;;;x
-secret_religious_society_texan_americanist_rank_2_female;Adherent;Adhùrente;Anhùngerin;;Seguidora;;;;x
-secret_religious_society_texan_americanist_rank_3_female;Preacher;Prùcheuse;Predigerin;;Predicadora;;;;x
-secret_religious_society_texan_americanist_rank_4_female;Herald;Messagùre;Herold;;Mensajera;;;;x
-secret_religious_society_texan_americanist_rank_1_male;Faithful;Fidùle;Getreuer;;Fiel;;;;x
-secret_religious_society_texan_americanist_rank_2_male;Adherent;Adhùrent;Anhùnger;;Seguidor;;;;x
-secret_religious_society_texan_americanist_rank_3_male;Preacher;Prùcheur;Prediger;;Predicador;;;;x
+secretly_convert_to_texan_americanist_holy_site_desc;The ßYtexan_americanistß! pilgrims that flock to the holy site in ßY[Root.Location.GetName]ß! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_texan_americanist_currency;Devotion;Dßvotion;Hingabe;;Devocißn;;;;;;;;;x
+secret_religious_society_texan_americanist_rank_1_female;Faithful;Fidßle;Getreue;;Fiel;;;;x
+secret_religious_society_texan_americanist_rank_2_female;Adherent;Adhßrente;Anhßngerin;;Seguidora;;;;x
+secret_religious_society_texan_americanist_rank_3_female;Preacher;Prßcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_texan_americanist_rank_4_female;Herald;Messagßre;Herold;;Mensajera;;;;x
+secret_religious_society_texan_americanist_rank_1_male;Faithful;Fidßle;Getreuer;;Fiel;;;;x
+secret_religious_society_texan_americanist_rank_2_male;Adherent;Adhßrent;Anhßnger;;Seguidor;;;;x
+secret_religious_society_texan_americanist_rank_3_male;Preacher;Prßcheur;Prediger;;Predicador;;;;x
 secret_religious_society_texan_americanist_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
 secret_religious_community_texan_americanist;Secret texan_americanist Community;;;;;;;;;;;;;x
 secret_texan_americanist_community;Secret texan_americanist Community;;;;;;;;;;;;;x
-secret_texan_americanist_community_desc;In secret, texan_americanist patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidùles se sont organisùs en tant que communautù dans cette province. De lù, la commaunautù convertit d'autres personnes, grandit et protùge les siens.;;;;;;;;;;;;x
-secret_religious_society_texan_americanist_leader_desc;The Chief Justice, leading the international effort of bringing more people into the fold.;Le grand prùtre dirige l'effort mondial visant ù rùunir davantage de personnes dans les rangs de sa sociùtù.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemùhungen leitet, mehr Menschen in den Schoù der Familie zu fùhren.;;El Sumo sacerdote, que dirige la misiùn a escala internacional para atraer a mùs fieles.;;;;;;;;;x
+secret_texan_americanist_community_desc;In secret, texan_americanist patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidßles se sont organisßs en tant que communautß dans cette province. De lß, la commaunautß convertit d'autres personnes, grandit et protßge les siens.;;;;;;;;;;;;x
+secret_religious_society_texan_americanist_leader_desc;The Chief Justice, leading the international effort of bringing more people into the fold.;Le grand prßtre dirige l'effort mondial visant ß rßunir davantage de personnes dans les rangs de sa socißtß.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemßhungen leitet, mehr Menschen in den Schoß der Familie zu fßhren.;;El Sumo sacerdote, que dirige la misißn a escala internacional para atraer a mßs fieles.;;;;;;;;;x
 
 
 
