@@ -171,19 +171,30 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			NOT = { has_global_flag = marshals_not_independent }
 			religion = Western
-			is_heretic = no
 			prisoner = no
-			age = 16
-			OR = {
-				has_landed_title = k_redlands
-				has_landed_title = k_commancheria
-				}
+			higher_tier_than = DUKE
+			independent = yes
 		}
 		allow = {
 			prestige = 500
 			piety = 500
 			wealth = 500
+			OR = {
+				has_landed_title = k_redland
+				has_landed_title = k_comancheria
+				has_landed_title = e_new_west
+				AND = {
+					OR = {
+						tier = king
+						tier = emperor
+					}
+					num_of_holy_sites >= 2
+					prestige = 1500
+					piety = 1500
+				}
+			}
 		}
 		effect = {
 			prestige = -500
@@ -199,6 +210,7 @@ decisions = {
 						}
 					}
 				}
+				set_global_flag = marshals_not_independent
 			}
 			character_event = {
 				id = marshals.20
