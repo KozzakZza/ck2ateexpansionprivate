@@ -65,6 +65,7 @@ mickey_saber = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 		is_adult = yes
 	}
@@ -76,6 +77,7 @@ mickey_saber = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	flags = { sword unique troops_morale }
@@ -97,6 +99,7 @@ medusa_painting = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -107,6 +110,7 @@ medusa_painting = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -128,6 +132,7 @@ lincoln_animatronic = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -138,6 +143,7 @@ lincoln_animatronic = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -158,6 +164,7 @@ washington_animatronic = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -168,6 +175,7 @@ washington_animatronic = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -223,6 +231,7 @@ swamp_Walt_head_statue = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -233,6 +242,7 @@ swamp_Walt_head_statue = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -278,6 +288,7 @@ sword_in_the_stone = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -288,6 +299,7 @@ sword_in_the_stone = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -491,6 +503,7 @@ small_world_soldier = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -501,6 +514,7 @@ small_world_soldier = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -541,6 +555,7 @@ tommorowland_blaster = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -551,6 +566,7 @@ tommorowland_blaster = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -571,6 +587,7 @@ singing_bust = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -581,6 +598,7 @@ singing_bust = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -601,6 +619,7 @@ madame_leota = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -611,6 +630,7 @@ madame_leota = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -630,6 +650,7 @@ mark_twain_riverboat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -640,6 +661,7 @@ mark_twain_riverboat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -658,6 +680,7 @@ magic_skyway = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -668,6 +691,7 @@ magic_skyway = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -708,6 +732,7 @@ space_mountain_astronaut = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -718,6 +743,7 @@ space_mountain_astronaut = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -743,6 +769,7 @@ davy_crockett_hat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -753,6 +780,7 @@ davy_crockett_hat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -781,6 +809,7 @@ sheriff_cowboy_hat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -791,6 +820,7 @@ sheriff_cowboy_hat = {
 				religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -958,6 +988,7 @@ boat_log = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -968,6 +999,7 @@ boat_log = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -988,6 +1020,7 @@ COP_animatronic_head = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -998,6 +1031,7 @@ COP_animatronic_head = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1018,6 +1052,7 @@ cursed_aztec_treasure = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1028,6 +1063,7 @@ cursed_aztec_treasure = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1047,6 +1083,7 @@ disney_train = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1057,6 +1094,7 @@ disney_train = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1077,6 +1115,7 @@ endless_hallway_candle = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1087,6 +1126,7 @@ endless_hallway_candle = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1107,6 +1147,7 @@ ghost_bride_axe = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1117,6 +1158,7 @@ ghost_bride_axe = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1137,6 +1179,7 @@ haunted_raven = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1147,6 +1190,7 @@ haunted_raven = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1166,6 +1210,7 @@ main_street_swamp_car = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1176,6 +1221,7 @@ main_street_swamp_car = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1196,6 +1242,7 @@ main_street_swamp_clock = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1206,6 +1253,7 @@ main_street_swamp_clock = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1225,6 +1273,7 @@ rocking_chair = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1235,6 +1284,7 @@ rocking_chair = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1254,6 +1304,7 @@ tiki_bird = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1264,6 +1315,7 @@ tiki_bird = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no

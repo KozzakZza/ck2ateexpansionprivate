@@ -221,6 +221,7 @@ the_declaration = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -231,6 +232,7 @@ the_declaration = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	quality = 4
@@ -284,6 +286,7 @@ founder_bust = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -294,6 +297,7 @@ founder_bust = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	quality = 1
@@ -315,6 +319,7 @@ old_world_money = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = { 
@@ -327,6 +332,7 @@ old_world_money = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	quality = 1
@@ -1187,6 +1193,7 @@ stamp_collection = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1197,6 +1204,7 @@ stamp_collection = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1218,6 +1226,7 @@ presidential_portrait = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1228,6 +1237,7 @@ presidential_portrait = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1248,6 +1258,7 @@ washingtons_teeth = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1258,6 +1269,7 @@ washingtons_teeth = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	stacking = no
@@ -1283,6 +1295,7 @@ betsy_ross_flag = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1293,6 +1306,7 @@ betsy_ross_flag = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	flags = { religious americanist banner unique troops_morale }
@@ -1313,6 +1327,7 @@ the_constitution = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1323,6 +1338,7 @@ the_constitution = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	flags = { oldworld religious book americanist unique }
@@ -1882,6 +1898,7 @@ skull_of_geronimo = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	allowed_gift = {
@@ -1893,6 +1910,7 @@ skull_of_geronimo = {
 			religion = libertarian
 			religion = Western
 			religion = texan_americanist
+			religion = militarist
 		}
 	}
 	flags = { religious americanist american_native bodypart unique }
