@@ -270,8 +270,8 @@ secret_religious_society_REAL_texan_americanist;The Tread Upon;;;;;;;;;;;;;x
 alt_start_community_name_texan_americanist;The [texan_americanist.GetName] Faithful;;;;;;;;;;;;;x
 secret_religious_society_texan_americanist_desc;[GetReligiousSocietyDesc_texan_americanist];[GetReligiousSocietyDesc_texan_americanist];[GetReligiousSocietyDesc_texan_americanist];;[GetReligiousSocietyDesc_texan_americanist];;;;;;;;;x
 secret_religious_society_texan_americanist_desc_REAL;Before Old America won its independence from the Redcoats, true patriots were forced to hide their devotion to the Founding Fathers or be sent to the gallows. Those dark days have descended once again, but true Americanist patriots will not be deterred. They will once again rise up and overthrow the tyrannical rule of their oppressors...;;;;;;;;x
-secretly_convert_to_texan_americanist_holy_site;Secretly Convert to texan_americanist;;;;;;;;;;;;;x
-secretly_convert_to_texan_americanist_holy_site_desc;The §Ytexan_americanist§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secretly_convert_to_texan_americanist_holy_site;Secretly Convert to Texan Americanism;;;;;;;;;;;;;x
+secretly_convert_to_texan_americanist_holy_site_desc;The §YTexan Americanist§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
 secret_religious_society_texan_americanist_currency;Devotion;D§votion;Hingabe;;Devoci§n;;;;;;;;;x
 secret_religious_society_texan_americanist_rank_1_female;Faithful;Fid§le;Getreue;;Fiel;;;;x
 secret_religious_society_texan_americanist_rank_2_female;Adherent;Adh§rente;Anh§ngerin;;Seguidora;;;;x
@@ -281,10 +281,38 @@ secret_religious_society_texan_americanist_rank_1_male;Faithful;Fid§le;Getreuer;
 secret_religious_society_texan_americanist_rank_2_male;Adherent;Adh§rent;Anh§nger;;Seguidor;;;;x
 secret_religious_society_texan_americanist_rank_3_male;Preacher;Pr§cheur;Prediger;;Predicador;;;;x
 secret_religious_society_texan_americanist_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
-secret_religious_community_texan_americanist;Secret texan_americanist Community;;;;;;;;;;;;;x
-secret_texan_americanist_community;Secret texan_americanist Community;;;;;;;;;;;;;x
-secret_texan_americanist_community_desc;In secret, texan_americanist patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fid§les se sont organis§s en tant que communaut§ dans cette province. De l§, la commaunaut§ convertit d'autres personnes, grandit et prot§ge les siens.;;;;;;;;;;;;x
+secret_religious_community_texan_americanist;Secret Texan Americanist Community;;;;;;;;;;;;;x
+secret_texan_americanist_community;Secret Texan Americanist Community;;;;;;;;;;;;;x
+secret_texan_americanist_community_desc;In secret, Texan Americanist patriots have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fid§les se sont organis§s en tant que communaut§ dans cette province. De l§, la commaunaut§ convertit d'autres personnes, grandit et prot§ge les siens.;;;;;;;;;;;;x
 secret_religious_society_texan_americanist_leader_desc;The Chief Justice, leading the international effort of bringing more people into the fold.;Le grand pr§tre dirige l'effort mondial visant § r§unir davantage de personnes dans les rangs de sa soci§t§.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bem§hungen leitet, mehr Menschen in den Scho§ der Familie zu f§hren.;;El Sumo sacerdote, que dirige la misi§n a escala internacional para atraer a m§s fieles.;;;;;;;;;x
 
+##Tornado Events
+
+#modifers
+twisterdamage_ef0ef1;Minor Tornado Damage;;;;;;;;;;;;;x
+twisterdamage_ef0ef1_desc;A minor twister has recently affected the area.;;;;;;;;;;;;;x
+twisterdamage_ef2ef3;Major Tornado Damage;;;;;;;;;;;;;x
+twisterdamage_ef2ef3_desc;This region has recently suffered a violent twister.;;;;;;;;;;;;;x
+twisterdamage_ef4ef5;Severe Tornado Damage;;;;;;;;;;;;;x
+twisterdamage_ef4ef5_desc;A powerful, large and very violent twister has struck this region. It will take some time to recover.;;;;;;;;;;;;;x
+
+#Events
+EVTNAME_smalltwisterstrikes;Small Tornado Sighted;;;;;;;;;;;;;x
+EVTDESC_smalltwisterstrikes;You recieve a report from a local official. It details the sighting of a small twister. There's little to be done about it, and what damage it caused is already being worked on. There's some disruption to the local economy, but it will only be a short-term problem. \n You attend to other matters.;;;;;;;;;;;;;x
+EVTNAME_medtwisterstrikes;Large Tornado Sighted;;;;;;;;;;;;;x
+EVTDESC_medtwisterstrikes;Life in this region is full of dangers. Violent tornadoes are just one of them. You've received a report that a local community has been heavily damaged from a recent violent twister. Reconstruction has already begun, but it will be some time until the area is back to full productivity.;;;;;;;;;;;;;x
+EVTNAME_bigtwisterstrikes;Massive Tornado Sighted;;;;;;;;;;;;;x
+EVTDESC_bigtwisterstrikes;Residents called it a monster. The description is apt, as what other than a monster wider than whole villages could do the damage that you see. The tornado even tore the bark from trees and pulverized stone fortifications. It will take this province some time to heal.;;;;;;;;;;;;;x
+EVTNAME_majoroutbreak;Tornado Outbreak;;;;;;;;;;;;;x
+EVTDESC_majoroutbreak;Oppressive heat, the air thick with dew, an eerie calm. The signs are clear. The grim faces of the watchmen confirm the worst. The heavens themselves threaten to descend upon your realm. A tornado outbreak is certain. All that's unknown is how severe it will be.;;;;;;;;;;;;;x
+twisterdistress.1;Oh well. It could have been worse.;;;;;;;;;;;;;x
+twisterdistress.2;Put together relief aid immediately.;;;;;;;;;;;;;x
+twisterdistress.3;For many, the scars will never heal.;;;;;;;;;;;;;x
+twisterdistress.4;We can only wait, watch, and pray...;;;;;;;;;;;;;x
+notwistershappen;just some rain.;;;;;;;;;;;;;x
+outbreak_minor;relatively weak storms cover a small area, causing little damage.;;;;;;;;;;;;;x
+outbreak_widespread;weaker storms affect a massive area, putting strain on the entire realm's resources.;;;;;;;;;;;;;x
+outbreak_severe;several violent tornadoes wreck havok, causing short-term severe damage in multiple locations.;;;;;;;;;;;;;x
+outbreak_devastating;a devastating, widespread severe storm outbreak occurs, including at least a couple nightmare, violently intense tornadoes, effecting every part of the realm.;;;;;;;;;;;;;x
 
 
