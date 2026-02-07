@@ -970,6 +970,12 @@ secret_libertarian_community = {
 		society_member_of = secret_religious_society_libertarian
 	}
 }
+secret_militarist_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_militarist_community
+	}
+}
 secret_Western_community = {
 	icon = 18
 	is_visible = {

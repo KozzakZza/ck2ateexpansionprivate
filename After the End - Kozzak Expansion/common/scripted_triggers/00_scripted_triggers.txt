@@ -2430,6 +2430,9 @@ true_religion_jeffersonian_trigger = {
 true_religion_libertarian_trigger = {
 	true_religion = libertarian
 }
+true_religion_militarist_trigger = {
+	true_religion = militarist
+}
 true_religion_Western_trigger = {
 	true_religion = Western
 }
@@ -3757,6 +3760,10 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_libertarian }
 		}
 		AND = {
+			society_member_of = secret_religious_society_militarist
+			PREV = [ interested_in_society = secret_religious_society_militarist ]
+		}
+		AND = {
 			society_member_of = secret_religious_society_Western
 			PREV = [ interested_in_society = secret_religious_society_Western ]
 		}
@@ -4265,6 +4272,13 @@ has_any_char_old_religion = {
 				religion = libertarian
 			}
 		}
+		
+		AND = { 
+			has_character_flag = character_was_militarist
+			any_character = {
+				religion = militarist
+			}
+		}
 		AND = { 
 			has_character_flag = character_was_Western
 			any_character = {
@@ -4500,6 +4514,7 @@ has_assassins_prerequisites = {
 			true_religion = jeffersonian
 			true_religion = libertarian
 			true_religion = Western
+			true_religion = militarist
 			true_religion = texan_americanist
 			religion_group = oldworld
 			AND = {
@@ -4511,6 +4526,7 @@ has_assassins_prerequisites = {
 						true_religion = hamiltonian
 						true_religion = jeffersonian
 						true_religion = libertarian
+						true_religion = militarist
 						true_religion = Western
 						true_religion = texan_americanist
 					}
@@ -5101,6 +5117,13 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = libertarian
 				ROOT = { religion = libertarian }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = militarist
+				ROOT = { religion = militarist }
 			}
 		}
 		NAND = {
@@ -9537,6 +9560,7 @@ has_character_was_religion_flag_trigger = {
 		has_character_flag = character_was_hamiltonian
 		has_character_flag = character_was_jeffersonian
 		has_character_flag = character_was_libertarian
+		has_character_flag = character_was_militarist
 		has_character_flag = character_was_Western
 		has_character_flag = character_was_texan_americanist
 		has_character_flag = character_was_consumerist
@@ -9888,6 +9912,7 @@ religion_openly_americanist_or_heresy_trigger = {
 				religion = libertarian
 				religion = Western
 				religion = texan_americanist
+				religion = militarist
 			}
 		}
 	}

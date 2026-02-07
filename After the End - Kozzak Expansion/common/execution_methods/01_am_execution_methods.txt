@@ -194,6 +194,7 @@ execution_method = {
 				religion = hamiltonian
 				religion = jeffersonian
 				religion = libertarian
+				religion = militarist
 				religion = Western
 				religion = texan_americanist
 				religion_group = latter_day_saints

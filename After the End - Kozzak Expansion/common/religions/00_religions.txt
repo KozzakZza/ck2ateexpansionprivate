@@ -4211,6 +4211,8 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
+		intermarry = Western
+		intermarry = texan_americanist
 		
 		
 		intermarry = atomicist
