@@ -129,6 +129,7 @@ narrative_event = {
 					religion = hamiltonian
 					religion = jeffersonian
 					religion = libertarian
+					religion = militarist
 					religion = Western
 					religion = texan_americanist
 				}
@@ -722,6 +723,7 @@ narrative_event = {
 				religion = hamiltonian
 				religion = jeffersonian
 				religion = libertarian
+				religion = militarist
 				religion = Western
 				religion = texan_americanist
 			}
@@ -878,6 +880,7 @@ narrative_event = {
 					religion = hamiltonian
 					religion = jeffersonian
 					religion = libertarian
+					religion = militarist
 					religion = Western
 					religion = texan_americanist
 				}
@@ -1641,6 +1644,7 @@ narrative_event = {
 					religion = hamiltonian
 					religion = jeffersonian
 					religion = libertarian
+					religion = militarist
 					religion = Western
 					religion = texan_americanist
 				}
@@ -1772,6 +1776,7 @@ narrative_event = {
 					religion = hamiltonian
 					religion = jeffersonian
 					religion = libertarian
+					religion = militarist
 					religion = Western
 					religion = texan_americanist
 				}

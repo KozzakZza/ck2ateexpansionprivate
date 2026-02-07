@@ -3160,12 +3160,14 @@ character_event = {
 				religion = hamiltonian
 				religion = jeffersonian
 				religion = libertarian
+				religion = militarist
 				religion = Western
 				religion = texan_americanist
 				secret_religion = americanist
 				secret_religion = hamiltonian
 				secret_religion = jeffersonian
 				secret_religion = libertarian
+				secret_religion = militarist
 				secret_religion = Western
 				secret_religion = texan_americanist
 			} 
@@ -3204,10 +3206,12 @@ character_event = {
 				religion = libertarian
 				religion = Western
 				religion = texan_americanist
+				religion = militarist
 				secret_religion = americanist
 				secret_religion = hamiltonian
 				secret_religion = jeffersonian
 				secret_religion = libertarian
+				secret_religion = militarist
 				secret_religion = Western
 				secret_religion = texan_americanist
 			} 
@@ -4306,6 +4310,13 @@ character_event = {
 				apply_cosmopolian_on_start_effect = yes
 			}
 		if = {
+			limit = { militarist = { has_religion_feature = religion_cosmopolitan } }
+			random_playable_ruler = {
+				limit = { religion = militarist }
+				apply_cosmopolian_on_start_effect = yes
+			}
+		}
+		if = {
 			limit = { Western = { has_religion_feature = religion_cosmopolitan } }
 			random_playable_ruler = {
 				limit = { religion = Western }
@@ -4917,6 +4928,13 @@ character_event = {
 			limit = { libertarian = { has_religion_feature = religion_dogmatic } }
 			random_playable_ruler = {
 				limit = { religion = libertarian }
+				apply_dogmatic_on_start_effect = yes
+			}
+		}
+		if = {
+			limit = { militarist = { has_religion_feature = religion_dogmatic } }
+			random_playable_ruler = {
+				limit = { religion = militarist }
 				apply_dogmatic_on_start_effect = yes
 			}
 		}

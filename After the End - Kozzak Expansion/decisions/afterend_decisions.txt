@@ -1232,6 +1232,7 @@ decisions = {
 				religion = hamiltonian
 				religion = jeffersonian
 				religion = libertarian
+				religion = militarist
 				religion = Western
 				religion = texan_americanist			
 			}
