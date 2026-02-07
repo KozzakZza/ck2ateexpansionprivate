@@ -4219,7 +4219,10 @@ oldworld = {
 		intermarry = monetarist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
-		 
+
+		features = {
+			religion_equal
+		}		 
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
