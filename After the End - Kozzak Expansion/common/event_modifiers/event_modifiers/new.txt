@@ -1,3 +1,0 @@
-has_ura_president_term = {
-	icon = 111
-}
